@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-05-1003",
+  "updated": "2026-09-07-1004",
   "CCM9973": {
-    "asof": "Verified online Sep 5, 2026 via web search (iaclarington.com, cdn01.iaclarington.com, global.morningstar.com and investing.com were all blocked from this session's network again, so fund-specific AUM/MER/holdings-weights figures below are carried forward from the last confirmed read rather than re-verified today): fresh today is NVDA trading in the $224.75-$230.40 range (opened $225.93, Sep 5/26), extending further above its Sep 2/26 close of $217.44; 2026 hyperscaler capex guidance has been reconfirmed/refined at $775-800B (Amazon ~$200B, Alphabet $175-185B, Meta $115-135B, Microsoft now specifically guiding a $190B 2026 capex plan), with power transformer lead times now reported at 128 weeks and the IEA projecting global data-center electricity demand to double to 945 TWh by 2030 — Google Cloud, AWS and Azure grew 82%/37%/43% YoY in Q2/26, underscoring the power bottleneck is intensifying alongside demand; and on GLP-1, fresh Sep 4/26 prescription data shows Novo's Wegovy pill and Lilly's oral drug (branded Foundayo) both hit record weekly script counts (~181K, +3%, and ~44K, +8%, respectively), Novo's pill has reached 5M+ US patients since its January launch, and the Trump administration finalized most-favored-nation pricing deals with both Lilly and Novo on semaglutide/tirzepatide alongside a $10B Novo commitment to expand US manufacturing (including domestic oral-semaglutide production). Fidelity Global Innovators' AUM ($34.04B, Aug 31/26) and MER (2.23%, May 31/26) were reconfirmed unchanged today. Series F AUM, post-fee-cut MER and exact holding weights still could not be independently reconfirmed today and remain carried forward from the Aug 30/26 read.",
+    "asof": "Verified online Sep 7, 2026 via web search (iaclarington.com and cdn01.iaclarington.com fund-facts PDFs were blocked from this session's network again, so Series F AUM/MER/holdings-weights figures below are carried forward from the last confirmed read rather than re-verified today): fresh today is Nvidia's agreement (announced Sep 2/26, ~$11.9B to shareholders plus ~$1B in retention equity, ~$13B total) to acquire Hugging Face, the open-weight AI model hub used by 18M+ developers and 200K+ enterprise customers, with the deal expected to close in H1 2027 and Hugging Face remaining an open platform; NVDA extended its post-earnings run further, closing $230.36 on Fri Sep 4/26 (+2% that day), within reach of its all-time high of $235.74 (May 14/26); Nvidia itself now frames the cloud backlog at $2T+ and says top-5 US hyperscaler 2026 capex of ~$800B could jump to ~$1.3T in 2027, an even bigger upside framing than the $775-800B 2026 guidance already on record. On GLP-1, Lilly's oral Foundayo continues to close the gap on Novo's Wegovy pill: weekly Foundayo scripts topped 40K for the first time (now ~44K, +8% w/w) after four straight weeks of double-digit sequential growth, while Wegovy pill scripts hit a fresh high near 181K (+3% w/w) as of the Sep 4/26 read — Wegovy's lead is still commanding but the gap is narrowing. Fidelity Global Innovators' AUM ($34.04B, Aug 31/26) and MER (2.23%, May 31/26) were reconfirmed unchanged today. Series F AUM, post-fee-cut MER and exact holding weights still could not be independently reconfirmed today and remain carried forward from the last confirmed read.",
     "oneliner": "The AI capex supercycle is broadening beyond chips into power, models and enterprise apps — iA Clarington's Thematic Innovation Class rides the ~$775-800B 2026 hyperscaler capex wave at roughly half Fidelity Global Innovators' fee load.",
     "stats": [
       {
@@ -44,7 +44,7 @@
           "NVDA",
           "AVGO"
         ],
-        "choke": "NVDA extended its post-earnings gain further, trading $224.75-$230.40 (opened $225.93, Sep 5/26) versus its Sep 2/26 close of $217.44 — now roughly a week and a half past the Aug 26/26 Q2 FY27 beat (EPS $2.22, revenue $96.2B +106% YoY, FY28 growth guided near 70% vs ~44% consensus) with the rally still intact. Rubin's HBM4/DRAM demand pull on the broader memory supply chain remains the ongoing structural story, unchanged since last check",
+        "choke": "Nvidia agreed to acquire Hugging Face for ~$13B (announced Sep 2/26) to lock in the open-weight AI model ecosystem, while NVDA stock itself closed $230.36 (Sep 4/26, +2%), within reach of its all-time high of $235.74 (May 14/26) — a week and a half past the Aug 26/26 Q2 FY27 beat. Rubin's HBM4/DRAM demand pull on the broader memory supply chain remains the ongoing structural story, unchanged since last check",
         "note": ""
       },
       {
@@ -58,7 +58,7 @@
           "META",
           "GOOGL"
         ],
-        "choke": "2026 hyperscaler capex guidance reconfirmed/refined at $775-800B (Amazon ~$200B, Alphabet $175-185B, Meta $115-135B, Microsoft now specifically guiding a $190B 2026 plan); Q2/26 cloud growth rates (Google Cloud +82%, AWS +37%, Azure +43% YoY) show demand still outrunning the buildout, keeping capex funding pressure (debt issuance, negative free cash flow at Alphabet) in focus",
+        "choke": "Nvidia itself is now framing the buildout even larger: cloud backlog above $2T, with top-5 US hyperscaler capex potentially jumping from ~$800B in 2026 to ~$1.3T in 2027; the underlying $775-800B 2026 guidance (Amazon ~$200B, Alphabet $175-185B, Meta $115-135B, Microsoft ~$190B) and 128-week power-transformer lead times remain the operative near-term constraint",
         "note": ""
       },
       {
@@ -85,24 +85,24 @@
     ],
     "signals": [
       {
-        "name": "Nvidia extends its post-earnings rally further",
-        "reading": "NVDA traded $224.75-$230.40 intraday (opened $225.93, Sep 5/26), further above its Sep 2/26 close of $217.44, still building on the +8.7% pop from its Aug 26/26 Q2 FY27 beat (EPS $2.22, revenue $96.2B +106% YoY, FY28 growth now guided near 70% vs ~44% Street consensus)",
-        "level": "$224.75-$230.40 intraday, Sep 5/26",
-        "angle": "A rally that keeps extending more than a week after the print is a strong, current answer to the 'AI capex, no payoff yet' objection some advisors still raise",
+        "name": "Nvidia buys Hugging Face for ~$13B, extends rally toward record high",
+        "reading": "Nvidia agreed Sep 2/26 to acquire open-weight AI hub Hugging Face (18M+ developers, 200K+ enterprise customers) for ~$13B total, expected to close H1 2027; NVDA stock closed $230.36 Sep 4/26 (+2%), within striking distance of its all-time high of $235.74 (May 14/26)",
+        "level": "$230.36 close Sep 4/26 vs. $235.74 ATH; ~$13B Hugging Face deal",
+        "angle": "A record-high-adjacent stock making a strategic acquisition into open-source AI tooling — not just riding chip demand but buying distribution into the developer ecosystem — is a fresh, concrete answer to 'hasn't Nvidia already peaked'",
         "tag": "LIVE"
       },
       {
-        "name": "Hyperscaler 2026 capex reconfirmed near $800B as power bottleneck deepens",
-        "reading": "2026 hyperscaler capex guidance clusters $775-800B (Amazon ~$200B, Alphabet $175-185B, Meta $115-135B, Microsoft's own plan now specifically $190B); power transformer lead times have stretched to 128 weeks and the IEA projects data-center electricity demand will double to 945 TWh by 2030, even as Google Cloud/AWS/Azure grew 82%/37%/43% YoY in Q2/26",
-        "level": "$775-800B 2026 capex guidance; 128-week transformer lead times",
-        "angle": "Demand (cloud growth still accelerating) is outrunning both chip and power supply simultaneously — a concrete, dated answer for advisors asking whether the capex is actually needed",
+        "name": "Nvidia raises its own hyperscaler capex framing to $1.3T by 2027",
+        "reading": "Nvidia now cites a cloud computing backlog above $2 trillion and says top-5 US hyperscaler capex could jump from ~$800B in 2026 to ~$1.3T in 2027, on top of the already-confirmed $775-800B 2026 guidance and 128-week power-transformer lead times",
+        "level": "$2T+ cloud backlog; $800B (2026) → $1.3T (2027E) hyperscaler capex",
+        "angle": "The company at the center of the trade is now guiding the market to think about capex almost doubling again next year — useful, dated ammunition against the 'capex must be near its peak' objection",
         "tag": "LIVE"
       },
       {
-        "name": "GLP-1 oral pill race hits record scripts as MFN pricing lands",
-        "reading": "Sep 4/26 weekly data shows Novo's Wegovy pill (~181K scripts, +3%) and Lilly's oral drug Foundayo (~44K scripts, +8%) both at record highs; Novo's pill has reached 5M+ US patients since its January launch; the Trump administration finalized most-favored-nation pricing deals with both Lilly and Novo on semaglutide/tirzepatide, alongside a $10B Novo commitment to expand US manufacturing including domestic oral-semaglutide production",
-        "level": "Wegovy pill ~181K scripts (+3% wk/wk); Foundayo ~44K (+8% wk/wk), Sep 4/26",
-        "angle": "The oral GLP-1 market is now large enough and growing fast enough on both sides to be a genuine two-horse race — useful nuance against the 'Lilly already won' shorthand, while the MFN pricing deal removes a lingering policy overhang for both names",
+        "name": "Oral GLP-1 race tightens as Foundayo tops 40K weekly scripts",
+        "reading": "Lilly's Foundayo posted its fourth straight week of double-digit sequential growth and crossed 40K weekly scripts for the first time (now ~44K, +8% w/w); Novo's Wegovy pill still leads with ~181K weekly scripts (+3% w/w) as of the Sep 4/26 read, but the gap is narrowing",
+        "level": "Foundayo ~44K (+8% w/w) vs. Wegovy pill ~181K (+3% w/w)",
+        "angle": "A genuine two-horse race with the smaller player closing distance — useful nuance against the 'Lilly already won' or 'Novo already won' shorthand, and a reminder both names benefit from the broader oral-GLP-1 category growth",
         "tag": "LIVE"
       },
       {
@@ -118,14 +118,14 @@
         "comp": "Fidelity Global Innovators Class",
         "theirMer": "2.23% (May 31/26) — reconfirmed unchanged",
         "ourMer": "1.18% pre-cut / ~0.6%+tax est. post Mar 10/26 fee cut (new MER not yet officially published)",
-        "win": "Materially cheaper Series F fee load; Fidelity's AUM reconfirmed unchanged at $34.04B (Aug 31/26) — its scale and momentum make for a hard act to follow, and iA Clarington's pitch is the cheaper, more diversified way to stay in the theme after such a big run",
+        "win": "Materially cheaper Series F fee load; Fidelity's AUM reconfirmed unchanged at $34.04B (Aug 31/26) — its scale and momentum make for a hard act to follow, and iA Clarington's pitch is the cheaper, more diversified way to stay in the theme after Nvidia's own upsized 2027 capex framing and its move into open-source AI tooling via Hugging Face",
         "vuln": "Fidelity's AUM ($34.04B) and multi-year track record dwarf iA Clarington's ($74.9M) — advisors may see it as the safer, more proven vehicle despite the fee gap"
       }
     ]
   },
   "CCM5604": {
-    "asof": "Verified online Sep 5, 2026 via web search (iaclarington.com, bankofcanada.ca, Morningstar, Yahoo Finance and investing.com were all blocked from this session's network again, so CCM5604's own fund figures could not be re-verified today): fresh today is a real, further escalation of the Iran conflict — the Strait of Hormuz situation is now formally tracked as the '2026 Strait of Hormuz crisis' within the wider US-Israel war on Iran (underway since Feb 28/26); on Sep 2/26, Iran struck the Saudi-flagged tanker Sidr, killing two Filipino crew, and the US retaliated for the first time by striking two Iranian government tankers at anchor — a new 'tanker for tanker' policy approved by President Trump — while the US Navy escorted 40 commercial vessels carrying 18M barrels of oil through the Strait, a wartime high. Oil nonetheless eased: Brent $95.23 (Sep 4/26, -0.31%) and WTI ~$91.20 (Sep 4/26, -0.11%), though crude was still tracking a ~9% weekly gain into the escalation. Fed Sep 15-16/26 hike odds were reconfirmed via CME FedWatch at ~65-66% (unchanged from the prior read); the Kalshi/Polymarket cross-venue dispersion noted previously could not be re-checked today and is carried forward. BoJ Governor Ueda hardened his signal further, saying rate hikes are 'on the table at every meeting including this one' (Sep 17-18/26) and citing inflation nearing 2% 'quite closely' — market-implied odds of a September BoJ hike have surged to ~99%. USD/CAD eased to 1.3791 (Sep 4/26, -0.02%), in a 1.3771-1.39375 weekly range; CAD is up 1.57% over the past month. Best 5-yr GIC in Canada moved up to 4.15% (Haventree Bank, Ratehub, Sep/26), from 4.05% previously. CCM5604's own MER, duration and confirmed distribution yield still could not be verified today and remain [update me].",
-    "oneliner": "The Iran war has become a formally-tracked 'Strait of Hormuz crisis' with the US now striking Iranian tankers directly, the Fed still genuinely split on a September hike, and a BoJ governor who just said a hike is on the table at every meeting including this month's — three live, moving rate/currency/geopolitical stories in one week is exactly the kind of cross-market repricing a flexible, unconstrained global income mandate like Dan Janis's is built to trade, while a GIC ladder sits still.",
+    "asof": "Verified online Sep 7, 2026 via web search (iaclarington.com, Morningstar, Yahoo Finance and investing.com were all blocked from this session's network again, so CCM5604's own fund figures could not be re-verified today): fresh today is a sharp further escalation of the US-Israel war on Iran — in the 24 hours to Sep 6/26, the IRGC fired ballistic missiles toward a US aircraft carrier and destroyer patrolling near the Strait of Hormuz, and US forces retaliated by permanently disabling two more Iranian oil tankers (M/T Downy off Kharg Island, M/T Stark 1 near Jask) and completely destroying a third (M/T Kylo, unladen) under the 'tanker for tanker' policy Trump approved after the Sep 2/26 Sidr strike; a restricted zone outside the Strait was set to be announced within days. Oil surged on the news: Brent traded $95.73-$97.62 (Sep 4-6/26), tracking a roughly 7-8% weekly gain, its strongest weekly move since July. Fed Sep 15-16/26 hike odds remain genuinely split — reads range from ~48% (Kalshi) to ~57-65% across other venues, essentially unchanged in aggregate from the prior read; Fed Governor Waller said Sep 3/26 that recent data suggest a hike 'may be appropriate' at the meeting. BoJ Governor Ueda hardened his signal further still, citing the Iran war, AI-driven investment demand and yen depreciation as three forces pushing prices higher, after US Treasury Secretary Bessent met him and called for 'decisive' steps against the weak yen — market odds of a Sep 17-18/26 hike remain near-certain. RBA held at 4.35% (Aug 11/26) but with inflation easing to 3.5% in July (from 3.8%), a majority of major banks (NAB, Deutsche, UBS, Morgan Stanley) now forecast a hike to 4.60% at the Sep 29/26 meeting, with Westpac the lone major-bank holdout for a hold. USD/MXN eased to ~16.887 (Sep 5/26) from the ~17.01 prior read, as Banxico continues to hold at 6.50%. Best 5-yr GIC in Canada reconfirmed unchanged at 4.15% (Haventree Bank, Ratehub). CCM5604's own MER, duration and confirmed distribution yield still could not be verified today and remain [update me].",
+    "oneliner": "The Iran war just escalated sharply again — IRGC missiles fired at a US carrier and destroyer, the US destroying or disabling three more Iranian tankers in response — while the Fed stays genuinely split on a September hike, the BoJ governor keeps hardening toward one, and a majority of banks now expect the RBA to hike this month too: four live, moving rate/currency/geopolitical stories at once is exactly the kind of cross-market repricing a flexible, unconstrained global income mandate like Dan Janis's is built to trade, while a GIC ladder sits still.",
     "stats": [
       {
         "k": "AUM (fund-wide)",
@@ -153,7 +153,7 @@
       },
       {
         "k": "Best 5-yr GIC (Canada)",
-        "v": "4.15% Haventree Bank (Ratehub, Sep 2026) — up from 4.05% Achieve Financial previously"
+        "v": "4.15% Haventree Bank (Ratehub, Sep 2026) — reconfirmed unchanged"
       }
     ],
     "countries": [
@@ -171,7 +171,7 @@
         "lat": 39.8,
         "lon": -98.6,
         "weight": null,
-        "cb": "Fed Sep 15-16/26 hike odds reconfirmed via CME FedWatch at ~65-66%, unchanged from the prior read; three FOMC members dissented in July favoring a 25bp hike, and Chair Warsh's Jackson Hole remarks (inflation trends 'not meaningfully improved') continue to anchor hawkish expectations. Cross-venue dispersion (Kalshi/Polymarket vs. CME) noted previously could not be re-checked today",
+        "cb": "Fed Sep 15-16/26 hike odds remain genuinely split — ~48% on Kalshi vs. ~57-65% on other venues, essentially unchanged in aggregate from the prior read; Governor Waller said Sep 3/26 that recent data suggest a hike 'may be appropriate,' while three FOMC members dissented in July favoring one and Chair Warsh's Jackson Hole remarks continue to anchor hawkish expectations",
         "fx": "US 10-year Treasury yield remained elevated on oil-driven inflation fears plus the hawkish Fed repricing — not independently re-quoted today",
         "note": "The debate remains live — 'will the Fed hike in September' rather than 'will it cut' — with energy-driven inflation from the Iran war now an explicit driver cited by Fed officials"
       },
@@ -180,7 +180,7 @@
         "lat": -25,
         "lon": 134,
         "weight": null,
-        "cb": "RBA held cash rate at 4.35% (Aug 11/26, unanimous) on sticky trimmed-mean inflation; market-implied odds of a September RBA move at ~38%, up from ~17% after strong CPI/GDP prints — no update found today, carried forward",
+        "cb": "RBA held cash rate at 4.35% (Aug 11/26, unanimous), but with July inflation easing to 3.5% (from 3.8% in June) and trimmed-mean holding at 3.6%, a majority of major banks (NAB, Deutsche, UBS, Morgan Stanley) now forecast a hike to 4.60% at the Sep 29/26 meeting; Westpac is the lone major-bank holdout still expecting a hold",
         "fx": "AUD crosses no more reliably reconfirmed today than in prior reads; carried forward",
         "note": "One of the better-performing G10 currencies of the last year on the growth/inflation-resilience story"
       },
@@ -208,36 +208,43 @@
         "lon": -102.5,
         "weight": null,
         "cb": "Banxico held at 6.50% for a second straight meeting; inflation-target convergence timeline pushed back to Q4 2027 — no update since",
-        "fx": "USD/MXN ~17.01 (Sep 2/26), holding above a sharp dip to ~16.94 the prior session after US ISM data missed forecast; peso still up ~5.4% YTD in 2026 on high Banxico real rates",
+        "fx": "USD/MXN eased to ~16.887 (Sep 5/26), down from the ~17.01 prior read; peso continuing its 2026 strength on high Banxico real rates",
         "note": ""
       }
     ],
-    "basket": "EM carry (KRW, MXN) keeps getting support from narrowing rate differentials and high real rates, while CAD is quietly strengthening (+1.57% over the past month) even as tariff risk lingers, and Japan is now the most decisive G10 story of the year — its governor just said a hike is on the table every meeting including this one, and markets are pricing that at ~99%. The US remains genuinely undecided on a September hike even as the Iran war pushes energy-driven inflation higher — a rich, fast-moving set of contrasts for a flexible, unconstrained global income mandate.",
+    "basket": "EM carry (KRW, MXN) keeps getting support from narrowing rate differentials and high real rates — MXN has firmed further to ~16.89 from ~17.01 — while Japan remains the most decisive G10 story of the year with the BoJ governor now citing the Iran war itself as one of three forces pushing him toward a hike, and a majority of banks now lean toward an RBA hike this month too. The US remains genuinely undecided on a September hike even as a sharp new round of Iran-war escalation pushes energy-driven inflation risk higher — a rich, fast-moving set of contrasts for a flexible, unconstrained global income mandate.",
     "signals": [
       {
-        "name": "Iran war escalates: US strikes Iranian tankers for the first time",
-        "reading": "Iran struck the Saudi-flagged tanker Sidr on Sep 2/26, killing two Filipino crew; the US retaliated for the first time by striking two Iranian government tankers at anchor under a new 'tanker for tanker' policy approved by President Trump, while the US Navy escorted 40 vessels carrying 18M barrels of oil through the Strait of Hormuz — a wartime high. Oil still eased slightly (Brent $95.23, Sep 4/26, -0.31%) even as crude tracked a ~9% weekly gain",
-        "level": "Brent $95.23 / WTI ~$91.20 (Sep 4/26), crude +~9% on the week",
-        "angle": "A direct US-Iran tanker exchange is a material escalation, not a one-off attack — worth flagging proactively to clients who think this is old news, while the modest oil pullback shows markets are still pricing an eventual de-escalation",
+        "name": "Iran war escalates sharply: IRGC missiles at a US carrier, three more tankers hit",
+        "reading": "In the 24 hours to Sep 6/26, the IRGC fired ballistic missiles toward a US aircraft carrier and destroyer near the Strait of Hormuz; the US retaliated by permanently disabling two more Iranian tankers (M/T Downy, M/T Stark 1) and destroying a third (M/T Kylo) under the new 'tanker for tanker' policy, with a restricted zone near the Strait set to be announced within days. Brent surged to $95.73-$97.62 (Sep 4-6/26), tracking a ~7-8% weekly gain, its strongest week since July",
+        "level": "Brent $95.73-$97.62 (Sep 4-6/26), +~7-8% on the week",
+        "angle": "This is a material step up from last week's single-tanker exchange — a direct missile launch at a US carrier group is the kind of headline that moves energy and duration markets fast; worth flagging proactively before clients see it in the news",
         "tag": "LIVE"
       },
       {
-        "name": "BoJ's Ueda: a hike is on the table at every meeting, including this one",
-        "reading": "Ueda said the BoJ would consider a rate hike at every policy meeting 'including this month's' (Sep 17-18/26) and that inflation is nearing the 2% target 'quite closely'; market-implied odds of a September hike have surged to ~99%",
-        "level": "~99% market-implied odds of a Sep 17-18/26 BoJ hike",
-        "angle": "This is no longer a hint — it's close to a pre-announced hike. Worth flagging to clients who assume ultra-low Japanese rates are permanent, and a clean segue into currency/duration positioning inside the fund",
+        "name": "BoJ's Ueda hardens further, citing the Iran war itself as a reason to hike",
+        "reading": "Ueda now names three specific forces pushing prices higher: the Middle East conflict, AI-driven investment demand, and yen depreciation; separately, US Treasury Secretary Bessent met Ueda and called for 'decisive' monetary steps against the weak yen. Market-implied odds of a Sep 17-18/26 hike remain near-certain",
+        "level": "Near-certain odds of a Sep 17-18/26 BoJ hike",
+        "angle": "The BoJ case has moved from a hint to a governor citing the same geopolitical shock rattling other markets as his own reason to act — a clean, current segue into the fund's currency and duration positioning",
         "tag": "LIVE"
       },
       {
-        "name": "Fed hike odds hold near two-thirds for September",
-        "reading": "CME FedWatch continues to show ~65-66% odds of a 25bp hike at the Sep 15-16/26 FOMC meeting, unchanged from the prior read; three FOMC members dissented in July favoring a hike, and Chair Warsh's hawkish Jackson Hole language continues to anchor expectations",
-        "level": "~65-66% (CME FedWatch)",
-        "angle": "A steady, still-elevated hike probability going into the meeting — useful to reiterate that the debate has genuinely flipped from cuts to hikes this year, which is precisely the environment an unconstrained mandate is built for",
+        "name": "Fed hike odds stay genuinely split into the meeting",
+        "reading": "Reads range from ~48% (Kalshi) to ~57-65% (other venues) for a 25bp hike at the Sep 15-16/26 FOMC meeting — essentially unchanged in aggregate from the prior read; Fed Governor Waller said Sep 3/26 that recent data suggest a hike 'may be appropriate'",
+        "level": "~48-65% across venues, still split",
+        "angle": "A genuine coin-flip going into the meeting, with even sitting Fed governors publicly disagreeing — reiterate that the debate has flipped from cuts to hikes this year, precisely the environment an unconstrained mandate is built for",
         "tag": "LIVE"
       },
       {
-        "name": "Best 5-yr GIC (Canada) ticks up",
-        "reading": "4.15% (Haventree Bank), up from 4.05% (Achieve Financial) previously, per Ratehub",
+        "name": "RBA hike odds firm up as a majority of banks now expect a move",
+        "reading": "July inflation eased to 3.5% (from 3.8%), yet NAB, Deutsche Bank, UBS and Morgan Stanley all now forecast a 25bp RBA hike to 4.60% at the Sep 29/26 meeting; Westpac remains the lone major-bank holdout expecting a hold",
+        "level": "4.35% → 4.60% expected by a majority of major banks, Sep 29/26 meeting",
+        "angle": "A rate-cut-to-rate-hike repricing that's now moved from a minority to a majority-bank view in a matter of weeks — another live, tradeable divergence for a global mandate",
+        "tag": "LIVE"
+      },
+      {
+        "name": "Best 5-yr GIC (Canada) holds at 4.15%",
+        "reading": "4.15% (Haventree Bank), reconfirmed unchanged from the prior read, per Ratehub",
         "level": "vs. major-bank GICs generally 3.5-4.15%",
         "angle": "Direct talking point for the 'why not just buy a GIC' objection — pair with the fund's total-return and flexibility pitch once its own yield is confirmed",
         "tag": "LIVE"
@@ -254,8 +261,8 @@
     ]
   },
   "CCM8752": {
-    "asof": "Verified online Sep 5, 2026 via web search (iaclarington.com, its Fund Facts PDFs, Morningstar and investing.com were all blocked from this session's network again): fund-specific AUM/MER carried forward unchanged from the last confirmed read (Apr 30/26). Fresh today: VIX actually reversed its recent climb, closing at 14.53 on Sep 4/26 (+1.47% on the day, opened 14.15 Sep 5/26, day range 13.80-14.58) — down sharply from the 16.81 print reported Sep 3/26, though still above Aug 28/26's 2026 low of 14.13. On private credit, today's search reconfirmed Ares' $10.7B Strategic Income Fund capping redemptions at 5% against Q1/26 requests of 11.6% (the more recent Q2/26 figure of 14.4% noted previously could not be independently re-confirmed today and is carried forward), and 2026 hedge-fund strategy commentary continues to favor market-neutral and macro approaches — market-neutral/low-beta discretionary managers delivered 8.5%+ alpha in 2025 and macro remains a standout performer into 2026 amid elevated cross-asset volatility. No new CCM8752-sleeve-specific gating event was found today.",
-    "oneliner": "Volatility spiked and then faded within 48 hours (VIX 14.13 → 16.81 → 14.53) while private credit's redemption math stays stuck under hard caps — a live illustration of exactly the two things a multi-sleeve liquid-alt pool with daily liquidity is built to smooth out: whipsaw volatility and locked-up private credit.",
+    "asof": "Verified online Sep 7, 2026 via web search (iaclarington.com, its Fund Facts PDFs, Morningstar and investing.com were all blocked from this session's network again): fund-specific AUM/MER carried forward unchanged from the last confirmed read (Apr 30/26). Fresh today: VIX closed 14.53 on Sep 4/26 (+1.47%), still inside the same 13.80-16.82 band it has traded in since late Aug/26, with no fresher print available over the weekend. On private credit, Blackstone's flagship $77-79B BCRED fund capped redemptions for a second consecutive quarter (reported Sep 3/26), allowing investors only half of the 10% of shares they sought to redeem — confirming the Jun 4/26 gating was not a one-off. Ares' $10.7B Strategic Income Fund remains capped at 5% against Q1/26 requests of 11.6% (reconfirmed today), and Fitch's Q2/26 data (10 of 16 tracked BDCs breached redemption caps, record 12.4% of NAV in industry-wide requests with only 38% filled, ~$9.6B backlog, private-credit default rate 6.1% in July/26) remains the latest available read. No new CCM8752-sleeve-specific gating event was found today.",
+    "oneliner": "Volatility has settled into a steady 14-17 band while private credit's liquidity mismatch keeps compounding — Blackstone's flagship BCRED fund has now gated redemptions for a second straight quarter — a live, ongoing illustration of exactly what a multi-sleeve liquid-alt pool with daily liquidity is built to avoid.",
     "stats": [
       {
         "k": "AUM (Series F)",
@@ -332,24 +339,24 @@
     ],
     "signals": [
       {
-        "name": "VIX spikes, then fades within 48 hours",
-        "reading": "VIX closed at 14.53 on Sep 4/26 (+1.47% on the day), down sharply from the 16.81 print reported Sep 3/26, but still above Aug 28/26's 2026 low of 14.13; Sep 5/26 opened at 14.15, day range 13.80-14.58",
-        "level": "14.13 (Aug 28 low) → 16.81 (Sep 3) → 14.53 (Sep 4)",
-        "angle": "A vol spike that reverses within 48 hours is itself the pitch — the pool's market-neutral/macro sleeves are built to capture that kind of whipsaw without needing clients to time it themselves",
+        "name": "VIX settles into a steady band after its early-September spike",
+        "reading": "VIX closed 14.53 on Sep 4/26 (+1.47%), remaining inside the same 13.80-16.82 range it has held since late Aug/26; no fresher print was available over the weekend heading into Sep 7/26",
+        "level": "13.80-16.82 range, last close 14.53 (Sep 4/26)",
+        "angle": "A vol regime that keeps oscillating in a contained band rather than trending is itself the pitch — the pool's market-neutral/macro sleeves are built to harvest that kind of chop without clients needing to time it",
         "tag": "LIVE"
       },
       {
         "name": "Ares' flagship private-credit fund stays capped under redemption pressure",
-        "reading": "Ares Strategic Income Fund ($10.7B) continues capping redemptions at 5% quarterly against Q1/26 requests of 11.6% of shares",
+        "reading": "Ares Strategic Income Fund ($10.7B) continues capping redemptions at 5% quarterly against Q1/26 requests of 11.6% of shares, reconfirmed today",
         "level": "11.6% requested vs. 5% cap, reconfirmed",
         "angle": "Even the largest, most established private-credit vehicles are still gating months later — a durable, not one-off, illustration of the liquidity mismatch daily-liquidity structures like CCM8752 are designed to avoid",
         "tag": "LIVE"
       },
       {
-        "name": "Blackstone gates flagship BCRED for the first time ever",
-        "reading": "Blackstone gated redemptions on its $79B BCRED private-credit fund (Jun 4/26) after investors sought 10% of shares back; only 5% was allowed, despite $15B in cash/borrowing capacity on hand",
-        "level": "10% requested vs. 5% allowed, Q2/26",
-        "angle": "The single most name-brand, hardest-to-wave-away illustration yet of the private-credit liquidity mismatch",
+        "name": "Blackstone gates flagship BCRED for a second straight quarter",
+        "reading": "Blackstone's $77-79B BCRED fund capped redemptions again in the quarter reported Sep 3/26, allowing investors only half of the 10% of shares they sought to redeem — confirming the Jun 4/26 gating was not a one-off but an ongoing constraint",
+        "level": "10% requested vs. 5% allowed, two consecutive quarters",
+        "angle": "The single most name-brand illustration of the private-credit liquidity mismatch just repeated itself — a durable pattern, not a one-time headline, and a stronger version of the same pitch",
         "tag": "LIVE"
       },
       {
@@ -369,8 +376,8 @@
     ]
   },
   "ELITE": {
-    "asof": "Verified online Sep 5, 2026 via web search (iaclarington.com, newswire.ca, iaconnected.ia.ca, pimco.com/insights and loomissayles.com/insights were all checked but largely unreachable/blocked from this session's network): no new Elite Pools/Unified Portfolios-specific rebalancing, allocation-target change, or press release was found today — the most recent iA Clarington release remains the Aug 24/26 Active ETF Series August-distribution notice. One useful search result surfaced illustrative Elite Pool sub-fund weights from an advisor quick-reference guide (investia.ca) — e.g. Loomis U.S. All Cap Growth ~25%, QV Global Equity ~10%, BMO MSCI EAFE Index ETF ~15%, Capital Group Global Equity (Canada) ~20% — but the specific Elite Pool this breakdown belongs to was not confirmed via direct fetch (iaclarington.com blocked again), so treat these weights as illustrative/unconfirmed rather than attributable to a named pool. No dated, reactive PIMCO or Loomis Sayles commentary specifically addressing this week's Iran-war escalation (US strikes on Iranian tankers) or Ueda's hardened BoJ signal was found today — still a gap, worth re-checking. General shelf, sub-advisor and PM-transition facts (International Multifactor Equity Fund launch, iAGAM Asset Allocation leadership under Tej Rai/Alex Bellefleur, the Sep 14/26 segregated-fund PM handover — still sourced only to a search snippet and not independently confirmed) are carried forward unchanged.",
-    "oneliner": "The sub-advisor bench behind the Elite Pools changed hands at the top earlier this year — iAGAM's Asset Allocation team lost its longtime lead PM to a firm-wide Chief Economist role — and this week's sharper Iran-war escalation (the US striking Iranian tankers directly) plus a BoJ governor now saying a hike is on the table every meeting is the live test of how PIMCO and Loomis Sayles's up-in-quality fixed income tilts hold up within these pools.",
+    "asof": "Verified online Sep 7, 2026 via web search (iaclarington.com, newswire.ca, iaconnected.ia.ca, pimco.com/insights and loomissayles.com/insights were all checked but largely unreachable/blocked from this session's network): no new Elite Pools/Unified Portfolios-specific rebalancing, allocation-target change, or press release was found today — the most recent iA Clarington release remains the Aug 24/26 Active ETF Series distribution notice, with cash distributions payable Sep 10/26 (now imminent). This week's sharp further escalation of the Iran war — IRGC missiles fired at a US carrier and destroyer, and the US destroying or disabling three more Iranian tankers in response (see CCM5604 for full detail) — is a live, intensifying test of PIMCO's and Loomis Sayles's fixed income positioning inside the Elite Pools. PIMCO's own public commentary continues to frame this kind of geopolitical shock as the 'Fragmentation Era' thesis from its secular outlook turning into kinetic reality in 2026, though no dated PIMCO or Loomis Sayles note reacting specifically to this week's missile-and-tanker escalation was found today. General shelf, sub-advisor and PM-transition facts (International Multifactor Equity Fund launch, iAGAM Asset Allocation leadership under Tej Rai/Alex Bellefleur, the Sep 14/26 segregated-fund PM handover — still sourced only to a search snippet and not independently confirmed) are carried forward unchanged.",
+    "oneliner": "The sub-advisor bench behind the Elite Pools changed hands at the top earlier this year — iAGAM's Asset Allocation team lost its longtime lead PM to a firm-wide Chief Economist role — and this week's sharp further Iran-war escalation (IRGC missiles at a US carrier, the US destroying or disabling three more Iranian tankers) plus a BoJ governor now citing the war itself as a reason to hike is the live test of how PIMCO and Loomis Sayles's up-in-quality fixed income tilts hold up within these pools.",
     "stats": [
       {
         "k": "iA Clarington overall AUM",
@@ -379,17 +386,17 @@
     ],
     "signals": [
       {
-        "name": "Iran war escalates further: US strikes Iranian tankers directly",
-        "reading": "On Sep 2/26 Iran struck the Saudi-flagged tanker Sidr, killing two Filipino crew, and the US retaliated for the first time by striking two Iranian government tankers — a new 'tanker for tanker' policy under President Trump. BoJ Governor Ueda separately hardened his signal, saying a hike is on the table 'at every meeting including this one' (Sep 17-18/26), with market-implied odds now ~99% (see CCM5604 for full detail)",
-        "level": "US-Iran direct tanker strikes, Sep 2/26; BoJ Sep hike odds ~99%",
-        "angle": "A live, physically-escalating test of PIMCO's and Loomis Sayles's up-in-quality/duration positioning inside the Elite Pools and Unified Portfolios — worth raising proactively with advisors before they ask, especially since no fresh sub-advisor commentary has surfaced yet",
+        "name": "Iran war escalates sharply further: IRGC missiles at a US carrier, three more tankers hit",
+        "reading": "In the 24 hours to Sep 6/26, the IRGC fired ballistic missiles toward a US aircraft carrier and destroyer near the Strait of Hormuz; the US retaliated by disabling two more Iranian tankers and destroying a third under a new 'tanker for tanker' policy, with a restricted zone near the Strait set to be announced within days. BoJ Governor Ueda separately named the Iran war itself as one of three forces pushing him toward a Sep 17-18/26 hike, with market odds now near-certain (see CCM5604 for full detail)",
+        "level": "IRGC missiles at a US carrier/destroyer, Sep 6/26; BoJ Sep hike odds near-certain",
+        "angle": "A sharp escalation beyond last week's single-tanker exchange is a live, physically-intensifying test of PIMCO's and Loomis Sayles's up-in-quality/duration positioning inside the Elite Pools and Unified Portfolios — worth raising proactively with advisors before they ask",
         "tag": "LIVE"
       },
       {
         "name": "Active ETF Series August distribution",
         "reading": "iA Clarington announced Aug 2026 distributions for its Active ETF Series (announced Aug 24/26)",
-        "level": "unitholders of record Aug 31/26; cash distributions payable Sep 10/26",
-        "angle": "Routine but worth flagging to advisors with clients in the Active ETF Series — confirm household record-date positioning",
+        "level": "unitholders of record Aug 31/26; cash distributions payable Sep 10/26 — now imminent",
+        "angle": "Routine but now days away — worth flagging to advisors with clients in the Active ETF Series to confirm household record-date positioning before the Sep 10/26 payment",
         "tag": "LIVE"
       },
       {
@@ -415,8 +422,8 @@
       },
       {
         "name": "PIMCO 2026 outlook",
-        "reading": "Favors high-quality fixed income over equities given stretched valuations/tight spreads; expects Fed cuts in H2 2026 — a call now under sustained pressure from this year's hawkish repricing; constructive on a diversified mix of DM and select EM local markets",
-        "level": "published outlook, 2026; no dated reactive update to this week's news found",
+        "reading": "PIMCO continues to frame 2026's geopolitical shocks — including this week's sharp Iran-war escalation — as its 'Fragmentation Era' secular thesis turning into kinetic reality; the firm continues to argue bond markets offer a source of stability at a time of sweeping geopolitical change and stretched risk-asset valuations; the 'Fed cuts in H2 2026' leg of its cyclical thesis remains under sustained pressure from this year's hawkish repricing",
+        "level": "'Fragmentation Era' framing reiterated 2026; no dated note on this week's missile/tanker escalation found",
         "angle": "Supports an up-in-quality fixed income tilt within Elite Pools/Unified Portfolios that use PIMCO as sub-advisor, though the 'Fed cuts in H2' leg of the thesis is being tested harder each week",
         "tag": "LIVE"
       },
@@ -428,6 +435,6 @@
         "tag": "LIVE"
       }
     ],
-    "compositionNote": "Elite Pools & Unified Portfolios continue to draw on PIMCO, Loomis Sayles and iAGAM as sub-advisors. The one confirmed structural change this year remains at iAGAM itself: the Asset Allocation team that steers strategic/tactical tilts across these pools is now led by Tej Rai and Alex Bellefleur following Sébastien Mc Mahon's move to Chief Economist, iA Financial Group. iA Clarington also continues to expand its broader active shelf (e.g., the Jul 27/26 International Multifactor Equity Fund launch), though no change to the Elite Portfolios' own strategic allocation targets was found as of today. An advisor quick-reference guide (investia.ca) shows illustrative underlying sub-fund weights for at least one Elite Pool (Loomis U.S. All Cap Growth ~25%, QV Global Equity ~10%, BMO MSCI EAFE Index ETF ~15%, Capital Group Global Equity Canada ~20%), but which specific pool this applies to was not confirmed today — cite only as illustrative of the shelf's multi-manager structure, not as a named pool's current allocation. This week's Iran-war escalation (direct US strikes on Iranian tankers) and BoJ's hardened hike signal (see CCM5604) remain the most relevant live macro test for the fixed-income sub-advisors inside these pools, and neither PIMCO nor Loomis Sayles has publicly reacted to them yet."
+    "compositionNote": "Elite Pools & Unified Portfolios continue to draw on PIMCO, Loomis Sayles and iAGAM as sub-advisors. The one confirmed structural change this year remains at iAGAM itself: the Asset Allocation team that steers strategic/tactical tilts across these pools is now led by Tej Rai and Alex Bellefleur following Sébastien Mc Mahon's move to Chief Economist, iA Financial Group. iA Clarington also continues to expand its broader active shelf (e.g., the Jul 27/26 International Multifactor Equity Fund launch), though no change to the Elite Portfolios' own strategic allocation targets was found as of today. An advisor quick-reference guide (investia.ca) shows illustrative underlying sub-fund weights for at least one Elite Pool (Loomis U.S. All Cap Growth ~25%, QV Global Equity ~10%, BMO MSCI EAFE Index ETF ~15%, Capital Group Global Equity Canada ~20%), but which specific pool this applies to was not confirmed today — cite only as illustrative of the shelf's multi-manager structure, not as a named pool's current allocation. This week's sharply escalated Iran war (IRGC missiles at a US carrier, the US destroying or disabling three more Iranian tankers) and the BoJ's hardened hike signal (see CCM5604) remain the most relevant live macro test for the fixed-income sub-advisors inside these pools; PIMCO continues to frame such shocks within its 'Fragmentation Era' thesis, but neither PIMCO nor Loomis Sayles has issued a note specifically reacting to this week's missile-and-tanker escalation yet."
   }
 }
