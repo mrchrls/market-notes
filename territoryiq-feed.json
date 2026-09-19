@@ -1,24 +1,24 @@
 {
-  "updated": "2026-09-18-1006",
+  "updated": "2026-09-19-1007",
   "CCM9973": {
-    "asof": "Verified online Sep 18, 2026 via web search (a near-total primary-fetch outage hit this session's network today: iaclarington.com, cdn01.iaclarington.com, finance.yahoo.com, investing.com, theglobeandmail.com, newswire.ca and r.jina.ai were all blocked on every attempt, so every figure below is search-snippet level, not a verified direct fetch). The day's dominant confirmed event was outside this fund's own sector: the Bank of Japan hiked its policy rate 25bp to 1.25% (a 31-year high) on a surprising 7-2 split vote (dissenters Asada and Sato, both Takaichi-appointed reflationists, wanted a hold), with core Aug inflation at 1.7% (down from 1.8%); the yen counterintuitively weakened to ¥156.64 (-0.45%) and the 10-yr JGB yield fell 4.9bp to 2.947%, both read as a reaction to the split vote and Governor Ueda's press conference disappointing hawks. On the fund's own tech themes: memory/HBM tightness firmed up with sharper, dated figures than previously carried — Samsung/SK Hynix finished-goods DRAM inventory fell below 10 days of supply on Sep 7/26, a 36GB HBM3E spot module was quoted around $2,100 (4-5x the $300-400 contract price) as of Sep 4/26, SK Hynix pulled forward 12-layer HBM4 shipments to Nvidia to end-June/26 (ahead of a planned September ramp), and Micron plus SK Hynix's entire 2026 HBM output is reported sold out. Hyperscaler 2026 capex guides have been raised since the ~$725B combined baseline carried in this feed: search snippets now put Amazon nearer ~$220B (was ~$200B), Google $195-205B (was $175-185B) and Meta's floor lifted to $130-145B — these trace to summer 2026 earnings commentary, so they are new to this dataset rather than breaking news today. A fresh holdings snippet (source page itself blocked) lists NVIDIA, Alphabet, Amazon, Microsoft, Broadcom, Meta, TSMC and JPMorgan Chase among top positions, with no weights visible — first time TSMC and JPMorgan Chase have surfaced as named holdings in this feed. GLP-1: fresher market-share figures via a Sep 17/26 Motley Fool piece put Eli Lilly at roughly 60% U.S. GLP-1 share versus Novo Nordisk's ~38%, with Novo citing 3M+ oral Wegovy prescriptions filled in the U.S. as of the June ADA meeting, and Lilly's Mounjaro/Zepbound sales up 91%/46% YoY respectively — these appear to reflect the last reported quarter rather than a same-day print. TSMC's >85%-booked capacity and $100B Arizona add are unchanged repeats from earlier reporting, not new today. No new September iA Clarington press release found; no fresher AUM, ETF NAV or MER figure than already carried (ITIN.TO's last confirmed close remains $11.21, Sep 15/26). Fidelity Global Innovators' MER conflict deepened rather than resolved: a new snippet shows 1.10% Series F, a third figure alongside the previously seen 1.20% and 2.23% — still not reconcilable without a direct-source check; separately, the Fidelity Global Innovators ETF (FINN, a different vehicle) shows $3.03B net assets as of Sep 11/26.",
-    "oneliner": "The Bank of Japan hiked 25bp to a 31-year-high 1.25% on a surprising 7-2 split vote today, with the yen weakening rather than strengthening on the news — a reminder that even a hawkish central-bank move can read as dovish when the vote itself signals division — while the fund's own AI-chip theme keeps tightening underneath the macro noise: HBM3E spot prices near 4-5x contract levels, Samsung/SK Hynix inventory under 10 days of supply, and hyperscaler 2026 capex guides still being raised (Amazon, Google, Meta all higher than the figures previously carried here).",
+    "asof": "Verified online Sep 19, 2026 via web search (primary-source fetches to iaclarington.com, cdn01.iaclarington.com, fidelity.ca, Yahoo Finance, Morningstar, TMX, Investing.com and even en.wikipedia.org were all blocked by the network egress proxy again today, so everything below is search-snippet level, not a direct-fetch confirmation). The Mar 10/26 Series F fee cut (management fee 1.00%→0.45%, admin fee 0.16%→0.13%) is reconfirmed as already in effect, but a snippet again notes it will only show up in the fund's published MER for the period ended Sep 30/26 — so the 1.18% figure below remains the last-published number, not the current effective fee load. A fresh Fund Facts-derived holdings snippet reconfirms Microsoft, NVIDIA, Alphabet, Amazon, Meta, Broadcom, TSMC and JPMorgan Chase as top holdings and newly adds Mastercard — still no weights available from any source. Total-fund AUM readings continue to not reconcile across snapshots ($74.38M Series I Jan 31/26, an unclear $68.9M Mar 31/26 snippet, $74.91M Series F Apr 30/26); treat the Apr 30/26 figure as the best-supported one but not fully resolved. iAGAM's own stated strategy framework was newly confirmed directly: a 900+ company universe across four themes — intelligent connectivity, enterprise digitization, next-generation healthcare, smart energy — with a barbell of thematic innovators plus dominant incumbents. This is NOT the five-layer AI-stack breakdown (Energy/Chips/Infra/Models/Apps) used in this feed's layers section below; that breakdown remains this feed's own analytical overlay on the fund's confirmed holdings, not an iA Clarington-published framework, and should be presented to advisors that way. Sector news: chip stocks rallied for a third straight session Sep 17/26 (24/7 Wall St) — AMD +7% (~$548.76; a claimed +156% YTD in the same snippet looks anomalous and is NOT adopted pending verification), Broadcom +3% (~$349-357), Nvidia +2% (~$218.70). Hyperscaler 2026 capex guides remain wide and still trending up across sources (Amazon ~$200B, Google $175-205B, Meta $115-145B after two guidance raises, Microsoft $110-190B — wide dispersion, treat as directional only). Data-center power: a Fortune piece (Sep 3/26) has PJM projecting a ~6GW reliability shortfall by 2027 and US data-center demand growing from 23GW (2023) to 42GW (2026), with AI racks now drawing 50-100kW vs. 5-10kW legacy. GLP-1: the Lilly/Novo competitive and legal battle continues (Motley Fool pieces Sep 13 and 17/26 arguing each side's catalyst) — no new hard share figures found today. A claimed Nvidia/Hugging Face acquisition (dated Sep 2/26) surfaced in search but could not be confirmed against any primary source and is NOT published here. ITIN ETF: Sep 15/26 snapshot carried forward unchanged (close $11.21, NAV $11.18, +7.79% YTD, sector split Technology 39.39%/Communication Services 12.05%/Healthcare 10.16%/Financial Services 9.87%/Consumer Cyclical 9.75%/Industrials 9.59%/Consumer Defensive 3.04%/Utilities 2.64%/Energy 2.48%/Materials 1.05%); ITIN's AUM remains unresolved between an implausible $1.18M print and the $47.46M launch-day figure — neither is published as a confirmed current balance. Fidelity Global Innovators Class Series F: MER 1.20% (Fund Facts, Nov 30/25), aggregate AUM ~$34.04B (Aug 31/26), CY2025 return +21.35%, 1-yr +54.64% and 3-yr (annualized) +44.28% (both as of Aug 31/26) — all search-snippet level, not independently re-verified, but broadly consistent with the figures carried in this feed previously.",
+    "oneliner": "Chip stocks (AMD, Broadcom, Nvidia) extended a semiconductor rebound into a third straight session on Sep 17/26 while the fund's own Mar 10/26 Series F fee cut still hasn't shown up in the published MER — it lands with the Sep 30/26 filing — giving advisors a live, dated wedge against Fidelity Global Innovators' 1.20% Series F fee ahead of the actual lower number becoming official.",
     "stats": [
       {
         "k": "AUM (all series)",
-        "v": "$74.91M (Apr 30, 2026) — carried forward; source page blocked again today"
+        "v": "$74.91M (Apr 30, 2026) — carried forward; source page blocked again today; a conflicting Series I figure ($74.38M, Jan 31/26) and an unclear $68.9M (Mar 31/26) snippet don't cleanly reconcile"
       },
       {
         "k": "ETF twin AUM (ITIN, launched Apr 13/26)",
-        "v": "$47.46M — ITIN's launch-date figure, still not a live current balance; [update me]"
+        "v": "Unresolved — $47.46M launch-day figure vs. an implausible $1.18M print seen today; neither adopted as a current balance; [update me]"
       },
       {
         "k": "ITIN NAV / YTD",
-        "v": "$11.21 close (Sep 15/26), +7.79% YTD — carried forward, no fresher close found today (site blocked)"
+        "v": "$11.21 close, NAV $11.18, +7.79% YTD (~Sep 15, 2026 snapshot) — carried forward, no fresher close found today (site blocked)"
       },
       {
         "k": "MER (Series F)",
-        "v": "1.18% pre-cut; iA Clarington's own Fund Facts text now confirms the reduced MER (mgmt fee 1.00%→0.45%, admin 0.16%→0.13%, eff. Mar 10/26) will first appear in the fund's published MER for the period ended Sep 30, 2026 — so not yet published, but the timeline is now explicit"
+        "v": "1.18% last-published figure; Mar 10/26 fee cut (mgmt 1.00%→0.45%, admin 0.16%→0.13%) already in effect but won't appear in the published MER until the period ended Sep 30, 2026"
       },
       {
         "k": "Fund inception (Series F line)",
@@ -26,7 +26,7 @@
       },
       {
         "k": "Portfolio Manager",
-        "v": "Maxime Houde, iA Global Asset Management — strategy runs 4 themes: intelligent connectivity, enterprise digitization, next-gen healthcare, smart energy"
+        "v": "Maxime Houde, iA Global Asset Management — runs iAGAM's own 4-theme framework (intelligent connectivity, enterprise digitization, next-gen healthcare, smart energy) via a 900+ company universe; the 5-layer AI-stack breakdown below is this feed's own analytical overlay, not an iA Clarington framework"
       }
     ],
     "layers": [
@@ -36,8 +36,8 @@
         "sub": "Grid capacity, power generation for data centers",
         "weight": null,
         "holdings": [],
-        "choke": "New context found today (dates on underlying pieces unclear, treat as recent background rather than same-day news): hyperscalers (Google, Amazon, Microsoft) are increasingly underwriting risk for small modular reactor (SMR) projects, with SMR power quoted near $120/MWh — competitive with near-term gas; PJM has warned the regional grid is shifting toward scarcity; one estimate puts the current U.S. data-center power mix at roughly 40% gas, 24% wind+solar, 20% nuclear, 15% coal. US data-center electricity demand still cited rising from 23GW (2023) to 42GW (2026)",
-        "note": "No confirmed fund holding in this layer; flagged for follow-up"
+        "choke": "Fortune (Sep 3/26): PJM projects a ~6GW reliability shortfall by 2027; US data-center electricity demand has grown from 23GW (2023) to 42GW (2026), with AI server racks drawing 50-100kW vs. 5-10kW for legacy racks; hyperscalers increasingly underwriting SMR project risk, SMR power quoted near $120/MWh",
+        "note": "No confirmed fund holding in this layer; ITIN's own sector split shows only 2.48% Energy — flagged as a thesis gap, not a specific position"
       },
       {
         "id": "chips",
@@ -49,8 +49,8 @@
           "AVGO",
           "TSM"
         ],
-        "choke": "Memory/HBM tightness firmed up with sharper dated figures: Samsung/SK Hynix finished-goods DRAM inventory fell below 10 days of supply on Sep 7/26; a 36GB HBM3E spot module quoted near $2,100 (4-5x the $300-400 contract price) as of Sep 4/26; SK Hynix pulled forward 12-layer HBM4 shipments to Nvidia to end-June/26, ahead of a planned September ramp; Micron and SK Hynix's entire 2026 HBM output is reported sold out. TSMC's >85%-booked 2026-27 advanced-node capacity and $100B Arizona fab add are unchanged repeats, not new today. A fresh holdings snippet newly names TSMC (TSM) as a top position alongside NVDA/AVGO",
-        "note": "TSM added to holdings list today on a fresh (unweighted) top-holdings snippet"
+        "choke": "Chip stocks rallied for a third straight session Sep 17/26 (24/7 Wall St): AMD +7% (~$548.76; a claimed +156% YTD in the same snippet looks anomalous and is not adopted), Broadcom +3% (~$349-357), Nvidia +2% (~$218.70). HBM tightness carried forward from prior research (Samsung/SK Hynix inventory <10 days of supply, HBM3E spot ~4-5x contract price, SK Hynix pulling forward HBM4 shipments) — not reconfirmed today",
+        "note": "NVDA, AVGO and TSM all reconfirmed as top holdings in a fresh (still unweighted) snippet"
       },
       {
         "id": "infra",
@@ -63,7 +63,7 @@
           "META",
           "GOOGL"
         ],
-        "choke": "Hyperscaler 2026 capex guides have been raised since the ~$725B combined baseline previously carried here: search snippets now put Amazon nearer ~$220B (was ~$200B), Google $195-205B (was $175-185B), and Meta's floor lifted to $130-145B. These trace to summer 2026 earnings commentary — new to this dataset, not breaking news today — but directionally confirm the buildout is still accelerating rather than plateauing",
+        "choke": "2026 hyperscaler capex guides remain wide and still trending up across sources: Amazon ~$200B, Google $175-205B, Meta $115-145B (raised twice this year), Microsoft $110-190B (wide dispersion between sources, needs reconciliation) — directionally still accelerating, treat single figures as approximate",
         "note": ""
       },
       {
@@ -75,7 +75,7 @@
           "GOOGL",
           "MSFT"
         ],
-        "choke": "No fund-relevant frontier-lab news found today; a general-interest item notes Google, Anthropic and OpenAI have each released cybersecurity-hardened model variants with defender-access programs — sector activity, tangential to fund holdings, not a fund-specific catalyst",
+        "choke": "No new fund-relevant frontier-lab news confirmed today; a claimed Nvidia/Hugging Face acquisition (dated Sep 2/26) surfaced in search but could not be confirmed against a primary source and is not adopted here",
         "note": ""
       },
       {
@@ -83,94 +83,90 @@
         "name": "Applications & Enterprise AI",
         "sub": "Agentic software, enterprise deployment",
         "weight": null,
-        "holdings": [],
-        "choke": "A fresh (unweighted) top-holdings snippet newly names JPMorgan Chase alongside the fund's tech names — first time a financial-sector enterprise-AI adopter has surfaced as a named holding in this feed; no further detail on the position size or the enterprise-AI thesis behind it found today",
-        "note": "JPMorgan Chase newly identified as a top holding today; not previously confirmed in this feed"
+        "holdings": [
+          "JPM",
+          "MA"
+        ],
+        "choke": "A fresh Fund Facts-derived snippet reconfirms JPMorgan Chase and newly names Mastercard as top holdings alongside the fund's tech names — first time Mastercard has surfaced in this feed; no detail on position size or the enterprise-AI thesis behind either",
+        "note": "Mastercard newly identified as a top holding today, alongside the previously-flagged JPMorgan Chase"
       }
     ],
     "signals": [
       {
-        "name": "Bank of Japan hikes to a 31-year-high 1.25% on a surprising 7-2 split vote; yen weakens despite the hike",
-        "reading": "The BoJ raised its policy rate 25bp to 1.25% on Sep 18/26, matching consensus, but the 7-2 vote (dissenters Toichiro Asada and Ayano Sato, both reflationist Takaichi appointees, wanted a hold) surprised markets expecting near-unanimity; core Aug inflation was 1.7% (down from 1.8% in July). Rather than strengthening, the yen weakened to ¥156.64 (-0.45%) and the 10-yr JGB yield fell 4.9bp to 2.947%, as the split vote and Governor Ueda's press conference reportedly disappointed hawks looking for a stronger tightening signal",
-        "level": "BoJ rate 1.25% (from 1.00%), 7-2 vote; USD/JPY ~156.64 (-0.45%); 10yr JGB 2.947% (-4.9bp)",
-        "angle": "A clean illustration that a rate hike alone doesn't guarantee currency strength when the vote itself signals division — useful cross-mandate talking point given the Asian FX exposure running through the fund's chip-supply-chain names",
+        "name": "Semiconductor rebound extends to a third straight session",
+        "reading": "AMD, Broadcom and Nvidia all rallied Sep 17/26 in what 24/7 Wall St. described as a third consecutive up session for the group: AMD +7% (~$548.76), Broadcom +3% (~$349-357), Nvidia +2% (~$218.70). A claimed +156% YTD figure for AMD in the same snippet looks anomalous and should be checked before quoting to advisors",
+        "level": "AMD +7% (~$548.76), Broadcom +3% (~$349-357), Nvidia +2% (~$218.70), Sep 17/26",
+        "angle": "A concrete, dated 'the chip trade is still working' data point for the fund's largest thematic sleeve, timed right after last week's memory/HBM tightness story",
         "tag": "LIVE"
       },
       {
-        "name": "Memory/HBM tightness firms up with sharper dated pricing",
-        "reading": "Samsung/SK Hynix finished-goods DRAM inventory fell below 10 days of supply on Sep 7/26; a 36GB HBM3E spot module traded near $2,100 (4-5x the $300-400 contract price) as of Sep 4/26; SK Hynix pulled forward 12-layer HBM4 shipments to Nvidia to end-June/26; Micron and SK Hynix's entire 2026 HBM output is reported sold out",
-        "level": "DRAM inventory <10 days (Sep 7/26); spot HBM3E ~$2,100 vs ~$300-400 contract (Sep 4/26)",
-        "angle": "The clearest, most concrete confirmation yet that the physical shortage — not just the stock story — remains extremely tight; strong material for the 'the underlying bottleneck hasn't eased' conversation",
+        "name": "Series F fee cut already in effect, not yet visible in the published MER",
+        "reading": "The Mar 10/26 Series F fee cut (management fee 1.00%→0.45%, admin fee 0.16%→0.13%) is confirmed already in effect, but iA Clarington's own text says it will only appear in the fund's published MER for the period ended Sep 30, 2026 — meaning the 1.18% figure currently on record is stale relative to what unitholders are actually being charged today",
+        "level": "Effective fee cut in force since Mar 10/26; published MER (1.18%) won't update until the Sep 30/26 filing",
+        "angle": "Advisors can be told the real, current cost is already lower than the number on the page — a rare case where the honest pitch is better than what's currently published, worth flagging ahead of the Sep 30/26 MER update",
         "tag": "LIVE"
       },
       {
-        "name": "Hyperscaler 2026 capex guides raised further",
-        "reading": "Search snippets now put Amazon's 2026 capex nearer ~$220B (was ~$200B), Google $195-205B (was $175-185B), and Meta's floor lifted to $130-145B versus the ~$725B combined baseline previously carried in this feed — these trace to summer 2026 earnings commentary, newly surfaced today rather than breaking news",
-        "level": "Amazon ~$220B, Google $195-205B, Meta $130-145B+ (2026 guides, up from prior figures)",
-        "angle": "Useful refresh for the 'is the spending still accelerating' question — every named hyperscaler's guide has moved up, not down, since the figures previously in this feed",
-        "tag": "SAMPLE"
-      },
-      {
-        "name": "GLP-1 market share: Lilly holds the lead, Novo's oral pill gains traction",
-        "reading": "A Sep 17/26 Motley Fool piece puts Eli Lilly at roughly 60% U.S. GLP-1 market share versus Novo Nordisk's ~38%, with Novo citing 3M+ oral Wegovy prescriptions filled in the U.S. as of the June ADA meeting; Lilly's Mounjaro and Zepbound sales were up 91% and 46% YoY respectively — figures likely reflecting the last reported quarter rather than a same-day print",
-        "level": "Lilly ~60% share / Mounjaro +91% YoY to $9.9B, Zepbound +46% YoY to $4.9B; Novo ~38% share / 3M+ oral Rx filled",
-        "angle": "A fuller, dated picture of the GLP-1 competitive gap for the biotech sleeve of the thematic story — Lilly's lead is wide, but Novo's oral-pill volume gives a growth angle worth raising",
+        "name": "GLP-1 competitive and legal battle between Lilly and Novo continues",
+        "reading": "Motley Fool ran pieces on both sides' catalysts this month (Sep 13/26 on Novo, Sep 17/26 on Lilly), continuing the theme of an intensifying oral-pill race and comparative-advertising dispute between the two GLP-1 leaders; no new hard market-share figures were found today",
+        "level": "Ongoing competitive/legal narrative, no fresh share data Sep 19/26",
+        "angle": "Useful to note the story is still live and contested rather than settled — good material for a 'this sector isn't a one-horse race' framing in the fund's healthcare sleeve",
         "tag": "SAMPLE"
       }
     ],
     "competitors": [
       {
         "comp": "Fidelity Global Innovators Class",
-        "theirMer": "A third, conflicting figure surfaced today: 1.10% Series F (snippet only), alongside the previously seen 1.20% (Fund Facts, Nov 30/25) and 2.23% (product page, May 31/26) — do not quote any of the three to advisors without a direct-source check. Separately, the Fidelity Global Innovators ETF (FINN, a different vehicle) shows $3.03B net assets as of Sep 11/26",
-        "ourMer": "1.18% pre-cut / ~0.6%+tax est. post Mar 10/26 fee cut (new MER not yet published; iA Clarington's own text confirms it will first appear for the period ended Sep 30/26)",
-        "win": "Materially cheaper Series F fee load on the most commonly cited (1.20%) reading, or dramatically cheaper if either the 2.23% or a scale-adjusted comparison holds; Fidelity's $34.04B aggregate AUM (Aug 31/26) sets a very high scale bar — the pitch remains the cheaper, more diversified way to stay in the theme",
-        "vuln": "Fidelity's scale ($34.04B AUM) dwarfs iA Clarington's ($74.9M AUM); a Series F returns snippet (Aug 31/26, unverified) still shows 1-yr +54.64%, 3-yr +44.28%, 5-yr +23.57% — strong numbers to be ready for in an advisor conversation, though CCM9973's own comparable return figures still haven't been found via a primary source"
+        "theirMer": "1.20% Series F (Fund Facts, Nov 30/25) — the best-supported reading found again today",
+        "ourMer": "1.18% last-published / effectively ~0.6%+admin post the Mar 10/26 cut (new MER not yet published; will first appear for the period ended Sep 30/26)",
+        "win": "A materially cheaper Series F fee load once the cut is officially reflected, against a competitor with $34.04B in aggregate AUM (Aug 31/26) — the pitch remains the cheaper, more concentrated way to stay in the theme",
+        "vuln": "Fidelity's scale (~$34.04B AUM) dwarfs iA Clarington's (~$74.9M); Fidelity Series F returns reported strong today too (CY2025 +21.35%, 1-yr +54.64%, 3-yr +44.28% as of Aug 31/26) — be ready for these numbers in a conversation, since CCM9973's own comparable Series F return figures still could not be found via any source today"
       }
     ]
   },
   "CCM5604": {
-    "asof": "Verified online Sep 18, 2026 via web search (a near-total primary-fetch outage hit this session's network today: iaclarington.com, cdn01.iaclarington.com, cnbc.com, ratehub.ca, bankofcanada.ca, theglobeandmail.com and japantimes.co.jp were all blocked on every attempt — even a neutral control domain failed — so nothing below is confirmed via a direct fetch, all of it is search-snippet level, and several figures showed internal contradictions across repeated queries; treat FX levels beyond USD/JPY with real caution). Today's clear, multiply-corroborated story is the Bank of Japan: it hiked its policy rate 25bp to 1.25% (a 31-year high), matching consensus, but on a 7-2 split vote (not the near-unanimous vote expected) — dissenters Toichiro Asada and Ayano Sato, both reflationist appointees of PM Takaichi, wanted a hold; core Aug inflation ran 1.7-1.9% (vs 1.8% in July). Counterintuitively, the yen weakened to ¥156.64 (-0.45%) rather than strengthening, and the 10-yr JGB yield fell 4.9bp to 2.947% — markets read the split vote and Governor Ueda's press conference as disappointing for hawks expecting a stronger signal of further tightening; the pace of hikes has quickened to roughly 3 months between hikes versus 6 months previously. The Bank of Canada remains unchanged at 2.25% (7th consecutive hold, confirmed via snippet, next decision Oct 28/26; Governor Macklem's next scheduled speech is Sep 21 in Halifax, not today). No fresh Fed commentary found beyond Tuesday's confirmed 25bp hike to 3.75-4.00% (Chair Kevin Warsh, unanimous per one source). Oil extended its pullback: WTI ~$100.04/bbl (-1.84%), Brent ~$102.41/bbl (-2.30%), a third straight down session, as the Saudi Aramco East-West pipeline repair story held unchanged (roughly half capacity restored within days via bypass, full repair still ~6 weeks out, sea-borne barrels bridging the gap) — no new Hormuz/Iran escalation found. CCM5604 itself: a new snippet (an iA Clarington fund-facts/financials PDF, exact as-of date not visible) puts fund-wide AUM at $1.1B (Aug 31/26, up from ~$1.0B Jun 30), MER at 0.84% (Mar 31/26, management fee 0.65%), and gives the first confirmed portfolio-level figures found in this feed: yield to maturity 5.7%, average coupon 5.3%, modified duration 3.9 years, average term 4.3 years — genuinely new data, but the as-of date wasn't visible in the snippet, so treat as recent rather than same-day-confirmed; NAV remains the carried-forward C$9.76 (Sep 14/26), no fresher close found. Best 5-yr GIC (Ratehub) still shows Haventree Bank at 4.15%, unchanged, though the source page itself was blocked again today. Manulife Strategic Income's AUM reconciliation remains unresolved: yet another conflicting figure surfaced ($5.43B, Jul 31/26, search-engine-synthesized rather than snippet-sourced — flagged as having a meaningful hallucination risk) alongside the previously seen $386.1M and $5.58B readings; none of the three are reconciled to a specific series and none should be quoted to advisors without a direct-source check. Its Series F MER (0.90%, Dec 31/25) remains the one solid, unchanged figure.",
-    "oneliner": "The Bank of Japan delivered its expected hike to a 31-year-high 1.25% today, but the 7-2 split vote — not the near-unanimous vote markets had priced — sent the yen weaker rather than stronger, a live lesson that a central-bank surprise can come from the vote count as easily as the rate decision itself; oil kept easing on a third straight down session as the Aramco pipeline repair story holds, and CCM5604's own portfolio finally showed concrete numbers today (5.7% yield to maturity, 3.9-year duration) for a flexible, unconstrained global income mandate built for exactly this kind of multi-country rate divergence.",
+    "asof": "Verified online Sep 19, 2026 via web search (iaclarington.com, cdn01.iaclarington.com, bankofcanada.ca, federalreserve.gov, ratehub.ca, ycharts.com, newswire.ca and even en.wikipedia.org were all blocked by the network egress proxy again today, so everything below is search-snippet level). IMPORTANT DATA-QUALITY FLAG: today's independent research surfaced figures for CCM5604 that conflict with what this feed carried yesterday and could not be reconciled. (1) MER: a dedicated search today found no MER for CCM5604 at all, with one snippet stating the series has not yet filed its first MRFP and a number 'is not yet available' — this contradicts the 0.84% figure carried forward below, which itself was only a single-source, undated snippet from yesterday's run; treat 0.84% as unconfirmed, not as a solid figure to quote to advisors. (2) YTD return: today's search found -0.17% (undated) against the -0.9%/+0.9% figure carried from prior runs — again unreconciled; do not quote either to advisors without a direct Fund Facts pull. (3) AUM: today's search found total-fund (all series) net assets of roughly $59.9M via a semi-annual financial-statement snippet (period-end date not visible, likely Sep 30/25), which is dramatically smaller than the $1.1B figure carried forward below from yesterday's fund-facts/financials PDF snippet — these two numbers cannot both be right for the same fund and neither has been confirmed via a direct fetch; this is the single biggest open data-quality issue on this mandate and should be resolved with a direct site visit before either figure is used with an advisor. On the more solid side: portfolio-level metrics were independently reconfirmed today via a second, separate search — yield to maturity 5.7%, average coupon 5.3%, modified duration 3.9 years, average term 4.3 years — with a new detail, average credit quality BBB+, and a full geographic mix (Canada 44.64%, US 41.05%, Global 8.99%, International 2.06%, Europe 1.50%, short-term/other 0.88%, Latin America 0.53%, Asia-Pacific 0.35%); the as-of date still isn't visible in either snippet, so treat as recent rather than same-day-confirmed, but the two independent reads agreeing raises confidence. New background: the fund is sub-advised by Dan Janis (CIO) and Kai Sotorp at Agile Investment Management LLC, a US SEC-registered boutique; iA Clarington has also added a USD purchase option for the Agile suite including a Series F (USD), ticker CCM5612 (date not confirmed). On rates: the Fed's Sep 16/26 hike to 3.75-4.00% (first hike since 2023, 12-0 vote) is reconfirmed, with the new Sept SEP dot plot showing a median 4.00-4.25% by year-end 2026 (next FOMC Oct 27-28/26, no new SEP); the Bank of Canada's Sep 2/26 hold at 2.25% (7th consecutive hold) is reconfirmed, with a Summary of Deliberations released Sep 16/26 and the next decision Oct 28/26; the Bank of Japan's Sep 18/26 hike to a 31-year-high 1.25% on a 7-2 split vote is reconfirmed, with USD/JPY at 156.86-157.95 (Sep 18/26, +0.58% that session) — a slightly fresher read than yesterday's ¥156.64. AUD/USD is newly read at 0.7126 (4pm Sep 18/26) — more confidently sourced than yesterday's flagged-low-confidence 0.7014 — with the RBA holding at 4.35% (Aug/26) and forecasters split on the Sep 29/26 decision (NAB expects a hike to 4.60%, Westpac expects no hike this year). USD/MXN is newly read at 17.2333 (Banco de México's own daily rate, Sep 18/26) with Banxico holding at 6.50% (Aug 6/26) and its next decision due Sep 24/26 — five days from today. USD/KRW: no dated print found today despite repeated search (gap); the Bank of Korea's Aug 27/26 hike to 3.00% (second consecutive hike) is reconfirmed. USD/CAD: a fresher-but-still-not-current print of 1.39196 (Sep 15/26) was found, updating the previously carried Sep 13/26 read. Best 5-yr GIC in Canada: a Globe and Mail/WOWA piece (dated 'early September 2026') puts WealthOne at 4.30% as the top rate, with Oaken and Saven tied at 4.25% — this supersedes the Haventree 4.15% figure carried in this feed previously; the Haventree read may simply be stale. Manulife Strategic Income Fund: Series F MER 0.90% (Dec 31/25) is reconfirmed unchanged; AUM remains unresolved after three separate, mutually inconsistent readings across research runs — do not quote a Manulife AUM figure to advisors; a since-inception performance figure was newly found: Series F compound annual return of 2.5% from inception (Mar 31/16) to Mar 31/26 ($1,000 growing to $1,277), with a 3-year Morningstar rating of 2 stars as of Jul 31/26.",
+    "oneliner": "The Fed, the Bank of Japan and the Bank of Canada are now visibly diverging — Fed and BoJ both hiked this month while the BoC holds at 2.25% for a 7th straight meeting — a live, current case for a flexible, unconstrained global income mandate built for exactly this kind of cross-country rate split; meanwhile today's own research surfaced a real data-quality problem worth being upfront about — CCM5604's AUM, MER and YTD return each came back with numbers that contradict what this feed carried yesterday, so none of the three should be quoted to an advisor until confirmed directly against the fund's own Fund Facts.",
     "stats": [
       {
         "k": "AUM (fund-wide)",
-        "v": "$1.1B (Aug 31, 2026) — new snippet figure, up from ~$1.0B (Jun 30/26); as-of date via a fund-facts/financials PDF, not independently re-verified via primary fetch"
+        "v": "Unresolved — $1.1B (Aug 31/26, carried forward) vs. a newly-found ~$59.9M total-fund net-assets figure (period-end unclear, likely Sep 30/25) from a semi-annual financial statement; the two cannot both be right and neither is confirmed via direct fetch — do not quote either to advisors yet"
       },
       {
         "k": "NAV (Series F)",
-        "v": "C$9.76 (Sep 14, 2026) — carried forward, no fresher close found today (source blocked)"
+        "v": "C$9.76 — reconfirmed today via a second independent search, though still no explicit as-of date visible"
       },
       {
         "k": "YTD return (Series F)",
-        "v": "0.9% (as of Aug 28, 2026) — carried forward, not reconfirmed today"
+        "v": "Unresolved — 0.9% (carried forward, Aug 28/26) vs. a newly-found -0.17% (undated) found today; contradictory, do not quote either without a direct-source check"
       },
       {
-        "k": "Yield to maturity",
-        "v": "5.7% — new figure found today via snippet of an iA Clarington fund-facts/financials PDF; as-of date not visible in the snippet, treat as recent not same-day-confirmed"
+        "k": "Yield to maturity / duration / quality",
+        "v": "Yield to maturity 5.7%; average coupon 5.3%; modified duration 3.9 years; average term 4.3 years; average credit quality BBB+ — reconfirmed today via a second, independent search (as-of date still not visible in either snippet, but two independent reads now agree)"
       },
       {
-        "k": "Average coupon / duration / term",
-        "v": "Average coupon 5.3%; modified duration 3.9 years; average term 4.3 years — new figures found today, same caveat as yield to maturity above"
+        "k": "Geographic mix",
+        "v": "Canada 44.64%, US 41.05%, Global 8.99%, International 2.06%, Europe 1.50%, short-term/other 0.88%, Latin America 0.53%, Asia-Pacific 0.35% — new this run, as-of date not visible"
       },
       {
         "k": "MER",
-        "v": "0.84% (as of Mar 31, 2026), management fee 0.65% — new figure found today via snippet; not yet cross-checked against a second source"
+        "v": "Unresolved — 0.84% (carried forward, Mar 31/26, single-source) vs. today's search suggesting the series may not have a published MER yet (no MRFP filed) — treat as unconfirmed, do not quote to advisors"
       },
       {
         "k": "Sub-advisor",
-        "v": "Dan Janis (Daniel S. Janis III), CIO of Agile Investment Management LLC (his own firm, founded 2024 after leaving Manulife/John Hancock, where he ran Manulife Strategic Income); fund launched Oct 7, 2024"
+        "v": "Dan Janis (Daniel S. Janis III), CIO, with co-founder Kai Sotorp, at Agile Investment Management LLC (Janis's own firm, founded 2024 after leaving Manulife/John Hancock, where he ran Manulife Strategic Income); fund launched Oct 7, 2024. A USD purchase option (Series F USD, ticker CCM5612) has also been added to the Agile fund suite"
       },
       {
         "k": "Best 5-yr GIC (Canada)",
-        "v": "4.15% Haventree Bank (Ratehub) — carried forward, direct site fetch blocked again today"
+        "v": "WealthOne Bank at 4.30% (Globe and Mail/WOWA, early Sept 2026) — updates the previously carried Haventree Bank read of 4.15%, which now looks stale; Oaken and Saven tied for second at 4.25%"
       },
       {
         "k": "Bank of Japan policy rate",
-        "v": "1.25% (from 1.00%) — hiked 25bp Sep 18/26 on a 7-2 split vote, a 31-year high"
+        "v": "1.25% (from 1.00%) — hiked 25bp Sep 18/26 on a 7-2 split vote, a 31-year high; the shortest interval between hikes since 1990 (just 3 months after the prior move)"
       },
       {
         "k": "Fed funds rate (current)",
-        "v": "3.75%-4.00% — hiked 25bp on Sep 16/26, first hike since 2023"
+        "v": "3.75%-4.00% — hiked 25bp on Sep 16/26 (12-0 vote), first hike since 2023; Sept SEP dot plot median points to 4.00%-4.25% by year-end 2026"
       }
     ],
     "countries": [
@@ -179,35 +175,35 @@
         "lat": 56,
         "lon": -106,
         "weight": null,
-        "cb": "BoC holds at 2.25% — 7th consecutive hold, unchanged; next decision Oct 28/26, Macklem's next scheduled speech Sep 21 (Halifax)",
-        "fx": "USD/CAD last confirmed at ~1.38695 (Sep 13/26 reading); a new snippet today suggested ~1.42 but was flagged low-confidence/inconsistent with the prior print, so not adopted — treat USD/CAD as stale pending a reliable fresher read",
-        "note": "The broader US import ban on Canadian alcohol/motorcycles/dairy/molasses still takes effect Sep 29/26; no fresher tariff-specific news found today"
+        "cb": "BoC holds at 2.25% — 7th consecutive hold (decision Sep 2/26), Summary of Deliberations released Sep 16/26; next decision Oct 28/26",
+        "fx": "USD/CAD read at 1.39196 (Sep 15/26) — a fresher-but-still-not-current print than the previously carried Sep 13/26 level; no live Sep 19/26 quote available",
+        "note": "BoC flagged stronger upside inflation risk today, citing Middle East-driven energy prices and the breakdown in US-Canada trade talks; Q2 2026 growth showed a 'broad recovery'"
       },
       {
         "name": "United States",
         "lat": 39.8,
         "lon": -98.6,
         "weight": null,
-        "cb": "Fed holds at 3.75%-4.00% following Sep 16/26's 25bp hike — no fresh commentary found today beyond the already-known decision and dot plot",
-        "fx": "10-year Treasury yield remains above 5%, consistent with the post-hike read carried from Sep 16-17; no fresher same-day print found today",
-        "note": "The BoJ's own Sep 18/26 decision (hike to 1.25% on a surprising 7-2 split vote) is now the more actively moving story in the G10 rate complex"
+        "cb": "Fed hiked 25bp to 3.75%-4.00% on Sep 16/26 (12-0 vote), first hike since 2023; Sept SEP dot plot median 4.00-4.25% by year-end 2026, with 4 participants projecting two further hikes; next FOMC Oct 27-28/26 (no new SEP)",
+        "fx": "No fresher same-day Treasury or FX print found today beyond the post-hike read carried from Sep 16-17",
+        "note": "The Fed's hike was framed around elevated (energy-driven) inflation and resilient growth/productivity, not a soft economy — a genuine tightening move, not a risk-management cut"
       },
       {
         "name": "Australia",
         "lat": -25,
         "lon": 134,
         "weight": null,
-        "cb": "RBA holds cash rate at 4.35% (Aug/26); no fresher RBA-specific commentary found today",
-        "fx": "AUD/USD read today at approximately 0.7014 (down from the prior ~0.7167 read) — unconfirmed via primary source, flagged low-confidence given today's broader FX data-quality issues",
-        "note": "No fresher RBA commentary found today"
+        "cb": "RBA holds cash rate at 4.35% (Aug/26); next decision Sep 29/26 — forecasters split, NAB expects a hike to 4.60%, Westpac expects no hike this year",
+        "fx": "AUD/USD at 0.7126 (4pm Sep 18/26) — a more confidently-sourced read than the previously flagged low-confidence 0.7014 print",
+        "note": "The Sep 29/26 RBA decision is a genuine live catalyst — forecaster split gives a dated, two-sided talking point"
       },
       {
         "name": "South Korea",
         "lat": 35.9,
         "lon": 127.7,
         "weight": null,
-        "cb": "BoK holds at 3.00% after back-to-back hikes (Jul/Aug 26); no fresher policy commentary found today",
-        "fx": "USD/KRW read today at approximately 1,385.74 (up from 1,370.96 Sep 16/26) — unconfirmed via primary source, but directionally consistent with the continued won-weakening trend already carried here",
+        "cb": "BoK hiked 25bp to 3.00% on Aug 27/26 — a second consecutive hike, citing above-target inflation and housing/household-debt risk; 2026 growth forecast lifted to 3.3% from 2.6%",
+        "fx": "USD/KRW: no dated print found today despite repeated search — gap, [update me]",
         "note": "Direct read-through from the chip/AI supercycle in CCM9973 — the BoK has explicitly named that channel as an inflation risk"
       },
       {
@@ -215,68 +211,68 @@
         "lat": 36.2,
         "lon": 138.25,
         "weight": null,
-        "cb": "BoJ hiked 25bp to 1.25% today (Sep 18/26), a 31-year high, on a surprising 7-2 split vote (dissenters Asada and Sato, Takaichi-appointed reflationists, wanted a hold); core Aug inflation 1.7-1.9%; pace of hikes has quickened to ~3 months between moves versus 6 months previously",
-        "fx": "USD/JPY moved to ~156.64 (-0.45%) immediately post-decision — the yen weakened despite the hike, as the split vote and Governor Ueda's press conference disappointed hawks; 10-yr JGB yield fell 4.9bp to 2.947%",
-        "note": "Today's most decisive, multiply-confirmed G10 policy story — a hike that reads as dovish because of the vote count, not the rate itself"
+        "cb": "BoJ hiked 25bp to 1.25% on Sep 18/26, a 31-year high, on a 7-2 split vote (dissenters Asada and Sato, Takaichi-appointed reflationists, wanted a hold); the shortest gap between hikes since 1990 (3 months)",
+        "fx": "USD/JPY at 156.86-157.95 (Sep 18/26, +0.58% that session) — the yen weakened despite the hike, as the split vote and Governor Ueda's press conference disappointed hawks",
+        "note": "Still the most decisive, multiply-confirmed G10 policy story this week — a hike that reads as dovish because of the vote count, not the rate itself"
       },
       {
         "name": "Mexico",
         "lat": 23.6,
         "lon": -102.5,
         "weight": null,
-        "cb": "Banxico holds at 6.50%; no confirmed September 2026 meeting/decision found today",
-        "fx": "USD/MXN read today at approximately 17.34 (up from the prior ~16.98-17.1 range) — unconfirmed via primary source, flagged low-confidence given today's broader FX data-quality issues",
-        "note": "Oil's continued pullback this week (WTI/Brent both down a third straight session) would typically support the peso, so today's higher USD/MXN read is worth treating with caution pending a reliable source"
+        "cb": "Banxico holds at 6.50% (Aug 6/26, unanimous), extending a pause begun Jun 25/26; next decision Sep 24/26 — five days from today; analysts (Goldman Sachs via Reuters) expect a hold for the rest of 2026",
+        "fx": "USD/MXN at 17.2333 (Banco de México's own daily rate, Sep 18/26) — a more confidently-sourced, fresher print than the prior ~17.34 estimate",
+        "note": "The Sep 24/26 Banxico decision, alongside September's inflation flash and July's IGAE activity index (both releasing the same day), is a genuine near-term catalyst worth flagging"
       }
     ],
-    "basket": "Oil extended its pullback for a third straight session — WTI ~$100.04/bbl (-1.84%), Brent ~$102.41/bbl (-2.30%) — as the Saudi Aramco East-West pipeline repair story held unchanged (roughly half capacity restored within days via bypass, full repair still ~6 weeks out, sea-borne barrels bridging the gap); no new Hormuz/Iran escalation found today, and the Salalah, Oman meeting remains postponed with no new date. This lands the same day as the Bank of Japan's own surprising 7-2 split-vote hike to a 31-year-high 1.25% — a hike that weakened rather than strengthened the yen — giving a flexible, unconstrained global income mandate like Dan Janis's a genuinely live cross-current to trade around: falling oil, a G10 central bank hiking into currency weakness, and a Fed still digesting its own first hike since 2023.",
+    "basket": "No fresh oil-market data was returned by today's research; the previously carried read (WTI/Brent on a third straight down session as the Saudi Aramco East-West pipeline bypass-repair story held) is carried forward unconfirmed for today. What is freshly confirmed today is a genuine G10 policy divergence — Fed and BoJ both hiking this month while the BoC, RBA and Banxico all hold — plus a fresher, better-sourced FX picture across AUD, JPY and MXN and an updated best-in-Canada 5-year GIC read (WealthOne 4.30%). This gives a flexible, unconstrained global income mandate like Dan Janis's plenty of live cross-currents to trade around even without a fresh oil print today.",
     "signals": [
       {
-        "name": "BoJ hikes to a 31-year-high 1.25% on a surprising 7-2 split vote; yen weakens instead of strengthening",
-        "reading": "The BoJ raised its policy rate 25bp to 1.25% on Sep 18/26, matching the rate-level consensus, but the 7-2 vote (dissenters Asada and Sato, Takaichi-appointed reflationists, wanted a hold) surprised markets expecting near-unanimity; core Aug inflation ran 1.7-1.9%. The yen weakened to ¥156.64 (-0.45%) and the 10-yr JGB yield fell 4.9bp to 2.947%, as the split vote and Governor Ueda's press conference disappointed hawks expecting a stronger tightening signal",
-        "level": "BoJ rate 1.25% (from 1.00%), 7-2 vote; USD/JPY ~156.64 (-0.45%); 10yr JGB 2.947% (-4.9bp)",
-        "angle": "A textbook 'the vote mattered more than the rate' outcome — strong, current material for explaining why active positioning across G10 rate divergence beats a static ladder",
+        "name": "G10 policy divergence sharpens: Fed and BoJ hike, BoC/RBA/Banxico all hold",
+        "reading": "The Fed hiked to 3.75-4.00% on Sep 16/26 and the BoJ hiked to a 31-year-high 1.25% on Sep 18/26, while the Bank of Canada (2.25%, 7th hold), RBA (4.35%) and Banxico (6.50%) all remain on hold — a genuine, dated split in G10/G20 central bank direction this month",
+        "level": "Fed 3.75-4.00% (hiked); BoJ 1.25% (hiked); BoC 2.25%, RBA 4.35%, Banxico 6.50% (all held)",
+        "angle": "A clean, current illustration of why active positioning across diverging rate paths beats a static bond ladder or ETF benchmark right now",
         "tag": "LIVE"
       },
       {
-        "name": "Oil eases for a third straight session as the Aramco pipeline story holds",
-        "reading": "WTI fell to ~$100.04/bbl (-1.84%) and Brent to ~$102.41/bbl (-2.30%), a third consecutive down session, as Saudi Aramco's East-West pipeline bypass-repair story held unchanged from earlier in the week and no new Hormuz/Iran escalation was found",
-        "level": "WTI ~$100.04/bbl (-1.84%), Brent ~$102.41/bbl (-2.30%), Sep 18/26",
-        "angle": "A third straight down day gives a clean, dated trend line for the 'the supply-shock premium is fading, not building' conversation",
+        "name": "CCM5604 data-quality flag: AUM, MER and YTD each show unreconciled contradictions",
+        "reading": "Independent research today returned figures for AUM (~$59.9M vs. the $1.1B carried forward), MER (possibly not yet published vs. the 0.84% carried forward) and YTD return (-0.17% vs. the 0.9% carried forward) that could not be reconciled with what this feed has carried in prior runs",
+        "level": "Three separate figures in contradiction; none confirmed via direct fetch",
+        "angle": "An honest flag for the wholesaler: do not quote CCM5604's AUM, MER or YTD to an advisor until confirmed directly against the fund's own Fund Facts page — a direct site visit is needed to resolve this",
+        "tag": "SAMPLE"
+      },
+      {
+        "name": "Best 5-yr GIC in Canada updates to WealthOne at 4.30%",
+        "reading": "A Globe and Mail/WOWA piece (dated 'early September 2026') shows WealthOne Bank now leading Canada's 5-year GIC rates at 4.30%, with Oaken and Saven tied for second at 4.25% — an update to the Haventree Bank 4.15% figure this feed had been carrying",
+        "level": "WealthOne 4.30% (5-yr GIC, early Sept 2026)",
+        "angle": "Refreshed, sharper 'why not just buy a GIC' comparison point against CCM5604's own 5.7% yield-to-maturity figure",
+        "tag": "SAMPLE"
+      },
+      {
+        "name": "Banxico's next decision is five days away",
+        "reading": "Banco de México's next policy decision is Sep 24/26, alongside September's inflation flash and July's IGAE activity index — both releasing the same day; consensus (Goldman Sachs via Reuters) expects another hold at 6.50%",
+        "level": "Banxico decision Sep 24/26; hold at 6.50% expected",
+        "angle": "A concrete near-term date to flag to advisors watching the fund's EM/currency exposure",
         "tag": "LIVE"
-      },
-      {
-        "name": "CCM5604 discloses concrete portfolio metrics for the first time in this feed",
-        "reading": "A fund-facts/financials snippet surfaced yield to maturity 5.7%, average coupon 5.3%, modified duration 3.9 years and average term 4.3 years, alongside MER 0.84% (Mar 31/26) and fund-wide AUM $1.1B (Aug 31/26, up from ~$1.0B) — the first time this feed has had concrete portfolio-level figures for this fund rather than '[update me]' placeholders",
-        "level": "YTM 5.7%; duration 3.9yrs; MER 0.84%; AUM $1.1B (Aug 31/26)",
-        "angle": "Finally gives advisors a concrete yield/duration profile to compare directly against a GIC ladder or a competing income fund, rather than relying on the manager-pedigree story alone",
-        "tag": "SAMPLE"
-      },
-      {
-        "name": "Best 5-yr GIC (Canada) still 4.15%, unchanged",
-        "reading": "Ratehub's listed top 5-yr GIC remains Haventree Bank at 4.15% (not re-confirmed via direct fetch today, site blocked again)",
-        "level": "4.15% Haventree Bank",
-        "angle": "Direct talking point for the 'why not just buy a GIC' objection — now pairable with CCM5604's own 5.7% yield-to-maturity figure found today",
-        "tag": "SAMPLE"
       }
     ],
     "competitors": [
       {
         "comp": "Manulife Strategic Income Fund",
-        "theirMer": "0.90% Series F (as at Dec 31/25, incl. HST) — unchanged, the one solid figure amid an unresolved AUM picture",
-        "ourMer": "0.84% (Mar 31/26, management fee 0.65%) — new figure found today, not yet cross-checked against a second source",
-        "win": "The same story holds: Manulife Strategic Income's own long-time lead PM, Daniel S. Janis III, left Manulife/John Hancock to found Agile Investment Management in 2024 and now sub-advises CCM5604 directly — advisors can frame this as 'the same manager who built Manulife's flagship income fund now runs ours, with a fresher, more flexible mandate,' and today CCM5604 finally has its own MER/yield/duration figures to compare directly",
-        "vuln": "Manulife's MER (0.90%, unchanged) and much longer track record (inception 2005 vs. Oct 2024) remain real advantages; the AUM comparison is now more confused than ever — a third conflicting Manulife figure ($5.43B, Jul 31/26, flagged as having meaningful hallucination risk) surfaced today alongside the previously seen $386.1M and $5.58B readings, none reconciled to a specific series — do not quote any Manulife AUM figure to advisors without a direct-source check"
+        "theirMer": "0.90% Series F (Dec 31/25, incl. HST) — reconfirmed unchanged today",
+        "ourMer": "Unresolved this run (see stats above) — do not quote a CCM5604 MER to advisors until confirmed",
+        "win": "Manulife Strategic Income's own long-time lead PM, Daniel S. Janis III, left Manulife/John Hancock to found Agile Investment Management (with co-founder Kai Sotorp) in 2024 and now sub-advises CCM5604 directly — 'the same manager who built Manulife's flagship income fund now runs ours, with a fresher, more flexible mandate' remains a strong, evergreen pitch",
+        "vuln": "Manulife's MER (0.90%, unchanged, solid) and far longer track record remain real advantages; a newly-found Manulife since-inception figure (2.5% CAGR, Mar 31/16-Mar 31/26, $1,000→$1,277, 3-yr Morningstar rating 2 stars) gives a concrete, if modest, benchmark. Manulife's AUM remains unresolved after three mutually inconsistent readings across research runs — do not quote any Manulife AUM figure to advisors without a direct-source check"
       }
     ]
   },
   "CCM8752": {
-    "asof": "Verified online Sep 18, 2026 via web search (a near-total primary-fetch outage hit this session's network today: iaclarington.com, cdn01.iaclarington.com, cboe.com, cnbc.com, Yahoo Finance, investing.com, macrotrends, fred.stlouisfed.org, money.tmx.com, rpia.ca and even a neutral control domain were all blocked on every attempt, so nothing below is confirmed via a direct fetch). Today's research surfaced a genuine data-quality problem worth flagging rather than papering over: repeated VIX queries returned mutually contradictory intraday readings (15.41, 15.44, 16.04, 17.62) with no consistent source attribution, and a purported Sep 17 close of ~17.71 (+3%) directly contradicts this feed's own confirmed Sep 17 intraday read of ~17.05 — these look like search-synthesis artifacts rather than real quotes, so no new VIX level is being published this run; the last reliably sourced reading (~17.05, Sep 17/26 intraday) is carried forward with this caveat attached. Private-credit gating: several independent-looking snippets (Yahoo/PitchBook/AltsWire/Bloomberg/AlphaMaven) converge on Blackstone's BCRED seeing Q3 repurchase requests of roughly $4.3B (~10% of shares), still capped at its 5% ceiling, describing this as a 'third consecutive quarter' of elevated requests (Q1 ~7%, Q2 ~10%, Q3 ~10%) with net outflows near 3% of NAV after $750M in new subscriptions — this revises the 'second straight quarter' framing previously carried here, but one source was dated Sep 3/26, oddly early for a quarter that doesn't end until Sep 30, so the exact quarter-count framing should be treated as directionally consistent with the gating trend rather than fully authoritative; recommend independent verification before quoting the specific 'third consecutive quarter' framing to advisors. Blue Owl's OCIC/OTIC Q3 figures are not yet due (expected in October); the Q2 actuals (OCIC 18.8%, OTIC 38.1%, both vs 5% caps) remain the latest confirmed reading, reconfirmed via snippet today. Ares Strategic Income Fund's Q3 timeline surfaced a new snippet showing an Aug 31/26 NAV-posting date and a Sep 25/26 payment date, close to the previously carried Sep 25-29 window, but still no actual Q3 NAV or redemption percentage found. No fresh sleeve-specific news found for Picton Mahoney, RPIA/RP Alternative Global Bond or iAGAM Global Macro Advantage today beyond routine, unfetchable technical-analysis blog posts. Barclays' H2 2026 hedge fund survey (Market Neutral #1 at 29%, Global Macro #2 at 27%, 43% net allocators, $8.7T surveyed AUM) was independently reconfirmed today via a query hitting the actual Barclays page title — the single most solidly sourced item from today's research. CCM8752's own AUM ($176.81M), MER (1.89%) and iAGAM sleeve weight (21.16% of the pool), all dated Apr 30/26, resurfaced unchanged with no fresher Fund Facts vintage found; one new snippet described the iAGAM sleeve as 'about a quarter' of the pool, roughly consistent with but not an exact update to the 21.16% figure.",
-    "oneliner": "Today's research turned up a genuine data-quality warning worth passing along as-is: VIX readings from different queries contradicted each other and even contradicted yesterday's confirmed level, so no new VIX print is being published this run — a useful reminder that not every number that surfaces online is trustworthy, which is itself part of the pitch for an actively managed multi-sleeve alternative pool over a rules-based approach. Private-credit gating keeps recurring at Blackstone's BCRED (a third quarter of elevated, capped redemption requests, on a still-to-be-fully-confirmed cadence) while Barclays' survey reconfirms market-neutral and macro remain the two most in-demand hedge-fund strategies — exactly the pool's two lead sleeves.",
+    "asof": "Verified online Sep 19, 2026 via web search (iaclarington.com, cdn01.iaclarington.com, cboe.com, finance.yahoo.com, seekingalpha.com and even en.wikipedia.org were all blocked by the network egress proxy again today, so everything below is search-snippet level). CCM8752's own AUM, MER and trailing returns could not be found by today's dedicated search despite extensive attempts (a Fund Facts PDF at cdn01.iaclarington.com/fund_docs/fund_fact/FundFacts_4025_F_8752_EN.pdf was confirmed to exist but its contents remained unfetchable) — the $176.81M AUM and 1.89% MER figures below are carried forward from a prior run, not reconfirmed today, and should be treated with real caution until a direct fetch succeeds. A genuine launch-date discrepancy also surfaced: one search synthesis states the pool launched Nov 21, 2024, while iaclarington.com's own 'Introducing the IA Clarington Multi-Strategy Alternative Pool' insight post is dated Mar 5, 2025 — flagging both dates as unresolved. The biggest confirmed news today is a rebrand: Picton Mahoney has dropped 'Mahoney' from its fund names, now trading as 'PICTON' — the sleeve formerly called Picton Mahoney Fortified Market Neutral is now PICTON Market Neutral Equity Alternative Fund, and Fortified Income is now PICTON Long Short Income Alternative Fund. PICTON's September 2026 monthly distribution for the Long Short Income fund was announced this week at $0.0481/unit (GlobeNewswire, Sep 16-17/26), following $0.0562/unit in July and $0.0502/unit in March — firm-wide PICTON AUM is now reported at $20.0B (Aug 31/26). A contradiction surfaced on the Market Neutral fund's own AUM: $624.80M (May 29/26, one source) vs. 'approximately $3 billion across different share classes' (another source) — not reconciled, likely a series-vs-firm scope difference. VIX: today's research again hit contradictory readings (14.81-16.04 range across aggregators, none independently confirmed against Cboe.com directly, which remained blocked) — consistent with the same data-quality problem flagged in this feed yesterday; the honest read is a low, sub-16 volatility regime near S&P record highs, without a single trustworthy decimal print. Private-credit liquidity: Blackstone's BCRED saw Q3 2026 repurchase requests of $4.3B (~10% of shares), a third consecutive quarter of elevated demand (Q1 ~7%, Q2 ~10%, Q3 ~10%), still capped at its standard 5% ceiling, net outflows ~3% of NAV after $750M in new subscriptions — this time corroborated by a direct SEC EDGAR filing reference (sec.gov/Archives/edgar/data/1803498), which meaningfully raises confidence over yesterday's snippet-only read of the same story. Blue Owl's OCIC and OTIC (5% caps on both) show Q2 2026 requests easing from Q1's spike: OCIC to ~18.8% ($3.6B) from ~21.9%, OTIC to ~38.1% from ~40.7%/40.4%, attributed to AI-disruption fears in software holdings; OTIC reports $1.3B liquidity, nine times its tender obligation. Ares Capital (ARCC), by contrast, shows no gating — it is exchange-listed, not a non-traded BDC subject to tender mechanics; its 2026 news is routine debt-maturity management (a new commercial paper program, ~$6B liquidity, 1.10x leverage) and should not be conflated with the BCRED/Blue Owl liquidity-stress narrative. Barclays' H2 2026 hedge fund survey (340 investors, $8.7T AUM) was independently reconfirmed again today: Equity Market Neutral remains the #1 most sought strategy (29%), Global Macro #2 (27%), with 43% of investors expecting to be net allocators in H2 2026 (up from 37% in H2 2025) — the single most solidly-sourced item across both research runs. No CCM8752-specific news was found for RPIA's Alternative Global Bond sleeve or PG Partners Fund Access today beyond generic, undated marketing pages.",
+    "oneliner": "Picton Mahoney has rebranded to simply 'PICTON' across its fund lineup — a firm-level change touching two of this pool's five sleeves — while Blackstone's BCRED posted a third straight quarter of elevated, capped redemption requests (this time corroborated by an SEC filing), and Barclays' hedge fund survey again confirms market-neutral and global macro remain the two most in-demand strategies among institutional allocators — exactly the pool's two lead sleeves. VIX readings stayed contradictory across sources for a second straight day, so no single print is being published; the honest read is a low, sub-16 volatility regime.",
     "stats": [
       {
         "k": "AUM (Series F)",
-        "v": "$176.81M (Apr 30, 2026) — carried forward, not reconfirmed today (source blocked)"
+        "v": "$176.81M (Apr 30, 2026) — carried forward; an extensive search today could not confirm or find a fresher figure (source blocked)"
       },
       {
         "k": "MER",
@@ -284,40 +280,44 @@
       },
       {
         "k": "Series F inception",
-        "v": "Nov 21, 2024"
+        "v": "Nov 21, 2024 — carried forward; a conflicting iaclarington.com insight-post date (Mar 5, 2025) surfaced today and is unresolved"
       },
       {
         "k": "Number of sleeves",
-        "v": "5 (pool has grown beyond the original 4-sleeve structure — see sleeves list)"
+        "v": "5: PICTON Market Neutral, PICTON Long Short Income, iA Clarington Global Macro Advantage (iAGAM), RP Alternative Global Bond (RPIA), PG Partners Fund Access"
       },
       {
         "k": "Distribution policy",
         "v": "Monthly, fixed $/unit targeted at 4-6% of prior year-end series NAV, auto-reinvested unless cash requested"
       },
       {
-        "k": "VIX (last reliable read)",
-        "v": "~17.05 intraday (Sep 17, 2026) — carried forward; today's queries returned contradictory, unreliable readings (15.41-17.62 range with no consistent sourcing), so no new figure is being published this run"
+        "k": "VIX (regime read)",
+        "v": "Contradictory readings again today (14.81-16.04 range across sources, none confirmed directly against Cboe.com); best honest characterization is a low, sub-16 volatility regime near S&P record highs — no single decimal print is being published"
+      },
+      {
+        "k": "PICTON rebrand",
+        "v": "Picton Mahoney has dropped 'Mahoney' from its fund brand, now trading as 'PICTON'; firm-wide AUM $20.0B (Aug 31/26); Sept 2026 monthly distribution for the Long Short Income fund $0.0481/unit (announced Sep 16-17/26)"
       }
     ],
     "sleeves": [
       {
-        "name": "Picton Mahoney — Fortified Market Neutral",
+        "name": "PICTON — Market Neutral Equity Alternative Fund (formerly Picton Mahoney Fortified Market Neutral)",
         "role": "Long/short equity market-neutral",
         "weight": null
       },
       {
-        "name": "Picton Mahoney — Long Short Income (Fortified Income)",
-        "role": "Long/short credit income",
+        "name": "PICTON — Long Short Income Alternative Fund (formerly Picton Mahoney Fortified Income)",
+        "role": "Long/short credit income; Sept 2026 distribution $0.0481/unit (announced Sep 16-17/26), vs. $0.0562/unit in July and $0.0502/unit in March",
         "weight": null
       },
       {
         "name": "iA Clarington Global Macro Advantage (iAGAM)",
-        "role": "Global macro; the largest single sleeve — a semi-annual MRFP snippet put it at 21.16% of the pool as of Apr 30/26; a new snippet today loosely described it as 'about a quarter' of the pool, roughly consistent but not an exact update",
+        "role": "Global macro; the largest single sleeve — a semi-annual MRFP snippet put it at 21.16% of the pool as of Apr 30/26; a separate snippet loosely described it as 'about a quarter' of the pool, roughly consistent but not an exact update",
         "weight": 21.16
       },
       {
         "name": "RP Alternative Global Bond (RPIA)",
-        "role": "Alternative fixed income; fund-level AUM $3,329M (May/26) — not refreshed today; RPIA's own commentary references a Q2/26 'return of policy uncertainty' theme, source page blocked today, nothing dated today",
+        "role": "Alternative fixed income; RPIA's own commentary references a Q2/26 'return of policy uncertainty' theme tied to the Fed's shift away from forward guidance; firm AUM ~$21B (undated, marketing page)",
         "weight": null
       },
       {
@@ -338,13 +338,13 @@
       {
         "name": "Liquid alt sleeves",
         "items": [
-          "Picton Mahoney Market Neutral",
-          "Picton Mahoney Long Short Income",
+          "PICTON Market Neutral Equity Alternative Fund",
+          "PICTON Long Short Income Alternative Fund",
           "iAGAM Global Macro Advantage",
           "RP Alternative Global Bond"
         ],
         "tone": "good",
-        "note": "Exact redemption terms at the sleeve level not confirmed today"
+        "note": "Exact redemption terms at the sleeve level not confirmed today; sleeve names updated to reflect the Picton Mahoney → PICTON rebrand"
       },
       {
         "name": "Private-market exposure",
@@ -352,36 +352,43 @@
           "PG Partners Fund Access (PE / private credit / infrastructure / real estate)"
         ],
         "tone": "warn",
-        "note": "No CCM8752-specific gating reported. Industry backdrop: Blackstone's $77B BCRED reportedly saw a third consecutive quarter of elevated, capped (5%) redemption requests (~10% of shares, ~$4.3B, net outflows ~3% of NAV) — this specific quarter-count and figures are not fully confirmed today (contradictory source dating) and should be independently verified; Blue Owl's OCIC/OTIC Q2 actuals (18.8%/38.1% requested vs 5% caps) still stand as the latest confirmed reading, Q3 not yet due; Ares Strategic Income Fund's Q3 NAV/redemption data still not out (new snippet shows an Aug 31/26 posting date and Sep 25/26 payment date). Worth confirming this sleeve's specific gate terms with iA Clarington before positioning it as fully liquid"
+        "note": "No CCM8752-specific gating reported. Industry backdrop, now better sourced: Blackstone's BCRED saw a third consecutive quarter of elevated repurchase requests (~10% of shares, $4.3B, Q3 2026), still capped at 5%, net outflows ~3% of NAV — corroborated today by an SEC EDGAR filing reference; Blue Owl's OCIC/OTIC Q2 2026 requests eased from Q1's spike (OCIC ~18.8%/$3.6B, OTIC ~38.1%) but remain far above their 5% caps; Ares Capital shows no gating (it is exchange-listed, not a tender-based non-traded BDC). Worth confirming this sleeve's specific gate terms with iA Clarington before positioning it as fully liquid"
       }
     ],
     "signals": [
       {
-        "name": "VIX readings contradict each other today — no new figure published, a live lesson in data quality",
-        "reading": "Multiple queries for today's VIX level returned mutually contradictory numbers (15.41, 15.44, 16.04, 17.62) with no consistent source attribution, and a purported Sep 17 close of ~17.71 directly contradicts this feed's own confirmed Sep 17 intraday read of ~17.05. Rather than publish an unreliable number, this run carries forward the last solidly sourced read (~17.05, Sep 17/26) with the caveat attached",
-        "level": "No reliable Sep 18/26 VIX print found; last confirmed read ~17.05 (Sep 17/26 intraday)",
-        "angle": "An honest, transparent data-quality flag is itself a talking point — illustrates why an actively managed, multi-sleeve pool with real due diligence beats mechanically trusting whatever number shows up first in a search",
+        "name": "VIX readings remain contradictory for a second straight day",
+        "reading": "Today's research again returned mutually inconsistent VIX levels (14.81 to 16.04 across different aggregators) with no source that could be directly confirmed against Cboe.com (blocked). Rather than publish an unreliable single print, this run characterizes the regime only as low, sub-16, near S&P record highs",
+        "level": "No reliable single Sep 19/26 VIX print found; regime read as low/sub-16",
+        "angle": "A second straight day of this data-quality issue is itself worth mentioning to advisors — a reminder that headline volatility numbers found via quick search aren't always trustworthy, part of the case for active, diligenced management over a mechanical rules-based approach",
         "tag": "SAMPLE"
       },
       {
-        "name": "Blackstone's BCRED reportedly gates for a third straight quarter",
-        "reading": "Several independent-looking snippets converge on Q3 repurchase requests of roughly $4.3B (~10% of shares) at Blackstone's $77B BCRED, still capped at 5%, described as a third consecutive quarter of elevated requests (Q1 ~7%, Q2 ~10%, Q3 ~10%) with net outflows near 3% of NAV after $750M in new subscriptions. One key source is dated Sep 3/26 — oddly early for Q3 data given the quarter doesn't end until Sep 30 — so the specific quarter-count framing needs independent verification before it's treated as settled",
-        "level": "BCRED Q3 requests ~$4.3B (~10% of shares) vs. 5% cap — reported as a third straight quarter, not fully confirmed",
-        "angle": "If confirmed, three consecutive quarters of gating on the same terms strengthens the 'this is structural, not a one-off' argument for daily liquidity — worth a follow-up check before using the 'third quarter' framing with advisors",
-        "tag": "SAMPLE"
+        "name": "Picton Mahoney rebrands to 'PICTON' across its fund lineup",
+        "reading": "Picton Mahoney has dropped 'Mahoney' from its retail alternative fund brand, now trading simply as 'PICTON' — confirmed via recent monthly distribution announcements (GlobeNewswire, Sep 16-17/26) which cite firm-wide PICTON AUM of $20.0B as of Aug 31/26",
+        "level": "Firm-wide rebrand confirmed; PICTON AUM $20.0B (Aug 31/26)",
+        "angle": "Worth a heads-up to advisors so they recognize the new fund names on statements and fact sheets — two of this pool's five sleeves are affected",
+        "tag": "LIVE"
       },
       {
-        "name": "Barclays' H2 2026 survey reconfirmed: market-neutral and macro remain the two most in-demand strategies",
-        "reading": "Barclays' survey of 340 investors representing $8.7T in AUM was independently reconfirmed today via a query hitting the actual Barclays page title: 43% expect to be net allocators to hedge funds in H2 2026, Equity Market Neutral remains the most sought-after strategy (29% investor interest), Global Macro second (27%)",
-        "level": "Market Neutral #1 (29%), Global Macro #2 (27%) investor interest; 43% net allocators, $8.7T surveyed AUM",
-        "angle": "The most solidly sourced item from today's research — continued third-party validation that CCM8752's two lead sleeves sit in exactly the categories institutional allocators say they want most right now",
+        "name": "Blackstone's BCRED: a third straight quarter of elevated, capped redemption requests, now SEC-corroborated",
+        "reading": "BCRED's Q3 2026 repurchase requests were $4.3B (~10% of shares), still capped at the standard 5% quarterly ceiling, net outflows ~3% of NAV after $750M in new subscriptions — this run found a direct SEC EDGAR filing reference for the figures, raising confidence materially over yesterday's snippet-only version of this story",
+        "level": "BCRED Q3 requests $4.3B (~10% of shares) vs. 5% cap; third consecutive quarter (Q1 ~7%, Q2 ~10%, Q3 ~10%)",
+        "angle": "Now on firmer sourcing footing — three consecutive quarters of gating on the same terms is a strong, defensible 'this is structural, not a one-off' argument for daily liquidity vs. private-credit BDCs",
+        "tag": "LIVE"
+      },
+      {
+        "name": "Barclays' H2 2026 survey reconfirmed again: market-neutral and macro remain the two most in-demand strategies",
+        "reading": "A second independent search today reconfirmed Barclays' H2 2026 Hedge Fund Investor Survey (340 investors, $8.7T AUM): Equity Market Neutral #1 (29% investor interest), Global Macro #2 (27%), 43% of investors expecting to be net allocators in H2 2026 (up from 37% in H2 2025)",
+        "level": "Market Neutral #1 (29%), Global Macro #2 (27%); 43% net allocators (up from 37%), $8.7T surveyed AUM",
+        "angle": "Reconfirmed across two separate research passes — the strongest, most durable third-party validation in this feed that CCM8752's two lead sleeves sit exactly where institutional demand is concentrated",
         "tag": "LIVE"
       }
     ]
   },
   "ELITE": {
-    "asof": "Verified online Sep 18, 2026 via web search (iaclarington.com, newswire.ca, iaconnected.ia.ca and wealthprofessional.ca were all blocked on every attempt today, so everything below is search-snippet level, not a primary-fetch confirmation). The Tej Rai/Alex Bellefleur segregated-funds handover story moved forward, though still short of full confirmation: a new page not seen in prior research — titled 'Segregated funds | Portfolio manager changes now in effect' — surfaced on iaconnected.ia.ca, distinct from the earlier forward-looking 'Change of portfolio managers' notice; the title itself strongly implies the Sep 14/26 handover (4 segregated funds, external managers to Tej Rai/Alex Bellefleur's iAGAM Asset Allocation team, funds renamed, MER expected to decrease, category/risk/objectives unchanged) has now taken effect. However, the page itself remained blocked to direct fetch, so this is the strongest signal yet rather than a settled fact — still worth a direct-browser follow-up when network access allows. No new iA Clarington press release found (most recent remains the Aug 24/26 Active ETF Series distribution announcement, paid Sep 10/26); the Elite Pools & Unified Portfolios Advisor Lunch & Learn events (Sep 22 Ajax/Markham, Sep 23 London, Sep 24 Kitchener, Sep 25 Oakville) remain scheduled, unchanged. On Loomis Sayles: the two Alpha Engine Perspectives pieces flagged yesterday are now identified by title — a Sep 1/26 piece, 'Pursuing Consistent SMID Growth Returns,' on long-term compounding via SMID growth companies, and a Sep 14/26 monthly review covering performance, exposures, and EM credit/FX regime commentary (exact title/URL not resolved) — but full body text of both remains unretrieved via search snippet; a direct WebFetch of loomissayles.com would be needed to extract actual commentary content for an advisor conversation. On PIMCO: no update beyond the Sep 4-5/26 Emmanuel Sharef/PIMCO 60/40 Balanced Income and Growth Fund Asia-rotation story (~$19B AUM, ~60% of equity allocation in Samsung/SK Hynix/TSMC, underweight 'Magnificent Seven'/hyperscalers, beat 97% of peers over 3 years). The macro backdrop feeding all three sub-advisors' positioning sharpened further today: the Bank of Japan hiked 25bp to a 31-year-high 1.25% on a surprising 7-2 split vote (dissenters Asada and Sato, Takaichi-appointed reflationists, wanted a hold), with the yen weakening to ¥156.64 (-0.45%) rather than strengthening — a live, current test of how PIMCO's Asia-heavy positioning and Loomis Sayles's EM/FX regime commentary hold up against an unexpectedly divided G10 central bank. On tariffs: no new development found; the Sep 29/26 outright import ban on Canadian dairy, alcohol and motor vehicles (replacing the 50% Section 338 tariff on those goods, no USMCA exemption) remains on track, confirmed via legal-analysis sources with no news today of a delay or court challenge outcome. iA Clarington overall AUM (>$26B, Jul 31/26) and iAGAM firm-wide AUM ($156B, Jun 30/26) both carried forward unchanged, no fresher figures found today.",
-    "oneliner": "The strongest signal yet that the Tej Rai/Alex Bellefleur segregated-funds handover has completed surfaced today — a new advisor-portal page titled 'now in effect,' though still not independently confirmed via a direct fetch — while the Bank of Japan's own surprising 7-2 split-vote hike to a 31-year-high 1.25% (yen weakening, not strengthening) becomes a live, current test of PIMCO's Asia-heavy positioning inside the Elite Pools, and Loomis Sayles has published its first new commentary since early August.",
+    "asof": "Verified online Sep 19, 2026 via web search (iaclarington.com, newswire.ca, iaconnected.ia.ca, loomissayles.com, pimco.com, stockhouse.com and wealthprofessional.ca were all blocked by the network egress proxy again today, so everything below is search-snippet level). A new iA Clarington Active ETF launch is confirmed for Sep 18/26: a market-open ceremony was held at the TSX for a new International Multifactor Equity ETF Series — though sources disagree on the exact ticker (Stockhouse/Kalkine say IIME, while one Yahoo Finance headline reads 'IMFE & ITIN' for the same event) — this needs a direct TSX-listing check before quoting a ticker to advisors. The underlying mutual fund (iA Clarington International Multifactor Equity Fund) reportedly launched Jul 27/26, run by iAGAM using a quantitative, 20+ factor momentum/quality/value strategy. The Tej Rai/Alex Bellefleur segregated-funds handover story is now corroborated by a second, independent research pass: an iaconnected.ia.ca advisor-portal page describing the Sep 14/26 handover of four segregated funds from external sub-advisors to iAGAM's Asset Allocation team (funds renamed, category/risk/objectives unchanged, MER reportedly decreasing) was found again today, though its full content remains unconfirmed via direct fetch — call this the strongest-yet, but still not fully primary-sourced, signal that the handover has completed. On PIMCO: no new September commentary was found; the material on file is PIMCO's earlier 2026 outlook pieces (APAC Market Outlook, Charting the Year Ahead, Rupture and Resilience) and a structural detail newly confirmed — PIMCO's Monthly Income Fund (Canada) makes up roughly 30% of iA Clarington's Elite Core Plus Global Fixed Income Pool. The previously-carried Emmanuel Sharef/PIMCO 60/40 Balanced Income and Growth Fund Asia-rotation story (~$19B AUM, ~60% equity allocation in Samsung/SK Hynix/TSMC) was not reconfirmed today and should be treated as carried-forward background, not fresh news. Loomis Sayles' Alpha Engine Perspectives commentary now has more precisely dated titles: 'Pursuing Consistent SMID Growth Returns' (Sep 1/26), a late-cycle credit thesis piece (Aug 25/26), and a piece questioning market complacency (Jul 28/26) — no Sep 14/26 piece was found this time, so that title from a prior run may have been miscited; treat it as superseded. On tariffs: today's research surfaces a more concrete, already-in-effect escalation than the 'Sep 29/26 ban' this feed had been carrying — a US 50% tariff on $27.6B of Canadian goods took effect Aug 22/26, Canada retaliated with 15/25/50% counter-tariffs on 700+ US product categories effective Sep 8/26 (steel & aluminum, dairy, appliances, ag equipment, pulp & paper, plastics, electronics), and Ottawa announced a $5.42B CAD support package for affected SMEs/workers. It is not yet clear whether the previously carried Sep 29/26 outright import ban (replacing a 50% Section 338 tariff on dairy/alcohol/vehicles) is the same escalation described differently or a further, still-pending step — both are carried here pending reconciliation. iA Clarington's overall AUM (>$26B, Jul 31/26) and iAGAM's firm-wide AUM ($156B, Jun 30/26) both carried forward unchanged, no fresher figures found today. The four Elite Pools & Unified Portfolios Advisor Lunch & Learn events (Sep 22 Ajax/Markham, Sep 23 London, Sep 24 Kitchener, Sep 25 Oakville) remain on the calendar, now 3-6 days away.",
+    "oneliner": "iA Clarington opened a new Active ETF on the TSX this week (ticker still unresolved between two conflicting sources) while the Tej Rai/Alex Bellefleur segregated-funds handover to iAGAM keeps getting corroborated without yet being fully primary-confirmed; the bigger dated story for Canadian advisors is the trade war, which has moved from threat to action — a 50% US tariff on $27.6B of Canadian goods (Aug 22/26) and Canada's 700-category retaliation (Sep 8/26) are both now in effect, with a $5.42B federal support package already announced — a live, current backdrop for every Elite Pool sub-advisor's positioning.",
     "stats": [
       {
         "k": "iA Clarington overall AUM",
@@ -394,52 +401,49 @@
       {
         "k": "iAGAM asset mix (Mar 31, 2026)",
         "v": "Public Debt $59B / Public Equity $51B / Other $46B combined (Private Debt $5B, Commercial Mortgages $7B, Private Equity $3B, Real Estate $2B, Other $19B) — carried forward"
+      },
+      {
+        "k": "New Active ETF launch",
+        "v": "TSX market-open ceremony Sep 18/26 for a new International Multifactor Equity ETF Series; ticker unresolved between IIME (Stockhouse/Kalkine) and IMFE (one Yahoo headline) — verify before quoting to advisors"
       }
     ],
     "signals": [
       {
-        "name": "Tej Rai/Alex Bellefleur segregated-funds handover: strongest signal yet it has completed, still not fully confirmed",
-        "reading": "A new iaconnected.ia.ca advisor-portal page titled 'Segregated funds | Portfolio manager changes now in effect' surfaced today, distinct from the earlier forward-looking notice — strongly implying the Sep 14/26 handover of 4 segregated funds from external managers to iAGAM's Asset Allocation team (Tej Rai, Alex Bellefleur) has completed. The page itself remained blocked to direct fetch today, so this is the strongest signal found so far rather than a settled fact",
-        "level": "New 'now in effect' page found (title only, Sep 18/26); page content still unconfirmed via direct fetch",
-        "angle": "Advisors can now be told 'the portal itself is titled as in effect,' a materially stronger statement than yesterday's 'still pending' — worth a direct-browser check to fully close this out",
+        "name": "Trade war moves from threat to action: tariffs and counter-tariffs now in effect",
+        "reading": "A US 50% tariff on $27.6B of Canadian goods took effect Aug 22/26; Canada's retaliatory 15/25/50% counter-tariffs on 700+ US product categories (steel & aluminum, dairy, appliances, ag equipment, pulp & paper, plastics, electronics) took effect Sep 8/26; Ottawa announced a $5.42B CAD support package for affected SMEs and workers. It remains unresolved whether the separately-carried Sep 29/26 outright import ban (dairy/alcohol/vehicles) is a further step or the same story described differently",
+        "level": "US 50% tariff on $27.6B Canadian goods (Aug 22/26, in effect); Canada's 15/25/50% counter-tariffs on 700+ categories (Sep 8/26, in effect); $5.42B CAD federal support package",
+        "angle": "The trade conflict is no longer hypothetical for Canadian advisors' clients — concrete, dated, sector-specific tariffs are already live, a strong current-events hook for a portfolio-positioning conversation across all four mandates",
         "tag": "LIVE"
       },
       {
-        "name": "Bank of Japan's surprising split-vote hike becomes a live test for PIMCO and Loomis Sayles positioning",
-        "reading": "The BoJ hiked 25bp to 1.25% (31-year high) on a 7-2 split vote, with the yen weakening to ¥156.64 (-0.45%) rather than strengthening — a live, current test of PIMCO's Asia-heavy positioning (Emmanuel Sharef's fund has ~60% of equity allocation in Samsung/SK Hynix/TSMC) and Loomis Sayles's EM credit/FX regime commentary inside the Elite Pools",
-        "level": "BoJ rate 1.25% (7-2 vote); USD/JPY ~156.64 (-0.45%)",
-        "angle": "A concrete, dated reason to proactively raise how the Elite Pools' Asia-exposed sub-advisor sleeves are positioned for a G10 central bank that just proved less unified than expected",
+        "name": "Tej Rai/Alex Bellefleur segregated-funds handover corroborated again, still short of full confirmation",
+        "reading": "A second, independent research pass again found the iaconnected.ia.ca advisor-portal page describing the Sep 14/26 handover of four segregated funds from external managers to iAGAM's Asset Allocation team (Tej Rai, Alex Bellefleur) — funds renamed, category/risk/objectives unchanged, MER reportedly decreasing — but the page's full content remains unconfirmed via direct fetch",
+        "level": "Handover story reconfirmed across two independent runs (Sep 18 and Sep 19/26); still not primary-source verified",
+        "angle": "Advisors can be told this is now a twice-corroborated story, materially stronger than a single-source rumor, though the exact fund names and MER change still need a direct-browser check before being quoted precisely",
         "tag": "LIVE"
       },
       {
-        "name": "Loomis Sayles publishes new Alpha Engine Perspectives commentary, titles now identified",
-        "reading": "The two pieces newer than the previously-known Aug 4/26 Municipal Sector Outlook are now identified by title: a Sep 1/26 piece, 'Pursuing Consistent SMID Growth Returns,' and a Sep 14/26 monthly review covering performance, exposures, and EM credit/FX regime commentary. Full body text of both remains unretrieved via search snippet",
-        "level": "Confirmed titles: 'Pursuing Consistent SMID Growth Returns' (Sep 1/26); an EM credit/FX regime monthly review (Sep 14/26)",
-        "angle": "First sign of Loomis Sayles publishing anything since early August, now with confirmed titles — worth pulling the full pieces directly from loomissayles.com/insights before the next advisor conversation",
+        "name": "Loomis Sayles commentary titles more precisely dated",
+        "reading": "Alpha Engine Perspectives pieces are now confirmed as: 'Pursuing Consistent SMID Growth Returns' (Sep 1/26), a late-cycle credit-thesis piece (Aug 25/26), and a piece on market complacency (Jul 28/26) — a previously-carried claim of a Sep 14/26 monthly review was not found again today and should be treated as superseded/unconfirmed",
+        "level": "Confirmed titles/dates: Sep 1/26, Aug 25/26, Jul 28/26 — no Sep 14/26 piece found this run",
+        "angle": "Worth pulling the Sep 1/26 SMID growth piece directly from loomissayles.com for an advisor conversation once site access allows",
         "tag": "LIVE"
       },
       {
-        "name": "Tariff war: Sep 29 import ban still on track, no new development",
-        "reading": "The outright U.S. import ban on Canadian dairy, alcohol and motor vehicles (replacing the 50% Section 338 tariff on those goods, no USMCA exemption) remains on track for Sep 29/26, confirmed via legal-analysis sources with no news today of a delay or court challenge outcome",
-        "level": "Import ban still effective Sep 29/26; no change today",
-        "angle": "Useful to reconfirm with advisors that the bigger escalation is still 11 days out, not deferred — keeps the trade-conflict narrative current without overstating today's news",
+        "name": "PIMCO's role in the Elite Core Plus Global Fixed Income Pool clarified",
+        "reading": "PIMCO's Monthly Income Fund (Canada) is confirmed to make up roughly 30% of iA Clarington's Elite Core Plus Global Fixed Income Pool, per a fund-profile document — a concrete structural detail not previously on file in this feed",
+        "level": "PIMCO Monthly Income Fund (Canada) ≈ 30% of the Elite Core Plus Global Fixed Income Pool",
+        "angle": "A precise, quotable structural fact for advisors asking exactly how much PIMCO exposure sits inside the Elite Pools' fixed income sleeve",
         "tag": "LIVE"
       },
       {
-        "name": "PIMCO's Asia-rotation story holds, no fresh update",
-        "reading": "The Emmanuel Sharef/PIMCO 60/40 Balanced Income and Growth Fund Asia-rotation story (~$19B AUM, ~60% of equity allocation now Samsung/SK Hynix/TSMC) still traces to Sep 4-5/26 reporting, nothing newer found today",
-        "level": "PIMCO 60/40 Balanced Income and Growth Fund, ~$19B AUM, ~60% Asia-linked equity allocation (unchanged)",
-        "angle": "Still the most concrete, named example of how PIMCO is trading the AI/geopolitical crosscurrents inside the Elite Pools, now made more topical by today's BoJ surprise",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Elite Pools & Unified Portfolios Advisor Lunch & Learn events scheduled",
-        "reading": "iA Clarington's Elite Pools & Unified Portfolios Advisor Lunch & Learn events remain scheduled for Sep 22 (Ajax, Markham), Sep 23 (London), Sep 24 (Kitchener) and Sep 25 (Oakville), 2026",
-        "level": "4 Ontario events, Sep 22-25/26",
-        "angle": "A concrete, near-term opportunity to bring advisors into a room on the Elite Pools story — worth flagging directly to advisors in those regions",
+        "name": "Elite Pools & Unified Portfolios Advisor Lunch & Learn events now days away",
+        "reading": "iA Clarington's four Ontario Lunch & Learn events remain scheduled for Sep 22 (Ajax, Markham), Sep 23 (London), Sep 24 (Kitchener) and Sep 25 (Oakville), 2026 — now 3-6 days out",
+        "level": "4 Ontario events, Sep 22-25/26, imminent",
+        "angle": "A concrete, near-term opportunity to bring advisors into a room on the Elite Pools story before the week is out",
         "tag": "LIVE"
       }
     ],
-    "compositionNote": "Elite Pools & Unified Portfolios continue to draw on PIMCO, Loomis Sayles and iAGAM as sub-advisors. The structural change at iAGAM — the Asset Allocation team led by Tej Rai and Alex Bellefleur taking over four segregated funds from external managers, effective Sep 14/26 (funds renamed, category/risk/objectives unchanged, MER expected to decrease) — now shows its strongest signal of completion yet: a newly found iaconnected.ia.ca advisor-portal page is titled 'Portfolio manager changes now in effect,' though the page itself remains unconfirmed via direct fetch. On the PIMCO side, the Emmanuel Sharef/PIMCO 60/40 Balanced Income and Growth Fund Asia-rotation story (~$19B AUM, ~60% of equity allocation now Samsung/SK Hynix/TSMC, rotating out of 'Magnificent Seven' US tech) remains the most concrete, current example of sub-advisor positioning, unchanged since Sep 4-5/26 reporting, and is now more topical given today's Bank of Japan surprise. Loomis Sayles has newly published Alpha Engine Perspectives commentary — 'Pursuing Consistent SMID Growth Returns' (Sep 1/26) and an EM credit/FX regime monthly review (Sep 14/26) — its first activity since the Aug 4/26 Municipal Sector Outlook, though full text still needs to be pulled directly. The broader backdrop sharpened again today: the Bank of Japan hiked 25bp to a 31-year-high 1.25% on a surprising 7-2 split vote, weakening the yen rather than strengthening it, a live current test for both PIMCO's Asia-heavy allocation and Loomis Sayles's EM/FX regime views. The Section 338/Canada tariff conflict remains on track for its next escalation — the outright import ban on Canadian dairy/alcohol/motor vehicles still set for Sep 29/26, no new development today. iA Clarington's overall AUM (>$26B, Jul 31/26) and iAGAM's firm-wide AUM ($156B, Jun 30/26) were both carried forward unchanged. iA Clarington has also scheduled four Elite Pools & Unified Portfolios Advisor Lunch & Learn events across Ontario, Sep 22-25/26."
+    "compositionNote": "Elite Pools & Unified Portfolios continue to draw on PIMCO, Loomis Sayles and iAGAM as sub-advisors, with a newly-confirmed structural detail that PIMCO's Monthly Income Fund (Canada) makes up roughly 30% of the Elite Core Plus Global Fixed Income Pool. The Tej Rai/Alex Bellefleur handover of four segregated funds to iAGAM's Asset Allocation team (effective Sep 14/26) is now corroborated across two independent research passes, though still not confirmed via a direct primary-source fetch. Loomis Sayles' Alpha Engine Perspectives commentary is now more precisely dated (Sep 1, Aug 25 and Jul 28/26 pieces), while the previously-carried PIMCO Asia-rotation story (Emmanuel Sharef's 60/40 fund, ~60% equity allocation in Samsung/SK Hynix/TSMC) was not reconfirmed today and should be treated as background rather than current news. The most consequential development for the broader iA Clarington shelf this week is the Canada-US trade war moving from threat to action: a US 50% tariff on $27.6B of Canadian goods took effect Aug 22/26, Canada's retaliatory tariffs on 700+ US product categories took effect Sep 8/26, and a $5.42B CAD federal support package has been announced — a live, dated backdrop against which every sub-advisor's positioning can now be discussed concretely rather than hypothetically. iA Clarington also opened a new Active ETF on the TSX Sep 18/26 (International Multifactor Equity, ticker unresolved between IIME and IMFE across sources). iA Clarington's overall AUM (>$26B, Jul 31/26) and iAGAM's firm-wide AUM ($156B, Jun 30/26) were both carried forward unchanged. The four Elite Pools & Unified Portfolios Advisor Lunch & Learn events across Ontario are now 3-6 days away (Sep 22-25/26)."
   }
 }
