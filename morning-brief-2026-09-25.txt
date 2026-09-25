@@ -1,0 +1,25 @@
+TerritoryIQ Morning Brief — Friday, September 25
+
+WHAT CHANGED
+Nothing. Today's feed file is byte-identical to yesterday's revision (stamp 2026-09-24-1009) — no new pull landed this morning, so every angle below is carried forward from Sep 24.
+
+TODAY'S SIGNAL ANGLES
+
+[ELITE · LIVE] Montreal advisor conference confirmed — Sep 30-Oct 1/26, Marriott Château Champlain
+Angle: Advisor-only, English, first-come-first-served (NI 81-105 travel-expense disclosure applies). Bookable now — call your Montreal relationships today. Mont-Tremblant (Oct 15-16/26) still unconfirmed.
+
+[CCM9973 · LIVE] Fidelity Global Innovators MER resolved — Series F 1.10%, not 2.23%
+Angle: The 2.23% was Fidelity's Series B (Nov 30/25), not the right comparator. Like-for-like we're 1.18% vs 1.10% — near parity today, and the Mar 10/26 fee cut (mgmt 1.00%->0.45%, admin 0.16%->0.13%) should put us below once published. Don't quote a forward MER — not published yet.
+
+[CCM8752 · LIVE] Private-credit gating broadens — Fitch default rate 6.3% (Aug/26, a record)
+Angle: Apollo capped 11.2%-of-NAV requests at 5%; Ares capped after 11.6%; 53 listed BDCs collectively unprofitable in Q1/26. No longer a BCRED-only story — the strongest case yet for a daily-liquidity wrapper. For any advisor holding illiquid alts.
+
+[ELITE · LIVE] QV Canadian Small Cap — new lead PM Amit Shah, effective Jul 3/26
+Angle: Steven Kim departed QV; Shah continues alongside Derek Nichol and CIO Mathew Hermary. A proactive heads-up beats a client asking first.
+
+[CCM5604 · LIVE] Fed dot plot — 16 of 18-19 expect at least one more hike; ~54% odds on Oct 27-28/26
+Angle: Fed funds 3.75%-4.00% after the Sep 16 hike. For clients asking whether the cycle is done — argues for a flexible-duration mandate over locking in.
+
+WORTH KNOWING
+- Manulife Strategic Income Series F: 10-yr annualized 2.5% (to Mar 31/26), 2-star Morningstar (3- and 5-yr, Jul 31/26). Useful if a client raises Manulife's tenure — and Dan Janis, who built it, now sub-advises CCM5604.
+- CCM5604's yield/duration stats (YTM 5.7%, duration 3.9 yrs) are flagged unverified in the feed — may trace to an unrelated iA document. Hold off quoting them.
