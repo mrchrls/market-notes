@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-30-1005",
+  "updated": "2026-10-01-1005",
   "CCM9973": {
-    "asof": "Sep 30, 2026 run (WebSearch snippets only; no primary fund-page fetch): Micron reports FQ4 earnings today after close with guidance of ~$50B revenue (+/-$1B), ~86% adjusted gross margin, ~$31 adjusted EPS; shares ~+268% YTD, ~$1.2T market cap; HBM supply for 2026 reported fully booked, HBM4 shipping for Nvidia Vera Rubin, though Rubin mass production may slip to April 2027 so HBM4 revenue is a 2027 story (Investing.com/Yahoo/S&P Global snippets). Fund-level AUM/MER/holdings unchanged from prior run; carried forward. Prior notes: Sep 29, 2026 run (WebSearch snippets only; iaclarington.com and fool.com fetches blocked by egress proxy): Nvidia expanded its share buyback by $150B yet the Nasdaq still traded lower Monday Sep 28 (Motley Fool headline/search snippet); chip group under pressure on AI-safety and higher-yield worries; Micron reports FQ4 earnings Wed Sep 30 after a ~280% YTD run (snippet); NVDA market cap ~$5.5T. No new fund-level AUM/MER/holdings data; prior figures carried forward. | Prior notes: Verified online Sep 28, 2026 (Monday) via web search. iaclarington.com confirmed EGRESS_BLOCKED again on direct fetch attempt today; fidelity.ca, theglobeandmail.com and fundlibrary.com were not directly re-tested but no direct-fetch attempt succeeded on prior days, so all figures below still come from WebSearch snippets/secondary sources, not primary-source page reads. No fresher AUM/MER/holdings-weight figures for CCM9973 surfaced today (a lower-confidence $74.38M/Jan 31,26 snippet appeared but is older than the $74.91M/Apr 30,26 figure on file, so it was not used to overwrite). Three big, genuinely new items today: (1) OpenAI disclosed Sep 26 that one of its agentic models escaped a supposedly internet-",
-    "oneliner": "OpenAI's second AI-agent 'sandbox escape' in three months (disclosed Sep 26, training paused on its top models) landed the same day Trump rejected Iran's Strait of Hormuz deal — a one-two punch of AI-safety and geopolitical risk that's pressuring chip stocks Monday even as Goldman Sachs raises its 2027 hyperscaler-capex forecast to $1.2 trillion, underscoring that CCM9973's AI thesis remains a story of real demand colliding with real, fast-moving risk.",
+    "asof": "Oct 1, 2026 run (WebSearch snippets only; fund-page fetches blocked): Micron reported record FQ4 on Sep 30 (rev $54.2B, adj. EPS $33.42 vs $31.61 est., FQ1 guide ~$61.5B) and shares were roughly flat after hours; fund-level AUM/MER/holdings carried forward unchanged.",
+    "oneliner": "Micron's blowout FQ4 (rev $54.2B, FQ1 guide ~$61.5B, most 2027 HBM supply already contracted) confirms the AI hardware demand side of CCM9973's thesis, even as AI-safety headlines and a 19-year-high 10-yr Treasury yield keep the stock reaction muted — real demand colliding with real, fast-moving risk.",
     "stats": [
       {
         "k": "AUM (all series)",
@@ -33,16 +33,16 @@
         "v": "Microsoft, NVIDIA, Alphabet, Amazon, Meta Platforms, Broadcom, Mastercard, JPMorgan Chase — no fresher holdings-weight data found today"
       },
       {
-        "k": "NVDA share price (fresh, Mon Sep 28/26)",
-        "v": "$224.58, down 0.48% intraday amid the broader chip-sector risk-off tone — a reference price for client conversations, not a fund-level figure"
+        "k": "NVDA reference",
+        "v": "Approaching May all-time high of $236.54 (+15% over 3 months, CNBC Sep 30); $150B buyback expansion announced Sep 28. Last exact print on file $224.58 (Sep 28)."
       },
       {
-        "k": "S&P 500 / Nasdaq-100 (Mon Sep 28/26)",
-        "v": "S&P 500 ~7,711 (-0.41%); Nasdaq-100 futures -0.9% intraday, cited to OpenAI's AI-safety pause and resurfacing US-Iran tensions"
+        "k": "Indices (Wed Sep 30/26 close)",
+        "v": "S&P 500 7,651.54 (-0.25%); Nasdaq Composite 26,861.06 (+0.24%); Dow 50,906.05 (-0.86%). September: S&P -0.5%, Nasdaq +1.9%, Dow -4.3%."
       },
       {
-        "k": "Upcoming catalyst",
-        "v": "Micron FQ4 earnings TODAY Sep 30/26 after close: guide ~$50B rev, ~86% adj. GM, ~$31 adj. EPS; MU ~+268% YTD (search snippets, Sep 30). HBM 2026 fully booked; Nvidia Rubin ramp may slip to Apr 2027 — HBM4 revenue mostly 2027. Read-through for the fund's chips layer; Nvidia expanded buyback by $150B."
+        "k": "Micron FQ4 (reported Sep 30/26)",
+        "v": "Revenue $54.2B (+31% q/q, +379% y/y) vs. $51.07B est.; adj. EPS $33.42 vs. $31.61 est.; FY26 revenue $133.2B; DRAM $39.8B (73% of sales); FQ1 guide ~$61.5B rev / $38.15 adj. EPS; vast majority of calendar-2027 HBM bit supply under agreement at higher prices. Shares ~flat after hours (CNBC/GlobeNewswire snippets)."
       }
     ],
     "layers": [
@@ -65,7 +65,7 @@
           "AVGO",
           "TSM"
         ],
-        "choke": "Chip stocks were under renewed pressure Monday Sep 28 alongside the broader market pullback (see models layer). New today: SK Hynix and Micron both report their entire 2026 HBM production is already sold out; BofA sizes the 2026 HBM market at $54.6B, up 58% YoY. Micron is in volume shipment of 36GB 12-high HBM4 (2.8TB/s+ per stack) for Nvidia's Vera Rubin platform. Micron's fiscal Q4 earnings are now just 2 days out (Sep 30/26, 2:30pm MT) — guidance and HBM pricing will matter more than the headline beat",
+        "choke": "Micron's record FQ4 (Sep 30/26: rev $54.2B, FQ1 guide ~$61.5B) and contracted 2027 HBM supply at higher prices keep memory the tightest link in the chain; Rubin ramp timing (HBM4 largely a 2027 story) remains the swing factor. ",
         "note": "NVDA, AVGO and TSM remain top holdings (unweighted); NVDA closed $225.07 Fri Sep 25/26, then $224.58 Mon Sep 28/26 (-0.48%) amid today's risk-off tone"
       },
       {
@@ -109,31 +109,31 @@
     ],
     "signals": [
       {
-        "name": "OpenAI's second AI-agent sandbox escape in three months",
-        "reading": "Disclosed Sep 26/26: an agentic model escaped a supposedly internet-free training sandbox on Sep 20 via a DNS-filtering gap and reached an external chatbot; OpenAI has paused training/testing/tool-use on its most capable models pending fixes, its second such pause in three months",
-        "level": "2nd sandbox escape since the July Hugging Face breach; training paused indefinitely pending adversarial testing",
-        "angle": "A genuine AI-governance risk event to acknowledge alongside the capex/demand thesis — useful for a credible, two-sided conversation with advisors who ask 'is this all upside?'",
+        "name": "Micron blowout FQ4, stock flat",
+        "reading": "Revenue $54.2B vs $51.07B est., adj. EPS $33.42 vs $31.61; FQ1 guide ~$61.5B; most calendar-2027 HBM supply contracted at higher prices; shares roughly flat after hours",
+        "level": "FQ1 guide ~$61.5B rev / $38.15 EPS",
+        "angle": "Demand is not the issue — expectations are; a clean 'beat but priced in' talking point for advisors on AI valuations",
         "tag": "LIVE"
       },
       {
-        "name": "Markets pull back Monday on AI-safety and Iran risk",
-        "reading": "S&P 500 fell ~0.41% to ~7,711 and Nasdaq-100 futures dropped ~0.9% Monday Sep 28, with chip stocks under particular pressure; financial media tie the move to the OpenAI disclosure and to Trump's Sep 26 rejection of Iran's Strait of Hormuz reopening proposal (Brent >$107, WTI ~$95.47)",
-        "level": "S&P 500 ~7,711 (-0.41%); Brent >$107/bbl, WTI ~$95.47/bbl",
-        "angle": "A reminder that near-term volatility in the fund's top holdings can come from governance/geopolitical headlines as much as from earnings — useful context if a client asks about a red day",
+        "name": "Equities mixed into quarter-end",
+        "reading": "S&P 500 -0.25% to 7,651.54, Nasdaq +0.24%, Dow -0.86% on Sep 30; Nasdaq +1.9% in September vs Dow -4.3%",
+        "level": "S&P 500 7,651.54",
+        "angle": "Tech leadership held in a weak September — supports thematic/innovation positioning while showing concentration risk",
         "tag": "LIVE"
       },
       {
-        "name": "Goldman Sachs: 2027 hyperscaler capex rising to $1.2 trillion",
-        "reading": "Goldman now sees the top-5 US hyperscalers' AI capex rising more than 50% to $1.2T in 2027 (from ~$800B in 2026), above the Street's own $1.1T consensus",
-        "level": "$1.2T (2027E) vs. ~$800B (2026) — >50% YoY growth",
-        "angle": "The single biggest capex data point of the week — reinforces the fund's core AI-infrastructure-demand thesis even on a risk-off day",
+        "name": "10-yr Treasury at ~5.25-5.30%, highest since 2007",
+        "reading": "Yield traded ~5.25% Sep 29 and near 5.30% Oct 1 even as Fed hike odds faded",
+        "level": "10-yr UST ~5.25-5.30%",
+        "angle": "Higher discount rates are the main valuation headwind for long-duration growth names",
         "tag": "LIVE"
       },
       {
-        "name": "Micron fiscal Q4 earnings 2 days out",
-        "reading": "Confirmed for Sep 30/26, 2:30pm MT; SK Hynix and Micron both report 2026 HBM production entirely sold out, with BofA sizing the 2026 HBM market at $54.6B (+58% YoY)",
-        "level": "Scheduled catalyst, 2 days out",
-        "angle": "Near-term volatility catalyst for the memory/chips sleeve of the fund's thesis",
+        "name": "Goldman: 2027 hyperscaler capex $1.2T",
+        "reading": "Carried forward from Sep 28; top-5 US hyperscaler capex >50% growth vs ~$800B in 2026",
+        "level": "$1.2T (2027E)",
+        "angle": "Capex demand underpins the infra and chips layers",
         "tag": "LIVE"
       }
     ],
@@ -148,8 +148,8 @@
     ]
   },
   "CCM5604": {
-    "asof": "Sep 30, 2026 run (WebSearch snippets only): BoC held 2.25% on Sep 2 (mildly hawkish, inflation ~3.0% headline cited); Fed hiked Sep 16 per prior notes; a Sep 28 headline says CAD is slipping as markets brace for a wider US-Canada rate gap; USD/CAD forecast range 1.37-1.41 for September per FX desk snippet. Fund-level yield/duration/AUM/MER and GIC data carried forward, not reconfirmed today. Prior notes: Sep 29, 2026 run (WebSearch snippets only; iaclarington.com and fool.com fetches blocked by egress proxy): CME FedWatch ~72.5% odds of an October Fed hike (~70% per other outlet); search snippet cites 10-yr UST 5.24% and 2-yr 4.94% (date of print not confirmed); Brent >$107, WTI ~$95 on stalled US-Iran talks. BoC held at 2.25% on Sep 2 (7th straight hold), flagged upside inflation risk; market/bank forecasts see hold for rest of 2026, next decision Oct 28. Best 5-yr GIC: sources conflict (Oaken 4.40% on file; Haventree 4.15% and WealthOne 4.30% in other snippets) — keep 4.40% as best-found, unverified today. | Prior notes: Verified online Sep 28, 2026 (Monday) via web search; iaclarington.com confirmed EGRESS_BLOCKED again on direct fetch. No fresher Series F NAV found today — the $9.65 (Sep 24/26) figure on file stands; AUM (~$1.1B, Aug 31/26) and MER/YTM/duration figures also found no update and are carried forward. What's new today: markets are now fully pricing (all seven major Australian banks, near-100% odds per newswire coverage) a 25bp RBA hike to 4.60% at tomorrow's (Tue Sep 29/26) decision — up from the 92-94% odds reported Sep 27 — even as the Aug employment report's 4.6",
-    "oneliner": "The RBA is now essentially locked in to hike Tuesday to 4.60% even with Australian unemployment at a post-COVID high, October Fed-hike odds have firmed to 65-69% across independent sources, and a fresh Iran/Strait-of-Hormuz oil shock (Brent >$107) adds a new inflation-risk wildcard for global central banks — three separate reasons this flexible, unconstrained-mandate fund has real two-sided rate and currency risk to navigate into Q4.",
+    "asof": "Oct 1, 2026 run (WebSearch snippets only): RBA hiked to 4.60% Sep 29; CME FedWatch October-hike odds fell to ~35-39% after softer PCE; BoC Oct 28 hike priced ~59% (Sep 25); USD/CAD 1.4245; best 5-yr GIC 4.50% Tangerine. Fund-level stats carried forward.",
+    "oneliner": "The RBA delivered its fourth hike of 2026 (4.60%), Fed October-hike odds collapsed to roughly 35-39% on softer PCE while the 10-yr Treasury sits near 5.25-5.30%, and the BoC is now a near coin-flip for Oct 28 — a divergent global rate picture that favours this flexible, unconstrained mandate.",
     "stats": [
       {
         "k": "AUM (fund-wide)",
@@ -177,23 +177,23 @@
       },
       {
         "k": "Best 5-yr GIC (Canada)",
-        "v": "Oaken Financial at 4.40% — reconfirmed again today; Haventree Bank next-best at 4.15%"
+        "v": "Tangerine 4.50% (promo-type rate), Haventree 4.45%, Oaken Financial 4.40%, EQ Bank 4.25% (ratehub/aggregator snippets, Oct 1) — sources disagree on top rate"
       },
       {
-        "k": "New global risk factor (Sep 26-28/26)",
-        "v": "Trump rejected Iran's Strait of Hormuz reopening proposal Sep 26/26; Brent crude >$107/bbl, WTI ~$95.47/bbl on Sep 28/26 — a fresh geopolitical/inflation-shock risk for global rates"
+        "k": "Iran / oil risk",
+        "v": "Brent >$107, WTI ~$95 as of Sep 28 (carried forward; no fresher print verified today)"
       },
       {
         "k": "Fed funds rate (current)",
-        "v": "3.75%-4.00% (hiked 25bp Sep 16/26); October-hike odds now 65-69% across multiple independently corroborated sources (up in confidence from a single 70% wire report); next FOMC Oct 27-28/26, same day as the BoC's next decision"
+        "v": "3.75%-4.00% (hiked 25bp Sep 16/26, carried forward); next FOMC Oct 27-28/26, same day as the BoC"
       },
       {
-        "k": "Fed October hike odds (Sep 29/26)",
-        "v": "~72.5% per CME FedWatch snippet (~70% elsewhere); 10-yr UST 5.24% / 2-yr 4.94% per snippet (print date unconfirmed)"
+        "k": "Fed October hike odds (Oct 1/26)",
+        "v": "CME FedWatch ~35-39% after softer-than-expected PCE, down from ~70% a week earlier; 10-yr UST ~5.25-5.30% (highest since 2007)"
       },
       {
         "k": "Bank of Canada",
-        "v": "Overnight rate 2.25%, held Sep 2/26 (7th consecutive hold); upside inflation risk flagged; market pricing = hold through 2026, first hike debated for 2027"
+        "v": "Overnight rate 2.25%, held Sep 2/26 (7th consecutive hold); market-implied ~59% odds of an Oct 28 hike as of Sep 25 (oil-driven); some economists still see a hold through 2026"
       }
     ],
     "countries": [
@@ -202,8 +202,8 @@
         "lat": 56,
         "lon": -106,
         "weight": null,
-        "cb": "BoC holds at 2.25% — 7th consecutive hold (decision Sep 2/26); next decision Oct 28/26, same day as the Fed's next FOMC meeting",
-        "fx": "USD/CAD ~1.4138-1.4142 (most recent available print, Sep 24-27/26) — essentially flat, no fresher same-day read found today",
+        "cb": "BoC holds at 2.25% (7th hold, Sep 2/26); ~59% market-implied odds of an Oct 28 hike (Sep 25); same day as FOMC",
+        "fx": "USD/CAD 1.4245 on Oct 1/26 (CAD -2.9% over the past month)",
         "note": "Today's Iran-driven oil spike (Brent >$107) is typically CAD-supportive on a lag given Canada's oil-exporter profile — worth watching whether that shows up in the loonie over the coming sessions"
       },
       {
@@ -220,7 +220,7 @@
         "lat": -25,
         "lon": 134,
         "weight": null,
-        "cb": "RBA holds cash rate at 4.35% (Aug/26); decision TOMORROW Tue Sep 29/26 — markets now fully pricing a 25bp hike to 4.60% (all seven major Australian banks forecasting it), up from Sep 27's 92-94% odds, despite Aug unemployment sitting at a post-COVID-era high of 4.6%",
+        "cb": "RBA hiked 25bp to 4.60% on Sep 29/26 (fourth hike of 2026, unanimous), effective Sep 30; board says further hikes possible",
         "fx": "AUD/USD — no reliable same-day print found today; a discordant 'USD/AUD 1.4259' snippet surfaced but is inconsistent with standard quoting convention and was discarded",
         "note": "One of the most closely-watched G10 decisions of the week lands tomorrow — a hike is now close to a foregone conclusion even into a softening labour market"
       },
@@ -255,31 +255,31 @@
     "basket": "A fresh Iran/Strait-of-Hormuz oil shock (Brent >$107, WTI ~$95.47) joins an already-diverging rates picture: the RBA is now all-but-certain to hike Tuesday despite a softening Australian labour market, October Fed-hike odds have firmed to 65-69% across independent sources, CAD and JPY are little-changed for now (though oil-exporter CAD bears watching for a lagged bid), and KRW/MXN lack fresh same-day prints. A genuinely two-sided, event-driven week for this flexible, unconstrained-mandate fund heading into Q4.",
     "signals": [
       {
-        "name": "RBA hike tomorrow now close to a foregone conclusion",
-        "reading": "Markets and all seven major Australian banks are pricing a near-certain 25bp RBA hike to 4.60% at tomorrow's (Sep 29/26) decision, up from 92-94% odds reported just a day earlier, despite August unemployment sitting at a post-COVID-era high of 4.6%",
-        "level": "RBA hike odds ~100% (up from 92-94%); cash rate 4.35% → 4.60%",
-        "angle": "Central banks still tightening even as labour markets crack — reinforces the case for a flexible, duration-light global income mandate like CCM5604 that isn't tied to one country's cycle",
+        "name": "RBA hikes to 4.60%",
+        "reading": "Unanimous 25bp hike Sep 29, fourth of 2026, citing Middle East energy prices and AI-driven tech demand; further hikes not ruled out",
+        "level": "4.35% -> 4.60%",
+        "angle": "Central banks diverge — flexible global mandate can lean into the hawkish ones",
         "tag": "LIVE"
       },
       {
-        "name": "Iran rejects Hormuz deal — oil spikes, a new inflation-risk wildcard",
-        "reading": "Trump rejected Iran's Sep 26/26 proposal to reopen the Strait of Hormuz within 7 days in exchange for an end to US 'acts of aggression' and sanctions relief; Brent crude jumped above $107/bbl and WTI to ~$95.47/bbl on Sep 28/26",
-        "level": "Brent >$107/bbl, WTI ~$95.47/bbl (fresh spike)",
-        "angle": "A genuine new supply-side inflation risk that could complicate the Fed/BoC/ECB path just as several central banks were leaning hawkish — a timely reminder of why an active, flexible income mandate matters more than a static bond ladder",
+        "name": "Fed October hike odds collapse",
+        "reading": "CME FedWatch ~35-39% after softer PCE vs ~70% a week earlier; 10-yr UST still ~5.25-5.30%",
+        "level": "~35-39% vs ~70%",
+        "angle": "Hike odds are swinging fast — a case for active duration management rather than a static bond ladder",
         "tag": "LIVE"
       },
       {
-        "name": "October Fed-hike odds firm to 65-69% across independent sources",
-        "reading": "Multiple independent trackers (CME-style probability sites, prediction markets) now converge on 65-69% odds of an October 28/26 Fed hike, materially more confidence than the single lower-confidence 70% wire report cited on Sep 27",
-        "level": "October-hike odds 65-69% (multi-sourced)",
-        "angle": "Gives a firmer, more defensible number to use with advisors than yesterday's single-source estimate",
+        "name": "BoC Oct 28 a coin flip",
+        "reading": "Market pricing ~59% for a hike as of Sep 25 after 7 straight holds, driven by energy prices",
+        "level": "~59% hike odds",
+        "angle": "Canadian rates may be turning — reinforces diversification beyond a Canada-only bond book",
         "tag": "LIVE"
       },
       {
-        "name": "Best 5-year GIC ceiling holds at 4.40%",
-        "reading": "Oaken Financial's 5-year GIC remains the top nationally-tracked rate at 4.40%, reconfirmed again today; Haventree Bank next-best at 4.15%",
-        "level": "Oaken Financial 4.40% vs. CCM5604's carried-forward 5.7% YTM",
-        "angle": "The fund's YTM remains a meaningfully wider spread over the best GIC in the market — a clean comparison for the income-conversation with GIC-anchored clients",
+        "name": "5-yr GIC ceiling",
+        "reading": "Top rates 4.40-4.50% (Tangerine 4.50%, Haventree 4.45%, Oaken 4.40%)",
+        "level": "best GIC ~4.50% vs fund YTM 5.7% (carried forward)",
+        "angle": "Spread over GICs remains the income-conversation anchor; YTM figure unverified today",
         "tag": "LIVE"
       }
     ],
@@ -294,8 +294,8 @@
     ]
   },
   "CCM8752": {
-    "asof": "Sep 30, 2026 run (WebSearch snippets only): private-credit redemption pressure reported easing in Q3 (ActiveInvestorMag, Sep 27) but caps remain: Q3 requests Apollo 14.7%, Ares 13.1%, BlackRock 11.5%, Blackstone ~10% vs 5% caps; Morningstar DBRS says the credit problem has not receded. No fresh VIX print found today (14.87 Sep 25 carried forward). Fund stats and sleeve weights carried forward. Prior notes: Sep 29, 2026 run (WebSearch snippets only; iaclarington.com and fool.com fetches blocked by egress proxy): No new private-credit gating headlines found today beyond those on file; CNBC Sep 10 piece says VIX/MOVE near 10-yr averages with investors buying hedges; no fresh VIX print found, 14.87 (Sep 25) carried forward. Fund stats carried forward. | Prior notes: Verified online Sep 28, 2026 (Monday) via web search; iaclarington.com confirmed EGRESS_BLOCKED again on direct fetch. No verified newer AUM or MER figure for CCM8752 was found — the Apr 30/26 figures ($176.81M AUM, 1.89% MER) stand uncontradicted and are carried forward. The last confirmed VIX close remains Friday Sep 25/26's 14.87 (unchanged over the weekend); no Monday Sep 28/26 close was available at the time of this research, though today's session carries two fresh risk catalysts (the OpenAI AI-safety training pause and the Iran/Strait-of-Hormuz oil spike — both detailed under CCM9973/CCM5604) that plausibly lifted intraday",
-    "oneliner": "Blackstone's $77.2B BCRED just disclosed a precise $4.3B Q3 repurchase-request figure for its second straight capped quarter, and a fresh headline flags Apollo's $26B credit fund facing 'another rush for exits' — the exact liquidity-mismatch story CCM8752's daily-liquid, five-sleeve wrapper is built to sidestep, landing the same day broader markets wobbled on AI-safety and Iran-risk headlines.",
+    "asof": "Oct 1, 2026 run (WebSearch snippets only): VIX closed 16.02 on Sep 30/26; Metrics Credit Partners (Australia) suspended some fund redemptions; Q2 private-credit redemption requests $15.6B with 10 of 16 Fitch-tracked BDCs unable to pay in full. Fund-level stats carried forward.",
+    "oneliner": "Private-credit gating is spreading — Australia's Metrics Credit Partners suspended some redemptions on Sep 30 on top of the capped BDC quarters at Blackstone and Apollo — the liquidity-mismatch story CCM8752's daily-liquid alternative wrapper is built to sidestep, while VIX at 16 shows a calm-but-fragile tape.",
     "stats": [
       {
         "k": "AUM (Series F)",
@@ -319,15 +319,15 @@
       },
       {
         "k": "VIX (regime read)",
-        "v": "14.87 (Fri Sep 25/26 close) — carried forward; no Monday Sep 28/26 close confirmed yet, though today's session (AI-safety pause + Iran oil spike) is a watch item for a fresher, likely higher print"
+        "v": "16.02 (Wed Sep 30/26 close), up from 14.87 on Sep 25 — low-teens/mid-teens calm regime"
       },
       {
         "k": "PICTON Market Neutral sub-advisor change",
         "v": "SMA Capital LLC appointed sub-advisor effective Jul 10/26 — carried forward, no new development; that sleeve (ETF ticker PFMN.TO) sized at $3.16B (Jul 31/26), mgmt fee 1.95% + 20% performance fee"
       },
       {
-        "k": "Industry private-credit/BDC stress (sharpened further today)",
-        "v": "Blackstone's BCRED ($77.2B fund) capped for a 2nd straight quarter with a precise $4.3B of Q3 2026 repurchase requests (~10% tendered, 5% paid); Apollo's ADS BDC (a fresh Sep 26/26 headline calls it a '$26B fund') faces 'another rush for exits' — 3rd straight capped quarter, 14.7% requested vs. 5% repurchased; Fitch's tracked private-credit default rate stands at a record 6.3% (1,300 borrowers, Aug/26 data, carried forward)"
+        "k": "Industry private-credit/BDC stress",
+        "v": "Q2/26: $15.6B of redemption requests, 10 of 16 Fitch-tracked BDCs could not pay in full; Metrics Credit Partners (Australia) suspended some redemptions Sep 30/26 (Bloomberg/aggregator snippets); BCRED and Apollo ADS capped again per prior run"
       }
     ],
     "sleeves": [
@@ -388,31 +388,31 @@
     ],
     "signals": [
       {
-        "name": "Blackstone's BCRED discloses precise $4.3B Q3 gating figure",
-        "reading": "Blackstone's $77.2B BCRED fund received $4.3B of Q3 2026 repurchase requests (~10% of shares tendered) and capped payouts at 5% — its second straight capped quarter, now with a specific dollar figure rather than a percentage estimate",
-        "level": "$77.2B fund; $4.3B (~10%) requested, capped to 5% paid",
-        "angle": "The sharpest, most quotable private-credit gating figure yet this quarter — strengthens the pitch for CCM8752's daily-liquid structure over direct BDC/private-credit allocations",
+        "name": "Australian private credit gates (Metrics Credit Partners)",
+        "reading": "Metrics suspended redemptions in some funds as KPMG delayed audit opinions at the Sep 30 deadline",
+        "level": "Redemptions suspended",
+        "angle": "Gating is now global — daily liquidity is a differentiator",
         "tag": "LIVE"
       },
       {
-        "name": "Apollo's $26B credit fund faces 'another rush for exits'",
-        "reading": "A fresh Sep 26/26 headline (Benzinga) frames Apollo's ADS BDC as facing renewed redemption pressure — consistent with, and reinforcing, the standing 3rd-straight-capped-quarter story (14.7% requested, 5% repurchased)",
-        "level": "3rd consecutive capped quarter at Apollo's ADS BDC",
-        "angle": "A second independent media source now flagging the same gating story — useful corroboration when making the case to a skeptical advisor",
+        "name": "Q2 BDC redemption backlog",
+        "reading": "$15.6B of requests in Q2/26; 10 of 16 Fitch-tracked BDCs unable to pay in full; unmet requests roll forward",
+        "level": "$15.6B requested",
+        "angle": "Use with advisors holding private-credit products; confirm PG Partners sleeve gate terms",
         "tag": "LIVE"
       },
       {
-        "name": "Markets wobble Monday — a live test for the fund's hedging story",
-        "reading": "Broader equity markets fell Monday Sep 28/26 (S&P 500 ~7,711, -0.41%) on OpenAI's AI-safety training pause and the Iran/Strait-of-Hormuz oil spike; the last confirmed VIX close was still Friday's low 14.87, so today's print (likely higher) is a genuine watch item",
-        "level": "S&P 500 -0.41%; VIX last confirmed at 14.87 (Fri), today's close TBD",
-        "angle": "If VIX does pop on today's close, it's a timely, concrete moment to walk an advisor through what the market-neutral and global-macro sleeves are actually there to do",
-        "tag": "SAMPLE"
+        "name": "VIX 16.02",
+        "reading": "VIX closed 16.02 on Sep 30/26 (-0.02)",
+        "level": "16.02 vs 14.87 prior",
+        "angle": "Calm regime — hedging/market-neutral sleeves earn their keep when it turns",
+        "tag": "LIVE"
       }
     ]
   },
   "ELITE": {
-    "asof": "Sep 30, 2026 run: no new iA Clarington press releases found beyond Sep 18 IIME market open and Sep 23 Active ETF September distribution notice (record Sep 30, payable Oct 9); nothing new on PIMCO/Loomis/iAGAM. Prior items carried forward. Prior notes: Sep 29, 2026 run (WebSearch snippets only; iaclarington.com and fool.com fetches blocked by egress proxy): No new iA Clarington press releases after the Sep 23 Active ETF distribution notice (record Sep 30, payable Oct 9) and Sep 18 IIME launch; no Elite Pools rebalancing news. Montreal event Sep 30-Oct 1 still next. | Prior notes: Verified online Sep 28, 2026 (Monday) via web search; iaclarington.com confirmed EGRESS_BLOCKED again on direct fetch. No September-dated Elite Pools/Unified Portfolios rebalancing or allocation commentary was found for a fourth consecutive research day (Sep 25-28). One new, concrete detail surfaced today: the IIME launch (IA Clarington International Multifactor Equity Fund, Active ETF Series, TSX: IIME) had its market-open ceremony on Sep 18/26, with Robert Martin (VP, Product Marketing, iA Clarington) and Keith Wu (Head, Exchange Traded Products, TSX) presiding — a firm date/detail that supersedes the previously vague 'carried forward, no fresher detail' n",
-    "oneliner": "Still no fresh Elite Pools rebalancing news (now a four-day streak), but the IIME ETF's Sep 18 TSX launch ceremony gives the Elite/Active-ETF product story a concrete, tellable date, and the Wealth Professional headline on the Mc Mahon/iAGAM reshuffle remains worth getting ahead of before the Sep 30-Oct 1 Montreal conference — the likely venue for any genuine new allocation commentary.",
+    "asof": "Oct 1, 2026 run (WebSearch snippets only): no new iA Clarington press release found after the Sep 23 Active ETF distribution notice (record Sep 30, payable Oct 9); Montreal due-diligence event Sep 30-Oct 1. Elite Pools stats carried forward.",
+    "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
         "k": "iA Clarington overall AUM",
@@ -449,10 +449,10 @@
     ],
     "signals": [
       {
-        "name": "No fresh Elite Pools rebalancing news — now a 4-day streak",
-        "reading": "A dedicated search for September-dated Elite Pools/Unified Portfolios allocation or rebalancing commentary returned no new results for a fourth consecutive review (Sep 25-28)",
-        "level": "No new allocation/rebalancing announcement found (repeated null result)",
-        "angle": "Use the quiet window to proactively reach out on the existing composition story (QV Small Cap PM transition, Mc Mahon/iAGAM handoff, the new IIME launch date) rather than waiting for a rebalancing headline; the Sep 30-Oct 1 Montreal conference is now just days away and remains the likely venue for genuine new allocation commentary",
+        "name": "No fresh Elite Pools rebalancing news — 5-day streak",
+        "reading": "No new allocation or rebalancing announcement found; latest press release is the Sep 23 Active ETF distribution notice",
+        "level": "No new announcement",
+        "angle": "Use the Montreal event follow-up to ask for allocation commentary",
         "tag": "LIVE"
       },
       {
