@@ -204,16 +204,16 @@
         "weight": null,
         "cb": "BoC holds at 2.25% (7th hold, Sep 2/26); ~59% market-implied odds of an Oct 28 hike (Sep 25); same day as FOMC",
         "fx": "USD/CAD 1.4245 on Oct 1/26 (CAD -2.9% over the past month)",
-        "note": "Today's Iran-driven oil spike (Brent >$107) is typically CAD-supportive on a lag given Canada's oil-exporter profile — worth watching whether that shows up in the loonie over the coming sessions"
+        "note": "CAD has weakened ~2.9% over the past month (USD/CAD 1.4245) even with oil elevated; the Oct 28 BoC decision is the next catalyst"
       },
       {
         "name": "United States",
         "lat": 39.8,
         "lon": -98.6,
         "weight": null,
-        "cb": "Fed hiked 25bp to 3.75%-4.00% on Sep 16/26; October-hike odds now corroborated at 65-69% across CME-style/prediction-market sources (up in confidence from Sep 27's single lower-confidence 70% wire report); next FOMC Oct 27-28/26",
-        "fx": "No independently verified same-day Treasury/DXY print found today; equity markets fell Monday (S&P 500 ~7,711, -0.41%) on AI-safety and Iran-risk headlines",
-        "note": "Firmer, multi-sourced confirmation of October-hike odds is itself the news today, alongside the new Iran/oil risk factor"
+        "cb": "Fed hiked 25bp to 3.75%-4.00% on Sep 16/26; October-hike odds ~35-39% (CME FedWatch, Oct 1) after softer PCE, down from ~70% a week earlier; next FOMC Oct 27-28/26",
+        "fx": "10-yr UST ~5.25-5.30%, highest since 2007; S&P 500 closed 7,651.54 on Sep 30/26",
+        "note": "Hike odds roughly halved in a week on softer inflation data while long yields stay at multi-year highs"
       },
       {
         "name": "Australia",
@@ -222,7 +222,7 @@
         "weight": null,
         "cb": "RBA hiked 25bp to 4.60% on Sep 29/26 (fourth hike of 2026, unanimous), effective Sep 30; board says further hikes possible",
         "fx": "AUD/USD — no reliable same-day print found today; a discordant 'USD/AUD 1.4259' snippet surfaced but is inconsistent with standard quoting convention and was discarded",
-        "note": "One of the most closely-watched G10 decisions of the week lands tomorrow — a hike is now close to a foregone conclusion even into a softening labour market"
+        "note": "Hike delivered Sep 29 as expected; guidance leaves the door open to more despite a post-COVID-high unemployment rate (4.6%, carried forward)"
       },
       {
         "name": "South Korea",
@@ -252,7 +252,7 @@
         "note": "Headline inflation ticked up to 3.42% (early Sept) on non-core pressures vs. core 3.79% — sticky core inflation remains the explicit reason cited for the hold"
       }
     ],
-    "basket": "A fresh Iran/Strait-of-Hormuz oil shock (Brent >$107, WTI ~$95.47) joins an already-diverging rates picture: the RBA is now all-but-certain to hike Tuesday despite a softening Australian labour market, October Fed-hike odds have firmed to 65-69% across independent sources, CAD and JPY are little-changed for now (though oil-exporter CAD bears watching for a lagged bid), and KRW/MXN lack fresh same-day prints. A genuinely two-sided, event-driven week for this flexible, unconstrained-mandate fund heading into Q4.",
+    "basket": "Rates are diverging: the RBA hiked to 4.60% (Sep 29), October Fed-hike odds fell to ~35-39% on softer PCE with the 10-yr UST near 5.25-5.30%, the BoC is a near coin-flip for Oct 28, and USD/CAD sits at 1.4245. JPY, KRW and MXN lack fresh same-day prints (prior figures carried forward). A two-sided, event-driven backdrop for this flexible, unconstrained-mandate fund heading into Q4.",
     "signals": [
       {
         "name": "RBA hikes to 4.60%",
