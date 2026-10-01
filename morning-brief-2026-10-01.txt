@@ -1,0 +1,46 @@
+TerritoryIQ Morning Brief — Thursday, October 1
+Feed stamp: 2026-10-01-1005
+
+WHAT CHANGED
+Big reversal: Fed October-hike odds went from "firming to 65-69%" in
+yesterday's feed to ~35-39% today after softer PCE. Micron moved from
+"2 days out" to reported, and the Iran/Hormuz oil-spike signal dropped
+out. (A second run at 10:06 only reworded the CCM5604 country notes.)
+
+TODAY'S SIGNAL ANGLES
+
+[CCM5604 · LIVE] 5-yr GIC ceiling — best GIC ~4.50% vs fund YTM 5.7% (carried forward)
+Angle: Tangerine 4.50%, Haventree 4.45%, Oaken 4.40% is the ceiling.
+The spread stays your income anchor. Best for GIC-renewal conversations.
+(YTM carried forward, unverified today.)
+
+[CCM9973 · LIVE] Micron blowout FQ4, stock flat — FQ1 guide ~$61.5B rev / $38.15 EPS
+Angle: Revenue $54.2B vs $51.07B est., adj. EPS $33.42 vs $31.61, most
+2027 HBM supply already contracted — and shares roughly flat. Demand
+isn't the issue, expectations are. For advisors pushing back on AI
+valuations.
+
+[CCM8752 · LIVE] Q2 BDC redemption backlog — $15.6B requested
+Angle: 10 of 16 Fitch-tracked BDCs couldn't pay in full; unmet requests
+roll forward. Metrics Credit Partners (Australia) suspended redemptions
+Sep 30. Daily liquidity is the differentiator — for advisors already
+holding private credit.
+
+[CCM5604 · LIVE] Fed October hike odds collapse — ~35-39% vs ~70%
+Angle: Halved in a week while the 10-yr Treasury sits ~5.25-5.30%,
+highest since 2007. Argues for active duration over a static ladder.
+
+[CCM5604 · LIVE] RBA hikes to 4.60% — 4.35% -> 4.60%
+Angle: Fourth hike of 2026, unanimous, more not ruled out. Central banks
+are diverging; a flexible global mandate can lean into the hawkish ones.
+
+[ELITE · LIVE] IIME TSX launch ceremony — confirmed Sep 18/26
+Angle: A concrete answer to "what's new at iA Clarington."
+
+WORTH KNOWING
+- Manulife Strategic Income is 0.90% Series F vs our 0.84% — and Dan
+  Janis built their flagship before sub-advising CCM5604 directly.
+- VIX closed 16.02 on Sep 30, up from 14.87 — a calm tape is exactly
+  when hedging sleeves look least necessary.
+- Montreal due-diligence event (Sep 30-Oct 1) is the likely venue for
+  fresh Elite Pools commentary — nothing new in 5 days.
