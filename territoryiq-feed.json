@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-02-1006",
+  "updated": "2026-10-03-1012",
   "CCM9973": {
-    "asof": "Oct 2, 2026 run (WebSearch snippets only; fund pages not fetched): Oct 1 close S&P 500 7,666.45 (+0.19%), Nasdaq 26,871.60 (+0.04%), Dow 50,926.56; 10-yr UST pulled back from a 5.344% intraday high to 5.24%; Micron up ~240% YTD with 16 multiyear binding customer agreements. Fund-level AUM/MER/holdings carried forward unchanged.",
-    "oneliner": "Micron's blowout FQ4 (rev $54.2B, FQ1 guide ~$61.5B, most 2027 HBM supply already contracted) confirms the AI hardware demand side of CCM9973's thesis, even as AI-safety headlines and a 19-year-high 10-yr Treasury yield keep the stock reaction muted — real demand colliding with real, fast-moving risk.",
+    "asof": "Oct 3, 2026 run (WebSearch snippets only; fund pages not fetched, iaclarington.com blocked): Oct 2 session after weak Sept jobs report — S&P 500 ~7,723 (US500, +0.73% per TradingEconomics; other outlets cite +0.89%), Nasdaq +1.2-1.35%, 10-yr UST 5.27%. Fund-level AUM/MER/holdings carried forward unchanged.",
+    "oneliner": "Micron's blowout FQ4 (rev $54.2B, FQ1 guide ~$61.5B, most 2027 HBM supply contracted) confirms AI hardware demand; today a soft jobs print (+29k) cut Fed-hike odds and sent Nasdaq up ~1.3% with chips leading — falling-hike-risk is a tailwind for long-duration innovation names, though the 10-yr at 5.27% stays a valuation headwind.",
     "stats": [
       {
         "k": "AUM (all series)",
@@ -37,8 +37,8 @@
         "v": "Approaching May all-time high of $236.54 (+15% over 3 months, CNBC Sep 30); $150B buyback expansion announced Sep 28. Last exact print on file $224.58 (Sep 28)."
       },
       {
-        "k": "Indices (Thu Oct 1/26 close)",
-        "v": "S&P 500 7,666.45 (+0.19%); Nasdaq Composite 26,871.60 (+0.04%); Dow 50,926.56 (+0.04%). VIX 16.5."
+        "k": "Indices (Fri Oct 2/26)",
+        "v": "S&P 500 ~7,723 (+0.73% TradingEconomics; +0.89% per CNBC-type summary — sources differ); Nasdaq +1.2% to +1.35%; Dow +0.64%. Prior close Oct 1: S&P 7,666.45, Nasdaq 26,871.60. VIX Oct 2 not verified (16.5 on Oct 1)."
       },
       {
         "k": "Micron FQ4 (reported Sep 30/26)",
@@ -116,17 +116,17 @@
         "tag": "LIVE"
       },
       {
-        "name": "Equities edge higher as yields retreat from 2002-era highs",
-        "reading": "Oct 1: S&P 500 +0.19% to 7,666.45, Nasdaq +0.04% to 26,871.60; 10-yr UST hit 5.344% intraday (highest since 2002) then closed ~5.24%.",
-        "level": "S&P 500 7,651.54",
-        "angle": "Tech leadership held in a weak September — supports thematic/innovation positioning while showing concentration risk",
+        "name": "Soft jobs report lifts tech",
+        "reading": "Sept payrolls +29k vs 84k est., unemployment 4.2%; Oct 2: S&P 500 ~+0.7-0.9%, Nasdaq ~+1.2-1.35%; Nvidia led Nasdaq to an intraday record per CNBC headline (Oct 1/2 snippet).",
+        "level": "Nasdaq ~+1.3%",
+        "angle": "Easing hike odds are the catalyst long-duration growth needed; supports thematic innovation positioning, with concentration risk intact",
         "tag": "LIVE"
       },
       {
-        "name": "10-yr Treasury at ~5.25-5.30%, highest since 2007",
-        "reading": "Yield traded ~5.25% Sep 29 and near 5.30% Oct 1 even as Fed hike odds faded",
-        "level": "10-yr UST ~5.25-5.30%",
-        "angle": "Higher discount rates are the main valuation headwind for long-duration growth names",
+        "name": "10-yr Treasury 5.27%",
+        "reading": "10-yr UST rose to 5.27% on Oct 2 (+0.03pt) even as Fed hike odds fell (TradingEconomics)",
+        "level": "10-yr UST 5.27%",
+        "angle": "Higher discount rates remain the main valuation headwind for long-duration growth",
         "tag": "LIVE"
       },
       {
@@ -148,8 +148,8 @@
     ]
   },
   "CCM5604": {
-    "asof": "Oct 2, 2026 run (WebSearch snippets only): CME FedWatch Oct 27-28 hike odds ~36% (from ~51% prior session, ~71% a week ago) after core PCE 3.0% vs 3.3% est. and Williams' 'one more hike' comment; BoC Oct 28 pricing ~60% hike (bond market) vs CORRA-implied 32% hike / 68% hold; USD/CAD ~1.4240; 10-yr UST 5.24% close. Fund-level stats carried forward.",
-    "oneliner": "The RBA delivered its fourth hike of 2026 (4.60%), Fed October-hike odds collapsed to roughly 35-39% on softer PCE while the 10-yr Treasury sits near 5.25-5.30%, and the BoC is now a near coin-flip for Oct 28 — a divergent global rate picture that favours this flexible, unconstrained mandate.",
+    "asof": "Oct 3, 2026 run (WebSearch snippets only): Sept jobs +29k (est. 84k), unemployment 4.2%; CME FedWatch Oct 27-28 hike odds ~17% (hold ~83%), down from ~36% a week earlier; BoC Oct 28 OIS ~74% hold (Polymarket ~61% hold / 39% hike) — earlier 60% hike pricing no longer supported; 10-yr UST 5.27%. Fund-level stats carried forward.",
+    "oneliner": "A weak US jobs print (+29k) collapsed Fed October-hike odds to ~17% and market pricing now leans to a BoC hold on Oct 28, while the RBA has hiked four times to 4.60% and the 10-yr UST sits at 5.27% — a divergent, fast-shifting rate picture that favours this flexible mandate.",
     "stats": [
       {
         "k": "AUM (fund-wide)",
@@ -188,12 +188,12 @@
         "v": "3.75%-4.00% (hiked 25bp Sep 16/26, carried forward); next FOMC Oct 27-28/26, same day as the BoC"
       },
       {
-        "k": "Fed October hike odds (Oct 1/26)",
-        "v": "CME FedWatch ~36% (vs ~51% prior session, ~71% a week earlier) after core PCE 3.0% y/y vs 3.3% forecast; NY Fed's Williams: no pressing need to tighten, one more hike would suffice this year; 10-yr UST closed ~5.24% after 5.344% intraday high"
+        "k": "Fed October hike odds (Oct 2/26)",
+        "v": "CME FedWatch ~17% hike / ~82.8% hold after Sept payrolls +29k vs 84k est. and unemployment 4.2% (vs ~36% a week earlier); 10-yr UST 5.27%"
       },
       {
         "k": "Bank of Canada",
-        "v": "Overnight rate 2.25%, held Sep 2/26 (7th consecutive hold); Oct 28 hike odds differ by source: ~60% (bond market) vs 32% (CORRA forwards, Oct 1) — a coin flip"
+        "v": "Overnight rate 2.25%, held Sep 2/26 (7th consecutive hold); Oct 28 odds as of Oct 2: OIS ~74% hold; Polymarket ~61% no change / ~39% hike — shifted toward hold vs. earlier sources"
       }
     ],
     "countries": [
@@ -202,7 +202,7 @@
         "lat": 56,
         "lon": -106,
         "weight": null,
-        "cb": "BoC holds at 2.25% (7th hold, Sep 2/26); ~59% market-implied odds of an Oct 28 hike (Sep 25); same day as FOMC",
+        "cb": "BoC holds at 2.25% (7th hold, Sep 2/26); Oct 2 OIS implies ~74% hold for Oct 28 (earlier ~60% hike pricing faded); same day as FOMC",
         "fx": "USD/CAD 1.4245 on Oct 1/26 (CAD -2.9% over the past month)",
         "note": "CAD has weakened ~2.9% over the past month (USD/CAD 1.4245) even with oil elevated; the Oct 28 BoC decision is the next catalyst"
       },
@@ -211,9 +211,9 @@
         "lat": 39.8,
         "lon": -98.6,
         "weight": null,
-        "cb": "Fed hiked 25bp to 3.75%-4.00% on Sep 16/26; October-hike odds ~35-39% (CME FedWatch, Oct 1) after softer PCE, down from ~70% a week earlier; next FOMC Oct 27-28/26",
-        "fx": "10-yr UST ~5.25-5.30%, highest since 2007; S&P 500 closed 7,651.54 on Sep 30/26",
-        "note": "Hike odds roughly halved in a week on softer inflation data while long yields stay at multi-year highs"
+        "cb": "Fed hiked 25bp to 3.75%-4.00% on Sep 16/26; October-hike odds ~17% (CME FedWatch, Oct 2) after Sept payrolls +29k, unemployment 4.2%; next FOMC Oct 27-28/26",
+        "fx": "10-yr UST 5.27% (Oct 2); S&P 500 ~7,723",
+        "note": "Hike odds fell from ~36% to ~17% in a week on a weak labour print while long yields stay near multi-year highs"
       },
       {
         "name": "Australia",
@@ -252,7 +252,7 @@
         "note": "Headline inflation ticked up to 3.42% (early Sept) on non-core pressures vs. core 3.79% — sticky core inflation remains the explicit reason cited for the hold"
       }
     ],
-    "basket": "Rates are diverging: the RBA hiked to 4.60% (Sep 29), October Fed-hike odds fell to ~35-39% on softer PCE with the 10-yr UST near 5.25-5.30%, the BoC is a near coin-flip for Oct 28, and USD/CAD sits at 1.4245. JPY, KRW and MXN lack fresh same-day prints (prior figures carried forward). A two-sided, event-driven backdrop for this flexible, unconstrained-mandate fund heading into Q4.",
+    "basket": "Rates are diverging: RBA hiked to 4.60% (Sep 29), Fed October-hike odds fell to ~17% on a weak jobs report with the 10-yr UST at 5.27%, and BoC pricing swung to a likely hold (~74%) on Oct 28. USD/CAD (~1.42, Oct 1) and JPY, KRW, MXN prints are carried forward without fresh same-day data. A two-sided, event-driven backdrop for this flexible fund heading into Q4.",
     "signals": [
       {
         "name": "RBA hikes to 4.60%",
@@ -263,16 +263,16 @@
       },
       {
         "name": "Fed October hike odds collapse",
-        "reading": "CME FedWatch ~36% on Oct 1 vs ~51% prior session and ~71% a week earlier; 10-yr UST closed ~5.24%",
-        "level": "~35-39% vs ~70%",
-        "angle": "Hike odds are swinging fast — a case for active duration management rather than a static bond ladder",
+        "reading": "CME FedWatch ~17% hike on Oct 2 after payrolls +29k vs 84k est. (unemployment 4.2%); ~36% a week earlier; 10-yr UST 5.27%",
+        "level": "~17% vs ~36%",
+        "angle": "Hike odds swing violently on data — a case for active duration management over a static bond ladder",
         "tag": "LIVE"
       },
       {
-        "name": "BoC Oct 28 a coin flip",
-        "reading": "Pricing split: ~60% hike (bond market) vs 32% hike / 68% hold (CORRA forwards, Oct 1); Iran-war energy prices drive hike risk while softer hiring/wages argue against",
-        "level": "~59% hike odds",
-        "angle": "Canadian rates may be turning — reinforces diversification beyond a Canada-only bond book",
+        "name": "BoC Oct 28 now leans hold",
+        "reading": "OIS ~74% hold; Polymarket 61% no change vs 39% hike (Oct 2) — down from ~60% hike pricing in earlier sources",
+        "level": "~74% hold",
+        "angle": "Canadian hike risk fading; still a binary event — diversification beyond a Canada-only bond book",
         "tag": "LIVE"
       },
       {
@@ -294,7 +294,7 @@
     ]
   },
   "CCM8752": {
-    "asof": "Oct 2, 2026 run (WebSearch snippets only): VIX 16.5 at Oct 1 close (+0.1); private-credit redemption pressure still reported industry-wide (BlackRock HPS Corporate Lending gated at 5% quarterly limit vs ~9.3% requested; Blackstone raised limit 5%→7% and added $400M). Fund-level stats carried forward.",
+    "asof": "Oct 3, 2026 run (WebSearch snippets only): no new fund-level data; industry private-credit backdrop unchanged — $15.6B of Q2/26 redemption requests, 10 of 16 Fitch-tracked BDCs could not pay in full, avg request 10.3% of shares; equities rallied Oct 2 on soft jobs data (VIX Oct 2 not verified; 16.5 on Oct 1). Fund stats carried forward.",
     "oneliner": "Private-credit gating is spreading — Australia's Metrics Credit Partners suspended some redemptions on Sep 30 on top of the capped BDC quarters at Blackstone and Apollo — the liquidity-mismatch story CCM8752's daily-liquid alternative wrapper is built to sidestep, while VIX at 16 shows a calm-but-fragile tape.",
     "stats": [
       {
@@ -411,7 +411,7 @@
     ]
   },
   "ELITE": {
-    "asof": "Oct 2, 2026 run (WebSearch snippets only): still no iA Clarington press release newer than the Sep 23 Active ETF distribution notice (record Sep 30, payable Oct 9); upcoming advisor event: Women's Educational Forum Oct 15-16. Elite Pools stats carried forward.",
+    "asof": "Oct 3, 2026 run (WebSearch snippets only): still no iA Clarington press release newer than the Sep 23 Active ETF distribution notice (record Sep 30, payable Oct 9); Elite Pools stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
@@ -449,7 +449,7 @@
     ],
     "signals": [
       {
-        "name": "No fresh Elite Pools rebalancing news — 6-day streak",
+        "name": "No fresh Elite Pools rebalancing news — 7-day streak",
         "reading": "No new allocation or rebalancing announcement found; latest press release is the Sep 23 Active ETF distribution notice",
         "level": "No new announcement",
         "angle": "Use the Montreal event follow-up to ask for allocation commentary",
