@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-03-1012",
+  "updated": "2026-10-04-1005",
   "CCM9973": {
-    "asof": "Oct 3, 2026 run (WebSearch snippets only; fund pages not fetched, iaclarington.com blocked): Oct 2 session after weak Sept jobs report — S&P 500 ~7,723 (US500, +0.73% per TradingEconomics; other outlets cite +0.89%), Nasdaq +1.2-1.35%, 10-yr UST 5.27%. Fund-level AUM/MER/holdings carried forward unchanged.",
+    "asof": "Oct 4, 2026 run (WebSearch snippets only; weekend, last close = Fri Oct 2; fund pages not fetched): S&P 500 7,722.72 (+0.73%), Nasdaq 27,190.86 (+1.19%), 10-yr UST 5.18% post-jobs (earlier run cited 5.27%). Fund-level AUM/MER/holdings carried forward unchanged.",
     "oneliner": "Micron's blowout FQ4 (rev $54.2B, FQ1 guide ~$61.5B, most 2027 HBM supply contracted) confirms AI hardware demand; today a soft jobs print (+29k) cut Fed-hike odds and sent Nasdaq up ~1.3% with chips leading — falling-hike-risk is a tailwind for long-duration innovation names, though the 10-yr at 5.27% stays a valuation headwind.",
     "stats": [
       {
@@ -117,16 +117,16 @@
       },
       {
         "name": "Soft jobs report lifts tech",
-        "reading": "Sept payrolls +29k vs 84k est., unemployment 4.2%; Oct 2: S&P 500 ~+0.7-0.9%, Nasdaq ~+1.2-1.35%; Nvidia led Nasdaq to an intraday record per CNBC headline (Oct 1/2 snippet).",
-        "level": "Nasdaq ~+1.3%",
+        "reading": "Sept payrolls +29k vs ~85k est., unemployment 4.2%; Oct 2 closes: S&P 500 7,722.72 (+0.73%), Nasdaq 27,190.86 (+1.19%, record high per Detroit News/CNBC), Dow 51,176.96 (+0.49%); Nvidia led Nasdaq.",
+        "level": "Nasdaq +1.19% to 27,190.86",
         "angle": "Easing hike odds are the catalyst long-duration growth needed; supports thematic innovation positioning, with concentration risk intact",
         "tag": "LIVE"
       },
       {
-        "name": "10-yr Treasury 5.27%",
-        "reading": "10-yr UST rose to 5.27% on Oct 2 (+0.03pt) even as Fed hike odds fell (TradingEconomics)",
-        "level": "10-yr UST 5.27%",
-        "angle": "Higher discount rates remain the main valuation headwind for long-duration growth",
+        "name": "10-yr Treasury 5.18% (post-jobs)",
+        "reading": "10-yr UST moved lower to ~5.18% and 30-yr to ~5.57% after the weak payrolls print (Oct 2 snippet); an earlier source cited 5.27% — intraday vs close difference not resolved",
+        "level": "10-yr UST ~5.18%",
+        "angle": "Yields easing slightly but still high — discount rates remain the main valuation headwind for long-duration growth",
         "tag": "LIVE"
       },
       {
@@ -148,7 +148,7 @@
     ]
   },
   "CCM5604": {
-    "asof": "Oct 3, 2026 run (WebSearch snippets only): Sept jobs +29k (est. 84k), unemployment 4.2%; CME FedWatch Oct 27-28 hike odds ~17% (hold ~83%), down from ~36% a week earlier; BoC Oct 28 OIS ~74% hold (Polymarket ~61% hold / 39% hike) — earlier 60% hike pricing no longer supported; 10-yr UST 5.27%. Fund-level stats carried forward.",
+    "asof": "Oct 4, 2026 run (WebSearch snippets only): Sept jobs +29k, unemployment 4.2%; Fed expected to hold at Oct meeting; BoC Oct 28 OIS 74% hold / 26% hike as of Oct 2 (UBS now calls a hike; RBC, Desjardins see hold); BoC policy rate 2.25%; 10-yr UST ~5.18%. Fund-level stats carried forward.",
     "oneliner": "A weak US jobs print (+29k) collapsed Fed October-hike odds to ~17% and market pricing now leans to a BoC hold on Oct 28, while the RBA has hiked four times to 4.60% and the 10-yr UST sits at 5.27% — a divergent, fast-shifting rate picture that favours this flexible mandate.",
     "stats": [
       {
@@ -270,9 +270,9 @@
       },
       {
         "name": "BoC Oct 28 now leans hold",
-        "reading": "OIS ~74% hold; Polymarket 61% no change vs 39% hike (Oct 2) — down from ~60% hike pricing in earlier sources",
-        "level": "~74% hold",
-        "angle": "Canadian hike risk fading; still a binary event — diversification beyond a Canada-only bond book",
+        "reading": "OIS ~74% hold / 26% hike as of Oct 2; BoC at 2.25% for 7th straight hold (Sep 2); UBS shifted to a hike call while RBC and Desjardins expect hold through 2026; inflation near 3%, Middle East energy prices cited",
+        "level": "~74% hold / 26% hike",
+        "angle": "Forecasters split — a binary Canadian event is a reason for global, actively managed duration rather than a Canada-only bond book",
         "tag": "LIVE"
       },
       {
@@ -294,8 +294,8 @@
     ]
   },
   "CCM8752": {
-    "asof": "Oct 3, 2026 run (WebSearch snippets only): no new fund-level data; industry private-credit backdrop unchanged — $15.6B of Q2/26 redemption requests, 10 of 16 Fitch-tracked BDCs could not pay in full, avg request 10.3% of shares; equities rallied Oct 2 on soft jobs data (VIX Oct 2 not verified; 16.5 on Oct 1). Fund stats carried forward.",
-    "oneliner": "Private-credit gating is spreading — Australia's Metrics Credit Partners suspended some redemptions on Sep 30 on top of the capped BDC quarters at Blackstone and Apollo — the liquidity-mismatch story CCM8752's daily-liquid alternative wrapper is built to sidestep, while VIX at 16 shows a calm-but-fragile tape.",
+    "asof": "Oct 4, 2026 run (WebSearch snippets only): VIX closed 15.31 on Oct 2 (-1.08, -6.59%); new private-credit gating news — Blue Owl Technology Income Corp 39% withdrawal requests capped at 5%, Ares Strategic Income capped at 5% after 11.6% requests, Cliffwater capped at 5% (~16% requested). Fund stats carried forward.",
+    "oneliner": "Private-credit gating now covers essentially every major manager (Blue Owl, Ares, Cliffwater all capped at 5% in Q3, plus Australia's Metrics) — the liquidity-mismatch story CCM8752's daily-liquid alternative wrapper sidesteps, with VIX at 15 showing a calm-but-fragile tape.",
     "stats": [
       {
         "k": "AUM (Series F)",
@@ -388,6 +388,13 @@
     ],
     "signals": [
       {
+        "name": "Big-name private credit funds capped at 5% in Q3",
+        "reading": "Blue Owl Technology Income Corp (~$5B): 39% of shares requested, capped; Ares Strategic Income ($10.7B): 11.6% requested, capped at 5%; Cliffwater flagship: ~16% requested, capped at 5%, ~one-third filled; Fitch private-credit default rate record 6.0% (12 mo to Apr 2026)",
+        "level": "39% / 11.6% / ~16% requested vs 5% cap",
+        "angle": "Gating is industry-wide — daily liquidity is the differentiator for advisors with clients stuck in semi-liquid private credit",
+        "tag": "LIVE"
+      },
+      {
         "name": "Australian private credit gates (Metrics Credit Partners)",
         "reading": "Metrics suspended redemptions in some funds as KPMG delayed audit opinions at the Sep 30 deadline",
         "level": "Redemptions suspended",
@@ -402,16 +409,16 @@
         "tag": "LIVE"
       },
       {
-        "name": "VIX 16.5",
-        "reading": "VIX 16.5 on Oct 1/26 (+0.1) vs 16.02 Sep 30",
-        "level": "16.02 vs 14.87 prior",
+        "name": "VIX 15.31",
+        "reading": "VIX closed 15.31 on Oct 2/26, down 1.08 (-6.59%) from 16.39 the prior close (Oct 1 figure in earlier run was 16.5 — minor source variance)",
+        "level": "15.31 vs ~16.4 prior",
         "angle": "Calm regime — hedging/market-neutral sleeves earn their keep when it turns",
         "tag": "LIVE"
       }
     ]
   },
   "ELITE": {
-    "asof": "Oct 3, 2026 run (WebSearch snippets only): still no iA Clarington press release newer than the Sep 23 Active ETF distribution notice (record Sep 30, payable Oct 9); Elite Pools stats carried forward.",
+    "asof": "Oct 4, 2026 run (WebSearch snippets only): no iA Clarington press release newer than the Sep 23 Active ETF distribution notice (payable Oct 9); upcoming advisor event: Women's Educational Forum – Quebec, Oct 15-16. Elite Pools stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
@@ -449,7 +456,7 @@
     ],
     "signals": [
       {
-        "name": "No fresh Elite Pools rebalancing news — 7-day streak",
+        "name": "No fresh Elite Pools rebalancing news — 8-day streak",
         "reading": "No new allocation or rebalancing announcement found; latest press release is the Sep 23 Active ETF distribution notice",
         "level": "No new announcement",
         "angle": "Use the Montreal event follow-up to ask for allocation commentary",
