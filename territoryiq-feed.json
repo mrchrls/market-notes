@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-04-1005",
+  "updated": "2026-10-05-1015",
   "CCM9973": {
-    "asof": "Oct 4, 2026 run (WebSearch snippets only; weekend, last close = Fri Oct 2; fund pages not fetched): S&P 500 7,722.72 (+0.73%), Nasdaq 27,190.86 (+1.19%), 10-yr UST 5.18% post-jobs (earlier run cited 5.27%). Fund-level AUM/MER/holdings carried forward unchanged.",
+    "asof": "Oct 5, 2026 run (WebSearch snippets only; Mon pre-open, last close = Fri Oct 2; fund pages not fetched): S&P 500 7,722.72 (+0.73%), Nasdaq 27,190.86 (+1.2%), 10-yr UST ~5.25-5.28% (sources differ); NVDA record intraday $237.55 Fri Oct 2 after Morgan Stanley reinstated it as top semi pick. Fund-level AUM/MER/holdings carried forward unchanged.",
     "oneliner": "Micron's blowout FQ4 (rev $54.2B, FQ1 guide ~$61.5B, most 2027 HBM supply contracted) confirms AI hardware demand; today a soft jobs print (+29k) cut Fed-hike odds and sent Nasdaq up ~1.3% with chips leading — falling-hike-risk is a tailwind for long-duration innovation names, though the 10-yr at 5.27% stays a valuation headwind.",
     "stats": [
       {
@@ -34,7 +34,7 @@
       },
       {
         "k": "NVDA reference",
-        "v": "Approaching May all-time high of $236.54 (+15% over 3 months, CNBC Sep 30); $150B buyback expansion announced Sep 28. Last exact print on file $224.58 (Sep 28)."
+        "v": "Record intraday high $237.55 on Fri Oct 2/26 (mkt cap ~$5.7T) after Morgan Stanley reinstated NVDA as top semiconductor pick (Overweight, $300 target; ~15x FY28E EPS) following meetings with Huang/Kress; $150B buyback expansion announced Sep 28. Prior exact print on file $224.58 (Sep 28)."
       },
       {
         "k": "Indices (Fri Oct 2/26)",
@@ -109,6 +109,13 @@
     ],
     "signals": [
       {
+        "name": "NVDA record high on Morgan Stanley top-pick call",
+        "reading": "Shares hit $237.55 intraday Fri Oct 2/26, above the May high of $236.54; MS keeps Overweight and $300 target, citing early Rubin/Vera ramp and power-constrained supply favouring Nvidia; Nvidia ~+1.7% early Oct 2 per snippets.",
+        "level": "$237.55 record intraday",
+        "angle": "Top holding at a new high on a valuation-based call (15x FY28E per MS) — counters 'AI is a bubble' objections, while single-name concentration remains the honest caveat",
+        "tag": "LIVE"
+      },
+      {
         "name": "Micron blowout FQ4, stock flat",
         "reading": "Revenue $54.2B vs $51.07B est., adj. EPS $33.42 vs $31.61; FQ1 guide ~$61.5B; most calendar-2027 HBM supply contracted at higher prices; shares roughly flat after hours Shares +240% YTD; 16 multiyear agreements with binding volume commitments (Oct 2 search).",
         "level": "FQ1 guide ~$61.5B rev / $38.15 EPS",
@@ -148,7 +155,7 @@
     ]
   },
   "CCM5604": {
-    "asof": "Oct 4, 2026 run (WebSearch snippets only): Sept jobs +29k, unemployment 4.2%; Fed expected to hold at Oct meeting; BoC Oct 28 OIS 74% hold / 26% hike as of Oct 2 (UBS now calls a hike; RBC, Desjardins see hold); BoC policy rate 2.25%; 10-yr UST ~5.18%. Fund-level stats carried forward.",
+    "asof": "Oct 5, 2026 run (WebSearch snippets only): Fed Oct hike odds low after Sept jobs +29k; 10-yr UST ~5.25-5.28%; BoC Oct 28 — OIS 74% hold as of Oct 2, Polymarket ~61% hold / ~39% hike, Globe and Mail calls it a coin flip; BoC at 2.25%. Fund-level stats carried forward.",
     "oneliner": "A weak US jobs print (+29k) collapsed Fed October-hike odds to ~17% and market pricing now leans to a BoC hold on Oct 28, while the RBA has hiked four times to 4.60% and the 10-yr UST sits at 5.27% — a divergent, fast-shifting rate picture that favours this flexible mandate.",
     "stats": [
       {
@@ -294,7 +301,7 @@
     ]
   },
   "CCM8752": {
-    "asof": "Oct 4, 2026 run (WebSearch snippets only): VIX closed 15.31 on Oct 2 (-1.08, -6.59%); new private-credit gating news — Blue Owl Technology Income Corp 39% withdrawal requests capped at 5%, Ares Strategic Income capped at 5% after 11.6% requests, Cliffwater capped at 5% (~16% requested). Fund stats carried forward.",
+    "asof": "Oct 5, 2026 run (WebSearch snippets only): private-credit gating story unchanged from Oct 4 (Blue Owl 39% requested, Ares 11.6%, Cliffwater ~16%, all capped at 5%); no fresher VIX print than Oct 2 close of 15.31. Fund stats carried forward.",
     "oneliner": "Private-credit gating now covers essentially every major manager (Blue Owl, Ares, Cliffwater all capped at 5% in Q3, plus Australia's Metrics) — the liquidity-mismatch story CCM8752's daily-liquid alternative wrapper sidesteps, with VIX at 15 showing a calm-but-fragile tape.",
     "stats": [
       {
@@ -418,7 +425,7 @@
     ]
   },
   "ELITE": {
-    "asof": "Oct 4, 2026 run (WebSearch snippets only): no iA Clarington press release newer than the Sep 23 Active ETF distribution notice (payable Oct 9); upcoming advisor event: Women's Educational Forum – Quebec, Oct 15-16. Elite Pools stats carried forward.",
+    "asof": "Oct 5, 2026 run (WebSearch snippets only): no iA Clarington press release newer than the Sep 23 Active ETF distribution notice (payable Oct 9); iA Financial named Nicolas Coulombe CIO (IT) effective Oct 1 — a technology role, not investment-related. Elite Pools stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
@@ -456,7 +463,7 @@
     ],
     "signals": [
       {
-        "name": "No fresh Elite Pools rebalancing news — 8-day streak",
+        "name": "No fresh Elite Pools rebalancing news — 9-day streak",
         "reading": "No new allocation or rebalancing announcement found; latest press release is the Sep 23 Active ETF distribution notice",
         "level": "No new announcement",
         "angle": "Use the Montreal event follow-up to ask for allocation commentary",
