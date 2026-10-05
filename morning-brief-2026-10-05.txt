@@ -1,0 +1,26 @@
+WHAT CHANGED
+One genuinely new signal: NVIDIA hit a record $237.55 intraday Fri Oct 2 after Morgan Stanley reinstated it as top semi pick (Overweight, $300 target). Everything else carried forward — competitors, GIC and BoC pricing unchanged from yesterday; the Elite no-news streak ticked from 8 to 9 days.
+
+TODAY'S SIGNAL ANGLES
+
+[CCM5604 · LIVE] 5-yr GIC ceiling — best GIC ~4.50% vs fund YTM 5.7%
+Angle: Top GICs are 4.40–4.50% (Tangerine 4.50%, Oaken 4.40%). Your anchor for GIC-renewal talks. Feed flags the 5.7% YTM as carried forward, unverified today — confirm before quoting.
+
+[CCM8752 · LIVE] Private credit gating — 39% / 11.6% / ~16% requested vs 5% cap
+Angle: Blue Owl, Ares and Cliffwater all capped at 5% in Q3; Fitch default rate a record 6.0%. For advisors with clients stuck in semi-liquid private credit — daily liquidity is the whole pitch.
+
+[CCM9973 · LIVE] NVDA record high — $237.55 record intraday
+Angle: Top holding at a new high on a valuation call (15x FY28E per MS). Answers "AI is a bubble"; single-name concentration stays the honest caveat.
+
+[CCM5604 · LIVE] BoC Oct 28 leans hold — ~74% hold / 26% hike
+Angle: UBS now calls a hike; RBC and Desjardins see a hold. A binary Oct 28 event argues for global, actively managed duration over a Canada-only bond book.
+
+[CCM9973 · LIVE] Micron FQ4 beat — FQ1 guide ~$61.5B rev / $38.15 EPS
+Angle: Revenue $54.2B vs $51.07B est., stock flat. "Demand isn't the issue, expectations are" — for AI valuation pushback.
+
+[ELITE · LIVE] IIME TSX launch ceremony — confirmed Sep 18/26
+Angle: Your concrete answer to "what's new at iA Clarington".
+
+WORTH KNOWING
+- Manulife Strategic Income's Series F MER is 0.90% vs CCM5604's 0.84% — and their long-time lead PM Daniel S. Janis III now sub-advises CCM5604.
+- CCM9973's summary cites the 10-yr at 5.27% while its own signal reads ~5.18% — use the signal figure, or neither.
