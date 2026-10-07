@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-06-1015",
+  "updated": "2026-10-07-1010",
   "CCM9973": {
-    "asof": "Oct 6, 2026 run (WebSearch snippets; fund pages not fetched): Mon Oct 5 close S&P 500 7,773.95 (+0.66%), Nasdaq +1.05% to a record, NVDA +2.12% to a record (mkt cap nearing $6T) after Foxconn earnings; 10-yr UST ~5.26-5.34% (24-yr highs on long end). Fund-level AUM/MER/holdings carried forward unchanged.",
+    "asof": "Oct 7, 2026 run (WebSearch snippets; fund pages not fetched): Tue Oct 6 close S&P 500 7,818.95 (+0.58%, record), Nasdaq 27,599.79 (+0.45%, record), Dow 51,521.04 (+0.49%) as yields eased; Oct 5 S&P posted first close above 7,800 per CNBC headline. Fund-level AUM/MER/holdings carried forward unchanged.",
     "oneliner": "Micron's blowout FQ4 (rev $54.2B, FQ1 guide ~$61.5B, most 2027 HBM supply contracted) confirms AI hardware demand; today a soft jobs print (+29k) cut Fed-hike odds and sent Nasdaq up ~1.3% with chips leading — falling-hike-risk is a tailwind for long-duration innovation names, though the 10-yr at 5.27% stays a valuation headwind.",
     "stats": [
       {
@@ -47,6 +47,10 @@
       {
         "k": "Indices (Mon Oct 5/26)",
         "v": "S&P 500 7,773.95 (+0.66%, <1% from record); Nasdaq Composite +1.05% record high; NVDA +2.12% record, cap nearing $6T (Foxconn strong AI-server demand). 10-yr UST 5.255% close (intraday 5.34%), 30-yr ~5.6-5.7% — highest since 2002."
+      },
+      {
+        "k": "Indices (Tue Oct 6/26)",
+        "v": "S&P 500 7,818.95 (+0.58%), Nasdaq Composite 27,599.79 (+0.45%), Dow 51,521.04 (+0.49%) — all-time closing highs for S&P and Nasdaq as crude steadied and Treasury yields eased (snippet; source summary)"
       }
     ],
     "layers": [
@@ -113,6 +117,13 @@
     ],
     "signals": [
       {
+        "name": "S&P 500 and Nasdaq record closes again",
+        "reading": "Oct 6: S&P 500 7,818.95 (+0.58%), Nasdaq 27,599.79 (+0.45%), both all-time closing highs; yields eased and crude steadied.",
+        "level": "Nasdaq 27,599.79 / S&P 7,818.95",
+        "angle": "Back-to-back records with easing yields support growth/innovation positioning; keep the long-yield valuation caveat in the conversation",
+        "tag": "LIVE"
+      },
+      {
         "name": "Nasdaq and NVDA records on Foxconn read-through",
         "reading": "Oct 5: S&P 500 7,773.95 (+0.66%), Nasdaq +1.05% record, NVDA +2.12% record, cap nearing $6T; strength came despite a global bond sell-off (10-yr 5.255% close, 30-yr ~5.6-5.7%).",
         "level": "NVDA +2.12% / Nasdaq +1.05%",
@@ -166,7 +177,7 @@
     ]
   },
   "CCM5604": {
-    "asof": "Oct 6, 2026 run (WebSearch snippets): Fed Oct hike odds ~18% (CME, hold ~82%), Dec hike ~2/3 priced; 10-yr UST 5.255% close Oct 5 (intraday 5.34%), 30-yr ~5.6-5.7%, highest since 2002; BoC Oct 28 at 2.25%, Polymarket ~61% hold / ~39% hike. Fund-level stats carried forward.",
+    "asof": "Oct 7, 2026 run (WebSearch snippets): Fed hike odds for this month's meeting 19.4% (CME FedWatch) vs 50.9% a week ago; Treasury yields eased Oct 6. BoC Oct 28 still 2.25%; fresh BoC pricing not verified today (search returned stale items). Fund-level stats carried forward.",
     "oneliner": "A weak US jobs print (+29k) collapsed Fed October-hike odds to ~17% and market pricing now leans to a BoC hold on Oct 28, while the RBA has hiked four times to 4.60% and the 10-yr UST sits at 5.27% — a divergent, fast-shifting rate picture that favours this flexible mandate.",
     "stats": [
       {
@@ -212,6 +223,10 @@
       {
         "k": "Bank of Canada",
         "v": "Overnight rate 2.25%, held Sep 2/26 (7th consecutive hold); Oct 28 odds as of Oct 2: OIS ~74% hold; Polymarket ~61% no change / ~39% hike — shifted toward hold vs. earlier sources"
+      },
+      {
+        "k": "Fed hike odds (Oct 6/26)",
+        "v": "19.4% for a second consecutive hike at the Oct 27-28 meeting, vs 50.9% a week earlier (CME FedWatch via news snippet)"
       }
     ],
     "countries": [
@@ -273,6 +288,13 @@
     "basket": "Rates are diverging: RBA hiked to 4.60% (Sep 29), Fed October-hike odds fell to ~17% on a weak jobs report with the 10-yr UST at 5.27%, and BoC pricing swung to a likely hold (~74%) on Oct 28. USD/CAD (~1.42, Oct 1) and JPY, KRW, MXN prints are carried forward without fresh same-day data. A two-sided, event-driven backdrop for this flexible fund heading into Q4.",
     "signals": [
       {
+        "name": "Fed hike odds ease again",
+        "reading": "CME FedWatch: 19.4% odds of a second straight hike this month, down from 50.9% a week ago; Treasury yields eased Oct 6.",
+        "level": "19.4% vs 50.9%",
+        "angle": "Rapid repricing in a week argues for active duration management over a static ladder",
+        "tag": "LIVE"
+      },
+      {
         "name": "Long-end yields at 24-year highs",
         "reading": "Oct 5: 10-yr UST up to 5.34% intraday (closed ~5.255%), 30-yr ~5.7% intraday, highest since 2002; Fed Oct hike odds ~18%, December still ~2/3 priced.",
         "level": "10-yr ~5.26% close / 30-yr ~5.6%",
@@ -319,7 +341,7 @@
     ]
   },
   "CCM8752": {
-    "asof": "Oct 6, 2026 run (WebSearch snippets): VIX closed 15.59 on Oct 5 (+0.28); private-credit gating story unchanged (Blue Owl OTIC 39% requested, Ares 11.6%, Cliffwater ~16%, all capped at 5%; US default rate record ~6.1% Jul). Fund stats carried forward.",
+    "asof": "Oct 7, 2026 run (WebSearch snippets): no fresh VIX print for Oct 6 found; last verified VIX 15.59 (Oct 5). Private-credit gating story unchanged (BlackRock, Blue Owl, Blackstone, Apollo, Ares, Cliffwater, Partners Group capped). Fund stats carried forward.",
     "oneliner": "Private-credit gating now covers essentially every major manager (Blue Owl, Ares, Cliffwater all capped at 5% in Q3, plus Australia's Metrics) — the liquidity-mismatch story CCM8752's daily-liquid alternative wrapper sidesteps, with VIX at 15 showing a calm-but-fragile tape.",
     "stats": [
       {
@@ -450,7 +472,7 @@
     ]
   },
   "ELITE": {
-    "asof": "Oct 6, 2026 run (WebSearch snippets): no iA Clarington press release newer than the Sep 23 Active ETF distribution notice (payable Oct 9); firm AUM >$26B as of Aug 31/26 reconfirmed. Elite Pools stats carried forward.",
+    "asof": "Oct 7, 2026 run (WebSearch snippets): no iA Clarington press release newer than the Sep 23 Active ETF distribution notice (payable Oct 9) found; stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
