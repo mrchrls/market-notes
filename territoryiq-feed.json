@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-07-1010",
+  "updated": "2026-10-08-1006",
   "CCM9973": {
-    "asof": "Oct 7, 2026 run (WebSearch snippets; fund pages not fetched): Tue Oct 6 close S&P 500 7,818.95 (+0.58%, record), Nasdaq 27,599.79 (+0.45%, record), Dow 51,521.04 (+0.49%) as yields eased; Oct 5 S&P posted first close above 7,800 per CNBC headline. Fund-level AUM/MER/holdings carried forward unchanged.",
+    "asof": "Oct 8, 2026 run (WebSearch snippets; fund pages not fetched): no verified Oct 7 close found; latest verified closes are Oct 6 (S&P 500 7,818.95, Nasdaq 27,599.79, both records, carried from prior run). Oct 5 10-yr UST hit 5.34% intraday (highest since 2002) then 5.27% Oct 6 morning. Fund-level AUM/MER/holdings carried forward unchanged.",
     "oneliner": "Micron's blowout FQ4 (rev $54.2B, FQ1 guide ~$61.5B, most 2027 HBM supply contracted) confirms AI hardware demand; today a soft jobs print (+29k) cut Fed-hike odds and sent Nasdaq up ~1.3% with chips leading — falling-hike-risk is a tailwind for long-duration innovation names, though the 10-yr at 5.27% stays a valuation headwind.",
     "stats": [
       {
@@ -177,7 +177,7 @@
     ]
   },
   "CCM5604": {
-    "asof": "Oct 7, 2026 run (WebSearch snippets): Fed hike odds for this month's meeting 19.4% (CME FedWatch) vs 50.9% a week ago; Treasury yields eased Oct 6. BoC Oct 28 still 2.25%; fresh BoC pricing not verified today (search returned stale items). Fund-level stats carried forward.",
+    "asof": "Oct 8, 2026 run (WebSearch snippets): Sept payrolls +29k vs ~90k expected; markets price ~80% odds the Fed holds in October (prediction markets ~26% hike on Oct 2). MoneySense (late Sept) called BoC Oct 28 a near coin flip vs the ~74% hold OIS reading carried from Oct 2 — sources conflict. Fund-level stats carried forward.",
     "oneliner": "A weak US jobs print (+29k) collapsed Fed October-hike odds to ~17% and market pricing now leans to a BoC hold on Oct 28, while the RBA has hiked four times to 4.60% and the 10-yr UST sits at 5.27% — a divergent, fast-shifting rate picture that favours this flexible mandate.",
     "stats": [
       {
@@ -288,6 +288,13 @@
     "basket": "Rates are diverging: RBA hiked to 4.60% (Sep 29), Fed October-hike odds fell to ~17% on a weak jobs report with the 10-yr UST at 5.27%, and BoC pricing swung to a likely hold (~74%) on Oct 28. USD/CAD (~1.42, Oct 1) and JPY, KRW, MXN prints are carried forward without fresh same-day data. A two-sided, event-driven backdrop for this flexible fund heading into Q4.",
     "signals": [
       {
+        "name": "BoC Oct 28 pricing conflicts across sources",
+        "reading": "MoneySense (late Sept) described the Oct 28 BoC decision as roughly a coin flip with a slight tilt to a hike; an Oct 2 OIS reading on file had ~74% hold. Policy rate 2.25%; new MPR accompanies the Oct 28 decision.",
+        "level": "2.25% hold vs hike — sources disagree",
+        "angle": "Pricing swings week to week — reinforces active, flexible positioning over a fixed ladder; verify the latest odds before quoting",
+        "tag": "LIVE"
+      },
+      {
         "name": "Fed hike odds ease again",
         "reading": "CME FedWatch: 19.4% odds of a second straight hike this month, down from 50.9% a week ago; Treasury yields eased Oct 6.",
         "level": "19.4% vs 50.9%",
@@ -341,7 +348,7 @@
     ]
   },
   "CCM8752": {
-    "asof": "Oct 7, 2026 run (WebSearch snippets): no fresh VIX print for Oct 6 found; last verified VIX 15.59 (Oct 5). Private-credit gating story unchanged (BlackRock, Blue Owl, Blackstone, Apollo, Ares, Cliffwater, Partners Group capped). Fund stats carried forward.",
+    "asof": "Oct 8, 2026 run (WebSearch snippets): no VIX print for Oct 6/7 found (last verified 15.59 on Oct 5). No new Q3 private-credit gating headlines beyond those already on file; Q2 context reconfirmed (10 of 16 Fitch-tracked BDCs breached caps, avg requests 10.3%). Fund stats carried forward.",
     "oneliner": "Private-credit gating now covers essentially every major manager (Blue Owl, Ares, Cliffwater all capped at 5% in Q3, plus Australia's Metrics) — the liquidity-mismatch story CCM8752's daily-liquid alternative wrapper sidesteps, with VIX at 15 showing a calm-but-fragile tape.",
     "stats": [
       {
@@ -472,7 +479,7 @@
     ]
   },
   "ELITE": {
-    "asof": "Oct 7, 2026 run (WebSearch snippets): no iA Clarington press release newer than the Sep 23 Active ETF distribution notice (payable Oct 9) found; stats carried forward.",
+    "asof": "Oct 8, 2026 run (WebSearch snippets): no iA Clarington press release dated October found; latest located are Aug 24 and Sep 23 Active ETF distribution notices. October distribution notice likely due ~Oct 24 based on 2025 pattern. Stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
