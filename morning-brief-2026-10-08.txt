@@ -1,0 +1,40 @@
+TerritoryIQ Morning Brief — Thursday, October 8
+
+WHAT CHANGED
+Thin day. One new signal: CCM5604 flags that BoC Oct 28 pricing conflicts
+across sources — MoneySense calls it a near coin flip tilting to a hike vs the
+~74% hold OIS reading from Oct 2. Rest carried forward: no verified Oct 7 close,
+no VIX print for Oct 6/7, no new gating headlines.
+
+TODAY'S SIGNAL ANGLES
+
+[CCM5604 · LIVE] 5-yr GIC ceiling — best GIC ~4.50% vs fund YTM 5.7% (carried forward)
+Angle: Tangerine 4.50%, Haventree 4.45%, Oaken 4.40% against a 5.7% yield to
+maturity. The anchor for GIC-renewal conversations; YTM not reconfirmed today.
+
+[CCM8752 · LIVE] Private credit funds capped at 5% in Q3 — 39% / 11.6% / ~16% requested vs 5% cap
+Angle: Blue Owl Tech Income 39% requested, Ares 11.6%, Cliffwater ~16% — all
+capped at 5%. Gating is industry-wide; daily liquidity is the differentiator.
+Best for advisors with clients stuck in semi-liquid private credit.
+
+[CCM5604 · LIVE] Fed hike odds ease again — 19.4% vs 50.9%
+Angle: Odds of a second straight hike fell from 50.9% to 19.4% in a week.
+Repricing that fast argues for active duration over a static ladder.
+
+[CCM9973 · LIVE] NVDA record high on Morgan Stanley top-pick call — $237.55 record intraday
+Angle: Top holding at a new high on a valuation call (Overweight, $300 target,
+15x FY28E). Your answer to "AI is a bubble" — concede concentration risk.
+
+[ELITE · LIVE] IIME TSX launch ceremony — confirmed Sep 18/26
+Angle: A concrete answer to "what's new at iA Clarington." Still no Elite Pools
+rebalancing news, now a 9-day streak — ask for allocation commentary.
+
+WORTH KNOWING
+• Manulife Strategic Income Series F AUM now pinned at $5.58B vs CCM5604's
+  ~$1.1B — but Dan Janis, who built that fund, sub-advises ours. Their
+  Morningstar: 2-star 3yr/5yr, 3-star 10yr.
+• CCM9973 objection-handling: Texas's TCEQ permit freeze now quantified —
+  49.8 GW of data-center load delayed, ~20% of the US pipeline, $15B exposure;
+  compliance report due Oct 19/26.
+• Latest verified VIX is 15.59 (Oct 5) — calm tape, so CCM8752's market-neutral
+  sleeves are cheap insurance now.
