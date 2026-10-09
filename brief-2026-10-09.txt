@@ -1,0 +1,31 @@
+Subject: TerritoryIQ Morning Brief — Friday, October 9
+
+WHAT CHANGED
+Yesterday's run found no verified Oct 7 close; today's landed it and added a signal to three of four mandates — the Oct 7 pullback (Nasdaq 27,538.69, -0.22%, first down day in six), the 10-yr UST at 5.364% intraday, and VIX 15.67. CCM5604 also dropped its BoC hold-odds framing: no fresh odds today.
+
+TODAY'S SIGNAL ANGLES
+
+[CCM5604 · LIVE] 5-yr GIC ceiling — best GIC ~4.50% vs fund YTM 5.7%
+Angle: ~120 bps of pickup over the top 5-yr GIC (Tangerine 4.50%, Haventree 4.45%, Oaken 4.40%). YTM is carried forward, unverified today — quote as approximate. Your GIC-renewal conversations.
+
+[CCM8752 · LIVE] Private credit capped at 5% in Q3 — 39% / 11.6% / ~16% requested
+Angle: Blue Owl Tech Income had 39% of shares requested, Ares Strategic Income 11.6%, Cliffwater ~16% — all capped at 5%. Fitch's private-credit default rate is a record 6.0%. Daily liquidity is the whole pitch. For advisors with clients stuck in semi-liquid product.
+
+[CCM5604 · LIVE] 10-yr UST 5.364% intraday, 30-yr at a 24-year high
+Angle: Highest since 2002 before a strong auction pulled it back; Brent settled $100.20. The fund's 3.9-yr duration against a 5%+ long end. Use on anyone defending a static bond ladder.
+
+[CCM9973 · LIVE] Records pause as long yields spike — Nasdaq 27,538.69 (-0.22%), chips -1.2%
+Angle: Rate-driven, not demand-driven — Micron's FQ4 ($54.2B revenue, FQ1 guide ~$61.5B) says demand is intact. An entry-point conversation on innovation exposure.
+
+[CCM5604 · LIVE] Fed hike odds ease again — 19.4% vs 50.9% a week ago
+Angle: CME FedWatch repricing that hard in seven days argues for active duration. BoC sits at 2.25% into Oct 28 — same day as the FOMC.
+
+[ELITE · LIVE] IIME TSX launch ceremony confirmed — Sep 18/26
+Angle: A concrete recent product story for "what's new at iA Clarington".
+
+WORTH KNOWING
+- VIX closed 15.67 with ~68% of US issues down and the Russell 2000 off ~1.3% — complacent tape, cheap moment to raise market-neutral sleeves.
+- Manulife Strategic Income Series F is 0.90% MER vs CCM5604's 0.84%; Dan Janis, who built Manulife's flagship, now sub-advises CCM5604.
+- Elite: September Active ETF distribution is payable today (Oct 9). Still no October press release.
+
+Feed stamp: 2026-10-09-1006
