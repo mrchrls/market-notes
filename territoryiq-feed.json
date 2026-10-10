@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-09-1006",
+  "updated": "2026-10-10-1005",
   "CCM9973": {
-    "asof": "Oct 9, 2026 run (WebSearch snippets; fund pages not fetched): Oct 7 close found — S&P 500 7,801.77 (-0.22%), Nasdaq 27,538.69 (-0.22%), Dow ~51,180 (-0.66%), chips -1.2% as 10-yr UST spiked to 5.364% intraday. No verified Oct 8 close. Fund-level AUM/MER/holdings carried forward.",
-    "oneliner": "Micron's blowout FQ4 (rev $54.2B, FQ1 guide ~$61.5B, most 2027 HBM supply contracted) confirms AI hardware demand; Oct 7 saw the first Nasdaq down day in six (-0.22%, chips -1.2%) as the 10-yr UST hit 5.364% intraday, a 2002-high — the long-yield valuation headwind is the live risk for innovation names.",
+    "asof": "Oct 10, 2026 run (WebSearch snippets; fund pages not fetched): Oct 8 close found via AP-style recap — S&P 500 7,765.36 (-0.5%, 2nd straight loss), Nasdaq 27,193.34 (-1.3%), Dow 51,231.64 (+0.1%), tech led declines, Brent >$104. No verified Oct 9 close. Fund-level AUM/MER/holdings carried forward.",
+    "oneliner": "Micron's blowout FQ4 (rev $54.2B, FQ1 guide ~$61.5B, most 2027 HBM supply contracted) confirms AI hardware demand, but tech is wobbling: Nasdaq -1.3% on Oct 8 (27,193.34), a second straight S&P loss, with the 10-yr UST at 2002-highs (5.364% intraday Oct 7) — the long-yield valuation headwind is the live risk for innovation names.",
     "stats": [
       {
         "k": "AUM (all series)",
@@ -55,6 +55,10 @@
       {
         "k": "Indices (Wed Oct 7/26)",
         "v": "S&P 500 7,801.77 (-0.22%), Nasdaq 27,538.69 (-0.22%, first down day in six), Dow ~51,180 (-0.66%), Russell 2000 ~-1.3%; chip stocks -1.2% after >80% YTD gain (Reuters/Star/MTC snippets)"
+      },
+      {
+        "k": "Indices (Thu Oct 8/26)",
+        "v": "S&P 500 7,765.36 (-0.5%), Nasdaq 27,193.34 (-1.3%, -345.35 pts), Dow 51,231.64 (+0.1%); tech drops outweighed gains in most S&P stocks; Brent topped $104"
       }
     ],
     "layers": [
@@ -120,6 +124,13 @@
       }
     ],
     "signals": [
+      {
+        "name": "Tech sells off, Nasdaq -1.3%",
+        "reading": "Oct 8: S&P 500 fell 0.5% to 7,765.36 (second straight loss after record), Nasdaq composite -1.3% to 27,193.34, Dow +0.1%; technology led the decline while most S&P members rose; Brent >$104.",
+        "level": "Nasdaq 27,193.34 (-1.3%)",
+        "angle": "Pullback after 6-day record run; frame as rotation/valuation reset vs. intact AI capex demand (Micron guide, Goldman $1.2T 2027E).",
+        "tag": "LIVE"
+      },
       {
         "name": "Records pause as long yields spike",
         "reading": "Oct 7: S&P 500 7,801.77 (-0.22%), Nasdaq 27,538.69 (-0.22%); 10-yr UST touched 5.364% (highest since 2002) before easing on a solid auction; chips -1.2%; Brent settled $100.20.",
@@ -188,7 +199,7 @@
     ]
   },
   "CCM5604": {
-    "asof": "Oct 9, 2026 run (WebSearch snippets): Oct 7 10-yr UST hit 5.364% intraday (highest since 2002), 30-yr at 24-yr high; Fed Sept minutes showed unanimous backing for the hike; BoC next decision Oct 28 (held 2.25%, no fresh odds found). Fund-level stats carried forward.",
+    "asof": "Oct 10, 2026 run (WebSearch snippets): Saxo week-ahead — Oct FOMC hike odds ~15% after soft payrolls (from ~65% a week earlier), 10-yr UST touched >5.34% (highest since 2002) then eased to ~5.17%; Brent >$104 Oct 8; BoC next decision Oct 28 (2.25% hold since Dec 2025), no fresh consensus found. Fund-level stats carried forward.",
     "oneliner": "Long-end yields keep making 24-year highs (10-yr UST 5.364% intraday Oct 7) while Fed hike odds for October have faded to ~19% and the BoC sits at 2.25% ahead of Oct 28 — a volatile, divergent rate backdrop that favours a flexible global mandate.",
     "stats": [
       {
@@ -299,6 +310,13 @@
     "basket": "Rates are diverging: RBA hiked to 4.60% (Sep 29), Fed October-hike odds fell to ~17% on a weak jobs report with the 10-yr UST at 5.27%, and BoC pricing swung to a likely hold (~74%) on Oct 28. USD/CAD (~1.42, Oct 1) and JPY, KRW, MXN prints are carried forward without fresh same-day data. A two-sided, event-driven backdrop for this flexible fund heading into Q4.",
     "signals": [
       {
+        "name": "Fed Oct hike odds ~15%",
+        "reading": "Saxo week-ahead: softer PCE cut Oct hike odds to ~20% from ~65% a week earlier; weak payrolls nudged to ~15%; 10-yr UST ~5.17% after touching >5.34%. Older sources show 2002 vs 2007 for the 10-yr high — unresolved.",
+        "level": "~15% vs ~65% a week earlier",
+        "angle": "Rate path whipsawing in a week: argues for flexible duration/currency positioning over a fixed-duration bond sleeve.",
+        "tag": "LIVE"
+      },
+      {
         "name": "10-yr UST 5.364% intraday, 30-yr 24-yr high",
         "reading": "Oct 7: inflation worries and Iran-related oil (Brent settled $100.20) pushed long yields to highest since 2002 before a strong Treasury auction pulled them back; Fed Sept minutes: unanimous on the hike, split on further risks.",
         "level": "10-yr 5.364% intraday",
@@ -366,7 +384,7 @@
     ]
   },
   "CCM8752": {
-    "asof": "Oct 9, 2026 run (WebSearch snippets): VIX closed 15.67 on Oct 7 (MTC). No new private-credit gating headlines beyond those on file. Fund stats carried forward.",
+    "asof": "Oct 10, 2026 run (WebSearch snippets): no VIX close found for Oct 8/9 (latest verified 15.67 on Oct 7); Oct 8 tech-led equity drop (Nasdaq -1.3%) noted. No new private-credit gating headlines beyond those on file. Fund stats carried forward.",
     "oneliner": "Private-credit gating now covers essentially every major manager (Blue Owl, Ares, Cliffwater all capped at 5% in Q3, plus Australia's Metrics) — the liquidity-mismatch story CCM8752's daily-liquid alternative wrapper sidesteps, with VIX at 15 showing a calm-but-fragile tape.",
     "stats": [
       {
@@ -504,7 +522,7 @@
     ]
   },
   "ELITE": {
-    "asof": "Oct 9, 2026 run (WebSearch snippets): no iA Clarington press release dated October found; latest located is the Aug 24 distribution notice (>$26B AUM as of Jul 31/26); Sept ETF distribution payable Oct 9. October notice likely ~late Oct. Stats carried forward.",
+    "asof": "Oct 10, 2026 run (WebSearch snippets): no iA Clarington press release dated October found; latest located is the Aug 24 distribution notice (>$26B AUM as of Jul 31/26). Stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
