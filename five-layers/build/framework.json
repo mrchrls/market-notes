@@ -1,0 +1,43 @@
+{
+ "layers": [
+  {"converts": "Fuel, wind, sun and atoms into electricity delivered to the data-centre fence.",
+   "paid": "Regulated returns on a growing rate base, long-term power contracts, and multi-year equipment backlogs.",
+   "scarce": "Grid hookups, gas turbines, transformers, permits and skilled trades.",
+   "multiple": "Contracted load growth. Utilities that used to trade like bonds now trade on growth."},
+  {"converts": "Electricity into computation (FLOPs) and the memory that feeds it.",
+   "paid": "Price times volume. Whoever controls the scarcest part sets the price.",
+   "scarce": "Leading-edge wafers, advanced packaging, high-bandwidth memory, lithography tools, and now optics.",
+   "multiple": "Forward earnings and the debate over where the cycle peaks. Memory is cheap at the peak, by design."},
+  {"converts": "Thousands of chips into one working machine: buildings, power gear, cooling, networks, storage.",
+   "paid": "Construction and equipment backlogs, hardware shipments, rental and capacity contracts.",
+   "scarce": "Powered land, cooling, fibre and optical links, storage, and the crews to build it.",
+   "multiple": "Visibility of backlog, which tracks hyperscaler capex guidance quarter by quarter."},
+  {"converts": "Computing capacity into intelligence, sold as tokens through clouds, APIs and subscriptions.",
+   "paid": "Cloud rental, usage-based API fees, subscriptions and advertising lift.",
+   "scarce": "Compute, research talent, data, and the cash to keep spending.",
+   "multiple": "Cloud growth against capex intensity. The market pays for revenue that outruns the spend."},
+  {"converts": "Tokens into value: new revenue, lower costs, better products for the end customer.",
+   "paid": "Subscriptions, transactions, ads, devices and productivity gains.",
+   "scarce": "The customer relationship, proprietary data, and a place in the daily workflow.",
+   "multiple": "Proof that AI adds revenue rather than cannibalising it. Seat-based software is on trial."}
+ ],
+ "principles": [
+  {"t": "Demand outruns supply at every link",
+   "b": "Each conversion needs the output of the one below it, and every link is short at the same time. The **scarcest link earns scarcity pricing**, which is why valuations can run hot without the cycle being over."},
+  {"t": "The bottleneck moves, so money moves",
+   "b": "Fix one constraint and the next one binds. GPUs gave way to packaging, then power, then memory and optics. **Rotation is the normal state of this market**, across players inside a layer and across layers."},
+  {"t": "Value climbs the stack over time",
+   "b": "The base layers get paid first. As the cost per token falls, the layers that **own the customer** capture more of the margin. Owning the whole conversion means not having to guess which link wins next."}
+ ],
+ "migration": {
+  "t": "Where the bottleneck has moved",
+  "sub": "Each year the binding constraint sat in a different place, and leadership rotated with it. The dashed card is the next candidate, not a forecast.",
+  "steps": [
+   {"y": "2023", "layer": "silicon", "b": "GPUs", "w": "Accelerators sold out. NVIDIA re-rated."},
+   {"y": "2024", "layer": "silicon", "b": "Packaging and HBM", "w": "CoWoS capacity and high-bandwidth memory capped shipments."},
+   {"y": "2025", "layer": "energy", "b": "Power and the grid", "w": "Turbines, transformers and interconnection queues became the limit."},
+   {"y": "2026", "layer": "infra", "b": "Memory, optics and permits", "w": "DRAM and NAND shortages, fibre and optical links, local permit fights.", "state": "now"},
+   {"y": "2027", "layer": "apps", "b": "Proof of monetization", "w": "The stack needs end revenue that justifies the capex.", "state": "next"}
+  ]
+ }
+}
