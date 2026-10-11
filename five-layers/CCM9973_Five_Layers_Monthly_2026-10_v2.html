@@ -1,0 +1,1976 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Five Layers Monthly · CCM9973</title>
+<style>
+:root{
+  --bg0:#04182B; --bg1:#072C4E; --bg2:#0B3A63; --ink:#01233F;
+  --brand:#064DD9; --brand-lt:#3D8DFF; --sky:#73C4EF;
+  --fg:#F2F7FF; --fg-dim:#A9C2DC; --fg-mute:#7593B2; --line:rgba(115,196,239,.16); --line-s:rgba(115,196,239,.09);
+  --card:rgba(11,58,99,.42); --card2:rgba(4,24,43,.6);
+  --up:#5BE3B0; --down:#FF7A86; --flat:#A9C2DC;
+  --l1:#FFB547; --l2:#73C4EF; --l3:#C6D6E2; --l4:#C9A5FF; --l5:#86FFEA;
+  --font:"Muoto",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  --mono:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
+  --ease:cubic-bezier(.22,.61,.36,1);
+  --r:14px; --gut:clamp(16px,3.2vw,44px); --hh:64px; --fh:46px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--bg0);color:var(--fg);font-family:var(--font);font-size:15.5px;line-height:1.5;-webkit-font-smoothing:antialiased;overflow:hidden}
+body::before{content:"";position:fixed;inset:0;z-index:-1;background:radial-gradient(1100px 650px at 88% -12%,rgba(6,77,217,.36),transparent 60%),radial-gradient(800px 560px at -10% 40%,rgba(115,196,239,.09),transparent 60%),linear-gradient(180deg,var(--bg0),#03121F)}
+b,strong{color:#fff;font-weight:700}
+a{color:var(--sky)}
+button{font:inherit;color:inherit}
+/* ---------- header ---------- */
+.top{position:fixed;top:0;left:0;right:0;height:var(--hh);z-index:40;display:flex;align-items:center;gap:16px;padding:0 var(--gut);background:rgba(4,24,43,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.logo{background:#fff;border-radius:7px;padding:5px 8px;display:flex;flex:none}
+.logo img{height:22px;display:block}
+.ttl{line-height:1.15;min-width:0}
+.ttl b{display:block;font-size:12.5px;letter-spacing:.14em;text-transform:uppercase}
+.ttl span{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-mute);white-space:nowrap}
+.tabs{display:flex;gap:4px;margin:0 auto;background:rgba(1,18,32,.55);border:1px solid var(--line);border-radius:999px;padding:4px}
+.tab{border:0;background:transparent;color:var(--fg-dim);font-size:12.5px;letter-spacing:.04em;padding:7px 14px;border-radius:999px;cursor:pointer;white-space:nowrap;display:flex;align-items:center;gap:7px;transition:.25s}
+.tab i{font-style:normal;font-family:var(--mono);font-size:10.5px;color:var(--fg-mute)}
+.tab:hover{color:#fff}
+.tab[aria-selected="true"]{background:var(--brand);color:#fff}
+.tab[aria-selected="true"] i{color:#BFD8FF}
+.hbtn{flex:none;border:1px solid var(--line);background:transparent;color:var(--fg-dim);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;padding:7px 12px;border-radius:999px;cursor:pointer}
+.hbtn:hover{color:#fff;border-color:var(--sky)}
+.dealer{flex:none;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#FFD38A;border:1px solid rgba(255,196,107,.45);padding:5px 8px;border-radius:4px}
+@media (max-width:1180px){.ttl{display:none}}
+@media (max-width:900px){
+  :root{--hh:104px}
+  .top{flex-wrap:wrap;height:auto;padding-top:10px;padding-bottom:8px;row-gap:8px}
+  .tabs{order:3;width:100%;overflow-x:auto;scrollbar-width:none;justify-content:flex-start}
+  .tabs::-webkit-scrollbar{display:none}
+  .hbtn{margin-left:auto}
+}
+/* ---------- views ---------- */
+main{position:fixed;top:var(--hh);bottom:var(--fh);left:0;right:0}
+.view{position:absolute;inset:0;overflow-y:auto;padding:clamp(18px,3vh,36px) var(--gut);opacity:0;visibility:hidden;transform:translateY(10px);transition:opacity .45s var(--ease),transform .45s var(--ease),visibility .45s}
+.view.on{opacity:1;visibility:visible;transform:none}
+.inner{max-width:1320px;margin:0 auto;min-height:100%;display:flex;flex-direction:column;justify-content:center}
+@media (max-height:760px),(max-width:900px){.inner{justify-content:flex-start}}
+.eyebrow{display:flex;align-items:center;gap:10px;font-size:11.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--sky);font-weight:700;margin-bottom:10px}
+.eyebrow::before{content:"";width:24px;height:2px;background:linear-gradient(90deg,var(--brand-lt),transparent)}
+h1,h2,h3,h4{margin:0;color:#fff;letter-spacing:-.02em;line-height:1.1}
+h1 em,h2 em{font-style:normal;background:linear-gradient(90deg,var(--sky),var(--l4));-webkit-background-clip:text;background-clip:text;color:transparent}
+h2{font-size:clamp(24px,2.8vw,34px)}
+.lede{color:var(--fg-dim);margin:10px 0 0;max-width:70ch}
+.small{font-size:12px;color:var(--fg-mute)}
+.up{color:var(--up)}.down{color:var(--down)}.flat{color:var(--flat)}
+/* stagger in */
+.view .st{opacity:0;transform:translateY(14px)}
+.view.on .st{animation:stin .7s var(--ease) forwards;animation-delay:calc(var(--i,0) * 70ms + 80ms)}
+@keyframes stin{to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.view .st{opacity:1;transform:none}}
+/* citations as tooltips */
+sup.c{font-family:var(--mono);font-size:9.5px;color:var(--sky);cursor:help;margin-left:1px;position:relative;opacity:.8}
+sup.c:hover,sup.c:focus{opacity:1;outline:none}
+#tip{position:fixed;z-index:90;max-width:340px;background:#0A2440;border:1px solid rgba(115,196,239,.35);border-radius:10px;padding:10px 12px;font-size:12px;line-height:1.45;color:var(--fg-dim);box-shadow:0 14px 40px rgba(0,0,0,.45);opacity:0;pointer-events:none;transition:opacity .15s}
+#tip.on{opacity:1;pointer-events:auto}
+#tip a{display:block;margin-top:4px;word-break:break-all;font-size:11px}
+#tip div+div{margin-top:8px;padding-top:8px;border-top:1px solid var(--line-s)}
+/* ---------- view 1: the month ---------- */
+.month{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,56px);align-items:center}
+@media (max-width:980px){.month{grid-template-columns:1fr}}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.chip{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--fg-dim);border:1px solid var(--line);border-radius:999px;padding:4px 10px}
+.chip.cur{color:#fff;border-color:rgba(61,141,255,.6);background:rgba(6,77,217,.35)}
+h1{font-size:clamp(30px,3.9vw,52px);letter-spacing:-.03em;max-width:17ch}
+.dek{color:var(--fg-dim);font-size:clamp(15px,1.3vw,17px);margin:14px 0 0;max-width:56ch}
+.take{list-style:none;margin:22px 0 0;padding:0;display:grid;gap:10px;counter-reset:t}
+.take li{position:relative;padding:12px 14px 12px 50px;border-radius:12px;background:var(--card2);border:1px solid var(--line-s);color:var(--fg-dim);font-size:14.5px;counter-increment:t}
+.take li::before{content:"0" counter(t);position:absolute;left:14px;top:12px;font-family:var(--mono);font-size:12px;color:var(--sky)}
+.cake{position:relative}
+.cap{text-align:center;font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--fg-mute);margin:6px 0}
+.cap b{color:var(--l5)}.cap.bot b{color:var(--l1)}
+.tiers{position:relative;display:flex;flex-direction:column;gap:9px}
+.tier{position:relative;z-index:1;display:grid;grid-template-columns:40px 1fr auto;gap:14px;align-items:center;text-align:left;width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:linear-gradient(90deg,color-mix(in srgb,var(--c) 18%,transparent),rgba(4,24,43,.55) 70%);cursor:pointer;overflow:hidden;transition:transform .3s var(--ease),border-color .3s,box-shadow .3s}
+.tier:hover,.tier:focus-visible{transform:translateX(5px);border-color:color-mix(in srgb,var(--c) 70%,transparent);box-shadow:0 10px 30px -12px color-mix(in srgb,var(--c) 60%,transparent);outline:none}
+.tier::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,color-mix(in srgb,var(--c) 20%,transparent) 50%,transparent 70%);transform:translateX(-100%);animation:sweep 6s var(--ease) infinite;animation-delay:var(--dl)}
+@keyframes sweep{0%,60%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
+.tier .bd{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;font-weight:700;color:var(--ink);background:var(--c);box-shadow:0 0 0 4px color-mix(in srgb,var(--c) 22%,transparent)}
+.tier .nm,.tier .sh,.tier .mv,.tier .go{display:block}
+.tier .nm{font-weight:700;color:#fff;font-size:16px}
+.tier .nm small{font-family:var(--mono);font-weight:400;font-size:10.5px;letter-spacing:.1em;color:var(--fg-mute);margin-left:8px}
+.tier .nm small i{font-style:normal;color:var(--c)}
+.tier .sh{font-size:13px;color:var(--fg-dim);margin-top:2px;line-height:1.35}
+.tier .rt{text-align:right}
+.tier .mv{font-family:var(--mono);font-weight:700;font-size:15px}
+.tier .go{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-mute);margin-top:3px;white-space:nowrap}
+.tier:hover .go{color:var(--c)}
+.flowline{position:absolute;left:33px;top:18px;bottom:18px;width:2px;background:linear-gradient(0deg,var(--l1),var(--l2),var(--l3),var(--l4),var(--l5));opacity:.35;z-index:0}
+.spark{position:absolute;left:29px;width:10px;height:10px;border-radius:50%;z-index:2;pointer-events:none;animation:rise 4.4s linear infinite}
+@keyframes rise{0%{bottom:16px;opacity:0;background:var(--l1);box-shadow:0 0 14px 4px var(--l1)}8%{opacity:1}30%{background:var(--l2);box-shadow:0 0 14px 4px var(--l2)}50%{background:var(--l3);box-shadow:0 0 14px 4px var(--l3)}72%{background:var(--l4);box-shadow:0 0 14px 4px var(--l4)}92%{opacity:1;background:var(--l5);box-shadow:0 0 14px 4px var(--l5)}100%{bottom:calc(100% - 26px);opacity:0}}
+.hint{margin-top:10px;text-align:center}
+/* ---------- view 2: money moves ---------- */
+.mm{display:grid;grid-template-columns:.95fr 1.05fr;gap:24px;margin-top:18px}
+@media (max-width:1060px){.mm{grid-template-columns:1fr}}
+.panel{border-radius:var(--r);border:1px solid var(--line);background:var(--card);padding:18px}
+.panel h3{font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-dim)}
+.rot{display:grid;gap:8px;margin-top:12px}
+.rr{display:grid;grid-template-columns:1fr 26px 1fr;gap:8px;align-items:center}
+.rr .f,.rr .t{font-size:13px;line-height:1.3;padding:8px 10px;border-radius:9px;background:var(--card2);border:1px solid var(--line-s)}
+.rr .f{color:var(--fg-dim);border-color:rgba(255,122,134,.3)}
+.rr .t{color:#fff;border-color:rgba(91,227,176,.35)}
+.rr .ar{height:2px;background:linear-gradient(90deg,var(--down),var(--up));position:relative}
+.rr .ar::after{content:"";position:absolute;right:-2px;top:-4px;border:5px solid transparent;border-left-color:var(--up)}
+.rr .w{grid-column:1/-1;font-size:11.5px;color:var(--fg-mute);margin:-2px 2px 4px}
+.lg{display:flex;gap:14px;font-family:var(--mono);font-size:10px;letter-spacing:.14em;margin-top:6px}
+.lg span:first-child{color:var(--down)}.lg span:last-child{color:var(--up)}
+.rips{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:12px}
+@media (max-width:640px){.rips{grid-template-columns:1fr}}
+.rip{padding:12px 14px;border-radius:12px;background:var(--card2);border:1px solid var(--line-s);border-top:2px solid var(--c)}
+.rip .tg{font-family:var(--mono);font-size:10px;letter-spacing:.12em;color:var(--sky)}
+.rip h4{font-size:15px;margin:4px 0 8px}
+.dots{display:flex;gap:4px;margin-bottom:8px;align-items:center}
+.dots i{width:22px;height:5px;border-radius:5px;background:rgba(115,196,239,.14)}
+.dots i.h{background:color-mix(in srgb,var(--c2) 60%,transparent);animation:blink 2.4s ease-in-out infinite}
+.dots i.o{background:var(--c2);box-shadow:0 0 10px var(--c2)}
+.dots span{font-size:10px;letter-spacing:.1em;color:var(--fg-mute);margin-left:6px;text-transform:uppercase}
+@keyframes blink{0%,100%{opacity:.45}50%{opacity:1}}
+.rip ul{margin:0;padding:0;list-style:none;display:grid;gap:4px}
+.rip li{font-size:12.5px;color:var(--fg-dim);display:grid;grid-template-columns:12px 1fr;gap:6px;line-height:1.4}
+.rip li::before{content:"→";color:var(--sky);font-family:var(--mono)}
+/* ---------- view 3: ITIN ---------- */
+.fg{display:grid;grid-template-columns:.9fr 1.1fr;gap:24px;margin-top:18px}
+@media (max-width:1000px){.fg{grid-template-columns:1fr}}
+.donut{display:flex;gap:20px;align-items:center;flex-wrap:wrap;margin-top:12px}
+.donut svg{width:200px;height:200px;flex:none}
+.leg{display:grid;gap:6px;font-size:13px;flex:1;min-width:190px}
+.leg button{all:unset;display:grid;grid-template-columns:11px 1fr auto;gap:9px;align-items:center;color:var(--fg-dim);cursor:pointer;border-radius:6px;padding:2px 4px}
+.leg button:hover{background:rgba(115,196,239,.08);color:#fff}
+.leg i{width:11px;height:11px;border-radius:3px;background:var(--c)}
+.leg b{font-family:var(--mono);font-weight:700}
+.leg .sep{border-top:1px solid var(--line-s);margin:3px 0}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin-top:14px}
+.fact{padding:10px 12px;border-radius:10px;background:var(--card2);border:1px solid var(--line-s)}
+.fact .k{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-mute)}
+.fact .v{font-size:14px;font-weight:700;color:#fff;margin-top:2px;line-height:1.35}
+.chg{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:8px}
+.chg li{display:grid;grid-template-columns:96px 1fr;gap:10px;align-items:start;padding:10px 12px;border-radius:10px;background:var(--card2);border:1px solid var(--line-s);font-size:13.5px;color:var(--fg-dim)}
+.tg2{font-size:10px;letter-spacing:.12em;text-transform:uppercase;padding:3px 7px;border-radius:5px;font-weight:700;text-align:center}
+.tg2.add{color:var(--up);background:rgba(91,227,176,.1)}.tg2.trim{color:var(--down);background:rgba(255,122,134,.1)}.tg2.hold{color:var(--sky);background:rgba(115,196,239,.1)}
+/* ---------- view 4: radar ---------- */
+.filt{display:flex;gap:6px;flex-wrap:wrap;margin-top:14px}
+.filt button{border:1px solid var(--line);background:transparent;color:var(--fg-dim);border-radius:999px;padding:5px 11px;cursor:pointer;display:flex;align-items:center;gap:6px;font-size:12px}
+.filt button i{width:8px;height:8px;border-radius:50%;background:var(--c)}
+.filt button[aria-pressed="true"]{color:#fff;border-color:var(--sky);background:rgba(115,196,239,.12)}
+.cal{display:grid;grid-template-columns:repeat(var(--m),1fr);gap:14px;margin-top:14px}
+@media (max-width:860px){.cal{grid-template-columns:1fr}}
+.mon{border-radius:var(--r);border:1px solid var(--line);background:var(--card);padding:14px 16px}
+.mon h3{font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--fg-dim);margin-bottom:4px}
+.ev{display:grid;grid-template-columns:58px 1fr;gap:8px;padding:8px 0;border-bottom:1px solid var(--line-s);font-size:13px;color:var(--fg-dim)}
+.ev:last-child{border-bottom:0}
+.ev .d{font-family:var(--mono);font-size:11.5px;color:#fff}
+.ev .lt{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--c);margin-right:6px}
+/* ---------- view 5: talking points ---------- */
+.qa{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:18px}
+@media (max-width:900px){.qa{grid-template-columns:1fr}}
+.q{border-radius:var(--r);border:1px solid var(--line);background:var(--card);padding:16px 18px}
+.q h3{font-size:16px;display:flex;gap:10px;align-items:baseline}
+.q h3::before{content:"Q";font-family:var(--mono);font-size:11px;color:var(--ink);background:var(--sky);width:20px;height:20px;border-radius:50%;display:inline-grid;place-items:center;flex:none}
+.q p{margin:8px 0 0;color:var(--fg-dim);font-size:14px}
+/* ---------- drawer ---------- */
+.scrim{position:fixed;inset:0;z-index:60;background:rgba(1,10,20,.55);opacity:0;visibility:hidden;transition:.35s}
+.scrim.on{opacity:1;visibility:visible}
+.drawer{position:fixed;z-index:61;top:0;right:0;bottom:0;width:min(640px,100vw);background:linear-gradient(170deg,color-mix(in srgb,var(--c) 12%,var(--bg1)),var(--bg0) 55%);border-left:1px solid color-mix(in srgb,var(--c) 45%,transparent);transform:translateX(100%);transition:transform .45s var(--ease);display:flex;flex-direction:column}
+.drawer.on{transform:none}
+.dh{padding:18px 22px 14px;border-bottom:1px solid var(--line-s);display:flex;gap:14px;align-items:flex-start}
+.dh .bd{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;font-weight:700;color:var(--ink);background:var(--c);flex:none}
+.dh .k{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;color:var(--c);text-transform:uppercase}
+.dh h3{font-size:26px;margin-top:2px}
+.dh .x{margin-left:auto;border:1px solid var(--line);background:transparent;border-radius:999px;width:34px;height:34px;cursor:pointer;color:var(--fg-dim);font-size:16px;flex:none}
+.dh .x:hover{color:#fff;border-color:var(--sky)}
+.db{overflow-y:auto;padding:16px 22px 24px;flex:1}
+.line{font-size:15.5px;color:var(--fg-dim);margin:0}
+.pills{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.pill{font-size:11px;letter-spacing:.06em;padding:4px 10px;border-radius:999px;border:1px solid var(--line);color:var(--fg-dim);background:var(--card2)}
+.pill b{font-weight:700}
+.sec{margin-top:20px}
+.sec>.st2{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--c);font-weight:700;margin-bottom:8px;display:flex;align-items:center;gap:10px}
+.sec>.st2::after{content:"";flex:1;height:1px;background:var(--line-s)}
+.th{padding:10px 12px;border-radius:10px;background:var(--card2);border-left:3px solid var(--c);margin-bottom:8px}
+.th h4{font-size:14.5px;margin-bottom:2px}
+.th p{margin:0;font-size:13.5px;color:var(--fg-dim)}
+.mvs{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+@media (max-width:520px){.mvs{grid-template-columns:1fr}}
+.mv2{padding:9px 11px;border-radius:10px;background:var(--card2);border:1px solid var(--line-s)}
+.mv2 .tp{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.mv2 .n{font-weight:700;color:#fff;font-size:13.5px}
+.mv2 .n small{font-family:var(--mono);font-weight:400;color:var(--fg-mute);font-size:10.5px;margin-left:4px}
+.mv2 .ch{font-family:var(--mono);font-weight:700;font-size:13.5px;white-space:nowrap}
+.mv2 .w{font-size:12px;color:var(--fg-dim);margin-top:3px;line-height:1.35}
+.mv2 .own{font-size:9.5px;letter-spacing:.12em;color:var(--c);border:1px solid color-mix(in srgb,var(--c) 45%,transparent);padding:0 5px;border-radius:4px;margin-left:6px;vertical-align:1px}
+.hd{padding:12px 14px;border-radius:12px;border:1px solid color-mix(in srgb,var(--c) 35%,transparent);background:linear-gradient(120deg,color-mix(in srgb,var(--c) 14%,transparent),transparent)}
+.hd h4{font-size:15px;margin-bottom:4px}
+.hd p{margin:0;font-size:13.5px;color:var(--fg-dim)}
+.ho{font-size:13.5px;color:var(--fg-dim);padding:10px 12px;border:1px dashed var(--line);border-radius:10px}
+.ho span{font-family:var(--mono);font-size:10.5px;color:var(--sky);margin-right:8px;letter-spacing:.1em}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:560px){.two{grid-template-columns:1fr}}
+.wt{display:flex;align-items:baseline;gap:6px}
+.wt b{font-family:var(--mono);font-size:28px}
+.wt span{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-mute)}
+.hl{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:4px}
+.hl li{position:relative;display:flex;justify-content:space-between;gap:8px;padding:5px 8px;border-radius:7px;font-size:12.5px;overflow:hidden}
+.hl li .bar{position:absolute;inset:0 auto 0 0;width:0;background:color-mix(in srgb,var(--c) 20%,transparent);transition:width 1.1s var(--ease)}
+.hl li span{position:relative;color:#fff}
+.hl li .p{font-family:var(--mono);color:var(--c);font-weight:700}
+.rd{list-style:none;margin:0;padding:0}
+.rd li{display:grid;grid-template-columns:70px 1fr;gap:8px;font-size:13px;color:var(--fg-dim);padding:7px 0;border-bottom:1px solid var(--line-s)}
+.rd li .dt{font-family:var(--mono);font-size:11.5px;color:var(--c)}
+.rd li b{display:block;font-size:13px}
+.dnav{display:flex;justify-content:space-between;padding:12px 22px;border-top:1px solid var(--line-s)}
+.btn{border:1px solid var(--line);background:transparent;color:var(--fg-dim);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;padding:8px 13px;border-radius:999px;cursor:pointer}
+.btn:hover:not(:disabled){color:#fff;border-color:var(--sky)}
+.btn:disabled{opacity:.3;cursor:default}
+/* ---------- modal ---------- */
+.modal{position:fixed;inset:0;z-index:70;display:grid;place-items:center;padding:20px;background:rgba(1,10,20,.65);opacity:0;visibility:hidden;transition:.3s}
+.modal.on{opacity:1;visibility:visible}
+.mbox{width:min(1100px,100%);max-height:calc(100vh - 40px);overflow-y:auto;background:var(--bg1);border:1px solid var(--line);border-radius:18px;padding:22px 24px;transform:translateY(12px);transition:transform .35s var(--ease)}
+.modal.on .mbox{transform:none}
+.mhead{display:flex;align-items:flex-start;gap:12px}
+.mhead .x{margin-left:auto}
+.chain{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:16px}
+@media (max-width:900px){.chain{grid-template-columns:1fr}}
+.link{padding:14px;border-radius:12px;background:var(--card2);border:1px solid var(--line-s);border-top:3px solid var(--c)}
+.link .k{font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--c)}
+.link h4{font-size:17px;margin:3px 0}
+.link .cv{font-family:var(--mono);font-size:10.5px;color:var(--fg-mute)}
+.link dl{margin:10px 0 0}
+.link dt{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--fg-mute);margin-top:8px}
+.link dd{margin:2px 0 0;font-size:12.5px;color:var(--fg-dim);line-height:1.4}
+.prs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}
+@media (max-width:900px){.prs{grid-template-columns:1fr}}
+.pr{padding:14px;border-radius:12px;background:var(--card2);border:1px solid var(--line-s)}
+.pr h4{font-size:15px;margin-bottom:4px}
+.pr p{margin:0;font-size:13px;color:var(--fg-dim)}
+.mig{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:12px}
+@media (max-width:900px){.mig{grid-template-columns:1fr 1fr}}
+.ms{padding:10px 12px;border-radius:10px;background:rgba(11,58,99,.35);border:1px solid var(--line-s);border-left:3px solid var(--c)}
+.ms .y{font-family:var(--mono);font-size:11px;color:var(--fg-mute)}
+.ms b{display:block;font-size:13.5px;margin:2px 0}
+.ms span{font-size:12px;color:var(--fg-dim)}
+.ms.now{background:rgba(6,77,217,.25);border-color:rgba(61,141,255,.6)}
+.ms.now .y::after{content:" · now";color:var(--sky)}
+.ms.next{border-style:dashed}
+.ms.next .y::after{content:" · next?";color:var(--l4)}
+.srcs{columns:2 360px;column-gap:24px;font-size:12px;color:var(--fg-mute);padding:0;list-style:none;margin:14px 0 0}
+.srcs li{break-inside:avoid;margin-bottom:6px;display:grid;grid-template-columns:26px 1fr;gap:4px}
+.srcs li .i{font-family:var(--mono);color:var(--sky)}
+.srcs a{color:var(--fg-dim);word-break:break-word}
+.legal{margin-top:16px;font-size:11.5px;color:var(--fg-mute);line-height:1.55}
+.legal p{margin:0 0 6px}
+/* ---------- footer ---------- */
+.foot{position:fixed;left:0;right:0;bottom:0;height:var(--fh);z-index:40;display:flex;align-items:center;gap:12px;padding:0 var(--gut);border-top:1px solid var(--line);background:rgba(4,24,43,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);font-size:11.5px;color:var(--fg-mute)}
+.foot .nb{border:1px solid var(--line);background:transparent;color:var(--fg-dim);border-radius:999px;padding:5px 12px;cursor:pointer;font-size:11px;letter-spacing:.1em;text-transform:uppercase}
+.foot .nb:hover:not(:disabled){color:#fff;border-color:var(--sky)}
+.foot .nb:disabled{opacity:.3}
+.foot .mid{margin:0 auto;font-family:var(--mono);letter-spacing:.1em}
+.foot .mid b{color:var(--sky)}
+.prog{position:fixed;left:0;bottom:calc(var(--fh) - 2px);height:2px;z-index:41;background:linear-gradient(90deg,var(--l1),var(--l2),var(--l3),var(--l4),var(--l5));transition:width .45s var(--ease)}
+@media (max-width:600px){.foot .note{display:none}}
+@media print{body{overflow:visible}main,.view{position:static;opacity:1;visibility:visible;transform:none;overflow:visible}.top,.foot,.prog{position:static}.view .st{opacity:1;transform:none;animation:none}}
+</style>
+</head>
+<body>
+<header class="top">
+  <span class="logo"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxYAAACWCAMAAAB0OO7QAAAAkFBMVEVgZJlYWl1sd35sd37///9VqakALKEARKNteYBueYAAQK0A//+qqqpueYEdaGgAM8wJFWEAQK4AVfQAQLB0gIeqVaoAAAAAPKVsd34AQK8APbYAVapwfIMAAP8APKUAPKUAPKUAPKQAPKV8fX4AAH8APKUAPn50gIdsd34AOJoAf/8Af38ARKhsd35sd35sdn3dykrXAAAAMHRSTlMRBI1OAQMTHl+fXAED0AMFBKQDybUDAP7+/goD/QFNzi9wjwYCsAT+zgwCAg+vcC0F/JgNAAAoj0lEQVR42u1diXajurLFJ4mT9HiG+0QQCDHHgJP8/989SUwSoAEQbqfbWquHOBgE1Jaqdk0OkI2C/IniHLtk4DyOyI8+uI1mpOAjeFk1vp+enz5SdorbuNrhSD7PEChj7Hqeywb5Nw9vuOBgcff6Eqwe358dxbO/jWuFBZH/uMdEhwxMgJHdHlkDi6fXl9UjCF6D708HkN52jE8FiwIccwETDTDcpAD17ZkxWLxtgAWDxuv3JwAebo/y88CiAKE7RQUFBi5vihQdCJyCl40jCJ4/bhbG54GFT1AhGR6Gt/2CbRcvm2Hx8vIa3IHD7Vl+Dlj4IHJdBS5qdAMFcGzAgm4Yt/3ic8AC1dBVDC+3okYhXz4uuB3dpw8pGY7ZeDj0T82xgQq6YTyDw22Z+QSw8EHuKXER/h7mxddDutrgTcH764s1XHy7ieHVw4KoUEpUkAHR1vUtQzCXjn/i/XGXps3C7zh373/99WY8UnDfwOIvW7B4ef3rpkddPyxqgDWw8GLmAd8yCpB48oF39o7cM3+B4zw9n4IgeCXD0Av3+pKCr/QMB/AWvFjDxfsNF9cOC6W93W8XGy+quwjcExdMdSKQoD61YJlwB6dmsyDjZA8WQXDjaa8dFnQd16Fis3WhMV/I+eFe93sgApgSTLwGK+T69a3xv93b4WcHtDk3mvbKlagCazcLL9kmtj4IvQuQXbMmBbnjlZjgzID1gYJSNerm7r5mWGTgUa9DuXibyV09aqCHj/uAgqzJbKNYvazfNbB4AHdWYREE6debGnXFsCg0C3k7HsEGYPgg1l0jAtUOqADg4znYIs/ECDhY5mf7bejG0l4xLKBeZLeKbZadtVpabN+4SO+p+rRpkQ9eHPv8bHvmtDfmb+MaYZGYwWK98u/rL0GMC9tUFNkqnoLXzaZxd7Jnq0oU2S6ebmTUp4fFFirKiAF2IbAbEfFA9KfXraIcvHWy+3CyDAuO+r2NP3G30MWW7BFgQoT5PQhsWADpDvxsZ7bctos/17bwjWz6rRTw+B4P27cKzh1tm5+9ubqvHRZmUrtex0EVxK4RBWxPiUrB4bsVC7njZ1PL/GzrKbxxUVcLi8xE8/fwas2/MNuN6H6UWUPFRxBYVXSs87PMuLg5uq8XFgDVe3q5MwSNQGGRoqVLe2CXRd2eyK0gf2/jGmEBd42J8s0seovxHwdrqCALeiu3X8HJuhJ1s7mvGhaVgRaFj2gtKiLXdJRXtlcwfrZVdA4vO8Di7hYXdb2wILjIvb0UHF+by2HHY7gLKvhAwX1gcdstrhcW+hUdl9laVITGqLBiXDjWrG2eQ3V24GcJLG5+7muGhVb/X21ZoPpsrEK5NlL0UpAGgdX1fJ9Awdtu8QlggfxSpep4yXp7O/bMcbE9RQ8d0u9Wl/Wen/1rH1jcbIsrhoXad+Hlpb/O4DYmZ22l6FnmUSmFyhK5H2wmck+C1m/jSmHBzAtPptuUaDUNlS/ZLDbHf3yzrOsEpwYVAOzCz76kNyXqumFBcTGvR5G9Aqy2tyN30cDbmKgUOIHdzNK3TstJ9yCibl7uq4cFkeFytmJ5vL6Sv4+wtwwX0aZqt05qeU0f+FlnDx3q7bZZXD0saIBsiEf9Ldw8ot1g9idnbVC036zTRa87JXLfiqh9HlgAVIG/w9yl1czc5m8CivUeNk1hW+vxH+m9ZRWKrOfOnvzsdQeW+37z54+HRQOBKExyTEaehGTlztYrNYVpMJSlFL2D9Wg+LlDwryt2W2R9gWuLQpIJ//zZsCDAyMYrxurniqLFoNiSoreDI7q3idO9+FlTWKDKh2wU/qUENSSLYx4CdINFI84FpF4K5EN/0yNZSM5upmhT+xxqcOrk1tmJnzWKK89gNVJvkGjB/dNVuC5tSXHlJ40mnfw5nbAu0u1zMTm7Mdvp2x7pc8/7JXJT0BntFT7FBIzCOCEjDsMoEzd1OJS8tlYlYggG8nYrJZ91A/1RsKixtwIXq+M/dtgsdk3k5oPWlcLDOqU3FEgj+zgJS0p+c7CwXDwlA1wk2/lP0aOci2wW8SpUEOOiWHO9XSjUPRO5h71I/RgB4wbFZ+S5yUAR7gALvujFXh1//Kgb8M+BBcrO7qrh5etgcdjDKCawcH4lP4syEOWzMTkEGGX7oPaGRbxHKXku822fC1iABYKFYqxaK1aRs038x+M6FWoXNad3W+zCzz5plCiiP8WyQDVihbVJW/vvFsWfCYsd7noNObulHtVOgvuxIyy0nV+q2WgcbsR77RY1T5dEe/gurh8WCMAvoWpcipzd9JQOp+CzwaILWpfKZqkhLbyE5kzuAAvu/e3E0F4/LOiO6Sm72vnLn2q4FhXUuFjuWH/YJZSPU6Ked4DFSa1BoVJP5dGVfA9YoAzmjd8if9ylJftngIXSDFjjYPN9vBoWq97tPjoUZ3LvAIshaH1WMH2Yj/mnJliNG4wk0sACZfUSzwDKskaFyGJMDL1YBVz1iZHKJWEIC7TAr0EPtQiLTNPUbjmY15KzGxjB9BTsA4uWoH3aARbK+NlRdr3n4jyJ4yTHLs8R+Rrbwu+s5ZY4gd3wO7KlGw0YYP91SF76+QxA2b18vz+0XfmA8O94+kX/H3bKWvg2gv9CDhb8FDglspskQMU03qKWTKfgjyy6E7fnRnCByV1iu1KaZdDdMFZsT/ukQwwU6i5OESU/O1ZD87DzUkRJC4zuOclh0RBV0WPjGfANljMChSgqgdmRkJy4nD0x++RMLwylFz5y6J67AmJiTN0azewzpRlGYfv4ePbBhohvZ2RxW84M0pYR1HXRWxwOsMtqzjncdqF/O8Nl/kXzrQYpF9su1yzEOWltMKhkoogcPYZJcxqchPS9HON2fAnpr8mr7z+IwI+a/Ii7OIO4H+3Jwi/dBxAUoAhzdmacf3kcCyL5dtFfOCeHkyny387YZZMB8v0UMh5XUZy3zwCzWG5+x8hAxJ0QsrjG9nLlQGQe+xPH9Nz0umdTWGhjl44LVX19jUKosTwWU4K7+PJ2rilIiajUxHHAsoYH71FF1JOQJdhXSAULH/wdD0llnocJMGAfQsIwRV59T6zEoKROEq+DBR4YF8T8UHkffHLOuHQ1duJ6tFXQC/e/d+MjqPuwLS8iV45EK6mfQsH59rHLTV5w6wMxDoxMJ+KnE7fSg0CZ5DlByj8h9DAqUEFuSmW3OqLjTckakcdimZwlt594linaPSphvnAdwnbAXfCi8OUhbrPw8kxcjzNI9d4+dmweFsU4NZ8Gw55FRZVbEb0Q9adpYSHEbhbCRWJFuaTJhdlmN3ybwUIZ9oPQJEuUufXh4Ffkl43zyOcpToeuBgBiNwb0ONcYFjoiamm+nJacxWdkuUX3XqYFEd39yvgHJ/kbEpeqcvI4IFHs+x11FhZEbZn4x70cymHBrVU6WPhjgeEFsZi7sBvF5rAgF0/mfPsePva44GEBY+l0fFjgsIAZxDG5buTGyrhHZ8HivtgArtQWPL17nTXjwqWmxd0+sOCoqNR2Puyror4B/05ma2cxw0ABC5/qWTOCpdgtIs81hMV0GR1omfkLE/vBNYVFpvDt93EoPCxiJUuE6eMrCXbcv3ECzXcLpC6dvDQkRtfjhW4FGdAaF/4yWOziteBJVPtalIKI4lkQydaJMqCAhda8m4EFNobFHN5aosigg5AGFihTeDF7edf0tcMD0dzCIgL4P0yuawoLAyJqSYiSnpwlIq9r1rfUuPi2k8XNZa3aT3JSlGXm9VCi9Pu6uL4pLHxt2MgIFtxyvgIWvbzWhdaPq4GFRnlppVEjQdwO28Mi8qIFsMjAo820IG2NZ6r36civ5SWaTzvBYiiHmdoOulIU2hRe+lkf7jqGxWjH9vq/FLBwl8Fi5HAn5ysmF6YZUxiPk0VkTJTLmCh/fAZX/D6GLBZlDIvxdIYttocFKMECWOgsZPxzmb2t20RL5qEv7cZ/OC97wYJoUd922S5UhTa5FdOAfpjAQlQAPBxHEEYx9sxg4RnAwnPzJME81JpykEjwtuQh9S/DUNxAqIIc5Xk+HImbPPR/QvCj5iOvyVXiKIpC3gBvzWkRFmw6Yl5Kb1q7FBZHctUju93SEBa67Qgv3Cy05Gxhctgig2aflizjMgSWk2JVidycuWegT05gIb7SuIVVmRjAgq65WA+LhM0pygW6DI2W2CHyOp5zSkVzXm6Ba6BFypo75K/Nvi/6dZLzzFGt6p+H4F9QYvKtrAYRhsawsBgoqCdnH01Uw4VXPexGRPGWseX6tspCmxlesEBMYCEwGiHIiN6BKvI8BUmag4XnJiFsq4woYEHl2C+KGvCLG5VDATsRaCKZUCGyU0ysq8eKg0Xl12RUSLDYyRTJVfzKp+FVXFYUU9eg+AmoWLZcMpNp28T/1lyUiKESZTFQsD5ryVnfiLDAS9ivfVJKh1U97YLXbV5GESiIOB3TICJtDIuM57GGuh3oyIvNHCy8hHvVcliQT5rIO8gra2yeHJz5giG+CJdMGkHL3QrNL+jOkJX8Ceg98rDAsIkT9LNyW0UAMVQQW1NnTMjZyXq4Pf5jP35WJFKt9s5Q8rPlEq56DAt+y8ZcY5KMa0w1Bwu6CUC/i0dTwKIXY35JDWnMEjdvvpaVQE+qYIG4Ut78jaMCYWGh4GAxfJ0H1UZY2ORnjchZI9Vt2Sb1sBs/2+SWpmmTRHd/b7HTkrIRUok37BZwToLHYjOFBfnoZ2ayWwyxoxDFPCx+cKIuasE8fhSw4Pa5EdUAB6izU/Ow6J8QN52tsNCqMwuqBBmRs2ZGyML4j9OOsODUndRit0pVIvc2k1uUwYqP1Q4VuwUWO14pYHHmIkx4WHAvdTRtHj8KWPAnCIXcCDQCDK9E9SgVvr4NFlp+1lyX0ZOzsE+fQgbxH6Zw/LpLyT9+u+gjwO11cVUmcnOJYQbkgwoWpcR5PoXFGH8msCjksAhHi70RLPjDHkUtuh6Sy/E4Jqo70iIsdPzsglXbkJwd3+bm5Kd9auEIVve3h15f+/j+asmSNxJ0D2v7s41hwe014+jns2K3GLltN8Oi2AaLkYOBuz72LwELW/ysnpwtK2M4Lrnww578bKdGHXoy+PD8auFyykKbwsOJULUWFhOn079YGhM1rv27ChaPktcHBctEAYtEBgt4WVhYS+RGNTQjZ800rgUlmnflZ1s1amhEQf59sqBIKQttjuj7Yt7+WLxbIFW+xfgyK2CRCSjjN3teNgx3CyjfLer9YQGgpURu35ycbb+ALcVi7cvP9pXOfrSXuydK2/NmYKgLbSKev4ZoxglVD09HZVsIwpWNmSJfUX5jBSzICXk/xmDXHHlFwhAWI2JasC3Q3rCwlsidIV3N2RHTay/+IwXPOytRowqAxNB4eg62qVLqRvW8pJP1pJxBRdm/GAVBSzQwPm8Ohd6usODfKS5BiTpn3NE18ltw7vDRfEQmqtgbFr4tflYr5eNNGtqjaH+cdofFS/Cdi+yjfm+H7BivGzYNZaFNgTZnadbiw86IVBznNPKRB1hU8f0xwSXkW2xXosSQDAxZByFaoCbCZrDg/fPYl/ktYtFvsQcs9IncpqjQk7No9OY1+5Rpi+50Z362xwUvyId7cuGn5+9kG3mVjkDNz5qvMjHgF/0M0ugfj0VozytREb+s+cM5j6o0JAuwEHQPz42b+UXJTPyCxMstOGx+znq5mXq1MyxsJXL7mny7mZ46SJ+iZ+RfP+zNz87pUeSyTAdynLt36VCgVVNoc5Re5yV+E5eRZT6sQVdD4DhfJ0oIqcp7REG+pO0+sJgLPxfjz+dhUZW0iqI/puDAz/Y6FX+L2Edg/93CSiK3npydtgOwFf+R7s7PcnwUz6reP6Srfe+BstDmJGLAw+HAPzz2+QcNLiYRtEJ0dpKR7aUooJgivRMsMgTdcXaQNxvtxsMib5sB0ijHUjiS1iigU5+029jd5LaRyI1MI2eXQMm0RPP+/OyAi+cDSIUmkPfpQyodClhoG9Wj6oyFhRcnIc0mCmM+3eYI6llYcE+2Kb0GaOElz90bFiY1uRtYCNYTzcw4RwlRD8TVoNXCxMQOiHbfLQyIKBMlqlhKztqM/0itd+NW0KrEwADp1+2RWvpGSBNrrV12xdWX+vqmSas1F4jKEBXHI11mL1hIc77zESwQ353PxTRXj66d4nZD0/NCcertArsvLLSBgkbOgxppI2dRtoK8MvWZnIJLwYJuGGnDRG2blyKR21gxHfifMSxotcCxKqPJ5bYFC0m8aBhOXCnnCeYbjjdUTb1bYPeFhTZQsDSzLHLTyFlpiMMGw8Z5uRwsyDofPFFgPNxvgUXwYtCoHurrvoezSpRBFeD9YEH9uuN6CuSX8bRmz0RoZqz2CTPaEpr7wkIfKFiboEJHzp5nay3X2hS9zEiH+rgoLF6C1+D5gzkvDvfrYXEwuDUoKUXWS1vE3v0MLJB/xt4vggWrYMCrPW5eAq4QYVvSeEb02CmQj6SLrNd7l/eGhS5Q0ODkPsLmkbOL4j9MUvQeLkVEicB4ahZ7pzOvH5bB4mRkNsFJOVdh5WxrT85VFczAbPnr8BKwoP+JqEHQ6D+0UMFx2BowkpqWjSGL6r8lQknv2AcXgMUPC4GCWkYJZ77MUrdA0V6OiBJMjCB4e3ectbuFqtCm+ITKZL7VqufGP/oKezM1aOtpyUqy1paXgEWGMupwegzDOA6jM5nLEc1k3U2D6NpTIDTbX9bzkqEY796hgpsDBZF5pur0pVuI/7hAoKAEGa9B8P3t+f39joynO2cRLN7NYMEW3pnG3E1de2XF8knzYrrWwovsFqBA9XAy36ctAmbCUSb9nqIBMcfxTTeNCDJwCVjYSOTWLvk5gGh+HLUUbWlyL2/Byy8aQRf6Eby+LIPFkyEsmI+61Uh6asbFMd/sQdLfgiy6MOm7VLAuePUUFp4lWPQrKAK095LvZ7VfQOhXCKBSUsmkappYtBPMowwJalhfKpD9NhT6voj3bBkWtZ6f1anASNuAW6kH5RZKNJ9+GSw0VZ8UtsWHKSwAKwuDIto1D9PalXkSPgKhZxYR/8eoHXC01ZRf4px8MY/DgtUC7457bN/s+XH4QBxR+5vHvoZZfxFO4PoPH8shArxxw6ECFmTQ/k18sWVepCra8iihFQVZuyM+Yo786hzGzT3nyZdxrzH+no9z01nTu9Ux5WeRwS6vI2chLGUDlpuNC3SZQMFVVZ+ksFAV2pyLp+3irmEnezAz3mp4kFxgML2MlWHrPzpzytyIxBHmJyomld+GQ8F+cdh7OMb8rG/yFHYbBpU+d+v4shAWT4tgcUoXvrG6K/aHfFhkU/GvfDIqv5r+hkUY+l3T0qo7EvXC6Isf9FjsjszGH1TTK/uVLy6THvOth8TqHtWGHe//5Hb8zCfzQ2Bu7i00prcsuWfp7SyDxdZE7m0NuPVD62X/BfysJKvo7wWweAPpmuUMgWsffAJgbzVoHbtXcs9OfxMb+dltDbgNtgut5fRL+FnDrCIpLLSBgp92aNzrbRn+Kx09a7KxIzfa1oDbABba/epX8bPTrKL7BbB4/01hIQYAzjmpM3D1sMj0/Gy2ZW2wMLQlmtNfyM/qsorkStSdJtvisw6lsUpD3H1w/bDQ2sulWrOrUeTuPbQlFr5dCT97WAKLj99ViULnEMvc8kl53ajoYLE1kVtHztrQojTmTXrF/KwUFkMrmd9yNN7HUZIeC42qwGeAhT6Ru1CjItwbFVqO+HAl/Oz7IlicfmNQ0Nd1jmLWA6wjojBzY/jXTqQ5Rqu9zt71C+zuP9SO9h9Xws9+LFGilIU2fwNgNIvpOYpCOqLoPOOtu2JY6BO5VbAodiZnZ0LQrpWflXitZbD4ffnZwUknvrSiQJ9g1o4Bm6aLSMr2JmeNtqxLJnKriKh0CRP12/KzovVd+35RFL6foU8yY6flZ7ckcu9PzprY/ffXESh4mpVzqRL1u/Kzn3w4RiYzhr+YnDWJ/3Cul4iSw+LjT9gtPiss9IGC1S8lZw0snPRKYPG+BBa/OT/7+WGxPlDwEuSsAUV7uBIi6qkv828Ci9NNAq9aiVofKFj9xBfSoZQlmq8kUDBwFu0WbzfT4qoJ2tWBghciZ7WZs9cSKJjOtoeUwOL352c/MywM+Nnq15Kz+l3r2xUHCsphYcjPIr8b6CayF4NFtT6R+0LkbG9cKKio6w0UlCtRDnB+C8dEN36XCTpG/CyS29uRe8khxec1J3JLYWFUaJO9nn/ydph2aruN7bvF+kTui5GzOiOH8rNXGygoh4WRCsVeTxNrt6BH+SUHPMMzGeX5fJ1SXtKpsVEvgsVKfvZy5KxuJg9XEyjoLICFaaHN2DOLC/tVAy+pcnd50ApdWzNjWNQr+VnakOSiOpQnVeeuJVDwY8luYVhok28MeaWw8K4bFskqWGgSuaVLlH9JclZ9W9fCzx6W0AGGFQU/ASzc3xAWaxO5L0rOajauq0nkrhfAIrjB4oph4a/kZ/UdRdaMlfEfjoqfDayO5USUDBYf4HCDxbXCAq5L5NaTs3jNWFXHVp3IHZxsjpcVffBmYWEaKGgGCxtug7XnMIfF3AX0VzWf19yRq2GxKpFbW3M23mS+LUqIUidyBx8W155UsV0QrehhASxOjuFqN4VFBdvRvJo2OxRxqXCoO2KUHif5BfK7ara+rKxtVjSVLitYcKqiT040wAKe+TP3V8r42flcgh7q2lEXUh8ArLv/TEItsv4C7UNB03PV5LccLOBxeGr9WZoJcZU86YspVhFR+gbcsFq+9JS6Lnrzk3kAT6+KzeLHV4uweFG2h1yyWxgW2tTuFqw+3/kMmddgVaI0YnJypELNBGXmIu1n5/bxC9jhdguVVxKAn2SWPugLMbOC0agTa1/yJYauM5IdMpi6zaHl9EC+A8Z4VOyBofa+UIMQB6zsyI1qqG3AXSx/PzrNTFKiWcnP2g3IU8CCVhT8ag4L03lNYZGB6EvcjjNdJ8KEvQychK1E1NwRoSA8IOo+/xIO7SAA/JLkzTly2jJjUgmTHhInbTV9ekTXQCAkZxqWQuHMZX+liBb7gE0REHKBEiDUnTPvZn6cIpq2vY+EefFvn38KkD6FqH8KRYeL5pih53HSHl9yl4j6++obIzhrE7lXNeA2WLa4viAL7H9lIndwdylYSMvbzMPifS0sqNrbMRRk2e67JJGf23p9BBYDicE/Mu6r/c7rEwHGPdvRdVYBIzTlLtd7ZWg344ptgZtB9e6MyFV3pQSxjkx9P/GYvumm71l/VRyOVzwfHGPMHeFiYV70uXQjqpoJdk+hO1dzu5P59Q030eS+WA8cZ2Uid6ZtwP2IVm3nBi265/YuZS9TqylwKlhIy9vMK1F3W2AxvB2hAxgVOR8IXX3FrEbOA9v0MiKiEU76cOVQwEU200o4jwQFahSNUPC8P/lZ7N/n5eeqGF92XMScqOl40h8sGl6/6L0WT9adS2Y3t7cOfowaEnpN0zXHIFCwWCO9yUqqbmWLbuUabjWpQXEluVYk2S2+WoDF5Hl5cdPUemiTlfOtT0NBdtmqPSM5nqAjzFLxRIBoO2kjWMTjLsjUCpm8aFFoKhDPFeoclkWha95YhttzKWGBKj+fvS/orOvIrSdn4criJ9q9ay5FT9mRm9NV7r/ez46v93Zg8b4IFgSvTroZFjMvr5FoOKd4imQlbTpWl5IFLuLaayeyQwxhkUyu4cUzE/eE3sWSi4ZzrYdjybmUsJCs7UTFctYFCvpA24B7rV8HIS1FW0/52btgYZ2/XZSoO1n6hNTLDb7SVt5fN8BCRktwx/Ba1HlEXii2fYgy5RrY2CYmsDBPSz6i3naV3mLUt1tWrueYklcqWMjUJHJfjqCFmlKi2n7B2F/t7YQrWnSriCguTumQ9j3lheE4qWMBFor0CQksguftu4VMcLjcMr4Ddig+R3FNFq3Tros6LyBCHEJJOVGrsOi3C1FkR8EP50YT0ak5VN1SwSKr+wVYiK/AZc0I2qWJ3KiGa/MiTGzu5S26VYGCr30ZgYeTyir4ZgEWUiH/Lqsq+HJ6e3v737tyP9PDYiQ2zQZfczt6p0Xxa3DJFsxIsKLznCu+T4BTiCFzHk5oB7zmkPbX5CJjpsdtmSg4iQWaDRCaUU0ERsdzsTiv3pyOPdW5qKCwJ+VNApLozfPrRnNfLSFF4OSsSeT29Q2414fGaDuEz1C0D4pAwU7hP4APRZyTuaKlgIWsvM29FBZNtNbrs5IU0MFiLDZtOiUUelN3XjjxHdWDxuq5MXUHljz7c6buhUE18BJG95cRo2/Iokp/yoWAnSaA5z+qQ49g4Y0nOT/zeiphbF5+xOk0TQiHCIvpuciWQIO8/5vOD+cEFsPXCc7YswnpfRHlkhK01eKOL3pyNkIbUisrPUXrG2opvOdZqWgtIKvksJCmTxw04b0av54GFl7DlPJiw1YOBB7H6xS/E1NFi/8ZR6yFKgDHgdllehZ3+Sg7NoEdtJMw9xpmvdwiLDBzlZ2F9dTDEbWqHvmZl1TihS7xbF70UoOt1OwpAizmnkK/oA/HnWe1dVj9bO4LEmBEDBZafnYNOVtssGmXU7T34KBYwtHXzuMn31HurMBCRkTpkkE2wYIudYiKzQ9hOa3EJbfZYTkdCtMiIvwKdATHVmN/xINVXgsXI5sO+Rq7WhmjIThvgAWCfSkBERbUjqH+Yx4XmH1IjhVm/rd4f2E7L58XO7ZU84JCAYlG52ofFvqJOPYNHbv5cTFPR1B29xXFTfDH4kRuPTl73tREs9LHf6AJP6v1JdwrjYIFVJXiNE9SWNztBwvcLKWgFFdYX3hRnRYFBYNb8CyAsr9c6PGeXFFGG0FGhT6ClodFt7X49VlQz382FxzPnENm3s/LR9GYfOUkt0TsBgsEJ55fSQQtv0ZEDe5YkBZqYbGQn/Wz3cjZLl4QL3O7qxK5iawyY/qb4phFQVMKWMgMFF193C2wGIg5fjWN2tApMZvUnwg893NZtqWoirJ//gxNgvTltJkRlSABGFpYuMdsormQ5a2azJzdIL/wRmVfI2s4rBFK/rn0Uiry0ipYCIKfh1S9Kqo2ItJZ3JH7Xy05m21ERaGz6MclmhVmA2WHUHPMs/SYRXXDpbBQBJmk6iJWm3aL3usGUTz6UHADM94pEWAC+Z/5kfDiJ7JVnpuEZRv7agyL4fMChTOijBLhBjljWFThQ493MQvPpYMpRKEhLATrobuvVnadpYncWnLW3dxbtlhK0Sp09yF4O5V3O13UqUsOi5NUtjUFGDbBot86i5E9LZB6zVJyFrUQxO0mIT84tJCToyOeCRtC2QJYJMOWFk4X3GJ0gzxchXnFg2thEhNVTYRdA4sx5em5OHkkOjxTopYmcu9Kzs5RGAbxHwprujODVebHst4rclio0KUs7rYRFkgGC047oa+FOwA/NtFQeD7BWORLp5UsxrGsS2AR6WFRj/yHMwnN1B0nwqKeXkANi9n7amOHHYNEbjHjRWdvRyjbCAtdAsjUlfJ/8p3AaWRVpWednCVZSlIBVwn3N+V2sSMsIu49lqJyZOAhamOHZihzz8uPswTtPCziRbDQpmg2MNgKC1AdJ9chwKA9w52Fidy7Rc5uiP9IVYrNQ+/we10c4LcQFqrzHJDCutgNFsQE4KxndBbjyvS5Le3ZUXacvnWPU68/KSwQKOfuizw8Z1kit76MIKy31+fVpuiJJZpTeSL3ENSxxlJeqETdKeosUyUuuDwsOOM1FyzWChjkn/Vnb5KI5Fbkr4CFvx0WFBfJ7H05yxK5qwov90CvUKLOJnv7IHJPgSYx7yA3LRaEQ2msBEcl3DTIN7g4LHgz7TwYGg2VR5QoiW0xKPPlkMU2ZNL1mkTZltmwDAupbTEMK7sFw/vcfUFnUSK3NlMVIyt1gvxF8R+ptL5B3yVbxVU5y+LOZbDQ1VlO5bjYDxa80R3641WFf/fz1YnyYnglNO9alKBesC3Dgl+qJfNq3C6bYSG5r9BZksiNst3J2TXxH/JE7uDU6kdyx8Hi3D0pLHR1likuXi8Pi0FzCr3R05P6LabkYOvnOtNaCt4oZcM6LLgbxoZSshIWVd3dF48ML3eWBApegJw1S9HzcGYUKDhEfkjdzK93lmDx+qZTxn6Aj+fX4LKwIC+tV5SwKo8n8ousH2TPz2pE/8OvqqioWJxpPlFmLcNCEO2qRNy8EPDZj3Zggdr7ysb35egCBfnkWi05C7eTsx0RjBd4U+RWcE/P3gUvq1SfBbDQR5CQuTx9n6nWuScsppTKUFOIW31EBpGSudwDrkEUgSbxm8VfheMwnBEsMog2wQIJ/vEScUr83/7Aza+CBZVQ5Ffcffn9fcUcLMwTuQ3KCNqqQLqEopUncvcyLzctlteQkipRBttOeg8OT89B8PoqJHvsCYvpxss9O962DVkUKWgWzwjnoH/zyP+JPVoohu0WQijrCBZU54H+diZKjPlqOwZS0YU5cyushgU9Patvxfi1ikwwJoewuoXIh8N9OeaBgvoygufaVvO0JSl6jnwr6P3OssiPZeFQalgYZTJRN4rz9PTXGz/+d7chO0+nRE19cUMal/CYQyYbTMxDwV3HvMEebrKBClhw4lOKShQRYpYA9WWUhrQUFkIQddwaAXRe2PNwOUQFmsJiOA7DJt+o6GLvPExDoWjJ0KLiYWHMz1b6MoLWylXrHbCP/buVE1H6yI9l4VAqWBi7Px7S5VvnFliM/bWCusRl51GbnCXpwCY/z8PtVtAJmoeTqAnyDgficRKU0KTIJZOw9WV+C14x8Zqo3U759+ZNI0NYuC6bH+bCswjgo2YiQ8iV81XHz/rG5KzNIu61rinf8OLlGpI+MW9ZOJQSFidj78e9k6YPDjc0SNkGi4kTSCwAJeRyt0LtdblzDBdVDx2aF5okCR7pEqJyzXK5442wEHO5PWFedF9bZHIX03IJmNKqQ/x8e19DbK9jGiiYXYqcNaRoh23MkQUKBqeDJpRwYTiUEhZvu3We3waLUZy+h4UCXqNwuVEVAvr2xSOEiD1vGr8uTXJaBouxFj0qXhBOrquCxYx5hWdqnvDZrk5k6E7WkrOJ1Y4fBiWaax0/21myX6U5rQvDoVSwsFv/2SYsxGzHcf6M4r16ObFFFYFTHR9TzVv1m2ChUk6IepehBbAge8+4piHVbCL5fQMndI0SuStwOXK2GfoSzd31DhpuSJq8t6o6rQwW79cKCy5Jr68hYIILliROvn0MXU8WLF3Na7wWYCHHhZe3hr4xLCanortFBuP5+6LVrh3DRG4DcrawKgvGJZql9nQv9FLjY2k4lFKJUgUK/lpYjEoBjLvAZLNhgLTEc0cswnz2gHAQjmiGwNwIC2YSzxWWSo59NXJDWIC6FLeLNukvmr+vCFRObsTPGpCzFbIsC6FZ/Id8Lxi0/dMWTtUQFh9Xu1ugmVoDQgQELSMzKQ0+lNX3wVAknzsgEgo+T4OltsKCHpu7M/PqbtgcFmQq2JvAglwonF6AEdMONtoDUHk5ctYs/qNhoFU0E0fP2rSS52Gx3Fu+Jyw8kf5gelITeYohmtuZAR8TNGlwgVihGNwbvqwPRMFfwue7S5Bf0vKvsuw8zxQWDI+J63Lzos4TX+fl9qYaDBpaadCzJMemZE/WtIqZdvZwjNilnXq8aFwXZiWapSqSNjHPsP+vGSxOu6GCrvZf2mTmL13+Q9R9EkGOie0PE0ve1SD6J2Hjn3C2iRjVls5xy7y2bYfEVhP0W1HMGhPh9oB6hKwozllwaxz15mGXg/0l6uZD5LOf5Hn4cHyD3droM9+bZF7c18Kz/GG1q2zTzIn1PBo4B+q9RP19sS5PzET+f15eOv1mUubcAAAAAElFTkSuQmCC" alt="iA Clarington Investments"></span>
+  <div class="ttl"><b>The Five Layers</b><span id="edLine"></span></div>
+  <nav class="tabs" role="tablist" id="tabs"></nav>
+  <button class="hbtn" id="howBtn" type="button">How to read this</button>
+  <span class="dealer">Dealer use only</span>
+</header>
+
+<main>
+  <section class="view" id="v0" aria-label="The month"><div class="inner"><div class="month">
+    <div>
+      <div class="chips st" id="chips"></div>
+      <h1 class="st" style="--i:1" id="h1"></h1>
+      <p class="dek st" style="--i:2" id="dek"></p>
+      <ul class="take" id="take"></ul>
+    </div>
+    <div class="cake st" style="--i:2">
+      <div class="cap"><b>Value out</b> · intelligence becomes revenue</div>
+      <div class="tiers" id="tiers"><div class="flowline"></div></div>
+      <div class="cap bot"><b>Watt in</b> · energy becomes intelligence</div>
+      <p class="small hint" id="hint"></p>
+    </div>
+  </div></div></section>
+
+  <section class="view" id="v1" aria-label="Money moves"><div class="inner">
+    <div class="eyebrow st">Money moves</div>
+    <h2 class="st" style="--i:1" id="mmT"></h2>
+    <p class="lede st" style="--i:2" id="mmD"></p>
+    <div class="mm">
+      <div class="panel st" style="--i:3"><h3>Where money rotated</h3><div class="lg"><span>SOLD</span><span>BOUGHT</span></div><div class="rot" id="rot"></div></div>
+      <div class="panel st" style="--i:4"><h3>Ripples across the stack</h3><p class="small" style="margin:4px 0 0" id="ripD"></p><div class="rips" id="rips"></div></div>
+    </div>
+  </div></section>
+
+  <section class="view" id="v2" aria-label="ITIN"><div class="inner">
+    <div class="eyebrow st">ITIN in the stack</div>
+    <h2 class="st" style="--i:1" id="fT"></h2>
+    <p class="lede st" style="--i:2" id="fD"></p>
+    <div class="fg">
+      <div class="panel st" style="--i:3"><h3>Where the fund sits</h3><p class="small" style="margin:4px 0 0" id="fA"></p>
+        <div class="donut"><svg viewBox="0 0 200 200" id="donut" role="img" aria-label="Fund weight by layer"></svg><div class="leg" id="leg"></div></div>
+        <div class="facts" id="facts"></div>
+      </div>
+      <div class="panel st" style="--i:4"><h3>How the holdings changed</h3><p class="small" style="margin:4px 0 0" id="cS"></p><ul class="chg" id="chg"></ul></div>
+    </div>
+  </div></section>
+
+  <section class="view" id="v3" aria-label="Radar"><div class="inner">
+    <div class="eyebrow st">On the radar</div>
+    <h2 class="st" style="--i:1">The dates that could move each layer.</h2>
+    <p class="lede st" style="--i:2" id="rD"></p>
+    <div class="filt st" style="--i:3" id="filt"></div>
+    <div class="cal st" style="--i:4" id="cal"></div>
+  </div></section>
+
+  <section class="view" id="v4" aria-label="Talking points"><div class="inner">
+    <div class="eyebrow st">Talking points</div>
+    <h2 class="st" style="--i:1">If a client asks…</h2>
+    <div class="qa" id="qa"></div>
+  </div></section>
+</main>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Layer detail"></aside>
+
+<div class="modal" id="how" role="dialog" aria-modal="true" aria-label="How to read this"><div class="mbox">
+  <div class="mhead"><div><div class="eyebrow">The framework</div><h2>Five conversions turn a <em>watt</em> into <em>value</em>.</h2><p class="lede">Each layer buys what the layer below produces and sells something more valuable to the layer above. Each has its own economics, bottleneck and valuation logic, which is why money moves between them.</p></div><button class="btn x" data-close>Close</button></div>
+  <div class="chain" id="chain"></div>
+  <div class="prs" id="prs"></div>
+  <div class="mig" id="mig"></div>
+  <p class="small" id="migS" style="margin-top:8px"></p>
+</div></div>
+
+<div class="modal" id="srcM" role="dialog" aria-modal="true" aria-label="Sources and disclosures"><div class="mbox">
+  <div class="mhead"><div><div class="eyebrow">Notes and sources</div><h2>Sources and disclosures</h2></div><button class="btn x" data-close>Close</button></div>
+  <ol class="srcs" id="srcs"></ol>
+  <div class="legal" id="legal"></div>
+</div></div>
+
+<footer class="foot">
+  <button class="nb" id="prev" type="button">← Prev</button>
+  <span class="note" id="footL"></span>
+  <span class="mid"><b id="cur">1</b> / 5</span>
+  <button class="nb" id="srcBtn" type="button">Sources</button>
+  <button class="nb" id="next" type="button">Next →</button>
+</footer>
+<div class="prog" id="prog"></div>
+<div id="tip" role="tooltip"></div>
+
+<script>
+/* ==========================================================
+   MONTHLY DATA. Built from data_YYYY_MM.py by build.py.
+   ========================================================== */
+var M = {
+ "edition": {
+  "month": "October 2026",
+  "period": "Sep 9 – Oct 9, 2026",
+  "issued": "Oct 10, 2026"
+ },
+ "hero": {
+  "title": "Money climbed the stack while the bottleneck moved to _light_ and _power_.",
+  "dek": "Hyperscalers and software led. Chipmakers posted record profits at shrinking multiples, optical parts sold out to 2029, and SpaceX's spectrum deal knocked US carriers down 10–13% in a day. Rates pushed the other way: the Fed **hiked** on Sep 16 and the 10-year Treasury reached 5.2%, its highest since 2007. [1,2]",
+  "tierNote": "Monthly move: simple average of ITIN holdings with verified prices, Sep 9 to Oct 9, in US dollars. S&P 500 (SPY): +2.1%. [3]"
+ },
+ "brief": {
+  "dek": "Sep 9 to Oct 9: the Fed hiked and the 10-year hit 5.2%, yet AI leadership held. What changed is **where inside the stack** the money went. [1,2]",
+  "takeaways": [
+   "**Money climbed the stack.** Microsoft had its best quarter since 1998 and software its best since 2020. [4,5]",
+   "**The bottleneck moved to light and power.** Optical parts are sold out to 2029 and the US faces a 32 GW power gap. [6,7]",
+   "**Record profits, smaller multiples.** Micron, Samsung and TSMC posted records, and NVIDIA trades at its lowest forward multiple since 2015. [8,9]"
+  ],
+  "moneyDek": "Money left what looked fully priced (memory, storage, speculative power) and chased the next bottleneck or the owners of distribution. [10]",
+  "ripDek": "Each shock started in one layer and repriced others.",
+  "fundDek": "About half of ITIN sits in top-25 names that map to the five layers. Over the summer it leaned up the stack. **Our reading of public data, not a fund classification.**",
+  "talk": [
+   {
+    "q": "Is this a bubble?",
+    "a": [
+     "Demand still outruns supply: optics sold out to 2029, memory committed into 2027, a 32 GW power gap. NVIDIA trades near its lowest multiple since 2015. [6,8,7,9]",
+     "What looks like a pop is usually **rotation to the next bottleneck**, which is why ITIN owns the whole chain."
+    ]
+   },
+   {
+    "q": "Why did AI stocks fall without bad earnings?",
+    "a": [
+     "Three headlines did it: the Sep 14 safety essay, a Sep 28 agent breach and the Oct 8 OpenAI revenue report. The layers now trade on their **customers'** economics. [11,12,13]"
+    ]
+   },
+   {
+    "q": "Is AI killing software?",
+    "a": [
+     "Not this quarter. Software had its best quarter since 2020 and tokens are 41% cheaper, a cost cut for every app. ITIN added ServiceNow and Snowflake over the summer. [5,14,15]"
+    ]
+   },
+   {
+    "q": "What about rising rates?",
+    "a": [
+     "The Fed hiked on Sep 16 and the 10-year hit 5.2%. Debt-funded layers (infrastructure, energy) feel it most; Goldman sees US$420B of hyperscaler borrowing in 2027. [1,2,16]"
+    ]
+   },
+   {
+    "q": "What does SpaceX's spectrum deal mean?",
+    "a": [
+     "Starlink can now offer phone service nationwide. US carriers fell 10 to 13% on Oct 9 while towers rose. No US carrier is in ITIN's top 25. [17,18]"
+    ]
+   }
+  ]
+ },
+ "framework": {
+  "layers": [
+   {
+    "converts": "Fuel, wind, sun and atoms into electricity delivered to the data-centre fence.",
+    "paid": "Regulated returns on a growing rate base, long-term power contracts, and multi-year equipment backlogs.",
+    "scarce": "Grid hookups, gas turbines, transformers, permits and skilled trades.",
+    "multiple": "Contracted load growth. Utilities that used to trade like bonds now trade on growth."
+   },
+   {
+    "converts": "Electricity into computation (FLOPs) and the memory that feeds it.",
+    "paid": "Price times volume. Whoever controls the scarcest part sets the price.",
+    "scarce": "Leading-edge wafers, advanced packaging, high-bandwidth memory, lithography tools, and now optics.",
+    "multiple": "Forward earnings and the debate over where the cycle peaks. Memory is cheap at the peak, by design."
+   },
+   {
+    "converts": "Thousands of chips into one working machine: buildings, power gear, cooling, networks, storage.",
+    "paid": "Construction and equipment backlogs, hardware shipments, rental and capacity contracts.",
+    "scarce": "Powered land, cooling, fibre and optical links, storage, and the crews to build it.",
+    "multiple": "Visibility of backlog, which tracks hyperscaler capex guidance quarter by quarter."
+   },
+   {
+    "converts": "Computing capacity into intelligence, sold as tokens through clouds, APIs and subscriptions.",
+    "paid": "Cloud rental, usage-based API fees, subscriptions and advertising lift.",
+    "scarce": "Compute, research talent, data, and the cash to keep spending.",
+    "multiple": "Cloud growth against capex intensity. The market pays for revenue that outruns the spend."
+   },
+   {
+    "converts": "Tokens into value: new revenue, lower costs, better products for the end customer.",
+    "paid": "Subscriptions, transactions, ads, devices and productivity gains.",
+    "scarce": "The customer relationship, proprietary data, and a place in the daily workflow.",
+    "multiple": "Proof that AI adds revenue rather than cannibalising it. Seat-based software is on trial."
+   }
+  ],
+  "principles": [
+   {
+    "t": "Demand outruns supply at every link",
+    "b": "Each conversion needs the output of the one below it, and every link is short at the same time. The **scarcest link earns scarcity pricing**, which is why valuations can run hot without the cycle being over."
+   },
+   {
+    "t": "The bottleneck moves, so money moves",
+    "b": "Fix one constraint and the next one binds. GPUs gave way to packaging, then power, then memory and optics. **Rotation is the normal state of this market**, across players inside a layer and across layers."
+   },
+   {
+    "t": "Value climbs the stack over time",
+    "b": "The base layers get paid first. As the cost per token falls, the layers that **own the customer** capture more of the margin. Owning the whole conversion means not having to guess which link wins next."
+   }
+  ],
+  "migration": {
+   "t": "Where the bottleneck has moved",
+   "sub": "Each year the binding constraint sat in a different place, and leadership rotated with it. The dashed card is the next candidate, not a forecast.",
+   "steps": [
+    {
+     "y": "2023",
+     "layer": "silicon",
+     "b": "GPUs",
+     "w": "Accelerators sold out. NVIDIA re-rated."
+    },
+    {
+     "y": "2024",
+     "layer": "silicon",
+     "b": "Packaging and HBM",
+     "w": "CoWoS capacity and high-bandwidth memory capped shipments."
+    },
+    {
+     "y": "2025",
+     "layer": "energy",
+     "b": "Power and the grid",
+     "w": "Turbines, transformers and interconnection queues became the limit."
+    },
+    {
+     "y": "2026",
+     "layer": "infra",
+     "b": "Memory, optics and permits",
+     "w": "DRAM and NAND shortages, fibre and optical links, local permit fights.",
+     "state": "now"
+    },
+    {
+     "y": "2027",
+     "layer": "apps",
+     "b": "Proof of monetization",
+     "w": "The stack needs end revenue that justifies the capex.",
+     "state": "next"
+    }
+   ]
+  }
+ },
+ "money": {
+  "title": "Money rotated _within_ layers more than _between_ them.",
+  "dek": "September was narrow: the Nasdaq-100 rose 3.3% while the Russell 2000 fell 5.3% and 9 of 11 sectors fell [10]. Inside the AI stack, money left whatever looked fully priced (memory, storage, speculative power) and chased the next bottleneck (CPUs, optics, contracted nuclear) or the owners of distribution.",
+  "rotations": [
+   {
+    "from": "Chips on the safety scare (SMH −4.75%)",
+    "to": "Software and cybersecurity (IGV +5.0%)",
+    "why": "Sep 14: the largest one-day gap in favour of software in 25 years. Chips recovered within a week. [19,11]"
+   },
+   {
+    "from": "GPUs, custom chips and equipment",
+    "to": "CPUs (Intel +34%, AMD +30%) and optics",
+    "why": "September, as agents raised demand for general-purpose compute. [20]"
+   },
+   {
+    "from": "Storage (SanDisk −10%, Seagate −12%)",
+    "to": "Optical parts (Lumentum sold out to 2029)",
+    "why": "Money left the bottleneck that looked fixed for the one that is not. [3,6]"
+   },
+   {
+    "from": "US wireless carriers (Verizon −10%, T-Mobile −13%)",
+    "to": "SpaceX and tower owners (Crown Castle +10%)",
+    "why": "Oct 9, after the 800 MHz spectrum deal. [17,18]"
+   },
+   {
+    "from": "Merchant Texas power and small reactors",
+    "to": "Contracted nuclear (Constellation +13%)",
+    "why": "Oct 6, on the Google deal: the market paid for signed 20-year contracts. [21,22]"
+   },
+   {
+    "from": "OpenAI-exposed builders (Oracle −5.5%, CoreWeave −7.8%)",
+    "to": "Cash-rich platforms (Microsoft's best quarter since 1998)",
+    "why": "Oct 8: counterparty risk became an infrastructure issue. [13,4]"
+   }
+  ]
+ },
+ "layers": [
+  {
+   "id": "energy",
+   "n": 1,
+   "name": "Energy",
+   "sub": "Powering AI growth",
+   "io": [
+    "Fuel",
+    "Watt"
+   ],
+   "short": "Google's 3.6 GW nuclear deal lifted contracted power, while Texas froze new data-centre permits.",
+   "line": "Power is still the hard ceiling. This month the market paid up for **contracted** power and sold the speculative kind.",
+   "pulse": {
+    "tight": 85,
+    "temp": 2,
+    "flow": 0,
+    "flowWord": "Rotating",
+    "move": "+4.3%",
+    "basket": "GE Vernova, ExxonMobil"
+   },
+   "themes": [
+    {
+     "t": "The gap has a number",
+     "b": "Morgan Stanley sees a **32 GW US data-centre power shortfall through 2028**. NVIDIA is now financing 4.25 GW of power itself. [7]"
+    },
+    {
+     "t": "Contracted power wins",
+     "b": "PJM wants big new data centres to bring their own power [23]. Google signed **3.59 GW with Constellation** on Oct 6, mostly 20-year nuclear. [24]"
+    },
+    {
+     "t": "Permits are the new risk",
+     "b": "Texas **halted data-centre permits** on Sep 21 pending an ERCOT audit due Dec 10. [25,26]"
+    }
+   ],
+   "movers": [
+    {
+     "tk": "CEG",
+     "name": "Constellation Energy",
+     "chg": "+13%",
+     "why": "On Oct 6, the day of the Google nuclear deal. Vistra +10%, Talen +12%. [21]"
+    },
+    {
+     "tk": "GEV",
+     "name": "GE Vernova",
+     "chg": "+5.6%",
+     "why": "Turbine backlog and pricing; about +53% this year. [3,27]",
+     "own": true
+    },
+    {
+     "tk": "XOM",
+     "name": "ExxonMobil",
+     "chg": "+2.9%",
+     "why": "Brent held above US$100 on the Strait of Hormuz disruption. [3,28]",
+     "own": true
+    },
+    {
+     "tk": "OKLO",
+     "name": "Oklo (small reactors)",
+     "chg": "−51% YTD",
+     "why": "Pre-revenue small reactors fell out of favour; NuScale −48% YTD. [22]"
+    }
+   ],
+   "launch": {
+    "t": "Google signs 3.6 GW with Constellation (Oct 6)",
+    "b": "Nuclear uprates became a 20-year contract and the whole independent-power group re-rated in a day. [24,21]"
+   },
+   "handoff": "Power, not wafers, now sets how fast new clusters switch on. [7]",
+   "fund": {
+    "holdings": [
+     [
+      "ExxonMobil",
+      1.5,
+      "Natural gas and power fuel"
+     ],
+     [
+      "Freeport-McMoRan",
+      1.1,
+      "Copper for grid and wiring"
+     ]
+    ],
+    "note": "Only names in the Aug 31 top 25 are shown. GE Vernova (1.2%) was in the Jun 30 top 25; the fund built energy and utilities from 0.9% to about 4% between Sep 2025 and Mar 2026. [29,30]"
+   },
+   "radar": [
+    {
+     "d": "Late Oct",
+     "t": "Fed meeting",
+     "b": " Futures priced about 71% odds of a second hike as of Sep 24. [2]"
+    },
+    {
+     "d": "Oct 28 (est.)",
+     "t": "GE Vernova Q3",
+     "b": " Backlog and gas-turbine pricing. Bloom reports Oct 29. [31]"
+    },
+    {
+     "d": "Dec 10",
+     "t": "ERCOT audit report",
+     "b": " Could lift or extend the Texas permit halt. [26]"
+    },
+    {
+     "d": "Oct 12",
+     "t": "Texas RFI responses due",
+     "b": " ERCOT's State and Community Impact responses. [26]"
+    }
+   ]
+  },
+  {
+   "id": "silicon",
+   "n": 2,
+   "name": "Silicon",
+   "sub": "Computing power",
+   "io": [
+    "Watt",
+    "FLOP"
+   ],
+   "short": "Record profits at Micron, Samsung and TSMC, while money rotated to CPUs and optics and multiples shrank.",
+   "line": "The layer posted the biggest profits in its history, and the market **paid less** for them. NVIDIA trades at its lowest forward multiple since 2015.",
+   "pulse": {
+    "tight": 80,
+    "temp": 1,
+    "flow": 0,
+    "flowWord": "Rotating",
+    "move": "+2.1%",
+    "basket": "NVIDIA, TSMC, Lam, Broadcom, Intel, ASML, Micron, Texas Instruments"
+   },
+   "themes": [
+    {
+     "t": "Record profits, peak multiples",
+     "b": "Micron earned **US$54.2B of revenue at an 87% gross margin** yet trades near 6.6× forward earnings. The market is pricing a peak. [8,32]"
+    },
+    {
+     "t": "CPU renaissance",
+     "b": "Agents need general-purpose chips too. In September **Intel rose 34% and AMD 30%**, versus NVIDIA +3%. AMD crossed US$1T. [20,33]"
+    },
+    {
+     "t": "Fibre moves onto the chip",
+     "b": "Copper is running out of road inside the rack, so optics are moving **next to the chip** (co-packaged optics), cutting power by up to 70%. [34,35]"
+    }
+   ],
+   "movers": [
+    {
+     "tk": "INTC",
+     "name": "Intel",
+     "chg": "+34% Sep",
+     "why": "CPU demand from agents; big customers evaluating its 14A process. Window: −1.4%. [20,36,3]",
+     "own": true
+    },
+    {
+     "tk": "AMD",
+     "name": "AMD",
+     "chg": "+30% Sep",
+     "why": "Crossed US$1T on Sep 21. [20,33]"
+    },
+    {
+     "tk": "NVDA",
+     "name": "NVIDIA",
+     "chg": "+2.5%",
+     "why": "Lagged the group; record buyback. [3,9]",
+     "own": true
+    },
+    {
+     "tk": "MU",
+     "name": "Micron",
+     "chg": "+0.1%",
+     "why": "Flat after a record quarter. [3,32]",
+     "own": true
+    },
+    {
+     "tk": "TXN",
+     "name": "Texas Instruments",
+     "chg": "+8.5%",
+     "why": "Analog and power chips joined the rotation. [3]",
+     "own": true
+    },
+    {
+     "tk": "TSM",
+     "name": "TSMC",
+     "chg": "+4.1%",
+     "why": "September sales +54.6%; Q3 likely above guidance. [3,37]",
+     "own": true
+    },
+    {
+     "tk": "AVGO",
+     "name": "Broadcom",
+     "chg": "−0.8%",
+     "why": "Margin dilution from memory-heavy custom chips. [3,38]",
+     "own": true
+    }
+   ],
+   "launch": {
+    "t": "Micron's record quarter (Sep 30)",
+    "b": "Revenue almost fivefold and next year's output mostly committed, yet the shares barely moved. The debate is now **how long the shortage lasts**. [8,32]"
+   },
+   "handoff": "Memory may be **68% of big-cloud capex in 2027**, so chip pricing power shows up one layer up as infrastructure cost. [39]",
+   "fund": {
+    "holdings": [
+     [
+      "NVIDIA",
+      9.2,
+      "AI accelerators (GPUs)"
+     ],
+     [
+      "Taiwan Semiconductor",
+      2.0,
+      "Makes the most advanced chips"
+     ],
+     [
+      "Lam Research",
+      1.6,
+      "Chip-making equipment"
+     ],
+     [
+      "Broadcom",
+      1.5,
+      "Custom AI chips and networking"
+     ],
+     [
+      "Intel",
+      1.3,
+      "Processors and foundry"
+     ],
+     [
+      "ASML",
+      1.2,
+      "Lithography machines"
+     ],
+     [
+      "Micron",
+      1.1,
+      "High-bandwidth memory"
+     ]
+    ],
+    "note": "Micron was cut from 2.7% (Jun 30) to 1.1% (Aug 31), before its flat reaction to record results. [29,15]"
+   },
+   "radar": [
+    {
+     "d": "Oct 15",
+     "t": "TSMC Q3",
+     "b": " Guide US$44.6–45.8B; sales point above it. [40]"
+    },
+    {
+     "d": "Nov 17 (est.)",
+     "t": "NVIDIA Q3",
+     "b": " Then GTC Washington with a keynote on Dec 1. [31,41]"
+    },
+    {
+     "d": "Dec 4",
+     "t": "Polysilicon tariff",
+     "b": " 15% Section 232 tariff takes effect. [42]"
+    },
+    {
+     "d": "Oct 14",
+     "t": "ASML Q3",
+     "b": " JPMorgan sees 2027 chip-equipment spending +38%. [43]"
+    },
+    {
+     "d": "Oct 21–Nov 3",
+     "t": "Lam, TI, Intel, AMD",
+     "b": " Lam and TI Oct 21, Intel Oct 29, AMD Nov 3. [44]"
+    }
+   ]
+  },
+  {
+   "id": "infra",
+   "n": 3,
+   "name": "Infrastructure",
+   "sub": "Building AI capacity",
+   "io": [
+    "FLOP",
+    "Capacity"
+   ],
+   "short": "Optical parts sold out to 2029, storage gave back gains, and SpaceX's spectrum deal reset telecom.",
+   "line": "The scarcest thing in AI is now **light**: lasers and optical links. Capacity is sold out and getting pricier, and more of it is **paid for with debt**.",
+   "pulse": {
+    "tight": 90,
+    "temp": 3,
+    "flow": 1,
+    "flowWord": "Into optics",
+    "move": "−11.0%",
+    "basket": "SanDisk, Seagate (storage only; optics not held in the top 25)"
+   },
+   "themes": [
+    {
+     "t": "Light is the scarcest part",
+     "b": "Lumentum is **sold out through early 2029** and new laser capacity takes about three years. [6,45]"
+    },
+    {
+     "t": "Capacity is borrowed",
+     "b": "Oracle's backlog hit **US$664B** but free cash flow was −US$5B. Goldman sees a record **US$420B** of hyperscaler debt in 2027. [46,47,16]"
+    },
+    {
+     "t": "SpaceX became a telecom",
+     "b": "Satellite approval plus US$8B of spectrum: **Verizon fell 10% and T-Mobile 13%** on Oct 9, while towers rose. [48,49,17]"
+    }
+   ],
+   "movers": [
+    {
+     "tk": "LITE",
+     "name": "Lumentum",
+     "chg": "+151% YTD",
+     "why": "YTD to Sep 24. Sold out to 2029; +6% on Oct 9. Added to ITIN in fiscal 2026. [45,30]"
+    },
+    {
+     "tk": "TMUS",
+     "name": "T-Mobile US",
+     "chg": "−13.3%",
+     "why": "Oct 9, on SpaceX's spectrum deal. Verizon −10.1%, AT&T ~−10%. [17]"
+    },
+    {
+     "tk": "ORCL",
+     "name": "Oracle",
+     "chg": "−5.5%",
+     "why": "Oct 8, on the OpenAI revenue report; OpenAI is about half its backlog. [13]"
+    },
+    {
+     "tk": "SNDK",
+     "name": "SanDisk",
+     "chg": "−10.3%",
+     "why": "Profit-taking after the first-half run. [3,50]"
+    },
+    {
+     "tk": "CCI",
+     "name": "Crown Castle (towers)",
+     "chg": "+10%",
+     "why": "Oct 9: a satellite network still needs towers and small cells. [18]"
+    },
+    {
+     "tk": "STX",
+     "name": "Seagate",
+     "chg": "−11.6%",
+     "why": "Supply-expansion worries in hard drives. [3,51]"
+    }
+   ],
+   "launch": {
+    "t": "SpaceX buys the last piece of the spectrum puzzle (Oct 8)",
+    "b": "Starlink can now offer phone coverage nationwide. US carriers lost about a tenth of their value in a day. [49,17]"
+   },
+   "handoff": "Capacity is sold out but debt-funded, so higher yields raise the cost of every token. [16]",
+   "fund": {
+    "holdings": [
+     [
+      "Amphenol",
+      1.0,
+      "Connectors and cabling inside AI racks"
+     ],
+     [
+      "Snowflake",
+      1.0,
+      "Data platform that feeds AI"
+     ]
+    ],
+    "note": "SanDisk (1.1%) and Seagate (1.0%) were in the Jun 30 top 25 but not the Aug 31 list. No US wireless carrier appears in either top 25. [29,52]"
+   },
+   "radar": [
+    {
+     "d": "Oct 26",
+     "t": "Verizon Q3",
+     "b": " First carrier response to Starlink Mobile. [17]"
+    },
+    {
+     "d": "Late Oct",
+     "t": "Hyperscaler Q3 capex",
+     "b": " Watch 2027 capex plans and how they are funded. [53]"
+    },
+    {
+     "d": "Pending",
+     "t": "FCC review of the 800 MHz deal",
+     "b": " And the Starlink Mobile launch date. [49]"
+    },
+    {
+     "d": "Nov 3",
+     "t": "Arista Q3",
+     "b": " AI networking demand. [54]"
+    }
+   ]
+  },
+  {
+   "id": "models",
+   "n": 4,
+   "name": "Models",
+   "sub": "Smarter software",
+   "io": [
+    "Capacity",
+    "Token"
+   ],
+   "short": "GPT-6 Astra and Claude Opus 5.5 launched into a price war; tokens are 41% cheaper than in March.",
+   "line": "Frontier models arrived faster and cheaper than ever. The hyperscalers, which own the distribution, were **the month's winners**.",
+   "pulse": {
+    "tight": 55,
+    "temp": 2,
+    "flow": 1,
+    "flowWord": "Money in",
+    "move": "+7.3%",
+    "basket": "Microsoft, Alphabet, Amazon, Meta"
+   },
+   "themes": [
+    {
+     "t": "Astra, then a price war",
+     "b": "OpenAI launched **GPT-6 Astra** Sep 3–4. Within three weeks Anthropic's Claude Opus 5.5 matched it at 20% lower prices. [55,56]"
+    },
+    {
+     "t": "Tokens 41% cheaper",
+     "b": "The effective price per million tokens **fell 41% since March**. Anthropic is now paid by more US businesses than OpenAI. [14,57]"
+    },
+    {
+     "t": "Distribution wins",
+     "b": "Microsoft had its **best quarter since 1998**; Meta rose 27% in September on Muse. Owning the cloud or the user beats owning the model. [4,58]"
+    }
+   ],
+   "movers": [
+    {
+     "tk": "META",
+     "name": "Meta Platforms",
+     "chg": "+9.9%",
+     "why": "Muse launch; +27% in September after peaking at +36%. [3,58]",
+     "own": true
+    },
+    {
+     "tk": "MSFT",
+     "name": "Microsoft",
+     "chg": "+8.8%",
+     "why": "Fastest cloud growth in four years carried into Q3. [3,4]",
+     "own": true
+    },
+    {
+     "tk": "GOOGL",
+     "name": "Alphabet",
+     "chg": "+6.4%",
+     "why": "Gemini now powers Siri; −4% on Sep 23 on token pricing. [3,59]",
+     "own": true
+    },
+    {
+     "tk": "AMZN",
+     "name": "Amazon",
+     "chg": "+4.0%",
+     "why": "AWS hosts Astra; blocked Muse from its store. [3,60]",
+     "own": true
+    }
+   ],
+   "launch": {
+    "t": "GPT-6 Astra, then a price war (Sep 3–30)",
+    "b": "A rival matched Astra within three weeks at lower cost. Models commoditise fast, so value accrues to **whoever owns the cloud, device or user**. [61,56]"
+   },
+   "handoff": "Tokens **41% cheaper** is a cost cut for every application on top. [14]",
+   "fund": {
+    "holdings": [
+     [
+      "Microsoft",
+      7.0,
+      "Azure cloud and AI models"
+     ],
+     [
+      "Amazon",
+      5.8,
+      "AWS cloud and AI models"
+     ],
+     [
+      "Alphabet",
+      5.5,
+      "Gemini models and Google Cloud"
+     ],
+     [
+      "Meta Platforms",
+      2.7,
+      "Muse and Llama at global scale"
+     ]
+    ],
+    "note": "Microsoft was rebuilt from 4.9% (Jun 30) to 7.0% (Aug 31), ahead of its best quarter since 1998. [29,15,4]"
+   },
+   "radar": [
+    {
+     "d": "Oct 28",
+     "t": "Alphabet, Meta Q3",
+     "b": " Microsoft, Amazon reported for the same week (est.). Watch 2027 capex and cloud growth. [62,31]"
+    },
+    {
+     "d": "Nov 3",
+     "t": "US midterms",
+     "b": " Possible gate for the Anthropic IPO; timing reports conflict. [63]"
+    },
+    {
+     "d": "Dec 2",
+     "t": "EU AI Act watermarking",
+     "b": " Deadline for legacy systems. [64]"
+    },
+    {
+     "d": "November",
+     "t": "US–China AI dialogue",
+     "b": " Agreed at the September summit. [65]"
+    }
+   ]
+  },
+  {
+   "id": "apps",
+   "n": 5,
+   "name": "Applications",
+   "sub": "Reinventing business models",
+   "io": [
+    "Token",
+    "Value"
+   ],
+   "short": "Meta's Muse put an AI agent in 5M US pockets in 22 days; software had its best quarter since 2020.",
+   "line": "Consumer AI agents arrived, and the fight moved to **who owns the checkout**. Software shook off the AI-disruption fear.",
+   "pulse": {
+    "tight": 35,
+    "temp": 2,
+    "flow": 1,
+    "flowWord": "Money in",
+    "move": "+4.0%",
+    "basket": "Apple, Take-Two"
+   },
+   "themes": [
+    {
+     "t": "Agents go mainstream",
+     "b": "Meta's **Muse** hit 5M US downloads in 22 days, faster than ChatGPT, and plans a fee on completed transactions. [66,67]"
+    },
+    {
+     "t": "Who owns the checkout",
+     "b": "Amazon **blocked Muse**; Shopify opened every store to it and rose 7.3%. OpenAI answered with Dots agents. [60,68]"
+    },
+    {
+     "t": "Software is back",
+     "b": "The S&P software index had its **best quarter since 2020**. Salesforce's Agentforce passed US$1.5B ARR. [5,69]"
+    }
+   ],
+   "movers": [
+    {
+     "tk": "AAPL",
+     "name": "Apple",
+     "chg": "+6.8%",
+     "why": "iPhone 18 and Gemini-powered Siri. [3,70]",
+     "own": true
+    },
+    {
+     "tk": "SHOP",
+     "name": "Shopify",
+     "chg": "+7.3%",
+     "why": "Sep 21, after opening every store to Muse. [60]"
+    },
+    {
+     "tk": "CRWD",
+     "name": "CrowdStrike",
+     "chg": "+~14%",
+     "why": "Sep 14, as security became the safety trade. [71,19]"
+    },
+    {
+     "tk": "TTWO",
+     "name": "Take-Two",
+     "chg": "+1.1%",
+     "why": "GTA VI still set for Nov 19. [3,72]"
+    }
+   ],
+   "launch": {
+    "t": "Meta launches Muse (Sep 8)",
+    "b": "Meta added about US$500B at the peak, then gave back US$130B as Amazon blocked Muse and investors asked how it makes money. [73,74]"
+   },
+   "handoff": "This is where the stack gets paid. The Oct 28 earnings calls are the first test of Muse's monetisation. [73]",
+   "fund": {
+    "holdings": [
+     [
+      "Apple",
+      4.3,
+      "Devices: AI in your hand"
+     ],
+     [
+      "ServiceNow",
+      1.3,
+      "AI that runs business workflows"
+     ]
+    ],
+    "note": "ServiceNow doubled from 0.6% to 1.3% between Jun 30 and Aug 31; Take-Two (1.5% in June) dropped out of the top 25. [29,15]"
+   },
+   "radar": [
+    {
+     "d": "Oct 16 / 23",
+     "t": "iPhone Duo",
+     "b": " Pre-orders, then in stores. [75]"
+    },
+    {
+     "d": "Oct 28",
+     "t": "Meta Q3",
+     "b": " First numbers on Muse monetisation. [73]"
+    },
+    {
+     "d": "Nov 19",
+     "t": "GTA VI release",
+     "b": " Main driver of Take-Two's FY27 guide. [72]"
+    },
+    {
+     "d": "Oct 20",
+     "t": "Netflix Q3",
+     "b": "[76]"
+    }
+   ]
+  }
+ ],
+ "ripples": {
+  "title": "This month's launches _did not stay_ in their layer.",
+  "dek": "Each shock started in one layer and repriced others. Reading the ripples is how to explain why a stock moved on news about a different company.",
+  "items": [
+   {
+    "tag": "MUSE · SEP 8",
+    "origin": "apps",
+    "hits": [
+     "models",
+     "silicon"
+    ],
+    "t": "Meta's Muse agent",
+    "b": "A consumer launch that repriced the stack beneath and beside it.",
+    "eff": [
+     "Meta +27% in September, its best month in over a decade [58]",
+     "Chip stocks rallied mid-month on Muse reviews; AMD counts Meta as a key customer [20,33]",
+     "Shopify up on access, Amazon tested by its own block [60]"
+    ]
+   },
+   {
+    "tag": "STARLINK MOBILE · OCT 6–9",
+    "origin": "infra",
+    "hits": [
+     "apps"
+    ],
+    "t": "Satellites take on the phone network",
+    "b": "SpaceX's satellites and spectrum turned connectivity into a disruption story.",
+    "eff": [
+     "Verizon −10.1%, T-Mobile −13.3%, AST SpaceMobile −10.5% [17,77]",
+     "Towers +6–10%: satellites still need ground infrastructure [18]",
+     "SpaceX listed in June; it also owns xAI, now SpaceXAI [78]"
+    ]
+   },
+   {
+    "tag": "OPTICS · SEP 21",
+    "origin": "silicon",
+    "hits": [
+     "infra",
+     "energy"
+    ],
+    "t": "Fibre becomes a chip decision",
+    "b": "Optical links moving next to the processor blur the line between chips and networks.",
+    "eff": [
+     "Corning +6%, Lumentum and Coherent +4% on the ECOC demo [34]",
+     "Co-packaged optics can cut switch power by up to 70% [35]",
+     "NVIDIA owns US$2B stakes in Lumentum and Coherent [6]"
+    ]
+   },
+   {
+    "tag": "PACE THE FRONTIER · SEP 14",
+    "origin": "models",
+    "hits": [
+     "silicon",
+     "infra",
+     "energy",
+     "apps"
+    ],
+    "t": "A safety essay hits the capex trade",
+    "b": "A call to slow frontier AI was read as less spending below and more spending on security above.",
+    "eff": [
+     "Chip index about −6%; Caterpillar −4% [11,79]",
+     "Software +5%; CrowdStrike about +14% [19,71]",
+     "Fully recovered within a week [11]"
+    ]
+   },
+   {
+    "tag": "OPENAI REVENUE · OCT 8",
+    "origin": "models",
+    "hits": [
+     "infra",
+     "silicon"
+    ],
+    "t": "A US$20B accounting gap",
+    "b": "One report about one private company moved the whole supply chain.",
+    "eff": [
+     "Oracle −5.5%, CoreWeave −7.8% [13]",
+     "NVIDIA −2.9%, Broadcom −4.4%, chip index −3.4% [13]",
+     "OpenAI is about half of Oracle's US$664B backlog [13,46]"
+    ]
+   },
+   {
+    "tag": "GOOGLE × CONSTELLATION · OCT 6",
+    "origin": "energy",
+    "hits": [
+     "models"
+    ],
+    "t": "A hyperscaler buys a reactor fleet's output",
+    "b": "A model-layer company signed for 20 years of power, re-rating a whole group of utilities.",
+    "eff": [
+     "Constellation +13%, Vistra +10%, Talen +12% [21]",
+     "Utilities were the top sector that day (+2.2%) [21]",
+     "PJM wants new data centres to bring their own power [23]"
+    ]
+   }
+  ]
+ },
+ "fund": {
+  "title": "ITIN owns the whole conversion, and _leaned into the platforms_ this summer.",
+  "dek": "About half the fund sits in top-25 holdings that map to the five layers, and three other themes carry the rest. Between June and August the largest moves were up the stack, toward the hyperscalers and software, and away from memory and storage. That positioning predated software's best quarter since 2020. **This is our reading of public data, not a fund-reported classification.**",
+  "asof": "Top 25 holdings as at Aug 31, 2026, the latest public disclosure (Sep 30 holdings not yet posted on Oct 10). [15,52]",
+  "chgSub": "Public top-25 lists compared: Jun 30 → Aug 31, 2026, with earlier context from the fund's MRFPs. A name leaving the top 25 may still be held.",
+  "other": [
+   {
+    "k": "other",
+    "n": "Other themes in the top 25",
+    "w": 10.6,
+    "c": "#4F86B8"
+   },
+   {
+    "k": "other",
+    "n": "The other 80 holdings",
+    "w": 38.4,
+    "c": "#2B5680"
+   },
+   {
+    "k": "cash",
+    "n": "Cash and other",
+    "w": 1.9,
+    "c": "#1D3E5E"
+   }
+  ],
+  "facts": [
+   {
+    "k": "Fund assets",
+    "v": "$111.0M · Sep 30 [52]"
+   },
+   {
+    "k": "Series F, Sep 30",
+    "v": "1y 15.9% · 3y 25.9% · 5y 13.8% · 10y 11.6% [52]"
+   },
+   {
+    "k": "Est. MER, Series F",
+    "v": "0.64% after Mar 10 cut [15,80]"
+   },
+   {
+    "k": "Holdings",
+    "v": "104 · Aug 31 [15]"
+   },
+   {
+    "k": "ETF Series",
+    "v": "ITIN on TSX · 0.45% fee [81]"
+   }
+  ],
+  "changes": [
+   {
+    "type": "add",
+    "label": "Added",
+    "t": "**Microsoft** rebuilt from 4.9% to 7.0%, now the #2 holding, after being cut from 8.0% to 4.2% between Sep 2025 and Mar 2026. [29,15,82,30]"
+   },
+   {
+    "type": "add",
+    "label": "Added",
+    "t": "**NVIDIA** 8.0% → 9.2%, **Amazon** 4.7% → 5.8%, **Meta** 2.0% → 2.7%. [29,15]"
+   },
+   {
+    "type": "add",
+    "label": "New in top 25",
+    "t": "**ServiceNow** (1.3%), **Snowflake** (1.0%), **Amphenol** (1.0%), **Freeport-McMoRan** (1.1%) and Union Pacific (1.2%). [15]"
+   },
+   {
+    "type": "trim",
+    "label": "Trimmed",
+    "t": "**Micron** 2.7% → 1.1% and **Broadcom** 2.0% → 1.5%, after memory's first-half run. [29,15]"
+   },
+   {
+    "type": "trim",
+    "label": "Out of top 25",
+    "t": "Take-Two, GE Vernova, SanDisk, Seagate and Texas Instruments, all 1.0–1.5% in June. [29,15]"
+   },
+   {
+    "type": "hold",
+    "label": "Context",
+    "t": "In fiscal 2026 the fund added **SanDisk and Lumentum**, both top contributors, and built energy and utilities from 0.9% to about 4%. [30,82]"
+   }
+  ]
+ },
+ "radarDek": "Q3 earnings dominate the next six weeks, starting with ASML and TSMC. Dates marked (est.) come from third-party calendars and were not confirmed by the companies.",
+ "calendar": [
+  {
+   "m": "October",
+   "d": "Oct 12",
+   "layer": "energy",
+   "t": "Texas ERCOT impact RFIs due [26]"
+  },
+  {
+   "m": "October",
+   "d": "Oct 14",
+   "layer": "silicon",
+   "t": "ASML Q3 [43]"
+  },
+  {
+   "m": "October",
+   "d": "Oct 15",
+   "layer": "silicon",
+   "t": "TSMC Q3 [40]"
+  },
+  {
+   "m": "October",
+   "d": "Oct 16",
+   "layer": "apps",
+   "t": "iPhone Duo pre-orders [75]"
+  },
+  {
+   "m": "October",
+   "d": "Oct 20",
+   "layer": "apps",
+   "t": "Netflix Q3 [76]"
+  },
+  {
+   "m": "October",
+   "d": "Oct 21",
+   "layer": "silicon",
+   "t": "Lam Research and Texas Instruments Q3 [44]"
+  },
+  {
+   "m": "October",
+   "d": "Oct 26",
+   "layer": "infra",
+   "t": "Verizon Q3 [17]"
+  },
+  {
+   "m": "October",
+   "d": "Late Oct",
+   "layer": "energy",
+   "t": "Fed meeting; second hike in play [2]"
+  },
+  {
+   "m": "October",
+   "d": "Oct 28",
+   "layer": "models",
+   "t": "Alphabet and Meta Q3; Microsoft, Amazon, Apple same week (est.) [62,31]"
+  },
+  {
+   "m": "October",
+   "d": "Oct 28",
+   "layer": "energy",
+   "t": "GE Vernova Q3 (est.); Bloom Oct 29 [31]"
+  },
+  {
+   "m": "October",
+   "d": "Oct 29",
+   "layer": "silicon",
+   "t": "Intel Q3; Samsung full results [44,83]"
+  },
+  {
+   "m": "November",
+   "d": "Nov 3",
+   "layer": "silicon",
+   "t": "AMD Q3 [44]"
+  },
+  {
+   "m": "November",
+   "d": "Nov 3",
+   "layer": "infra",
+   "t": "Arista Q3 [54]"
+  },
+  {
+   "m": "November",
+   "d": "Nov 3",
+   "layer": "models",
+   "t": "US midterms; Anthropic IPO timing [63]"
+  },
+  {
+   "m": "November",
+   "d": "Nov 17",
+   "layer": "silicon",
+   "t": "NVIDIA Q3 (est.) [31]"
+  },
+  {
+   "m": "November",
+   "d": "Nov 19",
+   "layer": "apps",
+   "t": "GTA VI release [72]"
+  },
+  {
+   "m": "November",
+   "d": "Nov",
+   "layer": "models",
+   "t": "US–China AI dialogue [65]"
+  },
+  {
+   "m": "December",
+   "d": "Dec 1",
+   "layer": "silicon",
+   "t": "NVIDIA GTC Washington keynote [41]"
+  },
+  {
+   "m": "December",
+   "d": "Dec 2",
+   "layer": "models",
+   "t": "EU AI Act watermarking deadline [64]"
+  },
+  {
+   "m": "December",
+   "d": "Dec 4",
+   "layer": "silicon",
+   "t": "15% polysilicon tariff in force [42]"
+  },
+  {
+   "m": "December",
+   "d": "Dec 10",
+   "layer": "energy",
+   "t": "ERCOT audit report on Texas permits [26]"
+  }
+ ],
+ "talk": [
+  {
+   "q": "Is this a bubble?",
+   "a": [
+    "Demand still outruns supply at every link: optics are sold out to 2029, memory output is committed into 2027, and the US faces a 32 GW power gap. [6,8,7]",
+    "The hot spots are specific, not universal. NVIDIA trades at about 16.5× forward earnings, its lowest since 2015, and memory makers at 6–7×. The richest prices are in optics and in private labs valued at about 31× revenue. [9,32,63]",
+    "What looks like a bubble popping is usually **rotation to the next bottleneck**. The framework is built to own the whole chain rather than guess the link."
+   ]
+  },
+  {
+   "q": "Why did AI stocks fall on days with no bad earnings?",
+   "a": [
+    "Three headlines moved the group this month: the Sep 14 safety essay (chips −6%), an AI-agent containment breach on Sep 28 (−2%), and the Oct 8 OpenAI revenue report (−3.4%). [11,12,13]",
+    "The layers are now sensitive to the **customers' economics**, not only their own. The Sep 14 drop was recovered within a week."
+   ]
+  },
+  {
+   "q": "Is AI killing software?",
+   "a": [
+    "Not this quarter. The S&P software index had its best quarter since 2020 and tokens are 41% cheaper than in March, which is a cost cut for every application. [5,14]",
+    "Seat-based pricing is still on trial; agents that do the work threaten per-user licences. ITIN added ServiceNow and Snowflake to its top 25 over the summer. [15]"
+   ]
+  },
+  {
+   "q": "What does SpaceX's spectrum deal mean?",
+   "a": [
+    "Satellites plus spectrum let Starlink offer phone service nationwide. US carriers fell 10–13% on Oct 9 while tower owners rose. [17,18]",
+    "No US wireless carrier appears in ITIN's top 25. Canadian carrier reaction was not reported in the sources reviewed."
+   ]
+  },
+  {
+   "q": "What about rising rates?",
+   "a": [
+    "The Fed hiked 25 bp on Sep 16, its first hike since 2023, and the 10-year reached 5.2%. [1,2]",
+    "The most capital-intensive, debt-funded layers (infrastructure and energy) are the most rate-sensitive. Goldman expects US$420B of hyperscaler borrowing in 2027. [16]"
+   ]
+  },
+  {
+   "q": "How is ITIN positioned?",
+   "a": [
+    "About half the fund is in top-25 names spread across all five layers, with the largest weights in silicon and models. Three other themes, financial rails, health and longevity, and essentials, answer to different drivers. [15]",
+    "Over the summer it leaned toward the platforms that own distribution and trimmed memory and storage after their run. [29,15]"
+   ]
+  }
+ ],
+ "moversNote": "Moves are Sep 9 to Oct 9 in US dollars unless a date or period is shown. Single-day and year-to-date moves are labelled. Verify against a market-data terminal before client use.",
+ "legal": [
+  "**For dealer use only. Not for distribution to investors.** This monthly is a draft prepared for internal review and has not been approved by compliance.",
+  "Holdings and weights: iA Clarington Thematic Innovation Class public top-25 holdings as at Aug 31, 2026 and Jun 30, 2026, and the fund's management reports of fund performance. Layer assignment is an illustrative mapping of those holdings to the five-layer framework and is **not a fund-reported classification**. Specific securities are shown for illustrative purposes only and are not a recommendation to buy or sell.",
+  "Share-price moves come from third-party sources and news reports cited above; several are secondary sources and are labelled as such. Supply tightness, valuation temperature and money-flow readings are editorial judgements.",
+  "Series F returns as at Sep 30, 2026 are historical annual compounded total returns, net of fees. The estimated MER reflects management and administration fee reductions effective Mar 10, 2026. Commissions, trailing commissions, management fees and expenses all may be associated with mutual fund investments. Please read the prospectus before investing. Mutual funds are not guaranteed, their values change frequently and past performance may not be repeated."
+ ],
+ "sources": [
+  [
+   "AFP via Kuwait Times, Fed raises rates, Sep 17, 2026",
+   "https://kuwaittimes.com/article/49973/business/fed-raises-rates-to-tackle-too-high-inflation-irking-trump/"
+  ],
+  [
+   "Reuters via Investing.com, bond market selloff, Sep 24, 2026",
+   "https://www.investing.com/news/economy-news/bond-market-selloff-rumbles-on-ahead-of-trump-and-xi-talks-4915616"
+  ],
+  [
+   "Share-price moves Sep 9 – Oct 9, 2026 (USD closes): stockanalysis.com price histories, S&P Global Market Intelligence data, retrieved Oct 10, 2026",
+   "https://stockanalysis.com/stocks/"
+  ],
+  [
+   "Bloomberg via Yahoo Finance, Microsoft's best quarter since 1998, Oct 1, 2026",
+   "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-best-quarter-since-114355289.html"
+  ],
+  [
+   "Reuters via American Bazaar, U.S. software stocks hit 2026 highs, Oct 6, 2026",
+   "https://americanbazaaronline.com/2026/10/06/us-software-stocks-hit-2026-highs-as-ai-disruption-fears-fade-489493/"
+  ],
+  [
+   "Bloomberg, Lumentum sees opto-parts capacity sold out to 2029, Oct 9, 2026",
+   "https://www.bloomberg.com/news/articles/2026-10-09/nvidia-backed-lumentum-sees-opto-parts-capacity-sold-out-to-2029"
+  ],
+  [
+   "Benzinga citing Reuters / Morgan Stanley, AI power shortfall, Oct 2026",
+   "https://www.benzinga.com/markets/prediction-markets/26/10/62174172/nvidia-broadcom-ai-power-shortage"
+  ],
+  [
+   "Micron Technology, FQ4 FY2026 results, Sep 30, 2026",
+   "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/"
+  ],
+  [
+   "Reuters via BNN Bloomberg, NVIDIA record US$150B buyback, Sep 28, 2026",
+   "https://www.bnnbloomberg.ca/business/2026/09/28/nvidia-boosts-share-buyback-by-record-us150b-as-ai-boom-fuels-growth/"
+  ],
+  [
+   "Nasdaq, September 2026 Review and Outlook, Oct 1, 2026",
+   "https://www.nasdaq.com/articles/september-2026-review-and-outlook"
+  ],
+  [
+   "CNN Business via KVIA, AI stocks slide after CEOs call for slowdown, Sep 14, 2026",
+   "https://kvia.com/news/business-technology/cnn-business-consumer/2026/09/14/ai-stocks-slide-after-top-industry-ceos-call-for-slowdown-of-technologys-development/"
+  ],
+  [
+   "Yahoo Finance, chip stocks fall as AI breach fuels safety concerns, Sep 28, 2026",
+   "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-ai-breach-fuels-safety-concerns-but-nvidia-bucks-the-trend-chart-of-the-day-151753993.html"
+  ],
+  [
+   "24/7 Wall St, OpenAI revenue reportedly US$20B lower (secondary), Oct 9, 2026",
+   "https://247wallst.com/investing/2026/10/09/openais-revenue-is-reportedly-20-billion-lower-than-thought-nvidia-just-lost-170-billion/"
+  ],
+  [
+   "Ramp AI Index, September 2026 (August data), Sep 9, 2026",
+   "https://ramp.com/data/ai-index-sept-2026"
+  ],
+  [
+   "iA Clarington, Thematic Innovation Class Series F fund profile, as at Aug 31, 2026",
+   "https://cdn01.iaclarington.com/fund_docs/fund_profiles/FP_4215_F_9973_EN.pdf"
+  ],
+  [
+   "Reuters via Daily Caller, Goldman sees US$420B hyperscaler debt in 2027, Sep 22, 2026",
+   "https://dailycaller.com/2026/09/22/hyperscaler-debt-financing-expected-to-reach-420-billion-next-year/"
+  ],
+  [
+   "Motley Fool, stock market today: Verizon slides on SpaceX spectrum deal, Oct 9, 2026",
+   "https://www.fool.com/coverage/stock-market-today/2026/10/09/stock-market-today-oct-9-verizon-slides-on-spacex-spectrum-deal-and-scotiabank-target-cut/"
+  ],
+  [
+   "Blockspace, tower stocks on SpaceX spectrum deal (secondary), Oct 9, 2026",
+   "https://blockspace.media/insight/spacex-buys-spectrum-starlink-mobile-carrier/"
+  ],
+  [
+   "Benzinga, software stocks crush semiconductors in a 25-year shift, Sep 15, 2026",
+   "https://www.benzinga.com/markets/market-summary/26/09/61782229/beyond-nvidia-why-software-stocks-just-crushed-semiconductors-in-a-historic-25-year-shift"
+  ],
+  [
+   "Motley Fool, why the iShares Semiconductor ETF gained 11% in September, Oct 2, 2026",
+   "https://www.fool.com/investing/2026/10/02/why-the-ishares-semiconductor-etf-gained-11-in-september/"
+  ],
+  [
+   "Benzinga, power stocks on the Google deal, Oct 6, 2026",
+   "https://www.benzinga.com/trading-ideas/movers/26/10/62202028/whats-going-on-with-vistra-stock-today"
+  ],
+  [
+   "Motley Fool via Yahoo Finance, nuclear stocks down ~50% (secondary), Sep 27, 2026",
+   "https://finance.yahoo.com/energy/articles/2-nuclear-stocks-crashed-50-135800113.html"
+  ],
+  [
+   "Virginia Mercury, PJM bring-your-own-power proposal, Aug 27, 2026",
+   "https://virginiamercury.com/2026/08/27/new-proposal-from-grid-operator-pjm-would-require-data-centers-to-bring-their-own-power/"
+  ],
+  [
+   "Reuters via TimesLive, Google–Constellation 3.6 GW deal, Oct 6, 2026",
+   "https://www.timeslive.co.za/news/sci-tech/2026-10-06-google-enters-massive-36-gw-power-deal-with-constellation-energy/"
+  ],
+  [
+   "Office of the Texas Governor, TCEQ data-centre permit halt, Sep 21, 2026",
+   "https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits"
+  ],
+  [
+   "Bracewell, Texas data-centre scrutiny timeline, Sep 28, 2026",
+   "https://www.bwenergylaw.com/blog/2026/09/texas-expands-data-center-scrutiny-permit-hold-final-large-load-rules-and-new-ercot-audit-requirements/"
+  ],
+  [
+   "Trefis, GE Vernova (secondary), Oct 9, 2026",
+   "https://www.trefis.com/stock/gev/articles/618156/what-is-driving-the-move-in-ge-vernova-stock/2026-10-09"
+  ],
+  [
+   "Fortune, price of oil, Oct 9, 2026",
+   "https://fortune.com/article/price-of-oil-10-09-2026/"
+  ],
+  [
+   "iA Clarington, Thematic Innovation Class top 25 holdings, as at Jun 30, 2026",
+   "https://cdn01.iaclarington.com/fund_docs/top25/Top25_4215_EN.pdf"
+  ],
+  [
+   "iA Clarington, Thematic Innovation Class annual MRFP, year ended Mar 31, 2026",
+   "https://cdn01.iaclarington.com/fund_docs/mrfp_annual/MRFP_4215_EN.pdf"
+  ],
+  [
+   "Earnings dates marked (est.) come from third-party calendars and were not confirmed by the companies",
+   ""
+  ],
+  [
+   "Yahoo Finance, Micron's blowout Q4 and memory valuations, Oct 1, 2026",
+   "https://finance.yahoo.com/markets/stocks/articles/microns-blowout-q4-pushes-memory-090742260.html"
+  ],
+  [
+   "Semafor, AMD reaches US$1 trillion, Sep 21, 2026",
+   "https://www.semafor.com/article/09/21/2026/amd-reaches-a-1-trillion-market-cap-as-chip-stocks-drive-rally"
+  ],
+  [
+   "24/7 Wall St, Corning climbs on optical interconnect demo (secondary), Sep 21, 2026",
+   "https://247wallst.com/investing/2026/09/21/corning-climbs-6-as-ai-optical-interconnect-demo-highlights-its-fiber-lumentum-coherent-and-applied-optoelectronics-rise-4/"
+  ],
+  [
+   "TrendForce, co-packaged optics ramp, Jul 27, 2026",
+   "https://www.trendforce.com/presscenter/news/20260727-13151.html"
+  ],
+  [
+   "TechSpot citing Piper Sandler, Intel 14A evaluations, Sep 25, 2026",
+   "https://techspot.com/news/113984-amazon-apple-amd-google-tesla-microsoft-nvidia-qualcomm.html"
+  ],
+  [
+   "TSMC, September 2026 revenue report, Oct 8, 2026",
+   "https://pr.tsmc.com/english/news/3343"
+  ],
+  [
+   "Finviz, Broadcom shares fall as AI debate weighs, Sep 14, 2026",
+   "https://finviz.com/news/391451/broadcom-shares-fall-32-as-ai-development-debate-weighs-on-semiconductor-stocks"
+  ],
+  [
+   "TrendForce, memory share of cloud capex, Aug 25, 2026",
+   "https://www.trendforce.com/presscenter/news/20260825-13198.html"
+  ],
+  [
+   "TSMC Investor Relations, 3Q26 guidance and conference date",
+   "https://investor.tsmc.com/quarterly-results"
+  ],
+  [
+   "NVIDIA, GTC Washington, D.C. 2026",
+   "https://www.nvidia.com/en-us/gtc-dc/attend/"
+  ],
+  [
+   "EY, Section 232 polysilicon proclamation, Aug 2026",
+   "https://taxnews.ey.com/news/2026-1695-us-section-232-proclamation-establishes-minimum-import-prices-and-a-15-percent-tariff-on-polysilicon-and-derivative-products"
+  ],
+  [
+   "Proactive via Yahoo Finance UK, JPMorgan on ASML, Oct 7, 2026",
+   "https://uk.finance.yahoo.com/news/asml-could-signal-stronger-expected-120000507.html"
+  ],
+  [
+   "Company investor-relations calendars (Lam Research, Texas Instruments, Intel, AMD), as compiled Oct 10, 2026",
+   ""
+  ],
+  [
+   "Benzinga, Lumentum rises after CEO comments, Oct 9, 2026",
+   "https://www.benzinga.com/trading-ideas/movers/26/10/62270069/lumentum-stock-rises-after-ceo-says-ai-demand-has-the-company-sold-out-through-early-2029"
+  ],
+  [
+   "Oracle, Q1 FY2027 results, Sep 10, 2026",
+   "https://www.oracle.com/news/announcement/q1fy27-earnings-release-2026-09-10/"
+  ],
+  [
+   "Yahoo Finance, Oracle after-hours move and financing, Sep 10, 2026",
+   "https://finance.yahoo.com/markets/stocks/articles/orcl-stock-soars-7-hours-213417280.html"
+  ],
+  [
+   "Broadband Breakfast, FCC approves 15,000 SpaceX direct-to-device satellites, Oct 6, 2026",
+   "https://broadbandbreakfast.com/fcc-approves-spacex-request-for-15-000-direct-to-device-satellites/"
+  ],
+  [
+   "Forbes, carriers slump as SpaceX announces Starlink Mobile spectrum deal, Oct 9, 2026",
+   "https://www.forbes.com/sites/siladityaray/2026/10/09/att-verizon-and-t-mobile-stocks-slump-as-spacex-announces-key-starlink-mobile-deal/"
+  ],
+  [
+   "Forbes, SanDisk stock in 2026, Sep 1, 2026",
+   "https://www.forbes.com/sites/investor-hub/article/sandisk-stock-over-574-where-its-heading-2026/"
+  ],
+  [
+   "24/7 Wall St, Western Digital and Seagate rebound (secondary), Oct 5, 2026",
+   "https://247wallst.com/investing/2026/10/05/western-digital-jumps-7-seagate-climbs-5-as-bernstein-calls-toshiba-selloff-a-storm-in-a-teacup-sandisk-inches-higher/"
+  ],
+  [
+   "iA Clarington, Thematic Innovation Class Series F fund page (assets and performance as at Sep 30, 2026; holdings as at Aug 31, 2026)",
+   "https://iaclarington.com/price-performance/funds/equity?wc=9973"
+  ],
+  [
+   "Supercycle HQ, hyperscaler capex tracker compiled from filings (secondary), Sep 13, 2026",
+   "https://supercyclehq.com/blog/reports/hyperscaler-capex-september-2026"
+  ],
+  [
+   "StockTitan, Arista Q3 2026 results date",
+   "https://www.stocktitan.net/news/ANET/arista-networks-to-announce-q3-2026-financial-results-on-tuesday-at262oirp1un.html"
+  ],
+  [
+   "CNBC, OpenAI launches GPT-6 Astra, Sep 3, 2026",
+   "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html"
+  ],
+  [
+   "9to5Mac, Anthropic releases Claude Opus 5.5, Sep 22, 2026",
+   "https://9to5mac.com/2026/09/22/anthropic-upgrades-claude-with-new-opus-5-5-model-details-here/"
+  ],
+  [
+   "TechCrunch, AI spend per employee slumped at top firms, Sep 9, 2026",
+   "https://techcrunch.com/2026/09/09/ai-spend-per-employee-slumped-at-top-firms-in-august-summer-doldrums-or-a-warning-sign/"
+  ],
+  [
+   "Seoul Economic Daily, Meta up 27% in September on Muse, Oct 1, 2026",
+   "https://en.sedaily.com/international/2026/10/01/meta-stock-jumps-27-percent-in-september-on-muse-success"
+  ],
+  [
+   "Barchart via Yahoo Finance, Alphabet and AI pricing worries, Sep–Oct 2026",
+   "https://finance.yahoo.com/markets/stocks/articles/google-stock-investors-view-long-170509193.html"
+  ],
+  [
+   "Yahoo Finance, Amazon blocks Meta's Muse; Shopify opens up, Sep 23, 2026",
+   "https://finance.yahoo.com/technology/articles/amazon-blocks-metas-muse-shopify-191300313.html"
+  ],
+  [
+   "OpenAI, Path to Astra, Sep 1, 2026",
+   "https://openai.com/index/path-to-astra/"
+  ],
+  [
+   "Alphabet Investor Relations, Q3 2026 results date",
+   "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx"
+  ],
+  [
+   "Motley Fool citing Reuters S-1 reporting, Anthropic IPO, Oct 3, 2026",
+   "https://www.fool.com/investing/2026/10/03/anthropic-could-raise-up-to-100-billion-in-its-nov/"
+  ],
+  [
+   "SecurePrivacy, EU AI Act Digital Omnibus deadlines, updated Sep 9, 2026",
+   "https://secureprivacy.ai/blog/eu-ai-act-digital-omnibus-the-new-high-risk-ai-deadlines-after-council-approval"
+  ],
+  [
+   "PBS NewsHour, China and U.S. agree to an AI safety channel, Sep 26, 2026",
+   "https://www.pbs.org/newshour/world/china-and-u-s-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks"
+  ],
+  [
+   "Forbes citing Sensor Tower, Muse hits 5 million downloads, Sep 30, 2026",
+   "https://www.forbes.com/sites/maryroeloffs/2026/09/30/metas-muse-ai-assistant-hits-5-million-downloads-outpacing-growth-of-chatgpt-grok-and-claude/"
+  ],
+  [
+   "CNBC, Meta launches Muse for Small Business, Sep 29, 2026",
+   "https://www.cnbc.com/2026/09/29/meta-launches-muse-for-small-business-zuckerberg-pushes-enterprise-ai.html"
+  ],
+  [
+   "TechCrunch, OpenAI launches Dots agents, Sep 29, 2026",
+   "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/"
+  ],
+  [
+   "Salesforce, Q2 FY2027 results, Aug 26, 2026",
+   "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx"
+  ],
+  [
+   "AppleInsider, Apple shares after iPhone Duo and Siri AI, Sep 21, 2026",
+   "https://appleinsider.com/articles/26/09/21/apple-shares-hit-record-high-after-iphone-duo-and-siri-ai-success"
+  ],
+  [
+   "CNBC, AI stocks sink while cybersecurity shares rally, Sep 14, 2026",
+   "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html"
+  ],
+  [
+   "Notebookcheck, GTA VI launch date locked, 2026",
+   "https://www.notebookcheck.net/GTA-6-s-launch-date-is-officially-locked-and-Take-Two-has-8-billion-reasons-not-to-delay-it.1302765.0.html"
+  ],
+  [
+   "StockTwits via Yahoo Finance, Meta rides Muse, Oct 2, 2026",
+   "https://finance.yahoo.com/markets/stocks/articles/meta-stock-rides-muse-ai-080528207.html"
+  ],
+  [
+   "Motley Fool, Meta's best month since 2013, Sep 26, 2026",
+   "https://www.fool.com/investing/2026/09/26/meta-stock-is-having-its-best-month-since-2013-history-says-every-20-month-has-led-to-gains-a-year-later/"
+  ],
+  [
+   "Fox Business, iPhone 18 goes on sale, Sep 18, 2026",
+   "https://www.foxbusiness.com/technology/apples-iphone-18-goes-sale-customers-line-up-stores-worldwide"
+  ],
+  [
+   "Netflix via Finviz, Q3 2026 results date",
+   "https://finviz.com/news/391731/netflix-to-announce-third-quarter-2026-financial-results"
+  ],
+  [
+   "Motley Fool, AST SpaceMobile slides on SpaceX spectrum move, Oct 9, 2026",
+   "https://www.fool.com/coverage/stock-market-today/2026/10/09/stock-market-today-oct-9-ast-spacemobile-slides-on-spacex-spectrum-move/"
+  ],
+  [
+   "SpaceX Investor Relations, closing of initial public offering, Jun 2026",
+   "https://ir.spacex.com/updates/releases-details/2026/Space-Exploration-Technologies-Corp--Announces-Closing-of-Initial-Public-Offering-Including-Full-Exercise-of-Underwriters-Option-to-Purchase-Additional-Shares-2026-RgoR-Y1Vwh/default.aspx"
+  ],
+  [
+   "24/7 Wall St, Caterpillar falls 4% (secondary), Sep 14, 2026",
+   "https://247wallst.com/investing/2026/09/14/caterpillar-falls-4-while-deere-edges-higher-is-the-data-center-power-trade-unwinding/"
+  ],
+  [
+   "iA Clarington, fee reductions and series mergers, Mar 20, 2026",
+   "https://iaclarington.com/about-us/press-releases/ia-clarington-announces-fee-reductions-and-series-mergers-for-select-funds"
+  ],
+  [
+   "TSX, new listing bulletin: ITIN ETF Series, Apr 2026",
+   "https://www.tsx.com/en/news/new-company-listings?id=2336"
+  ],
+  [
+   "iA Clarington, Thematic Innovation Class interim MRFP, six months ended Sep 30, 2025",
+   "https://cdn01.iaclarington.com/fund_docs/mrfp_semi_annual/MRFPSemi_4215_EN.pdf"
+  ],
+  [
+   "SiliconANGLE, Samsung Q3 preliminary profit, Oct 7, 2026",
+   "https://siliconangle.com/2026/10/07/samsung-forecasts-world-record-breaking-80b-profit/"
+  ]
+ ]
+};
+</script>
+<script>
+(function(){
+"use strict";
+var $=function(id){return document.getElementById(id);};
+var C={energy:"var(--l1)",silicon:"var(--l2)",infra:"var(--l3)",models:"var(--l4)",apps:"var(--l5)"};
+var RAW={energy:"#FFB547",silicon:"#73C4EF",infra:"#C6D6E2",models:"#C9A5FF",apps:"#86FFEA"};
+var L=M.layers,B=M.brief||{};
+function esc(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
+function rt(s){return esc(s).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>").replace(/_(.+?)_/g,"<em>$1</em>").replace(/\s*\[(\d+(?:,\s*\d+)*)\]/g,function(_,g){return '<sup class="c" tabindex="0" data-s="'+g.replace(/\s/g,"")+'">'+g.replace(/\s/g,"")+'</sup>';});}
+function cls(v){v=String(v);return /^[-−]/.test(v)?"down":/^\+/.test(v)?"up":"flat";}
+function sumW(h){return h.reduce(function(a,x){return a+x[1];},0);}
+function f1(n){return n.toFixed(1)+"%";}
+var TW=["","Cool","Warm","Hot"];
+function tightWord(t){return t>=80?"Very tight":t>=60?"Tight":t>=40?"Balanced":"Loose";}
+function flowWord(f){return f>0?"Money in":f<0?"Money out":"Rotating";}
+/* ---------- header, tabs ---------- */
+document.title="Five Layers Monthly · "+M.edition.month+" · CCM9973";
+$("edLine").textContent="CCM9973 · ITIN · "+M.edition.month;
+var TABS=["The month","Money moves","ITIN","Radar","Talking points"];
+$("tabs").innerHTML=TABS.map(function(t,i){return '<button class="tab" role="tab" data-t="'+i+'"><i>0'+(i+1)+'</i>'+t+'</button>';}).join("");
+var views=[0,1,2,3,4].map(function(i){return $("v"+i);}),cur=0;
+function show(i){if(i<0||i>4)return;cur=i;
+  views.forEach(function(v,j){v.classList.toggle("on",j===i);});
+  document.querySelectorAll(".tab").forEach(function(t,j){t.setAttribute("aria-selected",j===i?"true":"false");});
+  $("cur").textContent=i+1;$("prog").style.width=((i+1)/5*100)+"%";$("prev").disabled=i===0;$("next").disabled=i===4;
+  if(i===2)drawDonut();
+  try{history.replaceState(null,"","#"+["month","money","itin","radar","talk"][i]);}catch(e){}
+}
+document.querySelectorAll(".tab").forEach(function(t){t.addEventListener("click",function(){show(+t.getAttribute("data-t"));});});
+$("prev").onclick=function(){show(cur-1);};$("next").onclick=function(){show(cur+1);};
+$("footL").textContent="iA Clarington Thematic Innovation Class · "+M.edition.period;
+/* ---------- view 0 ---------- */
+$("chips").innerHTML='<span class="chip cur">'+esc(M.edition.month)+'</span><span class="chip">'+esc(M.edition.period)+'</span>';
+$("h1").innerHTML=rt(M.hero.title);
+$("dek").innerHTML=rt(B.dek||M.hero.dek);
+$("take").innerHTML=(B.takeaways||[]).map(function(t,i){return '<li class="st" style="--i:'+(i+3)+'">'+rt(t)+'</li>';}).join("");
+var tiers=$("tiers");
+L.slice().reverse().forEach(function(l,k){
+  var b=document.createElement("button");b.type="button";b.className="tier";b.style.setProperty("--c",C[l.id]);b.style.setProperty("--dl",(k*.4)+"s");
+  b.innerHTML='<span class="bd">'+l.n+'</span><span><span class="nm">'+esc(l.name)+'<small>'+esc(l.io[0])+' → <i>'+esc(l.io[1])+'</i></small></span><span class="sh">'+rt(l.short)+'</span></span><span class="rt"><span class="mv '+cls(l.pulse.move)+'">'+esc(l.pulse.move)+'</span><span class="go">Open ›</span></span>';
+  b.addEventListener("click",function(){openLayer(l.n-1);});tiers.appendChild(b);
+});
+for(var s=0;s<3;s++){var sp=document.createElement("span");sp.className="spark";sp.style.animationDelay=(s*1.45)+"s";tiers.appendChild(sp);}
+$("hint").innerHTML="Tap a layer for its themes, movers, ITIN exposure and dates. "+rt(M.hero.tierNote);
+/* ---------- drawer ---------- */
+var D=$("drawer"),S=$("scrim"),dIdx=-1;
+function openLayer(i){if(i<0||i>4)return;dIdx=i;var l=L[i],fw=sumW(l.fund.holdings),mx=Math.max.apply(null,l.fund.holdings.map(function(h){return h[1];}).concat([.1]));
+  D.style.setProperty("--c",C[l.id]);
+  D.innerHTML='<div class="dh"><span class="bd">'+l.n+'</span><div><div class="k">Layer '+l.n+' · '+esc(l.io[0])+' → '+esc(l.io[1])+'</div><h3>'+esc(l.name)+'</h3></div><button class="x" aria-label="Close">✕</button></div>'+
+  '<div class="db"><p class="line">'+rt(l.line)+'</p>'+
+  '<div class="pills"><span class="pill">Supply <b>'+tightWord(l.pulse.tight)+'</b></span><span class="pill">Valuation <b>'+TW[l.pulse.temp]+'</b></span><span class="pill">'+flowWord(l.pulse.flow)+'</span><span class="pill">ITIN names <b class="'+cls(l.pulse.move)+'">'+esc(l.pulse.move)+'</b></span></div>'+
+  '<div class="sec"><div class="st2">Three things that happened</div>'+l.themes.slice(0,3).map(function(t){return '<div class="th"><h4>'+rt(t.t)+'</h4><p>'+rt(t.b)+'</p></div>';}).join("")+'</div>'+
+  '<div class="sec"><div class="st2">What moved</div><div class="mvs">'+l.movers.slice(0,4).map(function(m){return '<div class="mv2"><div class="tp"><span class="n">'+esc(m.name)+'<small>'+esc(m.tk)+'</small>'+(m.own?'<span class="own">ITIN</span>':'')+'</span><span class="ch '+cls(m.chg)+'">'+esc(m.chg)+'</span></div><div class="w">'+rt(m.why)+'</div></div>';}).join("")+'</div></div>'+
+  '<div class="sec"><div class="st2">The headline that mattered</div><div class="hd"><h4>'+rt(l.launch.t)+'</h4><p>'+rt(l.launch.b)+'</p></div></div>'+
+  '<div class="sec"><div class="ho"><span>'+(l.n<5?"PASSES UP TO L"+(l.n+1):"TURNS INTO CASH FLOW")+'</span>'+rt(l.handoff)+'</div></div>'+
+  '<div class="sec two"><div><div class="st2" style="font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--c);font-weight:700;margin-bottom:6px">ITIN exposure</div><div class="wt"><b>'+f1(fw)+'</b><span>of the fund · top 25</span></div><ul class="hl">'+l.fund.holdings.map(function(h){return '<li><i class="bar" data-w="'+(h[1]/mx*100).toFixed(0)+'"></i><span>'+esc(h[0])+'</span><span class="p">'+h[1].toFixed(1)+'</span></li>';}).join("")+'</ul>'+(l.fund.note?'<p class="small" style="margin:8px 0 0">'+rt(l.fund.note)+'</p>':'')+'</div>'+
+  '<div><div class="st2" style="font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--c);font-weight:700;margin-bottom:6px">On the radar</div><ul class="rd">'+l.radar.slice(0,3).map(function(r){return '<li><span class="dt">'+esc(r.d)+'</span><span><b>'+rt(r.t)+'</b>'+rt(r.b||"")+'</span></li>';}).join("")+'</ul></div></div>'+
+  '</div><div class="dnav"><button class="btn" data-d="'+(i-1)+'"'+(i===0?" disabled":"")+'>← '+(i>0?esc(L[i-1].name):"")+'</button><button class="btn" data-d="'+(i+1)+'"'+(i===4?" disabled":"")+'>'+(i<4?esc(L[i+1].name):"")+' →</button></div>';
+  D.querySelector(".x").onclick=closeLayer;
+  D.querySelectorAll("[data-d]").forEach(function(b){b.onclick=function(){openLayer(+b.getAttribute("data-d"));};});
+  D.classList.add("on");S.classList.add("on");
+  requestAnimationFrame(function(){requestAnimationFrame(function(){D.querySelectorAll(".bar").forEach(function(b){b.style.width=b.getAttribute("data-w")+"%";});});});
+  D.querySelector(".x").focus({preventScroll:true});
+}
+function closeLayer(){dIdx=-1;D.classList.remove("on");S.classList.remove("on");}
+S.onclick=closeLayer;
+/* ---------- view 1 ---------- */
+$("mmT").innerHTML=rt(M.money.title);$("mmD").innerHTML=rt(B.moneyDek||M.money.dek);
+$("rot").innerHTML=M.money.rotations.map(function(r){return '<div class="rr"><div class="f">'+rt(r.from)+'</div><div class="ar"></div><div class="t">'+rt(r.to)+'</div><div class="w">'+rt(r.why)+'</div></div>';}).join("");
+$("ripD").innerHTML=rt(B.ripDek||M.ripples.dek);
+var ids=["energy","silicon","infra","models","apps"],NM={energy:"Energy",silicon:"Silicon",infra:"Infra",models:"Models",apps:"Apps"};
+$("rips").innerHTML=M.ripples.items.map(function(r){return '<div class="rip" style="--c:'+C[r.origin]+'"><div class="tg">'+esc(r.tag)+'</div><h4>'+rt(r.t)+'</h4><div class="dots">'+ids.map(function(id){return '<i class="'+(id===r.origin?"o":r.hits.indexOf(id)>=0?"h":"")+'" style="--c2:'+C[id]+'" title="'+NM[id]+'"></i>';}).join("")+'<span>'+NM[r.origin]+' → '+r.hits.map(function(h){return NM[h];}).join(", ")+'</span></div><ul>'+r.eff.slice(0,2).map(function(e){return '<li><span>'+rt(e)+'</span></li>';}).join("")+'</ul></div>';}).join("");
+/* ---------- view 2 ---------- */
+var FD=M.fund;
+$("fT").innerHTML=rt(FD.title);$("fD").innerHTML=rt(B.fundDek||FD.dek);$("fA").innerHTML=rt(FD.asof);$("cS").innerHTML=rt(FD.chgSub);
+var segs=L.map(function(l,i){return {k:l.id,n:l.name,w:sumW(l.fund.holdings),c:RAW[l.id],li:i};}).concat(FD.other.map(function(o){return {n:o.n,w:o.w,c:o.c};}));
+var tot=segs.reduce(function(a,s){return a+s.w;},0),R=78,CIRC=2*Math.PI*R,ai=segs.slice(0,5).reduce(function(a,s){return a+s.w;},0),drawn=false;
+function drawDonut(){if(drawn)return;drawn=true;var acc=0;
+  $("donut").innerHTML='<circle cx="100" cy="100" r="'+R+'" fill="none" stroke="rgba(115,196,239,.08)" stroke-width="24"/>'+segs.map(function(s,i){var len=s.w/tot*CIRC,o=-acc;acc+=len;return '<circle class="sg" cx="100" cy="100" r="'+R+'" fill="none" stroke="'+s.c+'" stroke-width="24" stroke-dasharray="0 '+CIRC.toFixed(1)+'" data-l="'+len.toFixed(2)+'" stroke-dashoffset="'+o.toFixed(2)+'" transform="rotate(-90 100 100)" style="transition:stroke-dasharray 1s var(--ease) '+(i*80)+'ms"/>';}).join("")+'<text x="100" y="96" text-anchor="middle" fill="#fff" font-size="28" font-weight="700" font-family="Arial">'+f1(ai)+'</text><text x="100" y="117" text-anchor="middle" fill="#7593B2" font-size="9.5" letter-spacing="1.4" font-family="Arial">IN THE FIVE LAYERS</text>';
+  setTimeout(function(){$("donut").querySelectorAll(".sg").forEach(function(c){var l=+c.getAttribute("data-l");c.setAttribute("stroke-dasharray",l.toFixed(2)+" "+(CIRC-l).toFixed(2));});},60);}
+$("leg").innerHTML=segs.map(function(s,i){return (i===5?'<div class="sep"></div>':'')+'<button type="button" style="--c:'+s.c+'"'+(s.li!=null?' data-l="'+s.li+'"':' tabindex="-1"')+'><i></i><span>'+esc(s.n)+'</span><b>'+f1(s.w)+'</b></button>';}).join("");
+$("leg").querySelectorAll("[data-l]").forEach(function(b){b.onclick=function(){openLayer(+b.getAttribute("data-l"));};});
+$("facts").innerHTML=FD.facts.map(function(f){return '<div class="fact"><div class="k">'+esc(f.k)+'</div><div class="v">'+rt(f.v)+'</div></div>';}).join("");
+$("chg").innerHTML=FD.changes.map(function(c){return '<li><span class="tg2 '+c.type+'">'+esc(c.label)+'</span><span>'+rt(c.t)+'</span></li>';}).join("");
+/* ---------- view 3 ---------- */
+$("rD").innerHTML=rt(M.radarDek);
+var months=[];M.calendar.forEach(function(e){if(months.indexOf(e.m)<0)months.push(e.m);});var act="all";
+function drawCal(){$("cal").style.setProperty("--m",months.length);
+  $("cal").innerHTML=months.map(function(m){var ev=M.calendar.filter(function(e){return e.m===m&&(act==="all"||e.layer===act);});
+    return '<div class="mon"><h3>'+esc(m)+'</h3>'+(ev.length?ev.map(function(e){return '<div class="ev"><span class="d">'+esc(e.d)+'</span><span><span class="lt" style="--c:'+C[e.layer]+'"></span>'+rt(e.t)+'</span></div>';}).join(""):'<div class="ev"><span class="d">—</span><span>Nothing dated for this layer.</span></div>')+'</div>';}).join("");}
+$("filt").innerHTML='<button data-f="all" aria-pressed="true">All layers</button>'+L.map(function(l){return '<button data-f="'+l.id+'" aria-pressed="false" style="--c:'+C[l.id]+'"><i></i>'+esc(l.name)+'</button>';}).join("");
+$("filt").querySelectorAll("button").forEach(function(b){b.onclick=function(){act=b.getAttribute("data-f");$("filt").querySelectorAll("button").forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false");});drawCal();};});
+drawCal();
+/* ---------- view 4 ---------- */
+$("qa").innerHTML=(B.talk||M.talk).map(function(q,i){return '<div class="q st" style="--i:'+(i+2)+'"><h3>'+esc(q.q)+'</h3>'+q.a.map(function(p){return '<p>'+rt(p)+'</p>';}).join("")+'</div>';}).join("");
+/* ---------- framework modal ---------- */
+var F=M.framework;
+$("chain").innerHTML=L.map(function(l,i){var f=F.layers[i];return '<div class="link" style="--c:'+C[l.id]+'"><div class="k">LAYER '+l.n+'</div><h4>'+esc(l.name)+'</h4><div class="cv">'+esc(l.io[0])+' → '+esc(l.io[1])+'</div><dl><dt>Converts</dt><dd>'+rt(f.converts)+'</dd><dt>Gets paid by</dt><dd>'+rt(f.paid)+'</dd><dt>Scarce input</dt><dd>'+rt(f.scarce)+'</dd><dt>Drives the multiple</dt><dd>'+rt(f.multiple)+'</dd></dl></div>';}).join("");
+$("prs").innerHTML=F.principles.map(function(p,i){return '<div class="pr"><div class="small mono" style="color:var(--sky)">0'+(i+1)+'</div><h4>'+esc(p.t)+'</h4><p>'+rt(p.b)+'</p></div>';}).join("");
+$("mig").innerHTML=F.migration.steps.map(function(m){return '<div class="ms '+(m.state||"")+'" style="--c:'+C[m.layer]+'"><div class="y">'+esc(m.y)+'</div><b>'+esc(m.b)+'</b><span>'+rt(m.w)+'</span></div>';}).join("");
+$("migS").innerHTML="<b>"+esc(F.migration.t)+".</b> "+rt(F.migration.sub);
+/* ---------- sources modal + tooltips ---------- */
+$("srcs").innerHTML=M.sources.map(function(s,i){return '<li><span class="i">'+(i+1)+'</span><span>'+esc(s[0])+(s[1]?' · <a href="'+esc(s[1])+'" target="_blank" rel="noopener">link</a>':'')+'</span></li>';}).join("");
+$("legal").innerHTML=M.legal.map(function(p){return '<p>'+rt(p)+'</p>';}).join("");
+function openModal(id){$(id).classList.add("on");}
+function closeModals(){document.querySelectorAll(".modal").forEach(function(m){m.classList.remove("on");});}
+$("howBtn").onclick=function(){openModal("how");};$("srcBtn").onclick=function(){openModal("srcM");};
+document.querySelectorAll("[data-close]").forEach(function(b){b.onclick=closeModals;});
+document.querySelectorAll(".modal").forEach(function(m){m.addEventListener("click",function(e){if(e.target===m)closeModals();});});
+var tip=$("tip"),tipT=null,tipFor=null;
+function showTip(el){var ns=el.getAttribute("data-s").split(",");tipFor=el;
+  tip.innerHTML=ns.map(function(n){var s=M.sources[+n-1]||["",""];return '<div><b style="font-family:var(--mono);color:var(--sky)">'+n+'</b> '+esc(s[0])+(s[1]?'<a href="'+esc(s[1])+'" target="_blank" rel="noopener">'+esc(s[1].replace(/^https?:\/\/(www\.)?/,"").slice(0,64))+'…</a>':'')+'</div>';}).join("");
+  var r=el.getBoundingClientRect();tip.classList.add("on");var w=tip.offsetWidth,h=tip.offsetHeight;
+  var x=Math.min(window.innerWidth-w-10,Math.max(10,r.left-w/2));var y=r.top-h-8;if(y<70)y=r.bottom+8;
+  tip.style.left=x+"px";tip.style.top=y+"px";}
+function hideTip(){tipT=setTimeout(function(){tip.classList.remove("on");tipFor=null;},180);}
+document.addEventListener("mouseover",function(e){var c=e.target.closest&&e.target.closest("sup.c");if(c){clearTimeout(tipT);showTip(c);}else if(e.target.closest&&e.target.closest("#tip")){clearTimeout(tipT);}});
+document.addEventListener("mouseout",function(e){if(e.target.closest&&(e.target.closest("sup.c")||e.target.closest("#tip")))hideTip();});
+document.addEventListener("click",function(e){var c=e.target.closest&&e.target.closest("sup.c");if(c){e.stopPropagation();if(tipFor===c&&tip.classList.contains("on")){tip.classList.remove("on");tipFor=null;}else{clearTimeout(tipT);showTip(c);}}else if(!(e.target.closest&&e.target.closest("#tip"))){tip.classList.remove("on");tipFor=null;}},true);
+document.addEventListener("focusin",function(e){if(e.target.matches&&e.target.matches("sup.c"))showTip(e.target);});
+document.querySelectorAll(".view,.db").forEach(function(v){v.addEventListener("scroll",function(){tip.classList.remove("on");},{passive:true});});
+/* ---------- keyboard + hash ---------- */
+document.addEventListener("keydown",function(e){
+  if(e.key==="Escape"){if(document.querySelector(".modal.on"))closeModals();else closeLayer();tip.classList.remove("on");return;}
+  if(document.querySelector(".modal.on"))return;
+  if(dIdx>=0){if(e.key==="ArrowRight")openLayer(dIdx+1);if(e.key==="ArrowLeft")openLayer(dIdx-1);}
+  else{if(e.key==="ArrowRight"||e.key==="PageDown")show(cur+1);if(e.key==="ArrowLeft"||e.key==="PageUp")show(cur-1);}
+  if(e.key>="1"&&e.key<="5"){openLayer(+e.key-1);}
+});
+var start=["month","money","itin","radar","talk"].indexOf((location.hash||"").slice(1));
+function fitH(){var t=document.querySelector(".top");document.documentElement.style.setProperty("--hh",t.offsetHeight+"px");}fitH();window.addEventListener("resize",fitH);
+show(start<0?0:start);
+window.addEventListener("hashchange",function(){var i=["month","money","itin","radar","talk"].indexOf(location.hash.slice(1));if(i>=0&&i!==cur)show(i);});
+})();
+</script>
+</body>
+</html>

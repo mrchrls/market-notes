@@ -1,13 +1,14 @@
 """Build the Five Layers Monthly HTML.
 
-Usage: python3 build.py data.json out.html
+Usage: python3 build.py data.json out.html [template.html]
 data.json = {"data": {...}, "sources": {key: [label, url]}} (written by data_YYYY_MM.py).
 Citations in text are written [@key] or [@a,@b]; they become numbered footnotes in first-use order.
 """
 import json, re, sys, pathlib
 
 here = pathlib.Path(__file__).parent
-tpl = (here / "template.html").read_text()
+tp = pathlib.Path(sys.argv[3]) if len(sys.argv) > 3 else here / "template.html"
+tpl = (tp if tp.exists() else here / tp).read_text()
 logo = (here / "logo_en.txt").read_text().strip()
 frame = json.loads((here / "framework.json").read_text())
 blob = json.loads(pathlib.Path(sys.argv[1]).read_text())
@@ -35,7 +36,7 @@ def walk(x):
     return x
 
 # number citations in reading order of the page
-PAGE = ["edition", "hero", "framework", "money", "layers", "ripples", "fund", "radarDek", "calendar", "talk", "moversNote", "legal"]
+PAGE = ["edition", "hero", "brief", "framework", "money", "layers", "ripples", "fund", "radarDek", "calendar", "talk", "moversNote", "legal"]
 data = {k: data[k] for k in PAGE + [k for k in data if k not in PAGE] if k in data}
 data = walk(data)
 data["sources"] = [sources[k] for k in order]

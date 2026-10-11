@@ -21,3 +21,11 @@ Writing rules used in the data file:
 - Holdings come from iA Clarington's public top-25 list; the "other" weight is computed so the donut sums to 100%.
 
 Monthly checklist: refresh the public top 25 (iaclarington.com fund page), the share-price moves, the five layers' themes, movers, headline, handoff and radar, the rotations, ripples, calendar and talking points; then have compliance review.
+
+## v2 (short, tabbed) edition
+`template_v2.html` shows the month as five tabs (The month, Money moves, ITIN, Radar, Talking points); each layer opens in a side drawer.
+It reads the same data plus a `brief` block (headline takeaways, shorter decks and Q&A) and expects 3 short themes per layer, top 4 movers and top 3 radar dates first.
+
+    python3 data_2026_10.py oct.json
+    python3 data_2026_10_brief.py oct.json oct_v2.json
+    python3 build.py oct_v2.json out_v2.html template_v2.html
