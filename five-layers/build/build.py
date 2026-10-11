@@ -10,6 +10,7 @@ here = pathlib.Path(__file__).parent
 tp = pathlib.Path(sys.argv[3]) if len(sys.argv) > 3 else here / "template.html"
 tpl = (tp if tp.exists() else here / tp).read_text()
 logo = (here / "logo_en.txt").read_text().strip()
+logo_w = (here / "logo_en_white.txt").read_text().strip()  # reversed (all-white) logo for dark headers
 frame = json.loads((here / "framework.json").read_text())
 blob = json.loads(pathlib.Path(sys.argv[1]).read_text())
 data, sources = blob["data"], blob["sources"]
@@ -44,6 +45,6 @@ unused = [k for k in sources if k not in order]
 if unused:
     print("unused sources:", ", ".join(unused))
 out = json.dumps(data, ensure_ascii=False, indent=1).replace("</", "<\\/")
-html = tpl.replace("__LOGO__", logo).replace("/*__DATA__*/null", out)
+html = tpl.replace("__LOGO_W__", logo_w).replace("__LOGO__", logo).replace("/*__DATA__*/null", out)
 pathlib.Path(sys.argv[2]).write_text(html)
 print("wrote", sys.argv[2], len(html), "bytes,", len(order), "sources")

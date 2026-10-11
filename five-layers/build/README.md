@@ -24,7 +24,7 @@ Monthly checklist: refresh the public top 25 (iaclarington.com fund page), the s
 
 ## v2 (short, tabbed) edition
 `template_v2.html` shows the month as five tabs (The month, Money moves, ITIN, Radar, Talking points); each layer opens in a side drawer.
-It reads the same data plus a `brief` block (headline takeaways, shorter decks and Q&A) and expects 3 short themes per layer, top 4 movers and top 3 radar dates first.
+It reads the same data plus a `brief` block (headline takeaways, shorter decks) and a `watch` block: the forward radar of model cycles, IPOs, launches, policy deadlines and disputes, each tagged confirmed / likely / speculative and grouped by horizon. Earnings dates stay in `calendar`. The header uses the all-white reversed logo (`logo_en_white.txt`).
 
     python3 data_2026_10.py oct.json
     python3 data_2026_10_brief.py oct.json oct_v2.json
