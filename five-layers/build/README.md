@@ -28,4 +28,13 @@ It reads the same data plus a `brief` block (headline takeaways, shorter decks) 
 
     python3 data_2026_10.py oct.json
     python3 data_2026_10_brief.py oct.json oct_v2.json
-    python3 build.py oct_v2.json out_v2.html template_v2.html
+    python3 extract_i18n.py oct_v2.json strings_en.json     # adds any new English strings, keeps existing ids
+    # translate the new ids into strings_fr.json (Québec French; keep [@keys], **bold**, _accent_)
+    python3 build.py oct_v2.json out_v2.html template_v2.html --fr strings_fr.json
+
+### English / French
+The page has an EN/FR toggle (header). It opens in the reader's browser language, remembers the choice,
+and `?lang=fr` forces French. Interface labels live in the `UI` dictionary in `template_v2.html`; month
+content comes from `strings_fr.json`, paired with `strings_en.json` by id. The build lists any English
+string with no French yet (it stays in English until translated). French uses the terms from Charles's
+own decks: étage, le Fonds, titres, Puces, Jeton, À l’usage exclusif des courtiers.

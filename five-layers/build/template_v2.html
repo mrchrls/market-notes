@@ -39,8 +39,15 @@ button{font:inherit;color:inherit}
 .tab[aria-selected="true"] i{color:#BFD8FF}
 .hbtn{flex:none;border:1px solid var(--line);background:transparent;color:var(--fg-dim);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;padding:7px 12px;border-radius:999px;cursor:pointer}
 .hbtn:hover{color:#fff;border-color:var(--sky)}
+.lang{flex:none;display:flex;border:1px solid var(--line);border-radius:999px;padding:2px;gap:2px}
+.lang button{border:0;background:transparent;color:var(--fg-mute);font:600 11px/1 var(--mono);letter-spacing:.08em;padding:6px 9px;border-radius:999px;cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--brand);color:#fff}
+.lang button:hover{color:#fff}
 .dealer{flex:none;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#FFD38A;border:1px solid rgba(255,196,107,.45);padding:5px 8px;border-radius:4px}
 @media (max-width:1180px){.ttl{display:none}}
+html[lang^="fr"] .ttl{display:none}
+@media (min-width:1600px){html[lang^="fr"] .ttl{display:block}}
+@media (max-width:1500px){.dealer{max-width:150px;white-space:normal;text-align:center;line-height:1.25;padding:4px 7px;font-size:9px}}
 @media (max-width:900px){
   :root{--hh:104px}
   .top{flex-wrap:wrap;height:auto;padding-top:10px;padding-bottom:8px;row-gap:8px}
@@ -48,6 +55,22 @@ button{font:inherit;color:inherit}
   .tabs::-webkit-scrollbar{display:none}
   .hbtn{margin-left:auto}
 }
+/* phones: dealer notice becomes a slim strip on top, "How to read" becomes a ? button */
+@media (max-width:600px){
+  .top{column-gap:10px;row-gap:6px;padding-top:6px}
+  .dealer{order:-1;width:100%;max-width:none;border:0;padding:0;font-size:8.5px;letter-spacing:.16em;text-align:center;opacity:.9}
+  .logo img{height:20px}
+  .hbtn{font-size:0;width:30px;height:30px;padding:0;display:grid;place-items:center}
+  .hbtn::before{content:"?";font-size:14px;font-weight:700;letter-spacing:0}
+  .tab{padding:7px 11px;font-size:12px}
+  .foot{gap:8px}
+  .foot .nb .lbl{display:none}
+  .foot .nb{padding:5px 10px}
+}
+/* large monitors: scale the whole page up instead of leaving it small in the middle */
+@media (min-width:1760px) and (min-height:900px){body{zoom:1.15}}
+@media (min-width:2200px) and (min-height:1200px){body{zoom:1.35}}
+@media (min-width:3000px) and (min-height:1600px){body{zoom:1.7}}
 /* ---------- views ---------- */
 main{position:fixed;top:var(--hh);bottom:var(--fh);left:0;right:0}
 .view{position:absolute;inset:0;overflow-y:auto;padding:clamp(18px,3vh,36px) var(--gut);opacity:0;visibility:hidden;transform:translateY(10px);transition:opacity .45s var(--ease),transform .45s var(--ease),visibility .45s}
@@ -176,6 +199,7 @@ h1{font-size:clamp(30px,3.9vw,52px);letter-spacing:-.03em;max-width:17ch}
 .cert.speculative{color:var(--l1)}.cert.speculative i{border:1px dashed var(--l1)}
 .hz{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:14px;align-items:start}
 @media (max-width:1060px){.hz{grid-template-columns:1fr}}
+@media (min-width:640px) and (max-width:1060px){.hcol{display:grid;grid-template-columns:1fr 1fr;column-gap:10px;align-items:start}.hcol h3,.hcol .hs{grid-column:1/-1}}
 .hcol h3{font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:#fff;margin-bottom:2px}
 .hcol .hs{font-size:12px;color:var(--fg-mute);margin-bottom:10px}
 .wc{position:relative;border-radius:12px;border:1px solid var(--line);background:var(--card);padding:12px 14px 12px 16px;margin-bottom:10px;overflow:hidden}
@@ -259,7 +283,7 @@ details.sched .cal{margin:0;padding:0 14px 14px}
 /* ---------- modal ---------- */
 .modal{position:fixed;inset:0;z-index:70;display:grid;place-items:center;padding:20px;background:rgba(1,10,20,.65);opacity:0;visibility:hidden;transition:.3s}
 .modal.on{opacity:1;visibility:visible}
-.mbox{width:min(1100px,100%);max-height:calc(100vh - 40px);overflow-y:auto;background:var(--bg1);border:1px solid var(--line);border-radius:18px;padding:22px 24px;transform:translateY(12px);transition:transform .35s var(--ease)}
+.mbox{width:min(1100px,100%);max-height:100%;overflow-y:auto;background:var(--bg1);border:1px solid var(--line);border-radius:18px;padding:22px 24px;transform:translateY(12px);transition:transform .35s var(--ease)}
 .modal.on .mbox{transform:none}
 .mhead{display:flex;align-items:flex-start;gap:12px}
 .mhead .x{margin-left:auto}
@@ -305,11 +329,12 @@ details.sched .cal{margin:0;padding:0 14px 14px}
 </head>
 <body>
 <header class="top">
-  <span class="logo"><img src="__LOGO_W__" alt="iA Clarington Investments"></span>
-  <div class="ttl"><b>The Five Layers</b><span id="edLine"></span></div>
+  <span class="logo"><img id="logoImg" alt="iA Clarington Investments"></span>
+  <div class="ttl"><b data-t="brand">The Five Layers</b><span id="edLine"></span></div>
   <nav class="tabs" role="tablist" id="tabs"></nav>
-  <button class="hbtn" id="howBtn" type="button">How to read this</button>
-  <span class="dealer">Dealer use only</span>
+  <button class="hbtn" id="howBtn" type="button" data-t="how">How to read this</button>
+  <div class="lang" role="group" aria-label="Language"><button type="button" data-lang="en">EN</button><button type="button" data-lang="fr">FR</button></div>
+  <span class="dealer" data-t="dealer">Dealer use only</span>
 </header>
 
 <main>
@@ -321,42 +346,42 @@ details.sched .cal{margin:0;padding:0 14px 14px}
       <ul class="take" id="take"></ul>
     </div>
     <div class="cake st" style="--i:2">
-      <div class="cap"><b>Value out</b> · intelligence becomes revenue</div>
+      <div class="cap" data-t="capTop"><b>Value out</b> · intelligence becomes revenue</div>
       <div class="tiers" id="tiers"><div class="flowline"></div></div>
-      <div class="cap bot"><b>Watt in</b> · energy becomes intelligence</div>
+      <div class="cap bot" data-t="capBot"><b>Watt in</b> · energy becomes intelligence</div>
       <p class="small hint" id="hint"></p>
     </div>
   </div></div></section>
 
   <section class="view" id="v1" aria-label="Money moves"><div class="inner">
-    <div class="eyebrow st">Money moves</div>
+    <div class="eyebrow st" data-t="tab1">Money moves</div>
     <h2 class="st" style="--i:1" id="mmT"></h2>
     <p class="lede st" style="--i:2" id="mmD"></p>
     <div class="mm">
-      <div class="panel st" style="--i:3"><h3>Where money rotated</h3><div class="lg"><span>SOLD</span><span>BOUGHT</span></div><div class="rot" id="rot"></div></div>
-      <div class="panel st" style="--i:4"><h3>Ripples across the stack</h3><p class="small" style="margin:4px 0 0" id="ripD"></p><div class="rips" id="rips"></div></div>
+      <div class="panel st" style="--i:3"><h3 data-t="rotH">Where money rotated</h3><div class="lg"><span data-t="sold">SOLD</span><span data-t="bought">BOUGHT</span></div><div class="rot" id="rot"></div></div>
+      <div class="panel st" style="--i:4"><h3 data-t="ripH">Ripples across the stack</h3><p class="small" style="margin:4px 0 0" id="ripD"></p><div class="rips" id="rips"></div></div>
     </div>
   </div></section>
 
   <section class="view" id="v2" aria-label="ITIN"><div class="inner">
-    <div class="eyebrow st">ITIN in the stack</div>
+    <div class="eyebrow st" data-t="itinEye">ITIN in the stack</div>
     <h2 class="st" style="--i:1" id="fT"></h2>
     <p class="lede st" style="--i:2" id="fD"></p>
     <div class="fg">
-      <div class="panel st" style="--i:3"><h3>Where the fund sits</h3><p class="small" style="margin:4px 0 0" id="fA"></p>
+      <div class="panel st" style="--i:3"><h3 data-t="sitsH">Where the fund sits</h3><p class="small" style="margin:4px 0 0" id="fA"></p>
         <div class="donut"><svg viewBox="0 0 200 200" id="donut" role="img" aria-label="Fund weight by layer"></svg><div class="leg" id="leg"></div></div>
         <div class="facts" id="facts"></div>
       </div>
-      <div class="panel st" style="--i:4"><h3>How the holdings changed</h3><p class="small" style="margin:4px 0 0" id="cS"></p><ul class="chg" id="chg"></ul></div>
+      <div class="panel st" style="--i:4"><h3 data-t="chgH">How the holdings changed</h3><p class="small" style="margin:4px 0 0" id="cS"></p><ul class="chg" id="chg"></ul></div>
     </div>
   </div></section>
 
   <section class="view" id="v3" aria-label="Radar"><div class="inner">
-    <div class="eyebrow st">On the radar</div>
+    <div class="eyebrow st" data-t="radar">On the radar</div>
     <h2 class="st" style="--i:1" id="wT"></h2>
     <p class="lede st" style="--i:2" id="rD"></p>
     <div class="filt st" style="--i:3" id="filt"></div>
-    <div class="legend st" style="--i:3"><span class="cert confirmed"><i></i>Confirmed</span><span class="cert likely"><i></i>Likely</span><span class="cert speculative"><i></i>Speculative</span><span>How firm the timing or outcome is, based on the sources.</span></div>
+    <div class="legend st" style="--i:3"><span class="cert confirmed"><i></i><span data-t="confirmed">Confirmed</span></span><span class="cert likely"><i></i><span data-t="likely">Likely</span></span><span class="cert speculative"><i></i><span data-t="speculative">Speculative</span></span><span data-t="legend">How firm the timing or outcome is, based on the sources.</span></div>
     <div class="hz st" style="--i:4" id="hz"></div>
     <details class="sched st" style="--i:5"><summary id="schS">Scheduled earnings and data dates</summary><div class="cal" id="cal"></div></details>
   </div></section>
@@ -367,23 +392,23 @@ details.sched .cal{margin:0;padding:0 14px 14px}
 <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Layer detail"></aside>
 
 <div class="modal" id="how" role="dialog" aria-modal="true" aria-label="How to read this"><div class="mbox">
-  <div class="mhead"><div><div class="eyebrow">The framework</div><h2>Five conversions turn a <em>watt</em> into <em>value</em>.</h2><p class="lede">Each layer buys what the layer below produces and sells something more valuable to the layer above. Each has its own economics, bottleneck and valuation logic, which is why money moves between them.</p></div><button class="btn x" data-close>Close</button></div>
+  <div class="mhead"><div><div class="eyebrow" data-t="fwEye">The framework</div><h2 data-t="fwH">Five conversions turn a <em>watt</em> into <em>value</em>.</h2><p class="lede" data-t="fwLede">Each layer buys what the layer below produces and sells something more valuable to the layer above. Each has its own economics, bottleneck and valuation logic, which is why money moves between them.</p></div><button class="btn x" data-close data-t="close">Close</button></div>
   <div class="chain" id="chain"></div>
   <div class="prs" id="prs"></div>
 </div></div>
 
 <div class="modal" id="srcM" role="dialog" aria-modal="true" aria-label="Sources and disclosures"><div class="mbox">
-  <div class="mhead"><div><div class="eyebrow">Notes and sources</div><h2>Sources and disclosures</h2></div><button class="btn x" data-close>Close</button></div>
+  <div class="mhead"><div><div class="eyebrow" data-t="notes">Notes and sources</div><h2 data-t="srcH">Sources and disclosures</h2></div><button class="btn x" data-close data-t="close">Close</button></div>
   <ol class="srcs" id="srcs"></ol>
   <div class="legal" id="legal"></div>
 </div></div>
 
 <footer class="foot">
-  <button class="nb" id="prev" type="button">← Prev</button>
+  <button class="nb" id="prev" type="button" data-t="prev">← Prev</button>
   <span class="note" id="footL"></span>
   <span class="mid"><b id="cur">1</b> / <span id="nt">4</span></span>
-  <button class="nb" id="srcBtn" type="button">Sources</button>
-  <button class="nb" id="next" type="button">Next →</button>
+  <button class="nb" id="srcBtn" type="button" data-t="sources">Sources</button>
+  <button class="nb" id="next" type="button" data-t="next">Next →</button>
 </footer>
 <div class="prog" id="prog"></div>
 <div id="tip" role="tooltip"></div>
@@ -392,7 +417,11 @@ details.sched .cal{margin:0;padding:0 14px 14px}
 /* ==========================================================
    MONTHLY DATA. Built from data_YYYY_MM.py by build.py.
    ========================================================== */
-var M = /*__DATA__*/null;
+var DATA = /*__DATA__*/null;
+var LANG = (function(){var q=(location.search.match(/[?&]lang=(en|fr)/)||[])[1];if(q)return q;try{var v=localStorage.getItem("fl_lang");if(v==="en"||v==="fr")return v;}catch(e){}return (navigator.language||"").slice(0,2)==="fr"?"fr":"en";})();
+if(!DATA[LANG])LANG="en";
+var M = DATA[LANG];
+document.documentElement.lang = LANG==="fr"?"fr-CA":"en-CA";
 </script>
 <script>
 (function(){
@@ -401,18 +430,49 @@ var $=function(id){return document.getElementById(id);};
 var C={energy:"var(--l1)",silicon:"var(--l2)",infra:"var(--l3)",models:"var(--l4)",apps:"var(--l5)"};
 var RAW={energy:"#FFB547",silicon:"#73C4EF",infra:"#C6D6E2",models:"#C9A5FF",apps:"#86FFEA"};
 var L=M.layers,B=M.brief||{};
+var UI={
+en:{brand:"The Five Layers",how:"How to read this",dealer:"Dealer use only",capTop:"<b>Value out</b> · intelligence becomes revenue",capBot:"<b>Watt in</b> · energy becomes intelligence",
+ tabs:["The month","Money moves","ITIN","Radar"],tab1:"Money moves",rotH:"Where money rotated",sold:"SOLD",bought:"BOUGHT",ripH:"Ripples across the stack",itinEye:"ITIN in the stack",sitsH:"Where the fund sits",chgH:"How the holdings changed",
+ radar:"On the radar",confirmed:"Confirmed",likely:"Likely",speculative:"Speculative",legend:"How firm the timing or outcome is, based on the sources.",
+ fwEye:"The framework",fwH:"Five conversions turn a <em>watt</em> into <em>value</em>.",fwLede:"Each layer buys what the layer below produces and sells something more valuable to the layer above. Each has its own economics, bottleneck and valuation logic, which is why money moves between them.",
+ close:"Close",notes:"Notes and sources",srcH:"Sources and disclosures",prev:"← <span class=\"lbl\">Prev</span>",next:"<span class=\"lbl\">Next</span> →",sources:"Sources",
+ title:"Five Layers Monthly",fundName:"iA Clarington Thematic Innovation Class",open:"Open ›",hint:"Tap a layer for its themes, movers, ITIN exposure and dates. ",
+ layer:"Layer",LAYER:"LAYER",supply:"Supply",valuation:"Valuation",itinNames:"ITIN names",tight:["Loose","Balanced","Tight","Very tight"],temp:["","Cool","Warm","Hot"],flow:["Money out","Rotating","Money in"],
+ three:"Three things that happened",moved:"What moved",headline:"The headline that mattered",passes:"PASSES UP TO L",cash:"TURNS INTO CASH FLOW",exposure:"ITIN exposure",ofFund:"of the fund · top 25",
+ inFive:"IN THE FIVE LAYERS",nothingW:"Nothing flagged for this layer in this window.",nothingC:"Nothing dated for this layer.",all:"All layers",sched:"Scheduled earnings and data dates",
+ converts:"Converts",paid:"Gets paid by",scarce:"Scarce input",multiple:"Drives the multiple",link:"link",watchT:"What could move each layer next.",
+ nm:{energy:"Energy",silicon:"Silicon",infra:"Infra",models:"Models",apps:"Apps"},logoAlt:"iA Clarington Investments"},
+fr:{brand:"Les cinq étages",how:"Guide de lecture",dealer:"À l’usage exclusif des courtiers",capTop:"<b>Valeur en sortie</b> · l’intelligence devient revenu",capBot:"<b>Watt en entrée</b> · l’énergie devient intelligence",
+ tabs:["Le mois","Flux de capitaux","ITIN","Radar"],tab1:"Flux de capitaux",rotH:"Où l’argent s’est déplacé",sold:"VENDU",bought:"ACHETÉ",ripH:"Effets d’entraînement entre les étages",itinEye:"ITIN dans les étages",sitsH:"Où se situe le Fonds",chgH:"Évolution des titres",
+ radar:"Sur le radar",confirmed:"Confirmé",likely:"Probable",speculative:"Spéculatif",legend:"Degré de certitude quant au moment ou à l’issue, selon les sources.",
+ fwEye:"Le cadre",fwH:"Cinq conversions transforment un <em>watt</em> en <em>valeur</em>.",fwLede:"Chaque étage achète ce que produit l’étage inférieur et vend quelque chose de plus précieux à l’étage supérieur. Chacun a sa propre économie, son propre goulot d’étranglement et sa propre logique d’évaluation : c’est pour ça que l’argent circule de l’un à l’autre.",
+ close:"Fermer",notes:"Notes et sources",srcH:"Sources et mentions légales",prev:"← <span class=\"lbl\">Préc.</span>",next:"<span class=\"lbl\">Suiv.</span> →",sources:"Sources",
+ title:"Les cinq étages · mensuel",fundName:"Catégorie innovation thématique iA Clarington",open:"Ouvrir ›",hint:"Touchez un étage pour voir ses thèmes, ce qui a bougé, l’exposition d’ITIN et les dates à surveiller. ",
+ layer:"Étage",LAYER:"ÉTAGE",supply:"Offre",valuation:"Valorisation",itinNames:"Titres ITIN",tight:["Abondante","Équilibrée","Serrée","Très serrée"],temp:["","Froide","Tiède","Chaude"],flow:["Sorties de fonds","En rotation","Entrées de fonds"],
+ three:"Trois faits marquants",moved:"Ce qui a bougé",headline:"La nouvelle qui a compté",passes:"PASSE À L’ÉTAGE ",cash:"DEVIENT FLUX DE TRÉSORERIE",exposure:"Exposition d’ITIN",ofFund:"du Fonds · 25 principaux titres",
+ inFive:"DANS LES CINQ ÉTAGES",nothingW:"Rien de signalé pour cet étage dans cette période.",nothingC:"Aucune date pour cet étage.",all:"Tous les étages",sched:"Résultats et dates prévus",
+ converts:"Transforme",paid:"Est payé par",scarce:"Intrant rare",multiple:"Ce qui fait le multiple",link:"lien",watchT:"Ce qui pourrait faire bouger chaque étage.",
+ nm:{energy:"Énergie",silicon:"Puces",infra:"Infra",models:"Modèles",apps:"Applis"},logoAlt:"iA Placements Clarington"}
+};
+var T=UI[LANG]||UI.en;
+function num(n,d){var s=n.toFixed(d==null?1:d);return LANG==="fr"?s.replace(".",","):s;}
+document.querySelectorAll("[data-t]").forEach(function(el){var v=T[el.getAttribute("data-t")];if(v!=null)el.innerHTML=v;});
+$("logoImg").src=LANG==="fr"?"__LOGO_W_FR__":"__LOGO_W__";$("logoImg").alt=T.logoAlt;
+document.querySelectorAll("[data-lang]").forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-lang")===LANG?"true":"false");
+  b.onclick=function(){var l=b.getAttribute("data-lang");if(l===LANG)return;try{localStorage.setItem("fl_lang",l);}catch(e){}
+    var u=location.pathname+"?lang="+l+location.hash;try{location.replace(u);}catch(e){location.search="?lang="+l;}};});
 function esc(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
 function rt(s){return esc(s).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>").replace(/_(.+?)_/g,"<em>$1</em>").replace(/\s*\[(\d+(?:,\s*\d+)*)\]/g,function(_,g){return '<sup class="c" tabindex="0" data-s="'+g.replace(/\s/g,"")+'">'+g.replace(/\s/g,"")+'</sup>';});}
 function cls(v){v=String(v);return /^[-−]/.test(v)?"down":/^\+/.test(v)?"up":"flat";}
 function sumW(h){return h.reduce(function(a,x){return a+x[1];},0);}
-function f1(n){return n.toFixed(1)+"%";}
-var TW=["","Cool","Warm","Hot"];
-function tightWord(t){return t>=80?"Very tight":t>=60?"Tight":t>=40?"Balanced":"Loose";}
-function flowWord(f){return f>0?"Money in":f<0?"Money out":"Rotating";}
+function f1(n){return num(n,1)+(LANG==="fr"?"\u00a0%":"%");}
+var TW=T.temp;
+function tightWord(t){return T.tight[t>=80?3:t>=60?2:t>=40?1:0];}
+function flowWord(f){return T.flow[f>0?2:f<0?0:1];}
 /* ---------- header, tabs ---------- */
-document.title="Five Layers Monthly · "+M.edition.month+" · CCM9973";
+document.title=T.title+" · "+M.edition.month+" · CCM9973";
 $("edLine").textContent="CCM9973 · ITIN · "+M.edition.month;
-var TABS=["The month","Money moves","ITIN","Radar"],NT=TABS.length,HASH=["month","money","itin","radar"];
+var TABS=T.tabs,NT=TABS.length,HASH=["month","money","itin","radar"];
 $("tabs").innerHTML=TABS.map(function(t,i){return '<button class="tab" role="tab" data-t="'+i+'"><i>0'+(i+1)+'</i>'+t+'</button>';}).join("");
 var views=[0,1,2,3].map(function(i){return $("v"+i);}),cur=0;
 function show(i){if(i<0||i>=NT)return;cur=i;
@@ -424,7 +484,7 @@ function show(i){if(i<0||i>=NT)return;cur=i;
 }
 document.querySelectorAll(".tab").forEach(function(t){t.addEventListener("click",function(){show(+t.getAttribute("data-t"));});});
 $("prev").onclick=function(){show(cur-1);};$("next").onclick=function(){show(cur+1);};
-$("footL").textContent="iA Clarington Thematic Innovation Class · "+M.edition.period;
+$("footL").textContent=T.fundName+" · "+M.edition.period;
 /* ---------- view 0 ---------- */
 $("chips").innerHTML='<span class="chip cur">'+esc(M.edition.month)+'</span><span class="chip">'+esc(M.edition.period)+'</span>';
 $("h1").innerHTML=rt(M.hero.title);
@@ -433,28 +493,28 @@ $("take").innerHTML=(B.takeaways||[]).map(function(t,i){return '<li class="st" s
 var tiers=$("tiers");
 L.slice().reverse().forEach(function(l,k){
   var b=document.createElement("button");b.type="button";b.className="tier";b.style.setProperty("--c",C[l.id]);b.style.setProperty("--dl",(k*.4)+"s");
-  b.innerHTML='<span class="bd">'+l.n+'</span><span><span class="nm">'+esc(l.name)+'<small>'+esc(l.io[0])+' → <i>'+esc(l.io[1])+'</i></small></span><span class="sh">'+rt(l.short)+'</span></span><span class="rt"><span class="mv '+cls(l.pulse.move)+'">'+esc(l.pulse.move)+'</span><span class="go">Open ›</span></span>';
+  b.innerHTML='<span class="bd">'+l.n+'</span><span><span class="nm">'+esc(l.name)+'<small>'+esc(l.io[0])+' → <i>'+esc(l.io[1])+'</i></small></span><span class="sh">'+rt(l.short)+'</span></span><span class="rt"><span class="mv '+cls(l.pulse.move)+'">'+esc(l.pulse.move)+'</span><span class="go">'+T.open+'</span></span>';
   b.addEventListener("click",function(){openLayer(l.n-1);});tiers.appendChild(b);
 });
 for(var s=0;s<3;s++){var sp=document.createElement("span");sp.className="spark";sp.style.animationDelay=(s*1.45)+"s";tiers.appendChild(sp);}
-$("hint").innerHTML="Tap a layer for its themes, movers, ITIN exposure and dates. "+rt(M.hero.tierNote);
+$("hint").innerHTML=T.hint+rt(M.hero.tierNote);
 /* ---------- drawer ---------- */
 var D=$("drawer"),S=$("scrim"),dIdx=-1;
-var CW={confirmed:"Confirmed",likely:"Likely",speculative:"Speculative"};
+var CW={confirmed:T.confirmed,likely:T.likely,speculative:T.speculative};
 function certB(c){return '<span class="cert '+c+'"><i></i>'+CW[c]+'</span>';}
 function layerWatch(id){var all=M.watch?M.watch.items:[],a=all.filter(function(w){return w.layers[0]===id;}).concat(all.filter(function(w){return w.layers[0]!==id&&w.layers.indexOf(id)>=0;}));
   return a.map(function(w,k){return [w,k];}).sort(function(x,y){function sc(w){return (w.layers[0]===id?2:0)+(w.top?1:0);}return (sc(y[0])-sc(x[0]))||x[1]-y[1];}).map(function(x){return x[0];}).slice(0,3);}
 function openLayer(i){if(i<0||i>4)return;dIdx=i;var l=L[i],fw=sumW(l.fund.holdings),mx=Math.max.apply(null,l.fund.holdings.map(function(h){return h[1];}).concat([.1]));
   D.style.setProperty("--c",C[l.id]);
-  D.innerHTML='<div class="dh"><span class="bd">'+l.n+'</span><div><div class="k">Layer '+l.n+' · '+esc(l.io[0])+' → '+esc(l.io[1])+'</div><h3>'+esc(l.name)+'</h3></div><button class="x" aria-label="Close">✕</button></div>'+
+  D.innerHTML='<div class="dh"><span class="bd">'+l.n+'</span><div><div class="k">'+T.layer+' '+l.n+' · '+esc(l.io[0])+' → '+esc(l.io[1])+'</div><h3>'+esc(l.name)+'</h3></div><button class="x" aria-label="Close">✕</button></div>'+
   '<div class="db"><p class="line">'+rt(l.line)+'</p>'+
-  '<div class="pills"><span class="pill">Supply <b>'+tightWord(l.pulse.tight)+'</b></span><span class="pill">Valuation <b>'+TW[l.pulse.temp]+'</b></span><span class="pill">'+flowWord(l.pulse.flow)+'</span><span class="pill">ITIN names <b class="'+cls(l.pulse.move)+'">'+esc(l.pulse.move)+'</b></span></div>'+
-  '<div class="sec"><div class="st2">Three things that happened</div>'+l.themes.slice(0,3).map(function(t){return '<div class="th"><h4>'+rt(t.t)+'</h4><p>'+rt(t.b)+'</p></div>';}).join("")+'</div>'+
-  '<div class="sec"><div class="st2">What moved</div><div class="mvs">'+l.movers.slice(0,4).map(function(m){return '<div class="mv2"><div class="tp"><span class="n">'+esc(m.name)+'<small>'+esc(m.tk)+'</small>'+(m.own?'<span class="own">ITIN</span>':'')+'</span><span class="ch '+cls(m.chg)+'">'+esc(m.chg)+'</span></div><div class="w">'+rt(m.why)+'</div></div>';}).join("")+'</div></div>'+
-  '<div class="sec"><div class="st2">The headline that mattered</div><div class="hd"><h4>'+rt(l.launch.t)+'</h4><p>'+rt(l.launch.b)+'</p></div></div>'+
-  '<div class="sec"><div class="ho"><span>'+(l.n<5?"PASSES UP TO L"+(l.n+1):"TURNS INTO CASH FLOW")+'</span>'+rt(l.handoff)+'</div></div>'+
-  '<div class="sec two"><div><div class="st2" style="font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--c);font-weight:700;margin-bottom:6px">ITIN exposure</div><div class="wt"><b>'+f1(fw)+'</b><span>of the fund · top 25</span></div><ul class="hl">'+l.fund.holdings.map(function(h){return '<li><i class="bar" data-w="'+(h[1]/mx*100).toFixed(0)+'"></i><span>'+esc(h[0])+'</span><span class="p">'+h[1].toFixed(1)+'</span></li>';}).join("")+'</ul>'+(l.fund.note?'<p class="small" style="margin:8px 0 0">'+rt(l.fund.note)+'</p>':'')+'</div>'+
-  '<div><div class="st2" style="font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--c);font-weight:700;margin-bottom:6px">On the radar</div><ul class="rd">'+layerWatch(l.id).map(function(w){return '<li><span class="dt">'+esc(w.when)+'</span><span><b>'+rt(w.t)+'</b> '+rt(w.b)+'<br>'+certB(w.cert)+'</span></li>';}).join("")+'</ul></div></div>'+
+  '<div class="pills"><span class="pill">'+T.supply+' <b>'+tightWord(l.pulse.tight)+'</b></span><span class="pill">'+T.valuation+' <b>'+TW[l.pulse.temp]+'</b></span><span class="pill">'+flowWord(l.pulse.flow)+'</span><span class="pill">'+T.itinNames+' <b class="'+cls(l.pulse.move)+'">'+esc(l.pulse.move)+'</b></span></div>'+
+  '<div class="sec"><div class="st2">'+T.three+'</div>'+l.themes.slice(0,3).map(function(t){return '<div class="th"><h4>'+rt(t.t)+'</h4><p>'+rt(t.b)+'</p></div>';}).join("")+'</div>'+
+  '<div class="sec"><div class="st2">'+T.moved+'</div><div class="mvs">'+l.movers.slice(0,4).map(function(m){return '<div class="mv2"><div class="tp"><span class="n">'+esc(m.name)+'<small>'+esc(m.tk)+'</small>'+(m.own?'<span class="own">ITIN</span>':'')+'</span><span class="ch '+cls(m.chg)+'">'+esc(m.chg)+'</span></div><div class="w">'+rt(m.why)+'</div></div>';}).join("")+'</div></div>'+
+  '<div class="sec"><div class="st2">'+T.headline+'</div><div class="hd"><h4>'+rt(l.launch.t)+'</h4><p>'+rt(l.launch.b)+'</p></div></div>'+
+  '<div class="sec"><div class="ho"><span>'+(l.n<5?T.passes+(l.n+1):T.cash)+'</span>'+rt(l.handoff)+'</div></div>'+
+  '<div class="sec two"><div><div class="st2" style="font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--c);font-weight:700;margin-bottom:6px">'+T.exposure+'</div><div class="wt"><b>'+f1(fw)+'</b><span>'+T.ofFund+'</span></div><ul class="hl">'+l.fund.holdings.map(function(h){return '<li><i class="bar" data-w="'+(h[1]/mx*100).toFixed(0)+'"></i><span>'+esc(h[0])+'</span><span class="p">'+num(h[1],1)+'</span></li>';}).join("")+'</ul>'+(l.fund.note?'<p class="small" style="margin:8px 0 0">'+rt(l.fund.note)+'</p>':'')+'</div>'+
+  '<div><div class="st2" style="font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--c);font-weight:700;margin-bottom:6px">'+T.radar+'</div><ul class="rd">'+layerWatch(l.id).map(function(w){return '<li><span class="dt">'+esc(w.when)+'</span><span><b>'+rt(w.t)+'</b> '+rt(w.b)+'<br>'+certB(w.cert)+'</span></li>';}).join("")+'</ul></div></div>'+
   '</div><div class="dnav"><button class="btn" data-d="'+(i-1)+'"'+(i===0?" disabled":"")+'>← '+(i>0?esc(L[i-1].name):"")+'</button><button class="btn" data-d="'+(i+1)+'"'+(i===4?" disabled":"")+'>'+(i<4?esc(L[i+1].name):"")+' →</button></div>';
   D.querySelector(".x").onclick=closeLayer;
   D.querySelectorAll("[data-d]").forEach(function(b){b.onclick=function(){openLayer(+b.getAttribute("data-d"));};});
@@ -468,7 +528,7 @@ S.onclick=closeLayer;
 $("mmT").innerHTML=rt(M.money.title);$("mmD").innerHTML=rt(B.moneyDek||M.money.dek);
 $("rot").innerHTML=M.money.rotations.map(function(r){return '<div class="rr"><div class="f">'+rt(r.from)+'</div><div class="ar"></div><div class="t">'+rt(r.to)+'</div><div class="w">'+rt(r.why)+'</div></div>';}).join("");
 $("ripD").innerHTML=rt(B.ripDek||M.ripples.dek);
-var ids=["energy","silicon","infra","models","apps"],NM={energy:"Energy",silicon:"Silicon",infra:"Infra",models:"Models",apps:"Apps"};
+var ids=["energy","silicon","infra","models","apps"],NM=T.nm;
 $("rips").innerHTML=M.ripples.items.map(function(r){return '<div class="rip" style="--c:'+C[r.origin]+'"><div class="tg">'+esc(r.tag)+'</div><h4>'+rt(r.t)+'</h4><div class="dots">'+ids.map(function(id){return '<i class="'+(id===r.origin?"o":r.hits.indexOf(id)>=0?"h":"")+'" style="--c2:'+C[id]+'" title="'+NM[id]+'"></i>';}).join("")+'<span>'+NM[r.origin]+' → '+r.hits.map(function(h){return NM[h];}).join(", ")+'</span></div><ul>'+r.eff.slice(0,2).map(function(e){return '<li><span>'+rt(e)+'</span></li>';}).join("")+'</ul></div>';}).join("");
 /* ---------- view 2 ---------- */
 var FD=M.fund;
@@ -476,7 +536,7 @@ $("fT").innerHTML=rt(FD.title);$("fD").innerHTML=rt(B.fundDek||FD.dek);$("fA").i
 var segs=L.map(function(l,i){return {k:l.id,n:l.name,w:sumW(l.fund.holdings),c:RAW[l.id],li:i};}).concat(FD.other.map(function(o){return {n:o.n,w:o.w,c:o.c};}));
 var tot=segs.reduce(function(a,s){return a+s.w;},0),R=78,CIRC=2*Math.PI*R,ai=segs.slice(0,5).reduce(function(a,s){return a+s.w;},0),drawn=false;
 function drawDonut(){if(drawn)return;drawn=true;var acc=0;
-  $("donut").innerHTML='<circle cx="100" cy="100" r="'+R+'" fill="none" stroke="rgba(115,196,239,.08)" stroke-width="24"/>'+segs.map(function(s,i){var len=s.w/tot*CIRC,o=-acc;acc+=len;return '<circle class="sg" cx="100" cy="100" r="'+R+'" fill="none" stroke="'+s.c+'" stroke-width="24" stroke-dasharray="0 '+CIRC.toFixed(1)+'" data-l="'+len.toFixed(2)+'" stroke-dashoffset="'+o.toFixed(2)+'" transform="rotate(-90 100 100)" style="transition:stroke-dasharray 1s var(--ease) '+(i*80)+'ms"/>';}).join("")+'<text x="100" y="96" text-anchor="middle" fill="#fff" font-size="28" font-weight="700" font-family="Arial">'+f1(ai)+'</text><text x="100" y="117" text-anchor="middle" fill="#7593B2" font-size="9.5" letter-spacing="1.4" font-family="Arial">IN THE FIVE LAYERS</text>';
+  $("donut").innerHTML='<circle cx="100" cy="100" r="'+R+'" fill="none" stroke="rgba(115,196,239,.08)" stroke-width="24"/>'+segs.map(function(s,i){var len=s.w/tot*CIRC,o=-acc;acc+=len;return '<circle class="sg" cx="100" cy="100" r="'+R+'" fill="none" stroke="'+s.c+'" stroke-width="24" stroke-dasharray="0 '+CIRC.toFixed(1)+'" data-l="'+len.toFixed(2)+'" stroke-dashoffset="'+o.toFixed(2)+'" transform="rotate(-90 100 100)" style="transition:stroke-dasharray 1s var(--ease) '+(i*80)+'ms"/>';}).join("")+'<text x="100" y="96" text-anchor="middle" fill="#fff" font-size="28" font-weight="700" font-family="Arial">'+f1(ai)+'</text><text x="100" y="117" text-anchor="middle" fill="#7593B2" font-size="9.5" letter-spacing="1.4" font-family="Arial">'+T.inFive+'</text>';
   setTimeout(function(){$("donut").querySelectorAll(".sg").forEach(function(c){var l=+c.getAttribute("data-l");c.setAttribute("stroke-dasharray",l.toFixed(2)+" "+(CIRC-l).toFixed(2));});},60);}
 $("leg").innerHTML=segs.map(function(s,i){return (i===5?'<div class="sep"></div>':'')+'<button type="button" style="--c:'+s.c+'"'+(s.li!=null?' data-l="'+s.li+'"':' tabindex="-1"')+'><i></i><span>'+esc(s.n)+'</span><b>'+f1(s.w)+'</b></button>';}).join("");
 $("leg").querySelectorAll("[data-l]").forEach(function(b){b.onclick=function(){openLayer(+b.getAttribute("data-l"));};});
@@ -484,27 +544,27 @@ $("facts").innerHTML=FD.facts.map(function(f){return '<div class="fact"><div cla
 $("chg").innerHTML=FD.changes.map(function(c){return '<li><span class="tg2 '+c.type+'">'+esc(c.label)+'</span><span>'+rt(c.t)+'</span></li>';}).join("");
 /* ---------- view 3 ---------- */
 var W=M.watch||{items:[],horizons:[]};
-$("wT").innerHTML=rt(W.title||"What could move each layer next.");
+$("wT").innerHTML=rt(W.title||T.watchT);
 $("rD").innerHTML=rt(W.dek||M.radarDek);
 function drawWatch(){
   $("hz").innerHTML=W.horizons.map(function(h){var it=W.items.filter(function(w){return w.h===h.k&&(act==="all"||w.layers.indexOf(act)>=0);});
     return '<div class="hcol"><h3>'+esc(h.t)+'</h3><div class="hs">'+esc(h.sub)+'</div>'+(it.length?it.map(function(w){var c1=C[w.layers[0]],c2=C[w.layers[w.layers.length-1]];
-      return '<div class="wc '+w.cert+'" style="--c1:'+c1+';--c2:'+c2+'"><div class="tp"><span class="ty"><span class="dots">'+w.layers.map(function(id){return '<i style="--c:'+C[id]+'" title="'+NM[id]+'"></i>';}).join("")+'</span><b>'+esc(w.type)+'</b></span>'+certB(w.cert)+'</div><h4>'+rt(w.t)+'</h4><div class="wn">'+esc(w.when)+'</div><p>'+rt(w.b)+'</p>'+(w.names&&w.names.length?'<div class="nm"><span>ITIN</span>'+w.names.map(function(n){return '<span>'+esc(n)+'</span>';}).join("")+'</div>':'')+'</div>';}).join(""):'<div class="wc"><p>Nothing flagged for this layer in this window.</p></div>')+'</div>';}).join("");
+      return '<div class="wc '+w.cert+'" style="--c1:'+c1+';--c2:'+c2+'"><div class="tp"><span class="ty"><span class="dots">'+w.layers.map(function(id){return '<i style="--c:'+C[id]+'" title="'+NM[id]+'"></i>';}).join("")+'</span><b>'+esc(w.type)+'</b></span>'+certB(w.cert)+'</div><h4>'+rt(w.t)+'</h4><div class="wn">'+esc(w.when)+'</div><p>'+rt(w.b)+'</p>'+(w.names&&w.names.length?'<div class="nm"><span>ITIN</span>'+w.names.map(function(n){return '<span>'+esc(n)+'</span>';}).join("")+'</div>':'')+'</div>';}).join(""):'<div class="wc"><p>'+T.nothingW+'</p></div>')+'</div>';}).join("");
 }
 var months=[];M.calendar.forEach(function(e){if(months.indexOf(e.m)<0)months.push(e.m);});var act="all";
 function drawCal(){$("cal").style.setProperty("--m",months.length);
   $("cal").innerHTML=months.map(function(m){var ev=M.calendar.filter(function(e){return e.m===m&&(act==="all"||e.layer===act);});
-    return '<div class="mon"><h3>'+esc(m)+'</h3>'+(ev.length?ev.map(function(e){return '<div class="ev"><span class="d">'+esc(e.d)+'</span><span><span class="lt" style="--c:'+C[e.layer]+'"></span>'+rt(e.t)+'</span></div>';}).join(""):'<div class="ev"><span class="d">—</span><span>Nothing dated for this layer.</span></div>')+'</div>';}).join("");}
-$("filt").innerHTML='<button data-f="all" aria-pressed="true">All layers</button>'+L.map(function(l){return '<button data-f="'+l.id+'" aria-pressed="false" style="--c:'+C[l.id]+'"><i></i>'+esc(l.name)+'</button>';}).join("");
+    return '<div class="mon"><h3>'+esc(m)+'</h3>'+(ev.length?ev.map(function(e){return '<div class="ev"><span class="d">'+esc(e.d)+'</span><span><span class="lt" style="--c:'+C[e.layer]+'"></span>'+rt(e.t)+'</span></div>';}).join(""):'<div class="ev"><span class="d">—</span><span>'+T.nothingC+'</span></div>')+'</div>';}).join("");}
+$("filt").innerHTML='<button data-f="all" aria-pressed="true">'+T.all+'</button>'+L.map(function(l){return '<button data-f="'+l.id+'" aria-pressed="false" style="--c:'+C[l.id]+'"><i></i>'+esc(l.name)+'</button>';}).join("");
 $("filt").querySelectorAll("button").forEach(function(b){b.onclick=function(){act=b.getAttribute("data-f");$("filt").querySelectorAll("button").forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false");});drawCal();drawWatch();};});
-drawCal();drawWatch();$("schS").textContent="Scheduled earnings and data dates ("+M.calendar.length+")";
+drawCal();drawWatch();$("schS").textContent=T.sched+" ("+M.calendar.length+")";
 /* ---------- view 4 ---------- */
 /* ---------- framework modal ---------- */
 var F=M.framework;
-$("chain").innerHTML=L.map(function(l,i){var f=F.layers[i];return '<div class="link" style="--c:'+C[l.id]+'"><div class="k">LAYER '+l.n+'</div><h4>'+esc(l.name)+'</h4><div class="cv">'+esc(l.io[0])+' → '+esc(l.io[1])+'</div><dl><dt>Converts</dt><dd>'+rt(f.converts)+'</dd><dt>Gets paid by</dt><dd>'+rt(f.paid)+'</dd><dt>Scarce input</dt><dd>'+rt(f.scarce)+'</dd><dt>Drives the multiple</dt><dd>'+rt(f.multiple)+'</dd></dl></div>';}).join("");
+$("chain").innerHTML=L.map(function(l,i){var f=F.layers[i];return '<div class="link" style="--c:'+C[l.id]+'"><div class="k">'+T.LAYER+' '+l.n+'</div><h4>'+esc(l.name)+'</h4><div class="cv">'+esc(l.io[0])+' → '+esc(l.io[1])+'</div><dl><dt>'+T.converts+'</dt><dd>'+rt(f.converts)+'</dd><dt>'+T.paid+'</dt><dd>'+rt(f.paid)+'</dd><dt>'+T.scarce+'</dt><dd>'+rt(f.scarce)+'</dd><dt>'+T.multiple+'</dt><dd>'+rt(f.multiple)+'</dd></dl></div>';}).join("");
 $("prs").innerHTML=F.principles.map(function(p,i){return '<div class="pr"><div class="small mono" style="color:var(--sky)">0'+(i+1)+'</div><h4>'+esc(p.t)+'</h4><p>'+rt(p.b)+'</p></div>';}).join("");
 /* ---------- sources modal + tooltips ---------- */
-$("srcs").innerHTML=M.sources.map(function(s,i){return '<li><span class="i">'+(i+1)+'</span><span>'+esc(s[0])+(s[1]?' · <a href="'+esc(s[1])+'" target="_blank" rel="noopener">link</a>':'')+'</span></li>';}).join("");
+$("srcs").innerHTML=M.sources.map(function(s,i){return '<li><span class="i">'+(i+1)+'</span><span>'+esc(s[0])+(s[1]?' · <a href="'+esc(s[1])+'" target="_blank" rel="noopener">'+T.link+'</a>':'')+'</span></li>';}).join("");
 $("legal").innerHTML=M.legal.map(function(p){return '<p>'+rt(p)+'</p>';}).join("");
 function openModal(id){$(id).classList.add("on");}
 function closeModals(){document.querySelectorAll(".modal").forEach(function(m){m.classList.remove("on");});}
@@ -514,8 +574,8 @@ document.querySelectorAll(".modal").forEach(function(m){m.addEventListener("clic
 var tip=$("tip"),tipT=null,tipFor=null;
 function showTip(el){var ns=el.getAttribute("data-s").split(",");tipFor=el;
   tip.innerHTML=ns.map(function(n){var s=M.sources[+n-1]||["",""];return '<div><b style="font-family:var(--mono);color:var(--sky)">'+n+'</b> '+esc(s[0])+(s[1]?'<a href="'+esc(s[1])+'" target="_blank" rel="noopener">'+esc(s[1].replace(/^https?:\/\/(www\.)?/,"").slice(0,64))+'…</a>':'')+'</div>';}).join("");
-  var r=el.getBoundingClientRect();tip.classList.add("on");var w=tip.offsetWidth,h=tip.offsetHeight;
-  var x=Math.min(window.innerWidth-w-10,Math.max(10,r.left-w/2));var y=r.top-h-8;if(y<70)y=r.bottom+8;
+  var z=document.body.currentCSSZoom||1,r=el.getBoundingClientRect();tip.classList.add("on");var w=tip.offsetWidth,h=tip.offsetHeight,vw=window.innerWidth/z;
+  var x=Math.min(vw-w-10,Math.max(10,r.left/z-w/2));var y=r.top/z-h-8;if(y<70)y=r.bottom/z+8;
   tip.style.left=x+"px";tip.style.top=y+"px";}
 function hideTip(){tipT=setTimeout(function(){tip.classList.remove("on");tipFor=null;},180);}
 document.addEventListener("mouseover",function(e){var c=e.target.closest&&e.target.closest("sup.c");if(c){clearTimeout(tipT);showTip(c);}else if(e.target.closest&&e.target.closest("#tip")){clearTimeout(tipT);}});
@@ -532,7 +592,7 @@ document.addEventListener("keydown",function(e){
   if(e.key>="1"&&e.key<="5"){openLayer(+e.key-1);}
 });
 var start=HASH.indexOf((location.hash||"").slice(1));
-function fitH(){var t=document.querySelector(".top");document.documentElement.style.setProperty("--hh",t.offsetHeight+"px");}fitH();window.addEventListener("resize",fitH);
+function fitH(){var t=document.querySelector(".top");document.documentElement.style.setProperty("--hh",t.offsetHeight+"px");}fitH();window.addEventListener("resize",fitH);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fitH);
 show(start<0?0:start);
 window.addEventListener("hashchange",function(){var i=HASH.indexOf(location.hash.slice(1));if(i>=0&&i!==cur)show(i);});
 })();
