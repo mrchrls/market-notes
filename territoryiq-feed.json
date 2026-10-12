@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-11-1005",
+  "updated": "2026-10-12-1005",
   "CCM9973": {
-    "asof": "Oct 11, 2026 run (WebSearch snippets; fund pages not fetched): Oct 9 close found in a single outlet (La Nacion, unconfirmed by a second source) — S&P 500 7,811.54 (+0.6%), Nasdaq 27,366.17 (+0.6%), Dow 51,654.95 (+0.8%), S&P near its record. Fund-level AUM/MER/holdings carried forward.",
+    "asof": "Oct 12, 2026 run (WebSearch only; fund pages not fetched): no confirmed Oct 12 close found. Nasdaq record close 27,477.31 on Oct 4 and Oct 7 levels (S&P 7,811.54, Nasdaq 27,366.17, Dow 51,654.95) per live-page snippet; 10-yr UST ~5.24% pre-market Mon (single report). Sep CPI due Wed Oct 14 is the next catalyst. Fund-level AUM/MER/holdings carried forward unchanged.",
     "oneliner": "Micron's blowout FQ4 (rev $54.2B, FQ1 guide ~$61.5B, most 2027 HBM supply contracted) confirms AI hardware demand, but tech is wobbling: Nasdaq -1.3% on Oct 8 (27,193.34), a second straight S&P loss, with the 10-yr UST at 2002-highs (5.364% intraday Oct 7) — the long-yield valuation headwind is the live risk for innovation names.",
     "stats": [
       {
@@ -206,7 +206,7 @@
     ]
   },
   "CCM5604": {
-    "asof": "Oct 11, 2026 run (WebSearch snippets): BoC next decision Oct 28 with MPR, policy rate 2.25% (held Sep 2); no fresh BoC odds or Oct 9 yield closes found. Fund-level stats and prior rate signals carried forward.",
+    "asof": "Oct 12, 2026 run (WebSearch only): BoC held 2.25% Sep 2; next decision Oct 28 with MPR (no consensus published yet). FOMC Oct 27-28; Sep CPI Wed Oct 14. 10-yr UST ~5.24% pre-market Oct 12 (single report) vs 5.36% intraday peak Oct 7. RateHub snippet shows best 5-yr GIC 4.15% Haventree (Sept-dated, conflicts with 4.40-4.50% carried forward; not overwritten, verify). Fund stats carried forward.",
     "oneliner": "Long-end yields keep making 24-year highs (10-yr UST 5.364% intraday Oct 7) while Fed hike odds for October have faded to ~19% and the BoC sits at 2.25% ahead of Oct 28 — a volatile, divergent rate backdrop that favours a flexible global mandate.",
     "stats": [
       {
@@ -378,6 +378,13 @@
         "level": "best GIC ~4.50% vs fund YTM 5.7% (carried forward)",
         "angle": "Spread over GICs remains the income-conversation anchor; YTM figure unverified today",
         "tag": "LIVE"
+      },
+      {
+        "name": "Sep CPI Wed Oct 14, FOMC Oct 27-28",
+        "reading": "Sep CPI is the last major data before FOMC Oct 27-28; BoC decision same Oct 28 (policy rate 2.25%). 10-yr UST ~5.24% pre-market Oct 12 vs 5.36% Oct 7 peak.",
+        "level": "5.24% vs 5.36%",
+        "angle": "Event-heavy fortnight: rate volatility argues for active duration/currency management over fixed-term GICs.",
+        "tag": "LIVE"
       }
     ],
     "competitors": [
@@ -391,7 +398,7 @@
     ]
   },
   "CCM8752": {
-    "asof": "Oct 11, 2026 run (WebSearch snippets): no VIX close found for Oct 8/9 (latest verified 15.67 on Oct 7); equities rebounded Oct 9 (S&P +0.6%, single source). No new private-credit gating headlines. Fund stats carried forward.",
+    "asof": "Oct 12, 2026 run (WebSearch only): no new VIX close found (latest verified 15.67 on Oct 7). No new private-credit gating headlines beyond carried-forward Q3 caps; background coverage confirms gates spread across BCRED/Apollo/Ares. Fund stats carried forward.",
     "oneliner": "Private-credit gating now covers essentially every major manager (Blue Owl, Ares, Cliffwater all capped at 5% in Q3, plus Australia's Metrics) — the liquidity-mismatch story CCM8752's daily-liquid alternative wrapper sidesteps, with VIX at 15 showing a calm-but-fragile tape.",
     "stats": [
       {
@@ -529,7 +536,7 @@
     ]
   },
   "ELITE": {
-    "asof": "Oct 11, 2026 run (WebSearch snippets): still no iA Clarington press release dated October found; latest located is the Aug 24 distribution notice (>$26B AUM as of Jul 31/26). Stats carried forward.",
+    "asof": "Oct 12, 2026 run (WebSearch only): still no iA Clarington press release dated October found; latest located is the Aug 24 distribution notice (>$26B AUM as of Jul 31/26). Monthly ETF distribution notice expected in last week of October. Stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
