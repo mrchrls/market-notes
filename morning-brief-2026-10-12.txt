@@ -1,0 +1,26 @@
+TerritoryIQ Morning Brief — Monday, October 12
+
+WHAT CHANGED
+One new signal since yesterday: CCM5604 picked up the event calendar — Sep CPI Wed Oct 14, then FOMC Oct 27-28 with the BoC the same day. Everything else across the four mandates is carried forward unchanged.
+
+TODAY'S SIGNAL ANGLES
+
+[CCM8752 · LIVE] Private credit funds capped at 5% in Q3 — 39% / 11.6% / ~16% requested vs 5% cap
+Angle: Blue Owl Technology Income had 39% of shares requested, Ares Strategic Income 11.6%, Cliffwater flagship ~16% — all capped at 5%. Gating is industry-wide; daily liquidity is the differentiator. For advisors with clients stuck in semi-liquid private credit.
+
+[CCM5604 · LIVE] 5-yr GIC ceiling — best GIC ~4.50% vs fund YTM 5.7% (carried forward)
+Angle: Top 5-yr GICs are 4.40-4.50% (Tangerine 4.50%, Haventree 4.45%, Oaken 4.40%). That spread is the income anchor for GIC-renewal conversations. YTM is carried forward and unverified today — frame it as approximate.
+
+[CCM5604 · LIVE] Sep CPI Wed Oct 14, FOMC Oct 27-28 — 10-yr UST 5.24% vs 5.36%
+Angle: 10-yr ~5.24% pre-market today vs the 5.36% Oct 7 peak, CPI Wednesday, Fed and BoC both Oct 28. An event-heavy fortnight favours active duration and currency management over a fixed-term GIC. Use this week.
+
+[CCM9973 · LIVE] NVDA record high on Morgan Stanley top-pick call — $237.55 intraday
+Angle: Top holding at a record on a valuation-based call (Overweight, $300 target, ~15x FY28E EPS). Good against "AI is a bubble" pushback; single-name concentration stays the honest caveat.
+
+[ELITE · LIVE] IIME TSX launch ceremony — confirmed Sep 18/26
+Angle: A concrete launch story (International Multifactor Equity Fund, TSX: IIME) for the advisor asking what's new at iA Clarington.
+
+WORTH KNOWING
+- Manulife Strategic Income Series F is 0.90% vs CCM5604 at 0.84% — and Dan Janis, Manulife's own long-time lead PM there, now sub-advises CCM5604 directly.
+- Don't quote CCM9973's 1.18% MER as current: the Mar 10/26 fee cut (mgmt 1.00%→0.45%, admin 0.16%→0.13%) is in effect, new trailing MER unpublished.
+- The feed flagged a Sept-dated 4.15% Haventree GIC print conflicting with the 4.40-4.50% above. Not overwritten — verify before quoting a top rate.
