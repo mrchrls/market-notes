@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-12-1005",
+  "updated": "2026-10-13-1005",
   "CCM9973": {
-    "asof": "Oct 12, 2026 run (WebSearch only; fund pages not fetched): no confirmed Oct 12 close found. Nasdaq record close 27,477.31 on Oct 4 and Oct 7 levels (S&P 7,811.54, Nasdaq 27,366.17, Dow 51,654.95) per live-page snippet; 10-yr UST ~5.24% pre-market Mon (single report). Sep CPI due Wed Oct 14 is the next catalyst. Fund-level AUM/MER/holdings carried forward unchanged.",
+    "asof": "Oct 13, 2026 run (WebSearch only; fund pages not fetched): latest verified close is Fri Oct 9 (S&P 7,811.54, Nasdaq 27,366.17, Dow 51,654.95); no Oct 12 close found (Columbus Day, US bond market closed). S&P intraday record 7,844.52 earlier in week per search. Sep CPI Wed Oct 14 is next catalyst. Fund-level AUM/MER/holdings carried forward unchanged.",
     "oneliner": "Micron's blowout FQ4 (rev $54.2B, FQ1 guide ~$61.5B, most 2027 HBM supply contracted) confirms AI hardware demand, but tech is wobbling: Nasdaq -1.3% on Oct 8 (27,193.34), a second straight S&P loss, with the 10-yr UST at 2002-highs (5.364% intraday Oct 7) — the long-yield valuation headwind is the live risk for innovation names.",
     "stats": [
       {
@@ -206,7 +206,7 @@
     ]
   },
   "CCM5604": {
-    "asof": "Oct 12, 2026 run (WebSearch only): BoC held 2.25% Sep 2; next decision Oct 28 with MPR (no consensus published yet). FOMC Oct 27-28; Sep CPI Wed Oct 14. 10-yr UST ~5.24% pre-market Oct 12 (single report) vs 5.36% intraday peak Oct 7. RateHub snippet shows best 5-yr GIC 4.15% Haventree (Sept-dated, conflicts with 4.40-4.50% carried forward; not overwritten, verify). Fund stats carried forward.",
+    "asof": "Oct 13, 2026 run (WebSearch only): no verified Oct 12 print (US bond market closed for Columbus Day). BoC 2.25% (held Sep 2), decision Oct 28 with MPR; FOMC Oct 27-28; Sep CPI Wed Oct 14. Search snippets on Fed Oct hike odds are undated and conflict (~70% vs ~15-19% on file from Oct 2-6 CME data) - not overwritten, verify on CME FedWatch before quoting. Fund stats and GIC rates carried forward.",
     "oneliner": "Long-end yields keep making 24-year highs (10-yr UST 5.364% intraday Oct 7) while Fed hike odds for October have faded to ~19% and the BoC sits at 2.25% ahead of Oct 28 — a volatile, divergent rate backdrop that favours a flexible global mandate.",
     "stats": [
       {
@@ -398,7 +398,7 @@
     ]
   },
   "CCM8752": {
-    "asof": "Oct 12, 2026 run (WebSearch only): no new VIX close found (latest verified 15.67 on Oct 7). No new private-credit gating headlines beyond carried-forward Q3 caps; background coverage confirms gates spread across BCRED/Apollo/Ares. Fund stats carried forward.",
+    "asof": "Oct 13, 2026 run (WebSearch only): no new VIX close found (latest verified 15.67 on Oct 7). No new private-credit gating headlines beyond carried-forward Q3 caps (BCRED, Apollo, Cliffwater ~5% caps). Fund stats carried forward.",
     "oneliner": "Private-credit gating now covers essentially every major manager (Blue Owl, Ares, Cliffwater all capped at 5% in Q3, plus Australia's Metrics) — the liquidity-mismatch story CCM8752's daily-liquid alternative wrapper sidesteps, with VIX at 15 showing a calm-but-fragile tape.",
     "stats": [
       {
@@ -536,7 +536,7 @@
     ]
   },
   "ELITE": {
-    "asof": "Oct 12, 2026 run (WebSearch only): still no iA Clarington press release dated October found; latest located is the Aug 24 distribution notice (>$26B AUM as of Jul 31/26). Monthly ETF distribution notice expected in last week of October. Stats carried forward.",
+    "asof": "Oct 13, 2026 run (WebSearch only): still no iA Clarington press release dated October found; latest located is the Aug 24 distribution notice (>$26B AUM as of Jul 31/26). Monthly ETF distribution notice expected ~Oct 22-24. Stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
