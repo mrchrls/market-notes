@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-14-1006",
+  "updated": "2026-10-15-1005",
   "CCM9973": {
-    "asof": "Oct 14, 2026 run (WebSearch only; iaclarington.com not fetched): no Oct 12/13 close found; latest verified close remains Fri Oct 9 (S&P 7,811.54, Nasdaq 27,366.17, Dow 51,654.95; week S&P +1.15%, Nasdaq +0.64%). 10-yr UST 5.24% midday Oct 9 (AP). Sep CPI due today Oct 14. Fund-level AUM/MER/holdings carried forward unchanged.",
-    "oneliner": "Micron's blowout FQ4 (rev $54.2B, FQ1 guide ~$61.5B, most 2027 HBM supply contracted) confirms AI hardware demand, but tech is wobbling: Nasdaq -1.3% on Oct 8 (27,193.34), a second straight S&P loss, with the 10-yr UST at 2002-highs (5.364% intraday Oct 7) — the long-yield valuation headwind is the live risk for innovation names.",
+    "asof": "Oct 15, 2026 run (WebSearch only; iaclarington.com not fetched): hot Sep CPI Oct 14 pushed stocks lower (S&P ~-0.6%, Nasdaq ~-0.8% per azat.tv/CNBC; exact closes not verified). Last verified full close remains Oct 9 (S&P 7,811.54, Nasdaq 27,366.17). Fund-level AUM/MER/holdings carried forward unchanged.",
+    "oneliner": "Micron's blowout FQ4 (rev $54.2B, FQ1 guide ~$61.5B, most 2027 HBM supply contracted) confirms AI hardware demand, but a hot Sep CPI (3.7% headline) and 10-yr UST above 5.25% put the long-yield valuation headwind back in focus for innovation names.",
     "stats": [
       {
         "k": "AUM (all series)",
@@ -125,6 +125,13 @@
     ],
     "signals": [
       {
+        "name": "Hot Sep CPI hits tech",
+        "reading": "Sep US CPI (Oct 14): headline 3.7% y/y vs 3.6% est., core 2.6% vs 2.5% est.; gasoline +9.1% (CNBC/Investing.com). Reports on the market reaction vary: S&P ~-0.6%, Nasdaq ~-0.8% close (azat.tv citing CNBC); 10-yr UST ~5.25-5.30% on the day then ~5.10% Oct 15 (CNBC); 2-yr 4.89%; Oct FOMC hike odds ~39% CME (Investing.com) to ~46% (Bloomberg via Schwab), up from ~22% pre-print.",
+        "level": "CPI 3.7% vs 3.6%; Nasdaq ~-0.8%",
+        "angle": "Rate-driven pullback, not demand-driven: frame as valuation/discount-rate risk vs intact AI capex; stay invested, avoid timing the AI trade.",
+        "tag": "LIVE"
+      },
+      {
         "name": "Stocks rebound Oct 9, S&P near record",
         "reading": "Oct 9 (single-source, La Nacion): S&P 500 7,811.54 (+0.6%), Nasdaq 27,366.17 (+0.6%), Dow 51,654.95 (+0.8%), reversing most of the Oct 8 tech-led drop; S&P within reach of its Oct 6 record (7,818.95).",
         "level": "Nasdaq 27,366.17 (+0.6%)",
@@ -206,8 +213,8 @@
     ]
   },
   "CCM5604": {
-    "asof": "Oct 14, 2026 run (WebSearch only): BoC 2.25% (held Sep 2), next decision Oct 28 with MPR - no consensus forecast published yet. Fed Oct hike odds: Polymarket ~16.5% hike / 82.5% hold (Action Network, undated); last CME print found 37.1% on Sep 30 (stale vs 19.4% on Oct 6 on file). Sep CPI today Oct 14; Fed quiet period from Oct 17. Fund stats and GIC rates carried forward.",
-    "oneliner": "Long-end yields keep making 24-year highs (10-yr UST 5.364% intraday Oct 7) while Fed hike odds for October have faded to ~19% and the BoC sits at 2.25% ahead of Oct 28 — a volatile, divergent rate backdrop that favours a flexible global mandate.",
+    "asof": "Oct 15, 2026 run (WebSearch only): Sep CPI hot (3.7% headline, core 2.6%); Oct FOMC hike odds jumped to ~39-46% from ~22%; 10-yr UST ~5.25-5.30% Oct 14, ~5.10% Oct 15 (CNBC). BoC 2.25%, next decision Oct 28 with MPR - no published consensus found. Fund stats and GIC rates carried forward.",
+    "oneliner": "A hot Sep CPI (3.7%) revived Fed October hike odds (~39-46%) and whipsawed long yields (10-yr ~5.3% then ~5.1%) with the BoC at 2.25% ahead of Oct 28 — a volatile, divergent rate backdrop that favours a flexible global mandate.",
     "stats": [
       {
         "k": "AUM (fund-wide)",
@@ -317,6 +324,13 @@
     "basket": "Rates are diverging: RBA hiked to 4.60% (Sep 29), Fed October-hike odds fell to ~17% on a weak jobs report with the 10-yr UST at 5.27%, and BoC pricing swung to a likely hold (~74%) on Oct 28. USD/CAD (~1.42, Oct 1) and JPY, KRW, MXN prints are carried forward without fresh same-day data. A two-sided, event-driven backdrop for this flexible fund heading into Q4.",
     "signals": [
       {
+        "name": "Hot CPI revives Fed hike odds",
+        "reading": "Sep US CPI (Oct 14): headline 3.7% y/y vs 3.6% est., core 2.6% vs 2.5% est.; gasoline +9.1% (CNBC/Investing.com). Reports on the market reaction vary: S&P ~-0.6%, Nasdaq ~-0.8% close (azat.tv citing CNBC); 10-yr UST ~5.25-5.30% on the day then ~5.10% Oct 15 (CNBC); 2-yr 4.89%; Oct FOMC hike odds ~39% CME (Investing.com) to ~46% (Bloomberg via Schwab), up from ~22% pre-print. 30-yr reportedly closed 5.59% (Mitrade, single source).",
+        "level": "Oct hike odds ~39-46% vs ~22%",
+        "angle": "Odds swung from ~15-20% to ~40%+ in days: argues for active duration/currency management over a static ladder.",
+        "tag": "LIVE"
+      },
+      {
         "name": "Fed Oct hike: Polymarket ~16.5%",
         "reading": "Action Network (undated, appears recent): no change 82.5c, 25bp hike 16.5c for Oct 27-28; Sep CPI Oct 14; Citi says core CPI at 0.2% m/m or below makes the clearest case for a hold; Fed quiet period starts Oct 17.",
         "level": "~16.5% hike (Polymarket, not CME)",
@@ -405,7 +419,7 @@
     ]
   },
   "CCM8752": {
-    "asof": "Oct 14, 2026 run (WebSearch only): no new VIX close found (latest verified 15.67 on Oct 7). Private-credit gating headlines unchanged in substance; added Morgan Stanley North Haven 11.4% request and Oaktree counterexample (dates unclear). Fund stats carried forward.",
+    "asof": "Oct 15, 2026 run (WebSearch only): no new VIX close found (latest verified 15.67 on Oct 7); hot Sep CPI Oct 14 is a volatility catalyst. No new private-credit gating headlines beyond those on file. Fund stats carried forward.",
     "oneliner": "Private-credit gating now covers essentially every major manager (Blue Owl, Ares, Cliffwater all capped at 5% in Q3, plus Australia's Metrics) — the liquidity-mismatch story CCM8752's daily-liquid alternative wrapper sidesteps, with VIX at 15 showing a calm-but-fragile tape.",
     "stats": [
       {
@@ -550,7 +564,7 @@
     ]
   },
   "ELITE": {
-    "asof": "Oct 14, 2026 run (WebSearch only): still no iA Clarington press release dated October found; latest located is the Aug 24 distribution notice (>$26B AUM). Monthly ETF distribution notice expected ~late Oct (inference). Stats carried forward.",
+    "asof": "Oct 15, 2026 run (WebSearch only): still no iA Clarington press release dated October found; latest located is the Aug 24 distribution notice (>$26B AUM). October monthly ETF distribution notice expected late Oct (inference). Stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
