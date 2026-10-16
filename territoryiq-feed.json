@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-15-1005",
+  "updated": "2026-10-16-1005",
   "CCM9973": {
-    "asof": "Oct 15, 2026 run (WebSearch only; iaclarington.com not fetched): hot Sep CPI Oct 14 pushed stocks lower (S&P ~-0.6%, Nasdaq ~-0.8% per azat.tv/CNBC; exact closes not verified). Last verified full close remains Oct 9 (S&P 7,811.54, Nasdaq 27,366.17). Fund-level AUM/MER/holdings carried forward unchanged.",
+    "asof": "Oct 16, 2026 run (WebSearch only; iaclarington.com not fetched): Oct 15 stocks rebounded (S&P +0.33%) after hot Sep PPI; exact closes not verified. ITIN ~C$11.49 and ETF AUM ~C$925K (Aug 14, TipRanks, snapshot). Fund AUM/MER/holdings carried forward.",
     "oneliner": "Micron's blowout FQ4 (rev $54.2B, FQ1 guide ~$61.5B, most 2027 HBM supply contracted) confirms AI hardware demand, but a hot Sep CPI (3.7% headline) and 10-yr UST above 5.25% put the long-yield valuation headwind back in focus for innovation names.",
     "stats": [
       {
@@ -59,6 +59,10 @@
       {
         "k": "Indices (Thu Oct 8/26)",
         "v": "S&P 500 7,765.36 (-0.5%), Nasdaq 27,193.34 (-1.3%, -345.35 pts), Dow 51,231.64 (+0.1%); tech drops outweighed gains in most S&P stocks; Brent topped $104"
+      },
+      {
+        "k": "ITIN ETF snapshot (TipRanks, undated page)",
+        "v": "~C$11.49 price; AUM ~C$925K as of Aug 14/26; 12-mo range ~C$10.01-11.87 — LIVE but stale, early-stage ETF"
       }
     ],
     "layers": [
@@ -124,6 +128,13 @@
       }
     ],
     "signals": [
+      {
+        "name": "Oct 15: stocks rebound despite hot PPI",
+        "reading": "Oct 15 (close): S&P 500 +0.33%, Dow +1.08%; Sep PPI +1.3% m/m, +6.3% y/y vs 5.5% est., core PPI +0.7% vs 0.3% est.; retail sales +0.8% vs 0.3% est. Exact index closes not verified. Apple/Meta AI partnership reported same day (Wall Street Republic).",
+        "level": "S&P +0.33% / PPI 6.3% y/y",
+        "angle": "Inflation prints are hot but AI/tech leadership held; innovation exposure is a rates-and-earnings story, not just a multiple story.",
+        "tag": "LIVE"
+      },
       {
         "name": "Hot Sep CPI hits tech",
         "reading": "Sep US CPI (Oct 14): headline 3.7% y/y vs 3.6% est., core 2.6% vs 2.5% est.; gasoline +9.1% (CNBC/Investing.com). Reports on the market reaction vary: S&P ~-0.6%, Nasdaq ~-0.8% close (azat.tv citing CNBC); 10-yr UST ~5.25-5.30% on the day then ~5.10% Oct 15 (CNBC); 2-yr 4.89%; Oct FOMC hike odds ~39% CME (Investing.com) to ~46% (Bloomberg via Schwab), up from ~22% pre-print.",
@@ -213,7 +224,7 @@
     ]
   },
   "CCM5604": {
-    "asof": "Oct 15, 2026 run (WebSearch only): Sep CPI hot (3.7% headline, core 2.6%); Oct FOMC hike odds jumped to ~39-46% from ~22%; 10-yr UST ~5.25-5.30% Oct 14, ~5.10% Oct 15 (CNBC). BoC 2.25%, next decision Oct 28 with MPR - no published consensus found. Fund stats and GIC rates carried forward.",
+    "asof": "Oct 16, 2026 run (WebSearch only): Oct 15 PPI hot (+6.3% y/y) yet 10-yr UST fell to ~5.07-5.10%; BoC 2.25%, decision Oct 28 (no consensus found, outcome pending). Fund stats and GIC rates carried forward.",
     "oneliner": "A hot Sep CPI (3.7%) revived Fed October hike odds (~39-46%) and whipsawed long yields (10-yr ~5.3% then ~5.1%) with the BoC at 2.25% ahead of Oct 28 — a volatile, divergent rate backdrop that favours a flexible global mandate.",
     "stats": [
       {
@@ -324,6 +335,20 @@
     "basket": "Rates are diverging: RBA hiked to 4.60% (Sep 29), Fed October-hike odds fell to ~17% on a weak jobs report with the 10-yr UST at 5.27%, and BoC pricing swung to a likely hold (~74%) on Oct 28. USD/CAD (~1.42, Oct 1) and JPY, KRW, MXN prints are carried forward without fresh same-day data. A two-sided, event-driven backdrop for this flexible fund heading into Q4.",
     "signals": [
       {
+        "name": "10-yr UST falls to ~5.10% on Oct 15",
+        "reading": "Sources differ: 5.07%-5.10% (one cites 5.086%, lowest since Sep 22) despite hot PPI, as buyers added duration amid AI-related corporate-debt worries.",
+        "level": "10-yr ~5.10% (was ~5.25-5.30% Oct 14)",
+        "angle": "Yields at 5%+ with a volatile path: the case for an active, flexible global income mandate vs. locking in a GIC.",
+        "tag": "LIVE"
+      },
+      {
+        "name": "Sep PPI shock",
+        "reading": "Sep PPI +1.3% m/m, +6.3% y/y vs 5.5% est.; core +0.7% vs 0.3% est. Adds to hot CPI (3.7%) ahead of FOMC/BoC Oct 27-28.",
+        "level": "PPI 6.3% vs 5.5%",
+        "angle": "Inflation pressure plus falling long yields = whipsaw; active duration/currency management matters.",
+        "tag": "LIVE"
+      },
+      {
         "name": "Hot CPI revives Fed hike odds",
         "reading": "Sep US CPI (Oct 14): headline 3.7% y/y vs 3.6% est., core 2.6% vs 2.5% est.; gasoline +9.1% (CNBC/Investing.com). Reports on the market reaction vary: S&P ~-0.6%, Nasdaq ~-0.8% close (azat.tv citing CNBC); 10-yr UST ~5.25-5.30% on the day then ~5.10% Oct 15 (CNBC); 2-yr 4.89%; Oct FOMC hike odds ~39% CME (Investing.com) to ~46% (Bloomberg via Schwab), up from ~22% pre-print. 30-yr reportedly closed 5.59% (Mitrade, single source).",
         "level": "Oct hike odds ~39-46% vs ~22%",
@@ -419,7 +444,7 @@
     ]
   },
   "CCM8752": {
-    "asof": "Oct 15, 2026 run (WebSearch only): no new VIX close found (latest verified 15.67 on Oct 7); hot Sep CPI Oct 14 is a volatility catalyst. No new private-credit gating headlines beyond those on file. Fund stats carried forward.",
+    "asof": "Oct 16, 2026 run (WebSearch only): VIX ~16.46 on Oct 15 (-2.4%). Private-credit gating coverage (Torys June 2026, Gategate) unchanged; no new October headlines found. Fund stats carried forward.",
     "oneliner": "Private-credit gating now covers essentially every major manager (Blue Owl, Ares, Cliffwater all capped at 5% in Q3, plus Australia's Metrics) — the liquidity-mismatch story CCM8752's daily-liquid alternative wrapper sidesteps, with VIX at 15 showing a calm-but-fragile tape.",
     "stats": [
       {
@@ -513,6 +538,13 @@
     ],
     "signals": [
       {
+        "name": "VIX ~16.46 on Oct 15",
+        "reading": "VIX fell ~2.4% to roughly 16.5 (16.46 in one source) on Oct 15 despite hot PPI; still mid-teens calm-but-fragile.",
+        "level": "VIX ~16.5",
+        "angle": "Complacent vol with hot inflation and gated private credit: the diversifier case for market-neutral / macro sleeves.",
+        "tag": "LIVE"
+      },
+      {
         "name": "Gating broadens; Oaktree the exception",
         "reading": "Morgan Stanley North Haven Private Income Fund saw 11.4% of shares requested vs ~5% planned buyback; Oaktree Strategic Credit met requests in full (4.5% requested, below 5% cap, Bloomberg Jun 17/26); BCRED ~10% Q3 requests capped at 5%; Apollo ADS 14.7% requested vs 5% paid.",
         "level": "11.4% requested vs ~5% (North Haven)",
@@ -564,7 +596,7 @@
     ]
   },
   "ELITE": {
-    "asof": "Oct 15, 2026 run (WebSearch only): still no iA Clarington press release dated October found; latest located is the Aug 24 distribution notice (>$26B AUM). October monthly ETF distribution notice expected late Oct (inference). Stats carried forward.",
+    "asof": "Oct 16, 2026 run (WebSearch only): still no iA Clarington press release dated October found; latest located is Aug 24 distribution notice (>$26B AUM). October ETF distribution notice expected late Oct (inference). Stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
