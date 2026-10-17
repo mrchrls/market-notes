@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-16-1005",
+  "updated": "2026-10-17-1006",
   "CCM9973": {
-    "asof": "Oct 16, 2026 run (WebSearch only; iaclarington.com not fetched): Oct 15 stocks rebounded (S&P +0.33%) after hot Sep PPI; exact closes not verified. ITIN ~C$11.49 and ETF AUM ~C$925K (Aug 14, TipRanks, snapshot). Fund AUM/MER/holdings carried forward.",
-    "oneliner": "Micron's blowout FQ4 (rev $54.2B, FQ1 guide ~$61.5B, most 2027 HBM supply contracted) confirms AI hardware demand, but a hot Sep CPI (3.7% headline) and 10-yr UST above 5.25% put the long-yield valuation headwind back in focus for innovation names.",
+    "asof": "Oct 17, 2026 run (WebSearch only; fetches blocked): Oct 16 close verified via TradingKey/Yahoo/AP - Nasdaq -2.14%, worst week in months; fund AUM/MER/holdings carried forward.",
+    "oneliner": "AI hardware demand is intact (Micron FQ4 beat, 2027 HBM largely contracted), but a hot Sep CPI, 10-yr UST ~5.1% and debt-funded AI build-out worries (CoreWeave) drove a ~4.5% Nasdaq weekly drop - a valuation/financing wobble, not a demand break.",
     "stats": [
       {
         "k": "AUM (all series)",
@@ -129,6 +129,13 @@
     ],
     "signals": [
       {
+        "name": "Oct 16: tech rout, Nasdaq -2.14%, worst week in months",
+        "reading": "Fri Oct 16 close (TradingKey; Yahoo/AP corroborate direction): S&P 500 7,659.44 (-1.09%), Nasdaq 26,140.03 (-2.14%), Dow 52,002.41 (-0.34%). Week: Nasdaq -4.5%, S&P -1.95%, Dow +0.7% (Yahoo/CNBC). Micron -5%+, CoreWeave nearly -12%; drivers cited: Chinese chip competition, debt-funded AI build-out, higher oil. 10-yr UST 5.09% (AP). Oct 14 Nasdaq 26,692.87 (-1.88%, Reuters). Note: Oct 15 sources conflict (earlier entry said S&P +0.33%; roic/Kitco say Nasdaq fell ~1.3% to near 1-month low) - Oct 15 not resolved.",
+        "level": "Nasdaq 26,140.03 (-2.14%); week -4.5%",
+        "angle": "Pullback is rate- and financing-driven (CPI, CoreWeave debt, China chips) while hyperscaler capex and HBM contracting hold - frame as volatility to diversify within innovation, not a thesis break; name the concentration and valuation risk honestly.",
+        "tag": "LIVE"
+      },
+      {
         "name": "Oct 15: stocks rebound despite hot PPI",
         "reading": "Oct 15 (close): S&P 500 +0.33%, Dow +1.08%; Sep PPI +1.3% m/m, +6.3% y/y vs 5.5% est., core PPI +0.7% vs 0.3% est.; retail sales +0.8% vs 0.3% est. Exact index closes not verified. Apple/Meta AI partnership reported same day (Wall Street Republic).",
         "level": "S&P +0.33% / PPI 6.3% y/y",
@@ -224,8 +231,8 @@
     ]
   },
   "CCM5604": {
-    "asof": "Oct 16, 2026 run (WebSearch only): Oct 15 PPI hot (+6.3% y/y) yet 10-yr UST fell to ~5.07-5.10%; BoC 2.25%, decision Oct 28 (no consensus found, outcome pending). Fund stats and GIC rates carried forward.",
-    "oneliner": "A hot Sep CPI (3.7%) revived Fed October hike odds (~39-46%) and whipsawed long yields (10-yr ~5.3% then ~5.1%) with the BoC at 2.25% ahead of Oct 28 — a volatile, divergent rate backdrop that favours a flexible global mandate.",
+    "asof": "Oct 17, 2026 run (WebSearch only): 10-yr UST 5.09% Oct 16 (AP); Fed Oct hike odds range 15%-44% across sources; BoC 2.25%, decision Oct 28 (consensus not yet published; FXStreet says markets expect holds from both). Fund stats and GIC rates carried forward.",
+    "oneliner": "Fed October hike odds whipsawed between ~15% and ~44% in four days while the 10-yr UST hovers ~5.1% and the BoC sits at 2.25% ahead of Oct 28 - a volatile, divergent rate backdrop that favours a flexible global mandate.",
     "stats": [
       {
         "k": "AUM (fund-wide)",
@@ -334,6 +341,13 @@
     ],
     "basket": "Rates are diverging: RBA hiked to 4.60% (Sep 29), Fed October-hike odds fell to ~17% on a weak jobs report with the 10-yr UST at 5.27%, and BoC pricing swung to a likely hold (~74%) on Oct 28. USD/CAD (~1.42, Oct 1) and JPY, KRW, MXN prints are carried forward without fresh same-day data. A two-sided, event-driven backdrop for this flexible fund heading into Q4.",
     "signals": [
+      {
+        "name": "Fed hike odds: 15%-44% depending on source/date",
+        "reading": "CME FedWatch ~41-44% on Oct 14 after hot CPI (from ~20%); an FXStreet piece dated Oct 16 cites ~15%; Polymarket ~14% hike / 86% hold. One outlier source cited 64% (disregarded). Fed funds 3.75%-4.00%; FOMC Oct 27-28. 10-yr UST 5.09% Oct 16 (AP) despite hot data. USD/CAD ~1.42 after an 18-month CAD low of 1.428 on Oct 12 (TradingEconomics, Oct 15).",
+        "level": "Hike odds ~15% to ~44%; 10-yr 5.09%",
+        "angle": "Pricing swings 30 points in days - active duration and currency management beats a static ladder or a GIC lock-in.",
+        "tag": "LIVE"
+      },
       {
         "name": "10-yr UST falls to ~5.10% on Oct 15",
         "reading": "Sources differ: 5.07%-5.10% (one cites 5.086%, lowest since Sep 22) despite hot PPI, as buyers added duration amid AI-related corporate-debt worries.",
@@ -444,8 +458,8 @@
     ]
   },
   "CCM8752": {
-    "asof": "Oct 16, 2026 run (WebSearch only): VIX ~16.46 on Oct 15 (-2.4%). Private-credit gating coverage (Torys June 2026, Gategate) unchanged; no new October headlines found. Fund stats carried forward.",
-    "oneliner": "Private-credit gating now covers essentially every major manager (Blue Owl, Ares, Cliffwater all capped at 5% in Q3, plus Australia's Metrics) — the liquidity-mismatch story CCM8752's daily-liquid alternative wrapper sidesteps, with VIX at 15 showing a calm-but-fragile tape.",
+    "asof": "Oct 17, 2026 run (WebSearch only): Oct 16 equity rout (Nasdaq -2.14%, S&P -1.09%) verified; VIX close for Oct 16 not found (last verified ~16.46 on Oct 15). No new private-credit headlines dated October. Fund stats carried forward.",
+    "oneliner": "A -1.09% S&P / -2.14% Nasdaq day and a ~4.5% Nasdaq weekly drop test the calm-but-fragile tape, while gated private credit (Blue Owl, Ares, Cliffwater, BCRED capped at 5%) keeps the daily-liquid alternative contrast front and centre.",
     "stats": [
       {
         "k": "AUM (Series F)",
@@ -538,6 +552,13 @@
     ],
     "signals": [
       {
+        "name": "Oct 16 equity drawdown tests the diversifier case",
+        "reading": "S&P 500 7,659.44 (-1.09%), Nasdaq 26,140.03 (-2.14%), Dow -0.34% (TradingKey); week: S&P -1.95%, Nasdaq -4.5%, Dow +0.7% (Yahoo/CNBC). Oct 16 VIX close not verified (16.46 on Oct 15).",
+        "level": "S&P -1.95% week / VIX n/a",
+        "angle": "First real equity wobble in weeks: market-neutral and macro sleeves are the ballast conversation; contrast with gated semi-liquid private credit.",
+        "tag": "LIVE"
+      },
+      {
         "name": "VIX ~16.46 on Oct 15",
         "reading": "VIX fell ~2.4% to roughly 16.5 (16.46 in one source) on Oct 15 despite hot PPI; still mid-teens calm-but-fragile.",
         "level": "VIX ~16.5",
@@ -596,7 +617,7 @@
     ]
   },
   "ELITE": {
-    "asof": "Oct 16, 2026 run (WebSearch only): still no iA Clarington press release dated October found; latest located is Aug 24 distribution notice (>$26B AUM). October ETF distribution notice expected late Oct (inference). Stats carried forward.",
+    "asof": "Oct 17, 2026 run (WebSearch only): still no October iA Clarington press release found; latest located is Aug 24 distribution notice (>$26B AUM; Sep 23 notice per earlier runs). October ETF distribution notice expected ~Oct 20-24 (inference). Stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
@@ -633,6 +654,13 @@
       }
     ],
     "signals": [
+      {
+        "name": "No fresh Elite Pools news; market drawdown is the conversation hook",
+        "reading": "No new allocation/rebalancing/PM announcement found. Backdrop: Nasdaq -4.5% and S&P -1.95% on the week to Oct 16 (Yahoo/CNBC) while Dow +0.7%.",
+        "level": "No new announcement",
+        "angle": "Diversified Elite Pools held up better than tech-heavy exposure in a rotation week - an easy check-in call with advisors; confirm actual pool returns before quoting.",
+        "tag": "LIVE"
+      },
       {
         "name": "No fresh Elite Pools rebalancing news — 9-day streak",
         "reading": "No new allocation or rebalancing announcement found; latest press release is the Sep 23 Active ETF distribution notice",
