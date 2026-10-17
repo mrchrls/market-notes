@@ -1,0 +1,41 @@
+TerritoryIQ Morning Brief — Saturday, October 17
+
+WHAT CHANGED
+One new signal per mandate, all off Friday's tape: the Oct 16 close is now
+verified (Nasdaq 26,140.03, -2.14%; week -4.5%), where yesterday's feed had only
+the unverified Oct 15 rebound. CCM5604 adds a Fed-odds signal showing the Oct
+hike range split wide across sources (~15% to ~44%). Fund stats and competitor
+entries unchanged.
+
+TODAY'S SIGNAL ANGLES
+
+[CCM5604 · LIVE] 5-yr GIC ceiling — best GIC ~4.50% vs fund YTM 5.7% (carried forward)
+Angle: Tangerine 4.50%, Haventree 4.45%, Oaken 4.40% is what clients are being
+offered. The spread is the income anchor. Best for GIC-renewal calls — note the
+YTM is carried forward, not re-verified today.
+
+[CCM9973 · LIVE] Oct 16 tech rout — Nasdaq 26,140.03 (-2.14%); week -4.5%
+Angle: rate- and financing-driven (hot Sep CPI, CoreWeave debt, China chips), not
+a demand break — 2027 HBM supply largely contracted. Volatility to diversify
+within innovation; name the concentration risk honestly.
+
+[CCM5604 · LIVE] Fed hike odds 15%–44% across sources — 10-yr UST 5.09%
+Angle: pricing swung 30 points in days. That's active duration and currency
+management over a static ladder or a GIC lock-in. FOMC and BoC both Oct 27-28.
+
+[CCM8752 · LIVE] Gating broadens — 11.4% requested vs ~5% planned (North Haven)
+Angle: BCRED ~10% capped at 5%, Apollo ADS 14.7% requested vs 5% paid. Daily
+liquidity is the contrast. For advisors with clients stuck in semi-liquid private
+credit. PG Partners sleeve terms still to confirm.
+
+[ELITE · LIVE] IIME TSX launch ceremony — confirmed Sep 18/26
+Angle: a concrete recent product story for "what's new at iA Clarington?"
+
+WORTH KNOWING
+- Dan Janis III built Manulife Strategic Income and now sub-advises CCM5604.
+  Their Series F AUM $5.58B vs our ~$1.1B — scale is their edge, the manager is
+  ours; their Morningstar record is middling (2-star 3yr/5yr).
+- Fidelity Global Innovators Series F is 1.10% vs our 1.18% last-published; once
+  the Mar 10/26 cut (mgmt 0.45% + admin 0.13%) publishes we should undercut it.
+- No October iA Clarington release yet; next ETF distribution notice expected
+  ~Oct 20-24 (inference).
