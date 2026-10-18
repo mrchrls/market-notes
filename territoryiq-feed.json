@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-17-1006",
+  "updated": "2026-10-18-1007",
   "CCM9973": {
-    "asof": "Oct 17, 2026 run (WebSearch only; fetches blocked): Oct 16 close verified via TradingKey/Yahoo/AP - Nasdaq -2.14%, worst week in months; fund AUM/MER/holdings carried forward.",
+    "asof": "Oct 18, 2026 (Sunday, markets closed): re-searched; no new data since the Oct 16 close (Nasdaq 26,140.03, -2.14%; MU closed $931.24 on Oct 15 per heygotrade). Fund AUM/MER/holdings carried forward.",
     "oneliner": "AI hardware demand is intact (Micron FQ4 beat, 2027 HBM largely contracted), but a hot Sep CPI, 10-yr UST ~5.1% and debt-funded AI build-out worries (CoreWeave) drove a ~4.5% Nasdaq weekly drop - a valuation/financing wobble, not a demand break.",
     "stats": [
       {
@@ -231,7 +231,7 @@
     ]
   },
   "CCM5604": {
-    "asof": "Oct 17, 2026 run (WebSearch only): 10-yr UST 5.09% Oct 16 (AP); Fed Oct hike odds range 15%-44% across sources; BoC 2.25%, decision Oct 28 (consensus not yet published; FXStreet says markets expect holds from both). Fund stats and GIC rates carried forward.",
+    "asof": "Oct 18, 2026 (Sunday): no new data since Oct 16; BoC decision + MPR Oct 28 and FOMC Oct 27-28 still ahead, no fresh consensus found. Fund stats and GIC rates carried forward.",
     "oneliner": "Fed October hike odds whipsawed between ~15% and ~44% in four days while the 10-yr UST hovers ~5.1% and the BoC sits at 2.25% ahead of Oct 28 - a volatile, divergent rate backdrop that favours a flexible global mandate.",
     "stats": [
       {
@@ -458,7 +458,7 @@
     ]
   },
   "CCM8752": {
-    "asof": "Oct 17, 2026 run (WebSearch only): Oct 16 equity rout (Nasdaq -2.14%, S&P -1.09%) verified; VIX close for Oct 16 not found (last verified ~16.46 on Oct 15). No new private-credit headlines dated October. Fund stats carried forward.",
+    "asof": "Oct 18, 2026 (Sunday): Oct 16 VIX close still not found (last verified ~16.46 Oct 15); no October-dated private-credit gating news found. Fund stats carried forward.",
     "oneliner": "A -1.09% S&P / -2.14% Nasdaq day and a ~4.5% Nasdaq weekly drop test the calm-but-fragile tape, while gated private credit (Blue Owl, Ares, Cliffwater, BCRED capped at 5%) keeps the daily-liquid alternative contrast front and centre.",
     "stats": [
       {
@@ -617,7 +617,7 @@
     ]
   },
   "ELITE": {
-    "asof": "Oct 17, 2026 run (WebSearch only): still no October iA Clarington press release found; latest located is Aug 24 distribution notice (>$26B AUM; Sep 23 notice per earlier runs). October ETF distribution notice expected ~Oct 20-24 (inference). Stats carried forward.",
+    "asof": "Oct 18, 2026: still no October iA Clarington press release; latest is the Sep 23 Active ETF distribution notice (record Sep 30, payable Oct 9). October notice likely ~Oct 20-24 (inference). Stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
