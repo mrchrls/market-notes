@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-18-1007",
+  "updated": "2026-10-19-1008",
   "CCM9973": {
-    "asof": "Oct 18, 2026 (Sunday, markets closed): re-searched; no new data since the Oct 16 close (Nasdaq 26,140.03, -2.14%; MU closed $931.24 on Oct 15 per heygotrade). Fund AUM/MER/holdings carried forward.",
+    "asof": "Oct 19, 2026 (Monday, pre-open): re-searched; no Oct 19 index/futures data found; last verified close remains Oct 16 (Nasdaq 26,140.03, -2.14%). Fund AUM/MER/holdings carried forward; no new fund-page data.",
     "oneliner": "AI hardware demand is intact (Micron FQ4 beat, 2027 HBM largely contracted), but a hot Sep CPI, 10-yr UST ~5.1% and debt-funded AI build-out worries (CoreWeave) drove a ~4.5% Nasdaq weekly drop - a valuation/financing wobble, not a demand break.",
     "stats": [
       {
@@ -231,7 +231,7 @@
     ]
   },
   "CCM5604": {
-    "asof": "Oct 18, 2026 (Sunday): no new data since Oct 16; BoC decision + MPR Oct 28 and FOMC Oct 27-28 still ahead, no fresh consensus found. Fund stats and GIC rates carried forward.",
+    "asof": "Oct 19, 2026 (Monday): FOMC and BoC both Oct 28 still ahead. Found an undated Canadian Mortgage Professional/Wealth Professional item (Sept Canada jobs -68k, unemployment 6.5%, BoC Oct 28 hike odds ~25% vs ~40%; Bay Street economists expect a hold, December hike still priced) - date unverified, tagged SAMPLE. Fund stats and GIC rates carried forward.",
     "oneliner": "Fed October hike odds whipsawed between ~15% and ~44% in four days while the 10-yr UST hovers ~5.1% and the BoC sits at 2.25% ahead of Oct 28 - a volatile, divergent rate backdrop that favours a flexible global mandate.",
     "stats": [
       {
@@ -341,6 +341,13 @@
     ],
     "basket": "Rates are diverging: RBA hiked to 4.60% (Sep 29), Fed October-hike odds fell to ~17% on a weak jobs report with the 10-yr UST at 5.27%, and BoC pricing swung to a likely hold (~74%) on Oct 28. USD/CAD (~1.42, Oct 1) and JPY, KRW, MXN prints are carried forward without fresh same-day data. A two-sided, event-driven backdrop for this flexible fund heading into Q4.",
     "signals": [
+      {
+        "name": "Canada Sept jobs -68k; BoC Oct 28 hike odds ~25%",
+        "reading": "Undated trade-press item: Statistics Canada reported -68,000 jobs in September, unemployment 6.5% (from 6.4%); Oct 28 hike odds fell to ~25% from ~40%; five Bay Street economists expect a hold at 2.25%, traders still price a December hike. Aug CPI 3.0% y/y per one source. Date not verified.",
+        "level": "-68k jobs / 6.5% unemployment / ~25% hike odds",
+        "angle": "A weakening Canadian labour market against 3%+ inflation is a policy dilemma - the case for a mandate that can move across central banks rather than bet on one.",
+        "tag": "SAMPLE"
+      },
       {
         "name": "Fed hike odds: 15%-44% depending on source/date",
         "reading": "CME FedWatch ~41-44% on Oct 14 after hot CPI (from ~20%); an FXStreet piece dated Oct 16 cites ~15%; Polymarket ~14% hike / 86% hold. One outlier source cited 64% (disregarded). Fed funds 3.75%-4.00%; FOMC Oct 27-28. 10-yr UST 5.09% Oct 16 (AP) despite hot data. USD/CAD ~1.42 after an 18-month CAD low of 1.428 on Oct 12 (TradingEconomics, Oct 15).",
@@ -458,7 +465,7 @@
     ]
   },
   "CCM8752": {
-    "asof": "Oct 18, 2026 (Sunday): Oct 16 VIX close still not found (last verified ~16.46 Oct 15); no October-dated private-credit gating news found. Fund stats carried forward.",
+    "asof": "Oct 19, 2026 (Monday): Oct 16 VIX close still not found (last verified ~16.46 Oct 15); no October-dated private-credit gating news found (latest is Q2/Q3 coverage already on file). Fund stats carried forward.",
     "oneliner": "A -1.09% S&P / -2.14% Nasdaq day and a ~4.5% Nasdaq weekly drop test the calm-but-fragile tape, while gated private credit (Blue Owl, Ares, Cliffwater, BCRED capped at 5%) keeps the daily-liquid alternative contrast front and centre.",
     "stats": [
       {
@@ -617,7 +624,7 @@
     ]
   },
   "ELITE": {
-    "asof": "Oct 18, 2026: still no October iA Clarington press release; latest is the Sep 23 Active ETF distribution notice (record Sep 30, payable Oct 9). October notice likely ~Oct 20-24 (inference). Stats carried forward.",
+    "asof": "Oct 19, 2026: no October iA Clarington press release found; latest located is the Sep 23 Active ETF distribution notice. October distribution notice likely ~Oct 21-24 (inference, past releases ran ~21st-24th). Stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
