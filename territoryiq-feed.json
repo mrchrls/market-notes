@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-19-1008",
+  "updated": "2026-10-20-1009",
   "CCM9973": {
-    "asof": "Oct 19, 2026 (Monday, pre-open): re-searched; no Oct 19 index/futures data found; last verified close remains Oct 16 (Nasdaq 26,140.03, -2.14%). Fund AUM/MER/holdings carried forward; no new fund-page data.",
+    "asof": "Oct 20, 2026 (Tue, pre-open): Oct 19 session verified via search summaries (Nasdaq ~+1.1%, S&P +0.41% - exact closes not found; sources mix pre-market and close). Fund AUM/MER/holdings carried forward; iaclarington.com not reachable; no new fund-page data.",
     "oneliner": "AI hardware demand is intact (Micron FQ4 beat, 2027 HBM largely contracted), but a hot Sep CPI, 10-yr UST ~5.1% and debt-funded AI build-out worries (CoreWeave) drove a ~4.5% Nasdaq weekly drop - a valuation/financing wobble, not a demand break.",
     "stats": [
       {
@@ -129,6 +129,13 @@
     ],
     "signals": [
       {
+        "name": "Oct 19: tech rebounds after worst week in months",
+        "reading": "Nasdaq futures led early gains (Nasdaq 100 futures ~+1.2%); closing coverage had Nasdaq ~+1.1%, S&P 500 +0.41%, Dow ~-0.07%. Follows the -4.5% Nasdaq week. Big-tech earnings (Tesla, Meta, Netflix) due this week.",
+        "level": "Nasdaq ~+1.1% / S&P +0.41% (exact closes not found)",
+        "angle": "Rebound after a financing/valuation scare supports the 'dips in thematic AI are entry points, not thesis breaks' conversation; earnings week is the next test for capex commentary.",
+        "tag": "LIVE"
+      },
+      {
         "name": "Oct 16: tech rout, Nasdaq -2.14%, worst week in months",
         "reading": "Fri Oct 16 close (TradingKey; Yahoo/AP corroborate direction): S&P 500 7,659.44 (-1.09%), Nasdaq 26,140.03 (-2.14%), Dow 52,002.41 (-0.34%). Week: Nasdaq -4.5%, S&P -1.95%, Dow +0.7% (Yahoo/CNBC). Micron -5%+, CoreWeave nearly -12%; drivers cited: Chinese chip competition, debt-funded AI build-out, higher oil. 10-yr UST 5.09% (AP). Oct 14 Nasdaq 26,692.87 (-1.88%, Reuters). Note: Oct 15 sources conflict (earlier entry said S&P +0.33%; roic/Kitco say Nasdaq fell ~1.3% to near 1-month low) - Oct 15 not resolved.",
         "level": "Nasdaq 26,140.03 (-2.14%); week -4.5%",
@@ -231,7 +238,7 @@
     ]
   },
   "CCM5604": {
-    "asof": "Oct 19, 2026 (Monday): FOMC and BoC both Oct 28 still ahead. Found an undated Canadian Mortgage Professional/Wealth Professional item (Sept Canada jobs -68k, unemployment 6.5%, BoC Oct 28 hike odds ~25% vs ~40%; Bay Street economists expect a hold, December hike still priced) - date unverified, tagged SAMPLE. Fund stats and GIC rates carried forward.",
+    "asof": "Oct 20, 2026 (Tue): FOMC and BoC both Oct 28, still ahead. Oct 19 Fed-odds update found (Oct hike ~15% per Schwab; CME ~85% hold; Dec hike still widely expected). Fund stats, GIC rates, BoC pricing carried forward.",
     "oneliner": "Fed October hike odds whipsawed between ~15% and ~44% in four days while the 10-yr UST hovers ~5.1% and the BoC sits at 2.25% ahead of Oct 28 - a volatile, divergent rate backdrop that favours a flexible global mandate.",
     "stats": [
       {
@@ -341,6 +348,13 @@
     ],
     "basket": "Rates are diverging: RBA hiked to 4.60% (Sep 29), Fed October-hike odds fell to ~17% on a weak jobs report with the 10-yr UST at 5.27%, and BoC pricing swung to a likely hold (~74%) on Oct 28. USD/CAD (~1.42, Oct 1) and JPY, KRW, MXN prints are carried forward without fresh same-day data. A two-sided, event-driven backdrop for this flexible fund heading into Q4.",
     "signals": [
+      {
+        "name": "Fed Oct hike odds ease to ~15% (Oct 19); Dec hike still in play",
+        "reading": "Schwab put Oct hike odds at ~15% vs as high as ~45% earlier in the prior week; one CME FedWatch reading showed 85.1% hold. Odds of a December hike remain high per one source. Oil up again on Houthi attacks on Saudi infrastructure.",
+        "level": "Oct hike ~15% (peak ~45-47% after Sep CPI)",
+        "angle": "Rate-path whiplash in a week: argues for a flexible global income mandate over locking duration; BoC/FOMC both Oct 28.",
+        "tag": "LIVE"
+      },
       {
         "name": "Canada Sept jobs -68k; BoC Oct 28 hike odds ~25%",
         "reading": "Undated trade-press item: Statistics Canada reported -68,000 jobs in September, unemployment 6.5% (from 6.4%); Oct 28 hike odds fell to ~25% from ~40%; five Bay Street economists expect a hold at 2.25%, traders still price a December hike. Aug CPI 3.0% y/y per one source. Date not verified.",
@@ -465,7 +479,7 @@
     ]
   },
   "CCM8752": {
-    "asof": "Oct 19, 2026 (Monday): Oct 16 VIX close still not found (last verified ~16.46 Oct 15); no October-dated private-credit gating news found (latest is Q2/Q3 coverage already on file). Fund stats carried forward.",
+    "asof": "Oct 20, 2026 (Tue): Oct 16 and Oct 19 VIX closes still not found (last verified ~16.46 Oct 15); no October-dated private-credit gating news found. Oct 19 equities rebounded (S&P +0.41%). Fund stats carried forward.",
     "oneliner": "A -1.09% S&P / -2.14% Nasdaq day and a ~4.5% Nasdaq weekly drop test the calm-but-fragile tape, while gated private credit (Blue Owl, Ares, Cliffwater, BCRED capped at 5%) keeps the daily-liquid alternative contrast front and centre.",
     "stats": [
       {
@@ -624,7 +638,7 @@
     ]
   },
   "ELITE": {
-    "asof": "Oct 19, 2026: no October iA Clarington press release found; latest located is the Sep 23 Active ETF distribution notice. October distribution notice likely ~Oct 21-24 (inference, past releases ran ~21st-24th). Stats carried forward.",
+    "asof": "Oct 20, 2026: no October iA Clarington press release found (latest located is Aug 24 distribution notice in today's search; Sep 23 notice already on file). October distribution notice likely ~Oct 21-24 (inference). Stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
