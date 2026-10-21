@@ -33,14 +33,14 @@ Merci pour la rencontre aujourd'hui. Comme promis, voici l'info sur le Fonds de 
 **Indice de référence** : S&P 500 RT ($ CA)
 **RFG estimé** : 0,64 % en série F, 1,83 % en série A
 
-**Chiffres clés**
+**Maxime Houde : caractéristiques du portefeuille**
 
-| Série | Code | Cumul annuel | 1 an | 3 ans | 5 ans | 10 ans | 2025 |
-|---|---|---|---|---|---|---|---|
-| A | [CCM9965](https://iaclarington.com/fr/prix-et-rendement/fonds/actions?wc=9965) | 14,0 % | 14,4 % | 24,4 % | 12,5 % | 10,3 % | 11,6 % |
-| F | [CCM9973](https://iaclarington.com/fr/prix-et-rendement/fonds/actions?wc=9973) | 15,2 % | 15,9 % | 25,9 % | 13,8 % | 11,6 % | 13,0 % |
+| Fonds | Code | RFG estimé | Nombre de titres | Rendement 3 ans | Performance YTD | Performance 2025 |
+|---|---|---|---|---|---|---|
+| Catégorie innovation thématique, série A | [CCM9965](https://iaclarington.com/fr/prix-et-rendement/fonds/actions?wc=9965) | 1,83 % | 102 | 24,40 % | 14,00 % | 11,60 % |
+| Catégorie innovation thématique, série F | [CCM9973](https://iaclarington.com/fr/prix-et-rendement/fonds/actions?wc=9973) | 0,64 % | 102 | 25,90 % | 15,20 % | 13,00 % |
 
-*Au 30 septembre 2026; rendements annualisés sur 3, 5 et 10 ans. Série F : 1er quartile sur 3 ans parmi 1 181 fonds d'actions américaines (Morningstar, au 31 juillet 2026). Actif du Fonds : 111,0 M$, 102 titres. RFG estimé après la baisse des frais du 10 mars 2026 (RFG publiés au 31 mars 2026 : 2,37 % en série A, 1,18 % en série F). Les rendements passés ne garantissent pas les rendements futurs.*
+*Rendements et nombre de titres au 30 septembre 2026 (3 ans annualisé). RFG estimé après la baisse des frais du 10 mars 2026. Les rendements passés ne garantissent pas les rendements futurs.*
 
 Laisse-moi savoir si ça répond bien à tes besoins d'info. Si ton équipe le souhaite, ça va me faire plaisir d'organiser un appel avec Max pour creuser plus loin.
 
@@ -76,14 +76,14 @@ Thanks for the meeting today. As promised, here is the info on Max's fund. The F
 **Benchmark**: S&P 500 TR (CAD)
 **Estimated MER**: 0.64% Series F, 1.83% Series A
 
-**Key metrics**
+**Maxime Houde: portfolio characteristics**
 
-| Series | Code | YTD | 1 yr | 3 yr | 5 yr | 10 yr | 2025 |
-|---|---|---|---|---|---|---|---|
-| A | [CCM9965](https://iaclarington.com/price-performance/funds/equity?wc=9965) | 14.0% | 14.4% | 24.4% | 12.5% | 10.3% | 11.6% |
-| F | [CCM9973](https://iaclarington.com/price-performance/funds/equity?wc=9973) | 15.2% | 15.9% | 25.9% | 13.8% | 11.6% | 13.0% |
+| Fund | Code | Est. MER | Holdings | 3-yr return | YTD | 2025 |
+|---|---|---|---|---|---|---|
+| Thematic Innovation Class, Series A | [CCM9965](https://iaclarington.com/price-performance/funds/equity?wc=9965) | 1.83% | 102 | 24.40% | 14.00% | 11.60% |
+| Thematic Innovation Class, Series F | [CCM9973](https://iaclarington.com/price-performance/funds/equity?wc=9973) | 0.64% | 102 | 25.90% | 15.20% | 13.00% |
 
-*As at September 30, 2026; 3, 5 and 10 yr returns annualized. Series F: 1st quartile over 3 years among 1,181 U.S. equity funds (Morningstar, as at July 31, 2026). Fund assets: $111.0M, 102 holdings. Estimated MER after the March 10, 2026 fee cut (reported MER at March 31, 2026: 2.37% Series A, 1.18% Series F). Past performance is not indicative of future results.*
+*Returns and holdings as at September 30, 2026 (3-yr annualized). Estimated MER after the March 10, 2026 fee cut. Past performance is not indicative of future results.*
 
 Let me know if this covers what you need. If your team would like, I'd be happy to set up a call with Max to dig deeper.
 
@@ -110,6 +110,8 @@ Charles
 - The "Caractéristiques du portefeuille" table and its footnote line replace the two-column key metrics table.
 - Max's views (rotation within tech, inference shift, longer cycle, mobile internet precedent) come from that email, attributed to Maxime. The mobile internet precedent sits in the main body because it explains how the fund captures value from structural change. The rest is in the dated [Optionnel] block.
 - Left out on purpose: the per-layer market moves (Constellation, Intel, AMD, Lumentum, SanDisk, Microsoft, Oracle, Salesforce figures). They are dated and name specific securities.
+
+**v6 note**: the table now uses the "Caractéristiques du portefeuille" format from the Hubert email (one row per series; columns RFG estimé, Nombre de titres, Rendement 3 ans, YTD, 2025). The 1, 5 and 10 year returns, fund assets and the Morningstar quartile were taken out of the table. Add them back from the notes if you need them.
 
 **v5 notes**
 - Official French name per the FR Fund Profile is "Catégorie IA Clarington innovation thématique" (iA writes it "iA" in branding). This resolves the earlier unverified name.
