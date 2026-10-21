@@ -1,7 +1,7 @@
 # CCM9973 / ITIN : courriel de suivi après rencontre (gabarit)
 
 Draft for Charles only. Not for external distribution until compliance has reviewed it.
-v3 (Oct 21, 2026): voice, structure and portfolio table taken from Charles's email to Hubert; the four structural changes framing is kept. Metrics as at September 30, 2026 unless noted. Refresh the table each month. The block marked [Optionnel] is dated market commentary: update it or delete it.
+v4 (Oct 21, 2026): themes and style sections distilled to the monthly-email bullet style. v3: voice, structure and portfolio table taken from Charles's email to Hubert; the four structural changes framing is kept. Metrics as at September 30, 2026 unless noted. Refresh the table each month. The block marked [Optionnel] is dated market commentary: update it or delete it.
 
 Attach: Profil du fonds / Fund Profile (série F) + Aperçu du fonds / Fund Facts (série F).
 
@@ -19,21 +19,21 @@ Merci pour la rencontre [aujourd'hui / du date]! Comme promis, voici l'essentiel
 
 Réponse courte : une position de base en actions américaines qui cherche à capter la valeur de quatre changements structurels. Ce n'est pas un fonds techno.
 
-**Les 4 changements structurels**
+**4 changements structurels**
 
-- **Intelligence artificielle** : la demande de calcul transforme l'énergie et l'infrastructure
-- **Santé et longévité** : la biologie élargit la frontière du traitable
-- **Infrastructure financière** : l'argent migre vers les réseaux numériques
-- **Essentiels et sécurité** : les systèmes essentiels deviennent stratégiques
-- **Pourquoi quatre** : ce sont des moteurs indépendants, puisqu'une pénurie d'électricité, un résultat clinique, un cycle de taux et un budget de défense ne bougent pas ensemble
+- **IA** : la demande de calcul transforme l'énergie et l'infrastructure
+- **Santé** : la biologie élargit ce qu'on peut traiter
+- **Finance** : l'argent migre vers les réseaux numériques
+- **Essentiels** : les systèmes essentiels deviennent stratégiques
+- Quatre moteurs indépendants, qui ne bougent pas ensemble
 
 **Comment travaille Maxime**
 
-- **Valeur ajoutée** : la sélection de titres, entreprise par entreprise, pas le timing sectoriel
-- **Style** : une stratégie haltère, avec des innovateurs qui transforment leur industrie et des leaders dominants qui ont prouvé leur capacité d'adaptation
-- **Discipline** : les fondamentaux d'abord (durabilité des revenus, marges, bilan, évaluation). Une position garde son poids tant que la thèse tient.
-- **Capter la valeur** : selon Maxime, la valeur monte dans la chaîne avec le temps, comme dans le cycle de l'internet mobile, où le leadership est passé des semi-conducteurs aux appareils, puis aux logiciels et services
-- **Équipe** : Maxime Houde, CFA, gestionnaire principal depuis février 2023, avec Jean-René Adam, MSc, CFA (iA Gestion mondiale d'actifs). Maxime est établi au Québec et travaille en français.
+- Sélection de titres, pas de timing sectoriel
+- Stratégie haltère : des innovateurs d'un côté, des leaders éprouvés de l'autre
+- Fondamentaux d'abord; une position reste tant que la thèse tient
+- Selon Maxime, la valeur monte dans la chaîne, comme avec l'internet mobile : des puces aux appareils, puis aux logiciels
+- Gestionnaire principal depuis février 2023, établi au Québec
 
 **[Optionnel] La lecture actuelle de Maxime (octobre 2026)**
 
@@ -74,21 +74,21 @@ Thanks for the meeting [today / on date]! As promised, here are the essentials o
 
 Short answer: a core U.S. equity position that aims to capture the value of four structural changes. It is not a tech fund.
 
-**The 4 structural changes**
+**4 structural changes**
 
-- **Artificial intelligence**: compute demand reshapes power and infrastructure
-- **Health and longevity**: biology expands the treatable frontier
-- **Financial rails**: money migrates to digital networks
-- **Essentials and security**: essential systems become strategic
-- **Why four**: they are independent engines, since a power crunch, a clinical readout, a rate cycle and a defence budget do not move together
+- **AI**: compute demand reshapes power and infrastructure
+- **Health**: biology widens what can be treated
+- **Finance**: money migrates to digital networks
+- **Essentials**: essential systems become strategic
+- Four independent engines that don't move together
 
 **How Maxime works**
 
-- **Value added**: security selection, company by company, not sector timing
-- **Style**: a deliberate barbell, with innovators transforming their industries on one side and dominant companies with proven adaptability on the other
-- **Discipline**: fundamentals first (revenue durability, margins, balance sheet, valuation). A position keeps its weight only as long as the thesis holds.
-- **Capturing value**: in Maxime's view, value moves up the chain over time, as in the mobile internet cycle, when leadership passed from semiconductors to devices, then to software and services
-- **Team**: Maxime Houde, CFA, lead portfolio manager since February 2023, with Jean-René Adam, MSc, CFA (iA Global Asset Management). Maxime is based in Quebec and works in French.
+- Security selection, not sector timing
+- Barbell: innovators on one side, proven leaders on the other
+- Fundamentals first; a position stays only while the thesis holds
+- In Maxime's view, value moves up the chain, as with the mobile internet: from chips to devices, then to software
+- Lead PM since February 2023, based in Quebec
 
 **[Optional] Maxime's current read (October 2026)**
 
@@ -132,6 +132,8 @@ Charles
 - The "Caractéristiques du portefeuille" table and its footnote line replace the two-column key metrics table.
 - Max's views (rotation within tech, inference shift, longer cycle, mobile internet precedent) come from that email, attributed to Maxime. The mobile internet precedent sits in the main body because it explains how the fund captures value from structural change. The rest is in the dated [Optionnel] block.
 - Left out on purpose: the per-layer market moves (Constellation, Intel, AMD, Lumentum, SanDisk, Microsoft, Oracle, Salesforce figures). They are dated and name specific securities.
+
+**v4 note**: co-PM Jean-René Adam is no longer named in the body; he is listed in the attached Fund Profile.
 
 **Compliance flags**
 - Holdings count is 102 at Sep 30, 2026 (fund page). Your Hubert email used 104 at Aug 31.
