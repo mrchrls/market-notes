@@ -37,10 +37,9 @@ Merci pour la rencontre aujourd'hui. Comme promis, voici l'info sur le Fonds de 
 
 | Fonds | Code | RFG estimé | Nombre de titres | Rendement 3 ans | Performance YTD | Performance 2025 |
 |---|---|---|---|---|---|---|
-| Catégorie innovation thématique, série A | [CCM9965](https://iaclarington.com/fr/prix-et-rendement/fonds/actions?wc=9965) | 1,83 % | 102 | 24,40 % | 14,00 % | 11,60 % |
-| Catégorie innovation thématique, série F | [CCM9973](https://iaclarington.com/fr/prix-et-rendement/fonds/actions?wc=9973) | 0,64 % | 102 | 25,90 % | 15,20 % | 13,00 % |
+| Catégorie innovation thématique | [CCM9973](https://iaclarington.com/fr/prix-et-rendement/fonds/actions?wc=9973) | 0,64 % | 102 | 25,90 % | 15,20 % | 13,00 % |
 
-*Rendements et nombre de titres au 30 septembre 2026 (3 ans annualisé). RFG estimé après la baisse des frais du 10 mars 2026. Les rendements passés ne garantissent pas les rendements futurs.*
+*Série F. Rendements et nombre de titres au 30 septembre 2026 (3 ans annualisé). RFG estimé après la baisse des frais du 10 mars 2026. Les rendements passés ne garantissent pas les rendements futurs.*
 
 Laisse-moi savoir si ça répond bien à tes besoins d'info. Si ton équipe le souhaite, ça va me faire plaisir d'organiser un appel avec Max pour creuser plus loin.
 
@@ -80,10 +79,9 @@ Thanks for the meeting today. As promised, here is the info on Max's fund. The F
 
 | Fund | Code | Est. MER | Holdings | 3-yr return | YTD | 2025 |
 |---|---|---|---|---|---|---|
-| Thematic Innovation Class, Series A | [CCM9965](https://iaclarington.com/price-performance/funds/equity?wc=9965) | 1.83% | 102 | 24.40% | 14.00% | 11.60% |
-| Thematic Innovation Class, Series F | [CCM9973](https://iaclarington.com/price-performance/funds/equity?wc=9973) | 0.64% | 102 | 25.90% | 15.20% | 13.00% |
+| Thematic Innovation Class | [CCM9973](https://iaclarington.com/price-performance/funds/equity?wc=9973) | 0.64% | 102 | 25.90% | 15.20% | 13.00% |
 
-*Returns and holdings as at September 30, 2026 (3-yr annualized). Estimated MER after the March 10, 2026 fee cut. Past performance is not indicative of future results.*
+*Series F. Returns and holdings as at September 30, 2026 (3-yr annualized). Estimated MER after the March 10, 2026 fee cut. Past performance is not indicative of future results.*
 
 Let me know if this covers what you need. If your team would like, I'd be happy to set up a call with Max to dig deeper.
 
