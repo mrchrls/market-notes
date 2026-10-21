@@ -26,7 +26,7 @@ Merci pour la rencontre aujourd'hui. Comme promis, voici l'info sur le Fonds de 
 - **Intelligence artificielle** : des gains de productivité dans tous les secteurs, avec une rotation active entre les 5 étages de l'IA
 - **Santé et longévité** : le vieillissement de la population et l'élargissement de la frontière du traitable
 - **Infrastructure financière** : l'argent migre vers les réseaux numériques
-- **Essentiels et sécurité** : les systèmes essentiels deviennent stratégiques
+- **Essentiels et sécurité** : la défense, le transport et la consommation de base, une demande qui tient peu importe le cycle
 
 **Style** : analyse fondamentale, repositionnement tactique
 **Risque** : moyen
@@ -68,7 +68,7 @@ Thanks for the meeting today. As promised, here is the info on Max's fund. The F
 - **Artificial intelligence**: productivity gains across every sector, with active rotation across the 5 layers of AI
 - **Health and longevity**: an aging population and a wider treatable frontier
 - **Financial rails**: money migrates to digital networks
-- **Essentials and security**: essential systems become strategic
+- **Essentials and security**: defence, transportation and consumer staples, demand that holds up whatever the cycle
 
 **Style**: fundamental analysis, tactical repositioning
 **Risk**: Medium
