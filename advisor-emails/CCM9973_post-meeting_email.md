@@ -1,5 +1,7 @@
 # CCM9973 / ITIN : courriel de suivi après rencontre (gabarit)
 
+v5 (Oct 21, 2026): Charles's revised structure, completed. Series A codes and returns from the Series A/T Fund Profile (FR, Sep 30, 2026) and the fund page wc=9965.
+
 Draft for Charles only. Not for external distribution until compliance has reviewed it.
 v4 (Oct 21, 2026): themes and style sections distilled to the monthly-email bullet style. v3: voice, structure and portfolio table taken from Charles's email to Hubert; the four structural changes framing is kept. Metrics as at September 30, 2026 unless noted. Refresh the table each month. The block marked [Optionnel] is dated market commentary: update it or delete it.
 
@@ -9,50 +11,38 @@ Attach: Profil du fonds / Fund Profile (série F) + Aperçu du fonds / Fund Fact
 
 ## Version française (par défaut)
 
-**Objet :** *Équipe Clarington* ITIN : 4 changements structurels, un seul fonds
+**Objet :** *Équipe Clarington* Le Fonds de Max en bref
 
 Salut [Prénom],
 
-Merci pour la rencontre [aujourd'hui / du date]! Comme promis, voici l'essentiel sur le Fonds de Maxime. Je te mets en P.J. le profil du Fonds et l'Aperçu du fonds pour le détail.
+Merci pour la rencontre aujourd'hui. Comme promis, voici l'info sur le Fonds de Max. Je te mets en P.J. le profil du Fonds et l'Aperçu du fonds pour le détail.
 
-[Optionnel : une ligne qui reprend ce dont on a parlé, p. ex. « Ça rejoint bien ton idée de … »]
+**Catégorie iA Clarington innovation thématique** · Série A : [CCM9965](https://iaclarington.com/fr/prix-et-rendement/fonds/actions?wc=9965) · Série F : [CCM9973](https://iaclarington.com/fr/prix-et-rendement/fonds/actions?wc=9973)
 
-Réponse courte : une position de base en actions américaines qui cherche à capter la valeur de quatre changements structurels. Ce n'est pas un fonds techno.
+**Rôle** : Core US, en structure de catégorie de société
 
-**4 changements structurels**
+**Stratégie** : capter la valeur de quatre changements structurels
 
-- **IA** : la demande de calcul transforme l'énergie et l'infrastructure
-- **Santé** : la biologie élargit ce qu'on peut traiter
-- **Finance** : l'argent migre vers les réseaux numériques
-- **Essentiels** : les systèmes essentiels deviennent stratégiques
-- Quatre moteurs indépendants, qui ne bougent pas ensemble
+- **Intelligence artificielle** : un gain de productivité qui touche tous les secteurs
+- **Santé et longévité** : le vieillissement de la population et l'élargissement de la frontière du traitable
+- **Infrastructure financière** : l'argent migre vers les réseaux numériques
+- **Essentiels et sécurité** : les systèmes essentiels deviennent stratégiques
 
-**Comment travaille Maxime**
+**Style** : analyse fondamentale, repositionnement tactique
+**Risque** : moyen
+**Indice de référence** : S&P 500 RT ($ CA)
+**RFG estimé** : 0,64 % en série F, 1,83 % en série A
 
-- Sélection de titres, pas de timing sectoriel
-- Stratégie haltère : des innovateurs d'un côté, des leaders éprouvés de l'autre
-- Fondamentaux d'abord; une position reste tant que la thèse tient
-- Selon Maxime, la valeur monte dans la chaîne, comme avec l'internet mobile : des puces aux appareils, puis aux logiciels
-- Gestionnaire principal depuis février 2023, établi au Québec
+**Chiffres clés**
 
-**[Optionnel] La lecture actuelle de Maxime (octobre 2026)**
+| Série | Code | Cumul annuel | 1 an | 3 ans | 5 ans | 10 ans | 2025 |
+|---|---|---|---|---|---|---|---|
+| A | [CCM9965](https://iaclarington.com/fr/prix-et-rendement/fonds/actions?wc=9965) | 14,0 % | 14,4 % | 24,4 % | 12,5 % | 10,3 % | 11,6 % |
+| F | [CCM9973](https://iaclarington.com/fr/prix-et-rendement/fonds/actions?wc=9973) | 15,2 % | 15,9 % | 25,9 % | 13,8 % | 11,6 % | 13,0 % |
 
-- Pas une sortie de la tech, mais une rotation à l'intérieur de la tech vers la prochaine étape du cycle
-- La majorité du calcul devrait migrer de l'entraînement des modèles vers l'inférence, qui demandera des puces et des architectures différentes. L'équipe est donc plus sélective dans les puces.
-- Le levier de certains émetteurs va étirer l'investissement en IA dans le temps, ce qui donne un cycle plus long et moins explosif
-- L'opportunité monte vers les modèles, les applications et la diffusion de l'IA dans l'économie (santé, robotique)
+*Au 30 septembre 2026; rendements annualisés sur 3, 5 et 10 ans. Série F : 1er quartile sur 3 ans parmi 1 181 fonds d'actions américaines (Morningstar, au 31 juillet 2026). Actif du Fonds : 111,0 M$, 102 titres. RFG estimé après la baisse des frais du 10 mars 2026 (RFG publiés au 31 mars 2026 : 2,37 % en série A, 1,18 % en série F). Les rendements passés ne garantissent pas les rendements futurs.*
 
-[Insérer : Le précédent de l'internet mobile, graphique de ton courriel à Hubert]
-
-**Maxime Houde : caractéristiques du portefeuille**
-
-| Fonds | Code | RFG estimé | Nombre de titres | Rendement 3 ans | Performance YTD | Performance 2025 |
-|---|---|---|---|---|---|---|
-| Catégorie innovation thématique | CCM9973 | 0,64 % | 102 | 25,9 % | 15,2 % | 13,0 % |
-
-*Série F. Rendements et nombre de titres au 30 septembre 2026 (3 ans annualisé). RFG estimé après la baisse des frais du 10 mars 2026. 1er quartile sur 3 ans parmi 1 181 fonds d'actions américaines (Morningstar, au 31 juillet 2026). Actif : 111,0 M$. Risque : moyen. Aussi offert en série FNB (ITIN, TSX), frais de gestion de 0,45 %. Les rendements passés ne garantissent pas les rendements futurs.*
-
-Laisse-moi savoir si ça répond bien à tes besoins d'info. Si ton équipe le souhaite, ça va me faire plaisir d'organiser un appel avec Maxime pour creuser plus loin.
+Laisse-moi savoir si ça répond bien à tes besoins d'info. Si ton équipe le souhaite, ça va me faire plaisir d'organiser un appel avec Max pour creuser plus loin.
 
 Charles
 
@@ -64,50 +54,38 @@ Charles
 
 ## English version
 
-**Subject:** *Team Clarington* ITIN: 4 structural changes, one fund
+**Subject:** *Team Clarington* Max's fund at a glance
 
 Hi [First name],
 
-Thanks for the meeting [today / on date]! As promised, here are the essentials on Maxime's fund. The Fund Profile and Fund Facts are attached for the details.
+Thanks for the meeting today. As promised, here is the info on Max's fund. The Fund Profile and Fund Facts are attached for the details.
 
-[Optional: one line tying back to your conversation.]
+**iA Clarington Thematic Innovation Class** · Series A: [CCM9965](https://iaclarington.com/price-performance/funds/equity?wc=9965) · Series F: [CCM9973](https://iaclarington.com/price-performance/funds/equity?wc=9973)
 
-Short answer: a core U.S. equity position that aims to capture the value of four structural changes. It is not a tech fund.
+**Role**: Core U.S. equity, in a corporate class structure
 
-**4 structural changes**
+**Strategy**: capture the value of four structural changes
 
-- **AI**: compute demand reshapes power and infrastructure
-- **Health**: biology widens what can be treated
-- **Finance**: money migrates to digital networks
-- **Essentials**: essential systems become strategic
-- Four independent engines that don't move together
+- **Artificial intelligence**: productivity gains across every sector
+- **Health and longevity**: an aging population and a wider treatable frontier
+- **Financial rails**: money migrates to digital networks
+- **Essentials and security**: essential systems become strategic
 
-**How Maxime works**
+**Style**: fundamental analysis, tactical repositioning
+**Risk**: Medium
+**Benchmark**: S&P 500 TR (CAD)
+**Estimated MER**: 0.64% Series F, 1.83% Series A
 
-- Security selection, not sector timing
-- Barbell: innovators on one side, proven leaders on the other
-- Fundamentals first; a position stays only while the thesis holds
-- In Maxime's view, value moves up the chain, as with the mobile internet: from chips to devices, then to software
-- Lead PM since February 2023, based in Quebec
+**Key metrics**
 
-**[Optional] Maxime's current read (October 2026)**
+| Series | Code | YTD | 1 yr | 3 yr | 5 yr | 10 yr | 2025 |
+|---|---|---|---|---|---|---|---|
+| A | [CCM9965](https://iaclarington.com/price-performance/funds/equity?wc=9965) | 14.0% | 14.4% | 24.4% | 12.5% | 10.3% | 11.6% |
+| F | [CCM9973](https://iaclarington.com/price-performance/funds/equity?wc=9973) | 15.2% | 15.9% | 25.9% | 13.8% | 11.6% | 13.0% |
 
-- Not an exit from tech, but a rotation within tech toward the next stage of the cycle
-- Most compute should shift from training models to inference, which will need different chips and architectures. The team is therefore more selective in chips.
-- Leverage at some issuers will stretch AI investment over time, making for a longer, less explosive cycle
-- The opportunity is moving toward models, applications and the spread of AI through the economy (health care, robotics)
+*As at September 30, 2026; 3, 5 and 10 yr returns annualized. Series F: 1st quartile over 3 years among 1,181 U.S. equity funds (Morningstar, as at July 31, 2026). Fund assets: $111.0M, 102 holdings. Estimated MER after the March 10, 2026 fee cut (reported MER at March 31, 2026: 2.37% Series A, 1.18% Series F). Past performance is not indicative of future results.*
 
-[Insert: The mobile internet precedent, chart from your email to Hubert]
-
-**Maxime Houde: portfolio characteristics**
-
-| Fund | Code | Est. MER | Holdings | 3-yr return | YTD | 2025 |
-|---|---|---|---|---|---|---|
-| Thematic Innovation Class | CCM9973 | 0.64% | 102 | 25.9% | 15.2% | 13.0% |
-
-*Series F. Returns and holdings as at September 30, 2026 (3-yr annualized). Estimated MER after the March 10, 2026 fee cut. 1st quartile over 3 years among 1,181 U.S. equity funds (Morningstar, as at July 31, 2026). Fund assets: $111.0M. Risk rating: Medium. Also available as an ETF Series (ITIN, TSX), 0.45% management fee. Past performance is not indicative of future results.*
-
-Let me know if this covers what you need. If your team would like, I'd be happy to set up a call with Maxime to dig deeper.
+Let me know if this covers what you need. If your team would like, I'd be happy to set up a call with Max to dig deeper.
 
 Charles
 
@@ -132,6 +110,14 @@ Charles
 - The "Caractéristiques du portefeuille" table and its footnote line replace the two-column key metrics table.
 - Max's views (rotation within tech, inference shift, longer cycle, mobile internet precedent) come from that email, attributed to Maxime. The mobile internet precedent sits in the main body because it explains how the fund captures value from structural change. The rest is in the dated [Optionnel] block.
 - Left out on purpose: the per-layer market moves (Constellation, Intel, AMD, Lumentum, SanDisk, Microsoft, Oracle, Salesforce figures). They are dated and name specific securities.
+
+**v5 notes**
+- Official French name per the FR Fund Profile is "Catégorie IA Clarington innovation thématique" (iA writes it "iA" in branding). This resolves the earlier unverified name.
+- Series A CAD code 9965 is front-end (FI). Series A USD is 9977, Series F USD is 9985 (not in the email).
+- French fund page links (/fr/prix-et-rendement/fonds/actions?wc=) were checked for 9965 only; click-test 9973 before sending.
+- "Repositionnement tactique" is your wording. Your deck says alpha comes from security selection, not sector timing, so check Max is fine with "tactique".
+- "Catégorie de société" describes the structure (shares of Clarington Sector Fund Inc., per the TSX bulletin). No tax benefit is claimed; compliance may want it that way.
+- The ETF series (ITIN) and the dated [Optionnel] commentary block are no longer in the email.
 
 **v4 note**: co-PM Jean-René Adam is no longer named in the body; he is listed in the attached Fund Profile.
 
