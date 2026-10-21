@@ -23,7 +23,7 @@ Merci pour la rencontre aujourd'hui. Comme promis, voici l'info sur le Fonds de 
 
 **Stratégie** : capter la valeur de quatre changements structurels
 
-- **Intelligence artificielle** : un gain de productivité qui touche tous les secteurs
+- **Intelligence artificielle** : des gains de productivité dans tous les secteurs, avec une rotation active entre les 5 étages de l'IA
 - **Santé et longévité** : le vieillissement de la population et l'élargissement de la frontière du traitable
 - **Infrastructure financière** : l'argent migre vers les réseaux numériques
 - **Essentiels et sécurité** : les systèmes essentiels deviennent stratégiques
@@ -65,7 +65,7 @@ Thanks for the meeting today. As promised, here is the info on Max's fund. The F
 
 **Strategy**: capture the value of four structural changes
 
-- **Artificial intelligence**: productivity gains across every sector
+- **Artificial intelligence**: productivity gains across every sector, with active rotation across the 5 layers of AI
 - **Health and longevity**: an aging population and a wider treatable frontier
 - **Financial rails**: money migrates to digital networks
 - **Essentials and security**: essential systems become strategic
