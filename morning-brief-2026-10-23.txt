@@ -1,0 +1,44 @@
+TerritoryIQ Morning Brief — Friday, October 23
+
+WHAT CHANGED
+Nothing material. Today's feed is identical to yesterday's apart from the
+timestamp and the four "as of" notes — no signal, stat or competitor figure
+moved. Only wording change of note: CCM8752's VIX line now reads "no print
+newer than Oct 7 (15.67)" instead of citing Oct 2's 15.31.
+
+TODAY'S SIGNAL ANGLES
+
+[CCM5604 · LIVE] 5-yr GIC ceiling — best GIC ~4.50% vs fund YTM 5.7%
+Angle: Tangerine 4.50%, Haventree 4.45%, Oaken 4.40% is the ceiling; the
+fund's 5.7% YTM sits above all three on 3.9-yr duration. Best for GIC-renewal
+conversations. (YTM carried forward, unverified today.)
+
+[CCM8752 · LIVE] Private credit capped at 5% — Blue Owl Tech Income 39%
+requested, Ares 11.6%, Cliffwater ~16%
+Angle: All capped at 5%; Cliffwater filled about a third. Fitch private-credit
+default rate at a record 6.0%. Daily liquidity is the differentiator — use with
+any advisor holding semi-liquid private credit.
+
+[CCM5604 · LIVE] Fed hike odds 15%–44% depending on source — 10-yr UST 5.09%
+Angle: Pricing swung ~30 points in days; USD/CAD ~1.42 after an 18-month CAD
+low of 1.428. FOMC and BoC both Oct 28 — make the active duration/currency case
+this week, ahead of the decisions.
+
+[CCM9973 · LIVE] Micron blowout FQ4 — FQ1 guide ~$61.5B rev / $38.15 EPS
+Angle: Revenue $54.2B vs $51.07B est., EPS $33.42 vs $31.61, most calendar-2027
+HBM contracted at higher prices — and the stock closed roughly flat. "Demand
+isn't the issue, expectations are." Your answer to "AI is a bubble."
+
+[ELITE · LIVE] IIME TSX launch ceremony — confirmed Sep 18/26
+Angle: A concrete, recent product story for "what's new at iA Clarington."
+Still no fresh Elite Pools rebalancing news.
+
+WORTH KNOWING
+- Dan Janis, who built Manulife Strategic Income, now sub-advises CCM5604.
+  Manulife Series F: 0.90% MER, $5.58B AUM; ours 0.84%, ~$1.1B.
+- Backdrop for check-in calls: week to Oct 16 Nasdaq -4.5%, S&P -1.95%,
+  Dow +0.7% — rotation, not collapse.
+- iaclarington.com was unreachable again, so AUM/MER/holdings are carried
+  forward. Don't quote fund stats as today's.
+
+Feed stamp: 2026-10-23-1012
