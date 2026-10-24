@@ -1,0 +1,44 @@
+TerritoryIQ Morning Brief — Saturday, October 24
+
+Feed stamp: 2026-10-24-1008 (fresh)
+
+WHAT CHANGED
+Three new signals vs yesterday's feed: the Oct 23 close (Nasdaq 25,955.34,
+-0.21%; week -0.7% vs -4.5% the prior week), firmer Fed pricing into Oct 27-28
+(hold ~83-87%), and VIX back near 20 (~19.5 vs ~16.5 on Oct 15). Elite Pools:
+still no fresh rebalancing news.
+
+TODAY'S SIGNAL ANGLES
+
+[CCM5604 · LIVE] Fed Oct 27-28: hold expected, December hike risk
+— hold ~83-87% / hike ~14-17%
+Angle: Hike-biased Fed vs BoC at 2.25%, oil >$100. A flexible global mandate
+(3.9-yr duration, multi-currency) beats a fixed-rate GIC. Use it before the
+twin Oct 28 decisions.
+
+[CCM5604 · LIVE] 5-yr GIC ceiling — best GIC ~4.50% vs fund YTM 5.7%
+(carried forward)
+Angle: ~120 bps pickup with active duration. The anchor for GIC-renewal calls
+— YTM is unverified today, so keep it verbal, not in writing.
+
+[CCM8752 · LIVE] VIX back near 20 — VIX ~19.5-20
+Angle: The calm regime is ending (up from ~16.5 on Oct 15). Market-neutral and
+macro sleeves as ballast — best for advisors reviewing risk after this week.
+
+[CCM8752 · LIVE] Private credit capped at 5% in Q3
+— 39% / 11.6% / ~16% requested vs 5% cap
+Angle: Blue Owl, Ares and Cliffwater all gated. Daily liquidity is the
+differentiator for any advisor with clients stuck in semi-liquid credit.
+
+[CCM9973 · LIVE] Oct 23: AI-spending worries weigh on tech
+— Nasdaq 25,955.34 / wk -0.7%
+Angle: Alphabet, Microsoft and Amazon report next week — capex confirmation is
+the ITIN catalyst. Frame dips as valuation, not a demand break.
+
+WORTH KNOWING
+- CCM5604 MER 0.84% vs Manulife Strategic Income 0.90% (Series F) — and Dan
+  Janis III, who built Manulife's flagship, now sub-advises ours at Agile.
+- CCM9973's Mar 10/26 fee cut (mgmt 1.00% -> 0.45%) is in effect but the new
+  trailing MER isn't published yet; Fidelity Global Innovators Series F is 1.10%.
+- Elite: IIME's TSX ceremony (Sep 18/26) is still the freshest product story if
+  an advisor asks what's new at iA Clarington.
