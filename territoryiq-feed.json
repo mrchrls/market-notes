@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-24-1008",
+  "updated": "2026-10-25-1007",
   "CCM9973": {
-    "asof": "Oct 24, 2026 (Sat): Reuters/CNBC-syndicated wrap (search snippets; early Reuters figures preliminary): Fri Oct 23 close S&P 500 7,623.68 (-0.52%), Nasdaq 25,955.34 (-0.21%), Dow 52,215.16 (-1.23%); week S&P -0.5%, Nasdaq -0.7%; AI-spending worries, US oil >$100, VIX ~19.5 (intraday 20.24, sources differ). iaclarington.com not re-checked/reachable; AUM/MER/holdings carried forward unchanged. Story unchanged.",
+    "asof": "Oct 25, 2026 (Sun): markets closed; no new session data. Searches re-surfaced the Oct 16 sell-off (Nasdaq -2.14% to 26,140.03, S&P -1.09% to 7,659.44, SOX -3.8%; week Nasdaq -4.48%) and no fresher verified close than the Oct 23 figures already on file. iaclarington.com not re-checked/reachable; AUM/MER/holdings carried forward unchanged. Story unchanged.",
     "oneliner": "AI hardware demand is intact (Micron FQ4 beat, 2027 HBM largely contracted), but a hot Sep CPI, 10-yr UST ~5.1% and debt-funded AI build-out worries (CoreWeave) drove a ~4.5% Nasdaq weekly drop - a valuation/financing wobble, not a demand break.",
     "stats": [
       {
@@ -245,7 +245,7 @@
     ]
   },
   "CCM5604": {
-    "asof": "Oct 24, 2026 (Sat): BoC decision Oct 28 09:45 ET still ahead (policy rate 2.25%; hold ~68% / hike ~32% per prediction-market pages, low reliability). Fed meeting Oct 27-28: hold at 3.75-4.00% ~83-87% (CME FedWatch Oct 20), hike ~14-17%; Chair Warsh says he won't prejudge; December hike risk bigger. US oil >$100 Oct 23. Fund stats, GICs carried forward.",
+    "asof": "Oct 25, 2026 (Sun): BoC decision Wed Oct 28 09:45 ET still ahead (policy rate 2.25%, held since Oct 29/25; prediction-market pages ~67-68% hold / ~32-33% 25bp hike, low reliability; Sep jobs reported -68k, unemployment 6.5% in one outlook piece, unverified). Fed meeting Oct 27-28 ahead; no fresher FedWatch odds found today (Chair Warsh hawkish tilt). Fund stats, GICs carried forward.",
     "oneliner": "Fed October hike odds whipsawed between ~15% and ~44% in four days while the 10-yr UST hovers ~5.1% and the BoC sits at 2.25% ahead of Oct 28 - a volatile, divergent rate backdrop that favours a flexible global mandate.",
     "stats": [
       {
@@ -493,7 +493,7 @@
     ]
   },
   "CCM8752": {
-    "asof": "Oct 24, 2026 (Sat): VIX ~19.5 on Oct 23 (one report; intraday 20.24 cited elsewhere; heading for first weekly close >20 since early 2026). Equities: S&P 500 7,623.68 (-0.52%), Dow -1.23%. No October-dated private-credit gating news found today. Fund stats carried forward unchanged.",
+    "asof": "Oct 25, 2026 (Sun): markets closed; no fresher VIX print found today (last on file ~19.5 on Oct 23; sell-off week of Oct 16 saw the highest intraday VIX in four months). No October-dated private-credit gating news found. Fund stats carried forward unchanged.",
     "oneliner": "A -1.09% S&P / -2.14% Nasdaq day and a ~4.5% Nasdaq weekly drop test the calm-but-fragile tape, while gated private credit (Blue Owl, Ares, Cliffwater, BCRED capped at 5%) keeps the daily-liquid alternative contrast front and centre.",
     "stats": [
       {
@@ -659,7 +659,7 @@
     ]
   },
   "ELITE": {
-    "asof": "Oct 24, 2026 (Sat): iA Clarington press-release search again found nothing dated October 2026 (latest located: Jul 24 distribution notice; $26B+ AUM at Jun 30/26). Oct Active ETF distribution notice usually ~22nd-24th, not located. Stats carried forward.",
+    "asof": "Oct 25, 2026 (Sun): iA Clarington press-release search again found nothing dated October 2026 (latest located: Jul 24 distribution notice; $26B+ AUM at Jun 30/26). Oct Active ETF distribution notice usually ~22nd-24th, not located. Stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
