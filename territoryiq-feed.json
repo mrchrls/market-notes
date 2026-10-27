@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-26-1007",
+  "updated": "2026-10-27-1015",
   "CCM9973": {
-    "asof": "Oct 26, 2026 (Mon): LIVE (secondary recaps) Oct 23 close was mixed-to-lower on oil/Middle East tension: S&P ~-0.5%, Nasdaq ~-0.2% to flat, Dow ~-1.2%; week S&P ~-0.5%, Nasdaq ~-0.7%. Oct 20 Nasdaq 26,424.82 vs Oct 16 low-close 26,140.03. Central-bank super week (Fed, ECB, BoJ) ahead. iaclarington.com unreachable from this environment; AUM/MER/holdings carried forward unchanged. Story unchanged.",
+    "asof": "Oct 27, 2026 (Tue): LIVE (CNBC via search) Mon Oct 26 close: S&P 500 7,676.77 (+0.70%), Nasdaq 26,169.38 (+0.82%), Dow 52,361.58 (+0.28%); NVDA +2.4% to ~$216.00. Rebound after last week's AI-spending wobble; Fed decision Wed Oct 28. iaclarington.com not reachable; AUM/MER/holdings carried forward. Story unchanged.",
     "oneliner": "AI hardware demand is intact (Micron FQ4 beat, 2027 HBM largely contracted), but a hot Sep CPI, 10-yr UST ~5.1% and debt-funded AI build-out worries (CoreWeave) drove a ~4.5% Nasdaq weekly drop - a valuation/financing wobble, not a demand break.",
     "stats": [
       {
@@ -129,6 +129,13 @@
     ],
     "signals": [
       {
+        "name": "Oct 26 close: tech rebounds into Fed week",
+        "reading": "S&P 500 7,676.77 (+0.70%), Nasdaq 26,169.38 (+0.82%), Dow 52,361.58 (+0.28%); NVDA +2.4% to ~$216.00 (Nasdaq data). Morgan Stanley's Wilson sees the correction ending as risks clear (single-source).",
+        "level": "Nasdaq 26,169.38 (+0.82%)",
+        "angle": "Dip-buying pattern: the Oct 16-23 AI-capex wobble did not break hardware demand; a talking point for holding the thematic sleeve through volatility.",
+        "tag": "LIVE"
+      },
+      {
         "name": "Oct 23 close: AI-spending worries weigh on tech",
         "reading": "S&P 500 7,623.68 (-0.52%), Nasdaq 25,955.34 (-0.21%); week Nasdaq -0.7% (vs -4.5% prior week); selling on Oct 22-23 attributed to AI-spending concerns; Alphabet, Microsoft, Amazon earnings next week.",
         "level": "Nasdaq 25,955.34 / wk -0.7%",
@@ -245,7 +252,7 @@
     ]
   },
   "CCM5604": {
-    "asof": "Oct 26, 2026 (Mon): BoC decision Wed Oct 28 09:45 ET still ahead (policy rate 2.25%; prediction-market pages ~68% hold / ~32% 25bp hike, low reliability; Sep jobs -68k, unemployment 6.5% per one outlook piece, unverified). Fed meets Oct 27-28: reported range 3.75%-4.00% after Sep hike; mid-Oct FedWatch ~15% hike odds (stale), markets largely rule out an October hike and look to December; oil/Iran-war fuel inflation is the key risk. RBA hike odds reported >60% (ABC, Oct 26). Fund stats, GICs carried forward.",
+    "asof": "Oct 27, 2026 (Tue): BoC decision Wed Oct 28 09:45 ET still ahead (policy rate 2.25%; prediction-market pages split ~61% hike vs ~68% hold, low reliability; Sep jobs -68k, unemployment 6.5% per one outlook piece). Fed meets Oct 27-28; AP: widespread expectation of a hold. BoC surveys show rising inflation expectations. Fund stats, GICs carried forward.",
     "oneliner": "Fed October hike odds whipsawed between ~15% and ~44% in four days while the 10-yr UST hovers ~5.1% and the BoC sits at 2.25% ahead of Oct 28 - a volatile, divergent rate backdrop that favours a flexible global mandate.",
     "stats": [
       {
@@ -355,6 +362,13 @@
     ],
     "basket": "Rates are diverging: RBA hiked to 4.60% (Sep 29), Fed October-hike odds fell to ~17% on a weak jobs report with the 10-yr UST at 5.27%, and BoC pricing swung to a likely hold (~74%) on Oct 28. USD/CAD (~1.42, Oct 1) and JPY, KRW, MXN prints are carried forward without fresh same-day data. A two-sided, event-driven backdrop for this flexible fund heading into Q4.",
     "signals": [
+      {
+        "name": "Fed/BoC decisions Wed Oct 28",
+        "reading": "AP: Fed widely expected to leave rates unchanged Wed; BoC at 2.25% with Business Outlook Survey showing rising firm/consumer inflation expectations; hike odds quoted anywhere from ~32% to ~61% depending on source.",
+        "level": "BoC hold vs hike unresolved",
+        "angle": "Divergent central banks (BoC possible hike, Fed hold, RBA tightening) are the case for a flexible global mandate; revisit with Oct 28 outcomes.",
+        "tag": "LIVE"
+      },
       {
         "name": "Fed Oct 27-28: hold expected, December hike risk",
         "reading": "CME FedWatch (Oct 20): ~83% hold at 3.75-4.00%, ~17% hike; Kalshi/Polymarket ~14% hike (Oct 18); analysts see December quarter-point hike as the bigger bet. US oil topped $100 Oct 23.",
@@ -493,7 +507,7 @@
     ]
   },
   "CCM8752": {
-    "asof": "Oct 26, 2026 (Mon): no fresher VIX print found (last on file ~19.5 on Oct 23). Oil spike and central-bank super week keep volatility regime elevated-but-orderly. Private-credit gating: only 2026 background found (Blue Owl, Barings 5% cap, Torys Jun/26 note); nothing dated October. Fund stats carried forward unchanged.",
+    "asof": "Oct 27, 2026 (Tue): no fresh VIX print found today (last on file ~19.5 on Oct 23); equities rebounded Oct 26 (S&P +0.70%). No October-dated private-credit gating news located; background unchanged. Fund stats carried forward.",
     "oneliner": "A -1.09% S&P / -2.14% Nasdaq day and a ~4.5% Nasdaq weekly drop test the calm-but-fragile tape, while gated private credit (Blue Owl, Ares, Cliffwater, BCRED capped at 5%) keeps the daily-liquid alternative contrast front and centre.",
     "stats": [
       {
@@ -659,12 +673,12 @@
     ]
   },
   "ELITE": {
-    "asof": "Oct 26, 2026 (Mon): iA Clarington press-release search again found nothing dated October 2026 (latest located: Jul 24 distribution notice; $26B+ AUM at Jun 30/26); iaclarington.com unreachable from this environment. Oct Active ETF distribution notice not located. Stats carried forward.",
+    "asof": "Oct 27, 2026 (Tue): LIVE iA Clarington announced October 2026 Active ETF Series distributions (Oct 23; record Oct 30, payable Nov 10; IGEO declared zero) and cites $26B+ AUM as of Sep 30/26. No Elite Pools rebalancing or sub-advisor news found. Other stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
         "k": "iA Clarington overall AUM",
-        "v": "$26B+ — reconfirmed again today; source materials show a minor internal date inconsistency (Jul 31/26 vs. Aug 31/26 cited in different iA Clarington releases for the same >$26B figure)"
+        "v": "$26B+ as of Sep 30/26 (per Oct 23 release)"
       },
       {
         "k": "iAGAM firm-wide AUM",
@@ -696,6 +710,13 @@
       }
     ],
     "signals": [
+      {
+        "name": "October Active ETF distributions announced",
+        "reading": "Oct 23 release: record date Oct 30/26, payable Nov 10/26; IGEO declared zero; iA Clarington AUM $26B+ at Sep 30/26 (search summary of cantechletter newswire).",
+        "level": "Record Oct 30 / pay Nov 10",
+        "angle": "Routine touchpoint for ETF-using advisors; no allocation change to flag.",
+        "tag": "LIVE"
+      },
       {
         "name": "No fresh Elite Pools news; market drawdown is the conversation hook",
         "reading": "No new allocation/rebalancing/PM announcement found. Backdrop: Nasdaq -4.5% and S&P -1.95% on the week to Oct 16 (Yahoo/CNBC) while Dow +0.7%.",
