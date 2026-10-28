@@ -1,0 +1,47 @@
+TerritoryIQ Morning Brief — Wednesday, October 28
+
+WHAT CHANGED
+Only the as-of lines moved overnight — no new, dropped or reworded signals
+across the four mandates. The Oct 27 US close is now in (S&P 500 7,722.60
++0.6%, Nasdaq 26,477.81 +1.18%), chipmakers rallied on Anthropic's IPO
+filing, and the BoC and Fed decisions both land today.
+
+TODAY'S SIGNAL ANGLES
+
+[CCM5604 · LIVE] Fed/BoC decisions Wed Oct 28 — BoC hold vs hike unresolved
+Angle: Fed hold ~87-91% at 3.75-4.00%; BoC at 2.25% with hike odds quoted
+from ~32% to ~61% depending on source. Divergent central banks make the case
+for a flexible global mandate. Call advisors after 9:45 ET.
+
+[CCM5604 · LIVE] 5-yr GIC ceiling — best GIC ~4.50% vs fund YTM 5.7% (carried forward)
+Angle: Tangerine 4.50%, Haventree 4.45%, Oaken 4.40%. The spread is your
+GIC-renewal anchor. YTM is carried forward, unverified today — don't quote
+it as live.
+
+[CCM8752 · LIVE] Private credit funds capped at 5% in Q3 — 39% / 11.6% / ~16% requested vs 5% cap
+Angle: Blue Owl Technology Income 39% requested, Ares Strategic Income
+11.6%, Cliffwater flagship ~16% — all capped at 5%. Daily liquidity is the
+differentiator for advisors with clients stuck in semi-liquid credit.
+
+[ELITE · LIVE] October Active ETF distributions — record Oct 30, payable Nov 10
+Angle: IGEO declared zero; iA Clarington AUM $26B+ at Sep 30/26. Routine
+touchpoint for ETF-using advisors — record date is Friday, so this week.
+
+[CCM9973 · LIVE] Micron blowout FQ4 — FQ1 guide ~$61.5B rev
+Angle: Revenue $54.2B vs $51.07B est., adj. EPS $33.42 vs $31.61, shares
+roughly flat. "Beat but priced in" — the clean answer to "isn't AI a bubble?"
+
+[CCM8752 · LIVE] VIX back near 20 — VIX ~19.5-20
+Angle: Up from ~16.5 on Oct 15. The calm regime is ending; market-neutral
+and macro sleeves are the ballast conversation while they're still cheap.
+
+WORTH KNOWING
+- Manulife Strategic Income's former lead PM, Daniel S. Janis III, now
+  sub-advises CCM5604 — "the manager who built Manulife's flagship runs
+  ours." Their Series F MER 0.90% vs our 0.84%.
+- Fitch private-credit default rate hit a record 6.0% (12 months to
+  Apr 2026) — pairs with the gating story.
+- iaclarington.com unreachable again; CCM9973 AUM/MER/holdings carried
+  forward, so don't quote fund-level stats as current.
+
+Feed stamp: 2026-10-28-1015
