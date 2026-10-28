@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-27-1015",
+  "updated": "2026-10-28-1015",
   "CCM9973": {
-    "asof": "Oct 27, 2026 (Tue): LIVE (CNBC via search) Mon Oct 26 close: S&P 500 7,676.77 (+0.70%), Nasdaq 26,169.38 (+0.82%), Dow 52,361.58 (+0.28%); NVDA +2.4% to ~$216.00. Rebound after last week's AI-spending wobble; Fed decision Wed Oct 28. iaclarington.com not reachable; AUM/MER/holdings carried forward. Story unchanged.",
+    "asof": "Oct 28, 2026 (Wed): LIVE (CNBC/TheStreet via search) Tue Oct 27 close: S&P 500 7,722.60 (+0.6%), Nasdaq 26,477.81 (+1.18%), Dow 52,377.57 (+0.03%); chipmakers rallied and Anthropic's IPO filing lifted AI-linked tech; Fed meeting under way (decision Oct 28). Fund page not reachable; AUM/MER/holdings carried forward. Story unchanged.",
     "oneliner": "AI hardware demand is intact (Micron FQ4 beat, 2027 HBM largely contracted), but a hot Sep CPI, 10-yr UST ~5.1% and debt-funded AI build-out worries (CoreWeave) drove a ~4.5% Nasdaq weekly drop - a valuation/financing wobble, not a demand break.",
     "stats": [
       {
@@ -252,7 +252,7 @@
     ]
   },
   "CCM5604": {
-    "asof": "Oct 27, 2026 (Tue): BoC decision Wed Oct 28 09:45 ET still ahead (policy rate 2.25%; prediction-market pages split ~61% hike vs ~68% hold, low reliability; Sep jobs -68k, unemployment 6.5% per one outlook piece). Fed meets Oct 27-28; AP: widespread expectation of a hold. BoC surveys show rising inflation expectations. Fund stats, GICs carried forward.",
+    "asof": "Oct 28, 2026 (Wed): BoC (2.25%, 9:45 ET, with MPR) and Fed (3.75-4.00%) decisions due today; outcomes not yet published in search. Fed hold ~87-91% per preview pages, December hike leaning (~73% on one source); BoC hike odds ~58-61% on prediction-market pages (low reliability, sources conflict). Fund stats, GICs carried forward.",
     "oneliner": "Fed October hike odds whipsawed between ~15% and ~44% in four days while the 10-yr UST hovers ~5.1% and the BoC sits at 2.25% ahead of Oct 28 - a volatile, divergent rate backdrop that favours a flexible global mandate.",
     "stats": [
       {
@@ -507,7 +507,7 @@
     ]
   },
   "CCM8752": {
-    "asof": "Oct 27, 2026 (Tue): no fresh VIX print found today (last on file ~19.5 on Oct 23); equities rebounded Oct 26 (S&P +0.70%). No October-dated private-credit gating news located; background unchanged. Fund stats carried forward.",
+    "asof": "Oct 28, 2026 (Wed): no fresh VIX print or October-dated private-credit gating news found today; equities up Oct 27 (S&P +0.6%). Gating background (Blue Owl, Blackstone, Barings, Cliffwater redemption caps earlier in 2026) unchanged. Fund stats carried forward.",
     "oneliner": "A -1.09% S&P / -2.14% Nasdaq day and a ~4.5% Nasdaq weekly drop test the calm-but-fragile tape, while gated private credit (Blue Owl, Ares, Cliffwater, BCRED capped at 5%) keeps the daily-liquid alternative contrast front and centre.",
     "stats": [
       {
@@ -673,7 +673,7 @@
     ]
   },
   "ELITE": {
-    "asof": "Oct 27, 2026 (Tue): LIVE iA Clarington announced October 2026 Active ETF Series distributions (Oct 23; record Oct 30, payable Nov 10; IGEO declared zero) and cites $26B+ AUM as of Sep 30/26. No Elite Pools rebalancing or sub-advisor news found. Other stats carried forward.",
+    "asof": "Oct 28, 2026 (Wed): no new iA Clarington press releases beyond the Oct 23 Active ETF Series distributions notice (record Oct 30, payable Nov 10; single repost, not cross-checked on iaclarington.com). No Elite Pools rebalancing or sub-advisor news found. Stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
