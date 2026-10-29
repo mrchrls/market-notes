@@ -1,9 +1,25 @@
 {
-  "updated": "2026-10-28-1015",
+  "updated": "2026-10-29-1009",
   "CCM9973": {
-    "asof": "Oct 28, 2026 (Wed): LIVE (CNBC/TheStreet via search) Tue Oct 27 close: S&P 500 7,722.60 (+0.6%), Nasdaq 26,477.81 (+1.18%), Dow 52,377.57 (+0.03%); chipmakers rallied and Anthropic's IPO filing lifted AI-linked tech; Fed meeting under way (decision Oct 28). Fund page not reachable; AUM/MER/holdings carried forward. Story unchanged.",
-    "oneliner": "AI hardware demand is intact (Micron FQ4 beat, 2027 HBM largely contracted), but a hot Sep CPI, 10-yr UST ~5.1% and debt-funded AI build-out worries (CoreWeave) drove a ~4.5% Nasdaq weekly drop - a valuation/financing wobble, not a demand break.",
+    "asof": "Oct 29, 2026 (Thu): LIVE (Reuters/Xinhua, CNBC, Investing/investinglive via search) Wed Oct 28 close and after-hours earnings: Dow 52,475.10 (+0.19%), S&P 500 7,743.98 (+0.28%), Nasdaq 26,549.85 (+0.27%) after the Fed held; Alphabet fell ~9-11% after hours on a EPS miss and negative free cash flow while Microsoft rose ~3-6%. Fund page not reachable; AUM/MER/holdings carried forward.",
+    "oneliner": "AI hardware demand is intact (Micron FQ4 beat, 2027 HBM largely contracted, Alphabet and Microsoft both signalling higher 2027 capex), but the market is now rewarding capex that converts to cloud growth (Microsoft) and punishing capex that burns cash (Alphabet) - a valuation/financing filter inside the theme, not a demand break.",
     "stats": [
+      {
+        "k": "Indices (Wed Oct 28/26)",
+        "v": "Dow 52,475.10 (+0.19%), S&P 500 7,743.98 (+0.28%), Nasdaq 26,549.85 (+0.27%); tech and energy led, Oracle ~+10.7% on revenue target (Reuters/Xinhua via search; one outlet cited a lower Nasdaq level, likely intraday)"
+      },
+      {
+        "k": "Alphabet Q3/26 (Oct 28, after hours)",
+        "v": "Adj. EPS $2.67 vs $3.02 est.; free cash flow -$9.07B vs +$2.70B est.; Cloud revenue ~$30.7B with ~$560B backlog; 2026 capex held at $195-205B, 'significant' increase expected in 2027; shares -9% to -11% after hours (CNBC/investinglive/tech-insider; sources differ on exact move)"
+      },
+      {
+        "k": "Microsoft FQ1/27 (Oct 28, after hours)",
+        "v": "Azure +48%, adj. EPS $4.89 vs ~$4.72 est.; some third-party capacity deliveries delayed, capex to accelerate in 2H of fiscal year; shares ~+3% to +6% after hours (search summaries; sources differ)"
+      },
+      {
+        "k": "Meta 2026 capex guide (Oct 21)",
+        "v": "$135-145B (from $130-145B) - single secondary source, not cross-checked"
+      },
       {
         "k": "AUM (all series)",
         "v": "$74.91M (Apr 30, 2026) — carried forward unchanged; iaclarington.com fetch blocked again today"
@@ -86,7 +102,7 @@
           "TSM"
         ],
         "choke": "Micron's record FQ4 (Sep 30/26: rev $54.2B, FQ1 guide ~$61.5B) and contracted 2027 HBM supply at higher prices keep memory the tightest link in the chain; Rubin ramp timing (HBM4 largely a 2027 story) remains the swing factor. ",
-        "note": "NVDA, AVGO and TSM remain top holdings (unweighted); NVDA closed $225.07 Fri Sep 25/26, then $224.58 Mon Sep 28/26 (-0.48%) amid today's risk-off tone"
+        "note": "NVDA, AVGO and TSM remain top holdings (unweighted); chipmakers led Oct 27-28 gains. Alphabet's higher 2027 capex signal is a read-through positive for accelerator and memory demand (Korea memory names flagged in coverage)"
       },
       {
         "id": "infra",
@@ -99,8 +115,8 @@
           "META",
           "GOOGL"
         ],
-        "choke": "New today: Goldman Sachs raised its 2027 hyperscaler-capex forecast to $1.2T for the top-5 US hyperscalers — more than 50% growth from ~$800B this year, and above Wall Street's own $1.1T consensus. Fresher 2026 guidance cited alongside it: Amazon ~$200B, Google $175-185B (up from $91B in 2025), Microsoft $110-120B, Oracle raised to $195-205B. The Anthropic-Akamai $11.6B (up to ~$20B) infrastructure deal from Sep 24-25/26 carries forward unchanged, with no further development found today",
-        "note": "AMZN, MSFT, META and GOOGL all remain confirmed top holdings. Goldman's $1.2T 2027 number is the single biggest capex data point of the week and reinforces the fund's core infrastructure-demand thesis even as today's headlines lean risk-off"
+        "choke": "Oct 28 after-hours earnings split the hyperscalers: Alphabet held 2026 capex at $195-205B and flagged a significant 2027 increase, but missed EPS ($2.67 vs $3.02) and posted -$9.07B free cash flow (shares -9% to -11% AH); Microsoft beat (Azure +48%, EPS $4.89) and said capex accelerates in 2H FY27 as delayed third-party capacity lands (shares up ~3-6% AH). Meta's 2026 capex guide $135-145B (Oct 21, single source). Goldman's 2027 top-5 hyperscaler capex forecast of $1.2T (Sep 28) carries forward. The choke point is shifting from 'will they spend' to 'can they fund it' - cash burn is now being punished",
+        "note": "AMZN, MSFT, META and GOOGL remain confirmed top holdings. Alphabet/Microsoft divergence is a clean, honest talking point: capex demand is intact, but investors now discriminate on free cash flow - supports active selection inside the theme"
       },
       {
         "id": "models",
@@ -128,6 +144,20 @@
       }
     ],
     "signals": [
+      {
+        "name": "Oct 28: Alphabet punished, Microsoft rewarded after hours",
+        "reading": "Alphabet -9% to -11% AH on EPS $2.67 vs $3.02 and FCF -$9.07B, but Cloud revenue ~$30.7B, ~$560B backlog and capex guide held at $195-205B with a bigger 2027; Microsoft +3% to +6% AH on Azure +48% and EPS $4.89 vs ~$4.72.",
+        "level": "GOOGL ~-10% AH / MSFT ~+4% AH",
+        "angle": "Capex is confirmed higher into 2027 (supports chips/infra layers) but the market now wants cash conversion - a reason to prefer a diversified, actively managed thematic fund over a single hyperscaler bet.",
+        "tag": "LIVE"
+      },
+      {
+        "name": "Oct 28 close: Fed hold, chips lead",
+        "reading": "Dow 52,475.10 (+0.19%), S&P 500 7,743.98 (+0.28%), Nasdaq 26,549.85 (+0.27%); Fed held 3.75-4.00% (10-2, two dissents for a hike); December hike odds cited ~85% (Yahoo via Reuters-type summary).",
+        "level": "S&P 7,743.98 / Nasdaq 26,549.85",
+        "angle": "Hold with a hawkish tilt is the discount-rate risk to name honestly for long-duration innovation; the tape absorbed it.",
+        "tag": "LIVE"
+      },
       {
         "name": "Oct 26 close: tech rebounds into Fed week",
         "reading": "S&P 500 7,676.77 (+0.70%), Nasdaq 26,169.38 (+0.82%), Dow 52,361.58 (+0.28%); NVDA +2.4% to ~$216.00 (Nasdaq data). Morgan Stanley's Wilson sees the correction ending as risks clear (single-source).",
@@ -211,34 +241,6 @@
         "level": "$237.55 record intraday",
         "angle": "Top holding at a new high on a valuation-based call (15x FY28E per MS) — counters 'AI is a bubble' objections, while single-name concentration remains the honest caveat",
         "tag": "LIVE"
-      },
-      {
-        "name": "Micron blowout FQ4, stock flat",
-        "reading": "Revenue $54.2B vs $51.07B est., adj. EPS $33.42 vs $31.61; FQ1 guide ~$61.5B; most calendar-2027 HBM supply contracted at higher prices; shares roughly flat after hours Shares +240% YTD; 16 multiyear agreements with binding volume commitments (Oct 2 search).",
-        "level": "FQ1 guide ~$61.5B rev / $38.15 EPS",
-        "angle": "Demand is not the issue — expectations are; a clean 'beat but priced in' talking point for advisors on AI valuations",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Soft jobs report lifts tech",
-        "reading": "Sept payrolls +29k vs ~85k est., unemployment 4.2%; Oct 2 closes: S&P 500 7,722.72 (+0.73%), Nasdaq 27,190.86 (+1.19%, record high per Detroit News/CNBC), Dow 51,176.96 (+0.49%); Nvidia led Nasdaq.",
-        "level": "Nasdaq +1.19% to 27,190.86",
-        "angle": "Easing hike odds are the catalyst long-duration growth needed; supports thematic innovation positioning, with concentration risk intact",
-        "tag": "LIVE"
-      },
-      {
-        "name": "10-yr Treasury 5.18% (post-jobs)",
-        "reading": "10-yr UST moved lower to ~5.18% and 30-yr to ~5.57% after the weak payrolls print (Oct 2 snippet); an earlier source cited 5.27% — intraday vs close difference not resolved",
-        "level": "10-yr UST ~5.18%",
-        "angle": "Yields easing slightly but still high — discount rates remain the main valuation headwind for long-duration growth",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Goldman: 2027 hyperscaler capex $1.2T",
-        "reading": "Carried forward from Sep 28; top-5 US hyperscaler capex >50% growth vs ~$800B in 2026",
-        "level": "$1.2T (2027E)",
-        "angle": "Capex demand underpins the infra and chips layers",
-        "tag": "LIVE"
       }
     ],
     "competitors": [
@@ -252,9 +254,13 @@
     ]
   },
   "CCM5604": {
-    "asof": "Oct 28, 2026 (Wed): BoC (2.25%, 9:45 ET, with MPR) and Fed (3.75-4.00%) decisions due today; outcomes not yet published in search. Fed hold ~87-91% per preview pages, December hike leaning (~73% on one source); BoC hike odds ~58-61% on prediction-market pages (low reliability, sources conflict). Fund stats, GICs carried forward.",
-    "oneliner": "Fed October hike odds whipsawed between ~15% and ~44% in four days while the 10-yr UST hovers ~5.1% and the BoC sits at 2.25% ahead of Oct 28 - a volatile, divergent rate backdrop that favours a flexible global mandate.",
+    "asof": "Oct 29, 2026 (Thu): LIVE (Bank of Canada release, CBC/BNN/CP via search; CNN/Reuters/Xinhua for Fed) Oct 28 outcomes: BoC hiked 25bp to 2.50% (first hike since Jul 2023) and Fed held 3.75-4.00% (10-2, two dissents favouring a hike). Fund stats carried forward (fund page not reachable); GICs refreshed from Ratehub snippets; GTRI Oct distribution from Oct 23 release.",
+    "oneliner": "Central banks diverged on Oct 28: the Bank of Canada hiked to 2.50% and warned more may follow, while the Fed held at 3.75-4.00% with two dissents for a hike and December hike odds ~85% - a rate-hike regime where a flexible global income mandate beats a locked GIC.",
     "stats": [
+      {
+        "k": "GTRI Active ETF Series distribution (Oct 2026)",
+        "v": "~C$0.0614/unit, record Oct 30/26, payable Nov 10/26 (iA Clarington release Oct 23/26)"
+      },
       {
         "k": "AUM (fund-wide)",
         "v": "~$1.1B (Aug 31/26, carried forward) — not reconfirmed by today's search; still the best-supported figure on file"
@@ -281,7 +287,7 @@
       },
       {
         "k": "Best 5-yr GIC (Canada)",
-        "v": "Tangerine 4.50% (promo-type rate), Haventree 4.45%, Oaken Financial 4.40%, EQ Bank 4.25% (ratehub/aggregator snippets, Oct 1) — sources disagree on top rate"
+        "v": "Oaken Financial 4.25%, Haventree 4.15% (Sept 2026 reference), Achieva 4.10% (Ratehub snippets, undated tables; earlier-run 4.40-4.50% figures not reconfirmed); big banks ~2.7-2.75%"
       },
       {
         "k": "Iran / oil risk",
@@ -289,7 +295,7 @@
       },
       {
         "k": "Fed funds rate (current)",
-        "v": "3.75%-4.00% (hiked 25bp Sep 16/26, carried forward); next FOMC Oct 27-28/26, same day as the BoC"
+        "v": "3.75%-4.00% - held Oct 28/26, 10-2 vote with two dissents in favour of a hike; chair is now Kevin Warsh (per search summary); December hike odds ~85% (Yahoo via search summary)"
       },
       {
         "k": "Fed October hike odds (Oct 2/26)",
@@ -297,7 +303,7 @@
       },
       {
         "k": "Bank of Canada",
-        "v": "Overnight rate 2.25%, held Sep 2/26 (7th consecutive hold); Oct 28 odds as of Oct 2: OIS ~74% hold; Polymarket ~61% no change / ~39% hike — shifted toward hold vs. earlier sources"
+        "v": "Overnight rate raised 25bp to 2.50% on Oct 28/26 (first hike since Jul 2023; Bank Rate 2.75%); 'could be a need to raise further', one meeting at a time; CPI ~3% since April, seen ~3.5% by year-end; next MPR Jan 27/27 (Bank of Canada release via search)"
       },
       {
         "k": "Fed hike odds (Oct 6/26)",
@@ -310,18 +316,18 @@
         "lat": 56,
         "lon": -106,
         "weight": null,
-        "cb": "BoC holds at 2.25% (7th hold, Sep 2/26); Oct 2 OIS implies ~74% hold for Oct 28 (earlier ~60% hike pricing faded); same day as FOMC",
-        "fx": "USD/CAD 1.4245 on Oct 1/26 (CAD -2.9% over the past month)",
-        "note": "CAD has weakened ~2.9% over the past month (USD/CAD 1.4245) even with oil elevated; the Oct 28 BoC decision is the next catalyst"
+        "cb": "BoC hiked 25bp to 2.50% on Oct 28/26 (first hike since Jul 2023), signalled further hikes possible; next MPR Jan 27/27",
+        "fx": "USD/CAD ~1.404 after the decision (1.4036-1.4046 across sources; little changed - hike was priced); firmed later as USD slipped after the Fed",
+        "note": "Hike delivered on narrow, energy-led inflation (CPI ~3%, seen ~3.5% by year-end) with core near 2% - dissenting economists argued for a hold; Canada 2-yr yield rose from 3.18% (Oct 9) to 3.37% (Oct 26)"
       },
       {
         "name": "United States",
         "lat": 39.8,
         "lon": -98.6,
         "weight": null,
-        "cb": "Fed hiked 25bp to 3.75%-4.00% on Sep 16/26; October-hike odds ~17% (CME FedWatch, Oct 2) after Sept payrolls +29k, unemployment 4.2%; next FOMC Oct 27-28/26",
-        "fx": "10-yr UST 5.27% (Oct 2); S&P 500 ~7,723",
-        "note": "Hike odds fell from ~36% to ~17% in a week on a weak labour print while long yields stay near multi-year highs"
+        "cb": "Fed held 3.75%-4.00% on Oct 28/26 (10-2; two dissents for a hike); December hike odds ~85% per Yahoo Finance via search summary",
+        "fx": "US 2-yr yield eased from 4.80% (Oct 9) to 4.68% (Oct 26); Oct 28 10-yr not found",
+        "note": "Hawkish hold: the market now prices December, not October, as the live meeting"
       },
       {
         "name": "Australia",
@@ -360,13 +366,20 @@
         "note": "Headline inflation ticked up to 3.42% (early Sept) on non-core pressures vs. core 3.79% — sticky core inflation remains the explicit reason cited for the hold"
       }
     ],
-    "basket": "Rates are diverging: RBA hiked to 4.60% (Sep 29), Fed October-hike odds fell to ~17% on a weak jobs report with the 10-yr UST at 5.27%, and BoC pricing swung to a likely hold (~74%) on Oct 28. USD/CAD (~1.42, Oct 1) and JPY, KRW, MXN prints are carried forward without fresh same-day data. A two-sided, event-driven backdrop for this flexible fund heading into Q4.",
+    "basket": "Oct 28 divergence: BoC hiked to 2.50% and left the door open, the Fed held at 3.75-4.00% with two hike dissents and December hike odds ~85%, RBA at 4.60% (Sep 29), BoJ 1.25% (Sep 18). USD/CAD ~1.40 post-BoC; JPY, KRW, MXN, AUD prints carried forward without fresh same-day data. A two-sided, event-driven backdrop for this flexible fund heading into Q4.",
     "signals": [
       {
-        "name": "Fed/BoC decisions Wed Oct 28",
-        "reading": "AP: Fed widely expected to leave rates unchanged Wed; BoC at 2.25% with Business Outlook Survey showing rising firm/consumer inflation expectations; hike odds quoted anywhere from ~32% to ~61% depending on source.",
-        "level": "BoC hold vs hike unresolved",
-        "angle": "Divergent central banks (BoC possible hike, Fed hold, RBA tightening) are the case for a flexible global mandate; revisit with Oct 28 outcomes.",
+        "name": "BoC hikes to 2.50%, first hike since 2023",
+        "reading": "Oct 28: overnight rate +25bp to 2.50%; statement says further increases possible but one meeting at a time; CPI ~3% since April, forecast ~3.5% by year-end, ~3% through much of 2027; growth 1% (2026), 2% (2027-28). Loonie barely moved (USD/CAD ~1.404). Sept jobs -68k / unemployment 6.5% per a single unverified preview.",
+        "level": "2.25% -> 2.50%",
+        "angle": "Canadian rates are rising again: a locked 5-yr GIC (best ~4.1-4.25%) gives up the chance to benefit from rising policy rates; fund YTM 5.7% (carried forward, unverified) and 3.9-yr duration with global flexibility is the contrast.",
+        "tag": "LIVE"
+      },
+      {
+        "name": "Fed holds, two dissent for a hike; December in play",
+        "reading": "Oct 28: 3.75-4.00% unchanged, 10-2 vote; Dec 9 hike odds ~85% (Yahoo via summary); stocks edged higher (S&P 7,743.98).",
+        "level": "Hold / Dec hike ~85%",
+        "angle": "Hike bias in both Ottawa and Washington while RBA/BoJ tighten: active duration and currency management over a static ladder.",
         "tag": "LIVE"
       },
       {
@@ -382,13 +395,6 @@
         "level": "Oct hike ~15% (peak ~45-47% after Sep CPI)",
         "angle": "Rate-path whiplash in a week: argues for a flexible global income mandate over locking duration; BoC/FOMC both Oct 28.",
         "tag": "LIVE"
-      },
-      {
-        "name": "Canada Sept jobs -68k; BoC Oct 28 hike odds ~25%",
-        "reading": "Undated trade-press item: Statistics Canada reported -68,000 jobs in September, unemployment 6.5% (from 6.4%); Oct 28 hike odds fell to ~25% from ~40%; five Bay Street economists expect a hold at 2.25%, traders still price a December hike. Aug CPI 3.0% y/y per one source. Date not verified.",
-        "level": "-68k jobs / 6.5% unemployment / ~25% hike odds",
-        "angle": "A weakening Canadian labour market against 3%+ inflation is a policy dilemma - the case for a mandate that can move across central banks rather than bet on one.",
-        "tag": "SAMPLE"
       },
       {
         "name": "Fed hike odds: 15%-44% depending on source/date",
@@ -440,13 +446,6 @@
         "tag": "LIVE"
       },
       {
-        "name": "BoC Oct 28 pricing conflicts across sources",
-        "reading": "MoneySense (late Sept) described the Oct 28 BoC decision as roughly a coin flip with a slight tilt to a hike; an Oct 2 OIS reading on file had ~74% hold. Policy rate 2.25%; new MPR accompanies the Oct 28 decision.",
-        "level": "2.25% hold vs hike — sources disagree",
-        "angle": "Pricing swings week to week — reinforces active, flexible positioning over a fixed ladder; verify the latest odds before quoting",
-        "tag": "LIVE"
-      },
-      {
         "name": "Fed hike odds ease again",
         "reading": "CME FedWatch: 19.4% odds of a second straight hike this month, down from 50.9% a week ago; Treasury yields eased Oct 6.",
         "level": "19.4% vs 50.9%",
@@ -475,24 +474,10 @@
         "tag": "LIVE"
       },
       {
-        "name": "BoC Oct 28 now leans hold",
-        "reading": "OIS ~74% hold / 26% hike as of Oct 2; BoC at 2.25% for 7th straight hold (Sep 2); UBS shifted to a hike call while RBC and Desjardins expect hold through 2026; inflation near 3%, Middle East energy prices cited",
-        "level": "~74% hold / 26% hike",
-        "angle": "Forecasters split — a binary Canadian event is a reason for global, actively managed duration rather than a Canada-only bond book",
-        "tag": "LIVE"
-      },
-      {
         "name": "5-yr GIC ceiling",
         "reading": "Top rates 4.40-4.50% (Tangerine 4.50%, Haventree 4.45%, Oaken 4.40%)",
         "level": "best GIC ~4.50% vs fund YTM 5.7% (carried forward)",
         "angle": "Spread over GICs remains the income-conversation anchor; YTM figure unverified today",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Sep CPI Wed Oct 14, FOMC Oct 27-28",
-        "reading": "Sep CPI is the last major data before FOMC Oct 27-28; BoC decision same Oct 28 (policy rate 2.25%). 10-yr UST ~5.24% pre-market Oct 12 vs 5.36% Oct 7 peak.",
-        "level": "5.24% vs 5.36%",
-        "angle": "Event-heavy fortnight: rate volatility argues for active duration/currency management over fixed-term GICs.",
         "tag": "LIVE"
       }
     ],
@@ -507,7 +492,7 @@
     ]
   },
   "CCM8752": {
-    "asof": "Oct 28, 2026 (Wed): no fresh VIX print or October-dated private-credit gating news found today; equities up Oct 27 (S&P +0.6%). Gating background (Blue Owl, Blackstone, Barings, Cliffwater redemption caps earlier in 2026) unchanged. Fund stats carried forward.",
+    "asof": "Oct 29, 2026 (Thu): no fresh VIX print found for Oct 28 (last on file ~19.5-20 on Oct 23); equities edged up Oct 28 (S&P 7,743.98, +0.28%) as the Fed held; searched private-credit gating again - nothing October-dated beyond Q2/Q3 background. Fund stats carried forward.",
     "oneliner": "A -1.09% S&P / -2.14% Nasdaq day and a ~4.5% Nasdaq weekly drop test the calm-but-fragile tape, while gated private credit (Blue Owl, Ares, Cliffwater, BCRED capped at 5%) keeps the daily-liquid alternative contrast front and centre.",
     "stats": [
       {
@@ -601,6 +586,13 @@
     ],
     "signals": [
       {
+        "name": "Oct 28: equities edge up as Fed holds; vol print not verified",
+        "reading": "S&P 500 7,743.98 (+0.28%), Nasdaq 26,549.85 (+0.27%) on a hawkish hold (two dissents for a hike, December hike odds ~85%); Alphabet -9% to -11% after hours on cash burn. Oct 28 VIX close not found.",
+        "level": "S&P +0.28% / VIX n/a",
+        "angle": "Rate-hike risk plus single-name earnings shocks: the diversifier case for market-neutral and macro sleeves; contrast with gated semi-liquid private credit.",
+        "tag": "LIVE"
+      },
+      {
         "name": "VIX back near 20",
         "reading": "VIX ~19.5 Oct 23 (sources differ; 20.24 intraday), up from ~16.5 on Oct 15; on track for first weekly close above 20 since early in the year. Dow -1.23% as tech selloff spread to staples, financials, discretionary.",
         "level": "VIX ~19.5-20",
@@ -673,7 +665,7 @@
     ]
   },
   "ELITE": {
-    "asof": "Oct 28, 2026 (Wed): no new iA Clarington press releases beyond the Oct 23 Active ETF Series distributions notice (record Oct 30, payable Nov 10; single repost, not cross-checked on iaclarington.com). No Elite Pools rebalancing or sub-advisor news found. Stats carried forward.",
+    "asof": "Oct 29, 2026 (Thu): no new iA Clarington press release beyond the Oct 23 Active ETF distributions notice (record Oct 30, payable Nov 10; GTRI ~C$0.0614, ISCB ~C$0.0375, IWEB ~C$0.0349, IGEO nil). No Elite Pools rebalancing or sub-advisor news found. Stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
@@ -710,6 +702,13 @@
       }
     ],
     "signals": [
+      {
+        "name": "Hawkish central-bank day is the advisor check-in hook",
+        "reading": "Oct 28: BoC hiked to 2.50%, Fed held 3.75-4.00% with two hike dissents (December hike odds ~85%). No Elite-specific allocation change announced.",
+        "level": "No new Elite announcement",
+        "angle": "Rising-rate backdrop is a natural prompt to review the fixed-income sleeve (PIMCO Monthly Income, Mackenzie Unconstrained, Strategic Corporate Bond) with advisors; confirm pool positioning before quoting.",
+        "tag": "LIVE"
+      },
       {
         "name": "October Active ETF distributions announced",
         "reading": "Oct 23 release: record date Oct 30/26, payable Nov 10/26; IGEO declared zero; iA Clarington AUM $26B+ at Sep 30/26 (search summary of cantechletter newswire).",
