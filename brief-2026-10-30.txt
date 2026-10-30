@@ -1,0 +1,44 @@
+TerritoryIQ Morning Brief — Friday, October 30
+(feed stamp 2026-10-30-1015)
+
+WHAT CHANGED
+Nothing material. Today's refresh touched only the four "as of" notes — no
+signal, stat or competitor moved. The run found no new verified data: Oct 29
+index closes weren't confirmed, the BoC hike couldn't be re-verified (BoC site
+blocked), and the BoJ outcome wasn't found. Everything below is Oct 28 or older.
+
+TODAY'S SIGNAL ANGLES
+
+[CCM5604 · LIVE] BoC hikes to 2.50%, first hike since 2023 — 2.25% -> 2.50%
+Angle: Canadian rates are rising again; a locked 5-yr GIC (best ~4.1-4.25%)
+gives that up. Fund YTM 5.7%, duration 3.9 yrs (both carried forward).
+Best for GIC-renewal conversations.
+
+[CCM5604 · LIVE] Fed holds, two dissent for a hike — hold 3.75-4.00%, Dec ~85%
+Angle: 10-2 vote, next FOMC Dec 9. Hike bias on both sides of the border —
+active duration and currency management over a static ladder.
+
+[CCM9973 · LIVE] Alphabet punished, Microsoft rewarded after hours (Oct 28)
+— GOOGL ~-10% AH / MSFT ~+4% AH
+Angle: Alphabet EPS $2.67 vs $3.02 est. and FCF -$9.07B; Microsoft Azure +48%,
+EPS $4.89. Capex intact ($195-205B, bigger 2027) but the market now pays for
+cash conversion — the case for a diversified active thematic over one hyperscaler.
+
+[CCM8752 · LIVE] Private credit capped at 5% in Q3 — 39% / 11.6% / ~16% requested
+Angle: Blue Owl Technology Income, Ares Strategic Income and Cliffwater all
+gated; Fitch private-credit default rate a record 6.0%. Strongest line with
+advisors whose clients are stuck in semi-liquid product.
+
+[CCM8752 · LIVE] VIX back near 20 — ~19.5-20 (Oct 23, no fresher print)
+Angle: up from ~16.5 on Oct 15. Market-neutral and macro sleeves as ballast.
+
+[ELITE · LIVE] October Active ETF distributions — record Oct 30, payable Nov 10
+Angle: record date is today. GTRI ~C$0.0614/unit; IGEO nil. Routine touchpoint
+for ETF-using advisors.
+
+WORTH KNOWING
+- Manulife Strategic Income Series F MER 0.90% ($5.58B) vs our 0.84% (carried forward).
+- Fidelity Global Innovators Series F 1.10% vs CCM9973's 1.18% last-published —
+  the Mar 10/26 fee cut isn't in a published MER yet.
+- Fund stats (YTM, AUM, MER) are carried forward and unverified — iaclarington.com
+  still blocked. Confirm before quoting.
