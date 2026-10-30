@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-29-1009",
+  "updated": "2026-10-30-1015",
   "CCM9973": {
-    "asof": "Oct 29, 2026 (Thu): LIVE (Reuters/Xinhua, CNBC, Investing/investinglive via search) Wed Oct 28 close and after-hours earnings: Dow 52,475.10 (+0.19%), S&P 500 7,743.98 (+0.28%), Nasdaq 26,549.85 (+0.27%) after the Fed held; Alphabet fell ~9-11% after hours on a EPS miss and negative free cash flow while Microsoft rose ~3-6%. Fund page not reachable; AUM/MER/holdings carried forward.",
+    "asof": "Oct 30, 2026 (Fri): searched for Oct 29 close and Microsoft/Alphabet post-earnings follow-through - no Oct 29 index closes or confirmed day-after moves found; latest verified remains Wed Oct 28 close (S&P 500 7,743.98, Nasdaq 26,549.85, Dow 52,475.10) with Alphabet about -9% after hours; Amazon reported to report after Oct 29 close (unverified). Fund page not reachable; AUM/MER/holdings carried forward.",
     "oneliner": "AI hardware demand is intact (Micron FQ4 beat, 2027 HBM largely contracted, Alphabet and Microsoft both signalling higher 2027 capex), but the market is now rewarding capex that converts to cloud growth (Microsoft) and punishing capex that burns cash (Alphabet) - a valuation/financing filter inside the theme, not a demand break.",
     "stats": [
       {
@@ -254,7 +254,7 @@
     ]
   },
   "CCM5604": {
-    "asof": "Oct 29, 2026 (Thu): LIVE (Bank of Canada release, CBC/BNN/CP via search; CNN/Reuters/Xinhua for Fed) Oct 28 outcomes: BoC hiked 25bp to 2.50% (first hike since Jul 2023) and Fed held 3.75-4.00% (10-2, two dissents favouring a hike). Fund stats carried forward (fund page not reachable); GICs refreshed from Ratehub snippets; GTRI Oct distribution from Oct 23 release.",
+    "asof": "Oct 30, 2026 (Fri): no new verified data today; latest verified remains Oct 28 outcomes (Fed held 3.75-4.00%, 10-2 vote, next FOMC Dec 9; BoC hiked 25bp to 2.50% per prior run, not re-confirmed - BoC site blocked in this session). BoJ decision due Oct 30 - outcome not found. GTRI Oct distribution record date Oct 30, payable Nov 10 (Oct 23 release). Fund stats and GICs carried forward.",
     "oneliner": "Central banks diverged on Oct 28: the Bank of Canada hiked to 2.50% and warned more may follow, while the Fed held at 3.75-4.00% with two dissents for a hike and December hike odds ~85% - a rate-hike regime where a flexible global income mandate beats a locked GIC.",
     "stats": [
       {
@@ -492,7 +492,7 @@
     ]
   },
   "CCM8752": {
-    "asof": "Oct 29, 2026 (Thu): no fresh VIX print found for Oct 28 (last on file ~19.5-20 on Oct 23); equities edged up Oct 28 (S&P 7,743.98, +0.28%) as the Fed held; searched private-credit gating again - nothing October-dated beyond Q2/Q3 background. Fund stats carried forward.",
+    "asof": "Oct 30, 2026 (Fri): no fresh VIX print found for Oct 28/29 (last on file ~19.5-20 on Oct 23); no October-dated private-credit gating news beyond Q2/Q3 background (Q1 requests ~$13B, North Haven ~11%, Cliffwater 17%). Fund stats carried forward.",
     "oneliner": "A -1.09% S&P / -2.14% Nasdaq day and a ~4.5% Nasdaq weekly drop test the calm-but-fragile tape, while gated private credit (Blue Owl, Ares, Cliffwater, BCRED capped at 5%) keeps the daily-liquid alternative contrast front and centre.",
     "stats": [
       {
@@ -665,7 +665,7 @@
     ]
   },
   "ELITE": {
-    "asof": "Oct 29, 2026 (Thu): no new iA Clarington press release beyond the Oct 23 Active ETF distributions notice (record Oct 30, payable Nov 10; GTRI ~C$0.0614, ISCB ~C$0.0375, IWEB ~C$0.0349, IGEO nil). No Elite Pools rebalancing or sub-advisor news found. Stats carried forward.",
+    "asof": "Oct 30, 2026 (Fri): no new iA Clarington press release beyond the Oct 23 Active ETF distributions notice (record Oct 30, payable Nov 10; IGEO nil). No Elite Pools rebalancing or sub-advisor news found. Stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
