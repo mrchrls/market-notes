@@ -1,0 +1,29 @@
+TerritoryIQ Morning Brief — Saturday, October 31
+
+WHAT CHANGED
+Three of four mandates picked up a new Oct 30 sell-off signal (CCM9973, CCM8752, ELITE), and CCM9973 gained a fresh index stat: Nasdaq 25,437.00 (-2.86%), Intel -28.58% on weak guidance, Amazon 12-mo FCF -$42.4B. CCM5604 added no new signals — the BoC hike is still the live story there.
+
+TODAY'S SIGNAL ANGLES
+
+[CCM5604 · LIVE] BoC hikes to 2.50%, first hike since 2023 — 2.25% -> 2.50%
+Angle: Statement leaves the door open to more. A locked 5-yr GIC gives up the upside if policy rates keep rising. Best for GIC-renewal conversations.
+
+[CCM5604 · LIVE] 5-yr GIC ceiling — best GIC ~4.50% vs fund YTM 5.7% (carried forward)
+Angle: Tangerine 4.50%, Haventree 4.45%, Oaken 4.40%. Still the income anchor — flag the YTM as unverified today.
+
+[CCM8752 · LIVE] Private credit capped at 5% in Q3 — 39% / 11.6% / ~16% requested vs 5% cap
+Angle: Blue Owl, Ares, Cliffwater all gated. Daily liquidity is the differentiator for advisors with clients stuck in semi-liquid product.
+
+[CCM9973 · LIVE] Oct 30 AI cash-burn sell-off — Nasdaq 25,437 vs 26,550 on Oct 28
+Angle: The market is punishing AI capex that burns cash, not AI demand. Use it to hold a thematic sleeve through volatility — don't call a bottom.
+
+[CCM9973 · LIVE] Alphabet punished, Microsoft rewarded — GOOGL ~-10% AH / MSFT ~+4% AH
+Angle: Capex confirmed higher into 2027, but the market wants cash conversion. Favours a diversified active thematic fund over one hyperscaler.
+
+[ELITE · LIVE] Oct 30 allocation hook — Dow +1.5% vs Nasdaq -5.2% (Oct)
+Angle: October dispersion makes the multi-manager case. Confirm pool returns before quoting.
+
+WORTH KNOWING
+- Manulife Strategic Income Series F MER 0.90% vs our 0.84% (carried forward) — and their former lead PM, Daniel S. Janis III, now sub-advises CCM5604 directly.
+- GTRI Active ETF distribution ~C$0.0614/unit, record Oct 30, payable Nov 10.
+- [SAMPLE] PIMCO's flagship outlook pieces still predate the Fed's actual hike path — don't cite them as its current house view.
