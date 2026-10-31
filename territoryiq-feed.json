@@ -1,9 +1,13 @@
 {
-  "updated": "2026-10-30-1015",
+  "updated": "2026-10-31-1007",
   "CCM9973": {
-    "asof": "Oct 30, 2026 (Fri): searched for Oct 29 close and Microsoft/Alphabet post-earnings follow-through - no Oct 29 index closes or confirmed day-after moves found; latest verified remains Wed Oct 28 close (S&P 500 7,743.98, Nasdaq 26,549.85, Dow 52,475.10) with Alphabet about -9% after hours; Amazon reported to report after Oct 29 close (unverified). Fund page not reachable; AUM/MER/holdings carried forward.",
+    "asof": "Oct 31, 2026 (Sat): Oct 30 close verified via search (Nasdaq 25,437.00, S&P 500 7,580.07, Dow 51,770.31) after an AI cash-burn sell-off (Amazon, Intel); CNBC headline says Oct 29 was the Nasdaq's worst day since June (index levels not retrieved). Fund page not reachable; AUM/MER/holdings carried forward.",
     "oneliner": "AI hardware demand is intact (Micron FQ4 beat, 2027 HBM largely contracted, Alphabet and Microsoft both signalling higher 2027 capex), but the market is now rewarding capex that converts to cloud growth (Microsoft) and punishing capex that burns cash (Alphabet) - a valuation/financing filter inside the theme, not a demand break.",
     "stats": [
+      {
+        "k": "Indices (Fri Oct 30/26)",
+        "v": "Nasdaq 25,437.00 (-2.86%), S&P 500 7,580.07 (-1.82%), Dow 51,770.31 (-1.09%); Intel -28.58% (worst day since 1974) on weak guidance; Amazon -1.4% after Q3 sales/profit miss and 12-mo FCF of -$42.4B; Nasdaq about -5.2% for October (another source -6.6%), worst month since Mar 2025 (Yahoo Finance/CNN/Reuters via search; month figures differ by source)"
+      },
       {
         "k": "Indices (Wed Oct 28/26)",
         "v": "Dow 52,475.10 (+0.19%), S&P 500 7,743.98 (+0.28%), Nasdaq 26,549.85 (+0.27%); tech and energy led, Oracle ~+10.7% on revenue target (Reuters/Xinhua via search; one outlet cited a lower Nasdaq level, likely intraday)"
@@ -145,6 +149,13 @@
     ],
     "signals": [
       {
+        "name": "Oct 30: AI cash-burn sell-off, Nasdaq worst month in over a year",
+        "reading": "Nasdaq -2.86% to 25,437.00, S&P 500 -1.82% to 7,580.07; Intel -28.58% on weak guidance, Amazon -1.4% after miss and negative FCF; Nasdaq about -5.2% in October",
+        "level": "Nasdaq 25,437 vs 26,550 on Oct 28",
+        "angle": "Market is now punishing AI capex that burns cash, the same filter as Alphabet on Oct 28. Use it to talk about holding the AI-demand names (chips, memory, power) versus the spenders, and about volatility in a concentrated thematic sleeve; do not call a bottom.",
+        "tag": "LIVE"
+      },
+      {
         "name": "Oct 28: Alphabet punished, Microsoft rewarded after hours",
         "reading": "Alphabet -9% to -11% AH on EPS $2.67 vs $3.02 and FCF -$9.07B, but Cloud revenue ~$30.7B, ~$560B backlog and capex guide held at $195-205B with a bigger 2027; Microsoft +3% to +6% AH on Azure +48% and EPS $4.89 vs ~$4.72.",
         "level": "GOOGL ~-10% AH / MSFT ~+4% AH",
@@ -254,7 +265,7 @@
     ]
   },
   "CCM5604": {
-    "asof": "Oct 30, 2026 (Fri): no new verified data today; latest verified remains Oct 28 outcomes (Fed held 3.75-4.00%, 10-2 vote, next FOMC Dec 9; BoC hiked 25bp to 2.50% per prior run, not re-confirmed - BoC site blocked in this session). BoJ decision due Oct 30 - outcome not found. GTRI Oct distribution record date Oct 30, payable Nov 10 (Oct 23 release). Fund stats and GICs carried forward.",
+    "asof": "Oct 31, 2026 (Sat): BoC hike to 2.50% on Oct 28 reconfirmed by several 2026-dated reports (first hike since Jul 2023; Macklem cited energy prices and inflation outlook; bankofcanada.ca not reachable). Fed hold at 3.75-4.00% carried forward from prior run. BoJ Oct 30 outcome not found. GTRI distribution ~C$0.06143/unit, record Oct 30, payable Nov 10 (Oct 23 release). Fund stats and GICs carried forward.",
     "oneliner": "Central banks diverged on Oct 28: the Bank of Canada hiked to 2.50% and warned more may follow, while the Fed held at 3.75-4.00% with two dissents for a hike and December hike odds ~85% - a rate-hike regime where a flexible global income mandate beats a locked GIC.",
     "stats": [
       {
@@ -492,7 +503,7 @@
     ]
   },
   "CCM8752": {
-    "asof": "Oct 30, 2026 (Fri): no fresh VIX print found for Oct 28/29 (last on file ~19.5-20 on Oct 23); no October-dated private-credit gating news beyond Q2/Q3 background (Q1 requests ~$13B, North Haven ~11%, Cliffwater 17%). Fund stats carried forward.",
+    "asof": "Oct 31, 2026 (Sat): equities sold off hard Oct 29-30 (Nasdaq -2.86%, S&P 500 -1.82% on Oct 30) - a live test for the diversifier case; no Cboe VIX print for Oct 29/30 found (last on file ~19.5-20 on Oct 23). No new October private-credit gating news beyond background. Fund stats carried forward.",
     "oneliner": "A -1.09% S&P / -2.14% Nasdaq day and a ~4.5% Nasdaq weekly drop test the calm-but-fragile tape, while gated private credit (Blue Owl, Ares, Cliffwater, BCRED capped at 5%) keeps the daily-liquid alternative contrast front and centre.",
     "stats": [
       {
@@ -586,6 +597,13 @@
     ],
     "signals": [
       {
+        "name": "Oct 30 equity sell-off tests the alternatives case",
+        "reading": "S&P 500 -1.82% and Nasdaq -2.86% on Oct 30; Nasdaq about -5.2% for October; VIX close not verified",
+        "level": "S&P 500 7,580.07",
+        "angle": "Real-time example for advisors: a market-neutral/long-short/macro sleeve mix is meant to dampen equity drawdowns. Check the fund's October return before using it; no figure found today.",
+        "tag": "LIVE"
+      },
+      {
         "name": "Oct 28: equities edge up as Fed holds; vol print not verified",
         "reading": "S&P 500 7,743.98 (+0.28%), Nasdaq 26,549.85 (+0.27%) on a hawkish hold (two dissents for a hike, December hike odds ~85%); Alphabet -9% to -11% after hours on cash burn. Oct 28 VIX close not found.",
         "level": "S&P +0.28% / VIX n/a",
@@ -665,7 +683,7 @@
     ]
   },
   "ELITE": {
-    "asof": "Oct 30, 2026 (Fri): no new iA Clarington press release beyond the Oct 23 Active ETF distributions notice (record Oct 30, payable Nov 10; IGEO nil). No Elite Pools rebalancing or sub-advisor news found. Stats carried forward.",
+    "asof": "Oct 31, 2026 (Sat): searched iA Clarington press releases - latest remains the Oct 23 Active ETF distributions notice (record Oct 30, payable Nov 10; GTRI 0.06143, ISCB 0.03751, IWEB 0.03489, IGEO nil). No Elite Pools rebalancing or sub-advisor news found. Stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
@@ -702,6 +720,13 @@
       }
     ],
     "signals": [
+      {
+        "name": "Oct 30 sell-off is the allocation-conversation hook",
+        "reading": "Nasdaq -2.86%, S&P 500 -1.82% on Oct 30; Nasdaq about -5.2% in October; Dow still +1.5% for the month",
+        "level": "Dow +1.5% vs Nasdaq -5.2% (Oct)",
+        "angle": "Diversified, multi-manager pools vs concentrated tech: October shows the dispersion. No new Elite Pools commentary found today.",
+        "tag": "LIVE"
+      },
       {
         "name": "Hawkish central-bank day is the advisor check-in hook",
         "reading": "Oct 28: BoC hiked to 2.50%, Fed held 3.75-4.00% with two hike dissents (December hike odds ~85%). No Elite-specific allocation change announced.",
