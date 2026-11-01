@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-31-1007",
+  "updated": "2026-11-01-1015",
   "CCM9973": {
-    "asof": "Oct 31, 2026 (Sat): Oct 30 close verified via search (Nasdaq 25,437.00, S&P 500 7,580.07, Dow 51,770.31) after an AI cash-burn sell-off (Amazon, Intel); CNBC headline says Oct 29 was the Nasdaq's worst day since June (index levels not retrieved). Fund page not reachable; AUM/MER/holdings carried forward.",
+    "asof": "Nov 1, 2026 (Sun, markets closed): re-searched for new data; nothing newer than the Oct 30 close (Nasdaq 25,437.00, S&P 500 7,580.07) found. Added Micron Oct 22-23 prints. Fund page not reachable; AUM/MER/holdings carried forward.",
     "oneliner": "AI hardware demand is intact (Micron FQ4 beat, 2027 HBM largely contracted, Alphabet and Microsoft both signalling higher 2027 capex), but the market is now rewarding capex that converts to cloud growth (Microsoft) and punishing capex that burns cash (Alphabet) - a valuation/financing filter inside the theme, not a demand break.",
     "stats": [
       {
@@ -11,6 +11,10 @@
       {
         "k": "Indices (Wed Oct 28/26)",
         "v": "Dow 52,475.10 (+0.19%), S&P 500 7,743.98 (+0.28%), Nasdaq 26,549.85 (+0.27%); tech and energy led, Oracle ~+10.7% on revenue target (Reuters/Xinhua via search; one outlet cited a lower Nasdaq level, likely intraday)"
+      },
+      {
+        "k": "Micron (MU) Oct 22-23/26",
+        "v": "Fell 6.26% to $856.49 on Oct 22 as AI/semis risk appetite cooled (TradingKey); +2.46% to $877.55 on Fri Oct 23 on a BNP Paribas note on memory constraints in AI inference; CXMT DRAM-advance worries weighed on MU/SanDisk earlier that week (heygotrade/search snippets). Oct 30 MU close not found."
       },
       {
         "k": "Alphabet Q3/26 (Oct 28, after hours)",
@@ -265,7 +269,7 @@
     ]
   },
   "CCM5604": {
-    "asof": "Oct 31, 2026 (Sat): BoC hike to 2.50% on Oct 28 reconfirmed by several 2026-dated reports (first hike since Jul 2023; Macklem cited energy prices and inflation outlook; bankofcanada.ca not reachable). Fed hold at 3.75-4.00% carried forward from prior run. BoJ Oct 30 outcome not found. GTRI distribution ~C$0.06143/unit, record Oct 30, payable Nov 10 (Oct 23 release). Fund stats and GICs carried forward.",
+    "asof": "Nov 1, 2026 (Sun): no new rate decisions found. BoC hike to 2.50% (Oct 28) and Fed hold 3.75-4.00% carried forward; BoJ Oct 29-30 meeting outcome still not found (conflicting policy-rate figures in sources, so JPY line left as last verified). GTRI distribution (record Oct 30, payable Nov 10) carried forward. Fund stats and GICs carried forward.",
     "oneliner": "Central banks diverged on Oct 28: the Bank of Canada hiked to 2.50% and warned more may follow, while the Fed held at 3.75-4.00% with two dissents for a hike and December hike odds ~85% - a rate-hike regime where a flexible global income mandate beats a locked GIC.",
     "stats": [
       {
@@ -503,7 +507,7 @@
     ]
   },
   "CCM8752": {
-    "asof": "Oct 31, 2026 (Sat): equities sold off hard Oct 29-30 (Nasdaq -2.86%, S&P 500 -1.82% on Oct 30) - a live test for the diversifier case; no Cboe VIX print for Oct 29/30 found (last on file ~19.5-20 on Oct 23). No new October private-credit gating news beyond background. Fund stats carried forward.",
+    "asof": "Nov 1, 2026 (Sun): no Cboe VIX print for Oct 29-30 found (last on file ~19.5-20 on Oct 23); no new private-credit gating news found. Oct 30 equity sell-off (Nasdaq -2.86%, S&P 500 -1.82%) carried forward as the live diversifier test. Fund stats carried forward.",
     "oneliner": "A -1.09% S&P / -2.14% Nasdaq day and a ~4.5% Nasdaq weekly drop test the calm-but-fragile tape, while gated private credit (Blue Owl, Ares, Cliffwater, BCRED capped at 5%) keeps the daily-liquid alternative contrast front and centre.",
     "stats": [
       {
@@ -683,7 +687,7 @@
     ]
   },
   "ELITE": {
-    "asof": "Oct 31, 2026 (Sat): searched iA Clarington press releases - latest remains the Oct 23 Active ETF distributions notice (record Oct 30, payable Nov 10; GTRI 0.06143, ISCB 0.03751, IWEB 0.03489, IGEO nil). No Elite Pools rebalancing or sub-advisor news found. Stats carried forward.",
+    "asof": "Nov 1, 2026 (Sun): searched iA Clarington press releases - no November release yet; latest remains the Oct 23 Active ETF distributions notice (record Oct 30, payable Nov 10). Next distributions release typically lands in the 3rd-4th week of the month. No Elite Pools rebalancing or sub-advisor news found. Stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
