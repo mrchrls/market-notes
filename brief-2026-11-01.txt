@@ -1,0 +1,46 @@
+TerritoryIQ Morning Brief — Sunday, November 1
+(feed stamp 2026-11-01-1015)
+
+WHAT CHANGED
+Essentially nothing. Sunday, markets closed: no new or reworded signals
+across the four mandates and no stat moved. The one addition is a backfill
+in CCM9973 — Micron fell 6.26% to $856.49 on Oct 22, then +2.46% to
+$877.55 on Oct 23. Everything else carries forward from the Oct 30 close.
+
+TODAY'S SIGNAL ANGLES
+
+[CCM5604 · LIVE] BoC hikes to 2.50% — first hike since 2023 (2.25% -> 2.50%)
+Angle: a locked 5-yr GIC (best ~4.1-4.25%; big banks ~2.7-2.75%) gives up
+any benefit from rising policy rates. Fund YTM 5.7% and 3.9-yr duration
+(both carried forward, unverified) with global flexibility is the contrast.
+Best for GIC-renewal conversations.
+
+[CCM8752 · LIVE] Private-credit gating broadens — 11.4% requested vs ~5%
+planned (MS North Haven)
+Angle: Blue Owl Tech Income 39%, Cliffwater ~16%, Ares 11.6% all capped at
+5%; Oaktree met requests in full. Daily liquidity is the differentiator.
+Best for advisors with clients stuck in semi-liquid private credit.
+
+[ELITE · LIVE] October dispersion — Dow +1.5% vs Nasdaq -5.2%
+Angle: diversified multi-manager pools vs concentrated tech, with the
+month's own numbers. Easy check-in call; confirm actual pool returns
+before quoting.
+
+[CCM9973 · LIVE] Alphabet punished, Microsoft rewarded (Oct 28 AH) —
+GOOGL ~-10%, MSFT ~+4%
+Angle: Alphabet EPS $2.67 vs $3.02 est. and FCF -$9.07B; Microsoft Azure
++48%, EPS $4.89 vs ~$4.72. Capex confirmed higher into 2027 but the market
+now wants cash conversion — argues for a diversified active thematic over
+a single hyperscaler bet.
+
+[CCM8752 · LIVE] VIX back near 20 — ~19.5-20 on Oct 23, from ~16.5 Oct 15
+Angle: the calm regime is ending; market-neutral and macro sleeves are the
+ballast conversation vs gated private credit.
+
+WORTH KNOWING
+- Manulife Strategic Income Series F MER 0.90% vs our 0.84%; its own former
+  lead PM, Dan Janis III, now sub-advises CCM5604 through Agile.
+- Fidelity Global Innovators Series F 1.10% vs our last-published 1.18% —
+  the Mar 10/26 cut (mgmt 0.45% + admin 0.13%) should undercut it once the
+  new MER publishes.
+- GTRI distribution ~C$0.0614/unit: record Oct 30, payable Nov 10.
