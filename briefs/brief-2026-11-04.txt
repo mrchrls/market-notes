@@ -1,0 +1,46 @@
+TerritoryIQ Morning Brief — Wednesday, November 4
+
+1. WHAT CHANGED
+Nothing material — today's feed matches yesterday's except the "as of" notes and
+the timestamp. Two new notes: BCRED capped Q3 2026 redemptions at 5% for a third
+straight quarter, and an Oct 27 source has the market pricing further BoC hikes
+(both secondary/unverified). No verified Nov 2-3 close; Oct 30 carried forward.
+
+2. TODAY'S SIGNAL ANGLES
+
+[CCM5604 · LIVE] BoC hikes to 2.50%, first hike since 2023 — 2.25% -> 2.50%
+Angle: More increases possible, one meeting at a time; CPI ~3% since April, seen
+~3.5% by year-end. A locked 5-yr GIC gives up the upside if rates keep rising.
+Next decision Dec 9. For GIC-renewal conversations this week.
+
+[CCM5604 · LIVE] 5-yr GIC ceiling — best 5-yr GIC 4.25% (Oaken) vs fund YTM 5.7%
+Angle: ~145 bps pickup, 3.9-yr duration, monthly pay; big banks only ~2.7-2.75%.
+Feed flags the older 4.40-4.50% GIC table as not reconfirmed and the 5.7% YTM as
+carried forward — confirm both before quoting.
+
+[CCM8752 · LIVE] Private credit capped at 5% in Q3 — 39% / 11.6% / ~16%
+requested vs 5% cap
+Angle: Blue Owl Technology Income 39% requested, Ares 11.6%, Cliffwater ~16%
+with ~one-third filled; Fitch default rate a record 6.0% (12 mo to Apr 2026).
+Daily liquidity is the differentiator — for advisors whose clients are gated.
+
+[CCM9973 · LIVE] Oct 28: Alphabet punished, Microsoft rewarded — GOOGL ~-10% AH
+/ MSFT ~+4% AH
+Angle: Alphabet EPS $2.67 vs $3.02 and FCF -$9.07B, but capex held at $195-205B
+with a bigger 2027; Microsoft on Azure +48%. Capex is confirmed; the market now
+wants cash conversion. Diversified active thematic over one hyperscaler — your
+answer to "is AI a bubble?"
+
+[ELITE · LIVE] Oct 30 allocation hook — Dow +1.5% vs Nasdaq -5.2% (Oct)
+Angle: October dispersion argues for multi-manager pools over concentrated tech.
+No new Elite Pools commentary — confirm pool returns first.
+
+3. WORTH KNOWING
+- CCM5604: Dan Janis III, Manulife Strategic Income's own long-time lead PM, now
+  sub-advises CCM5604 via Agile. Our MER 0.84% F vs Manulife 0.90%.
+- CCM9973: Fidelity Global Innovators F is 1.10% vs our last-published 1.18% —
+  the Mar 10/26 cut (0.45% + 0.13%) should undercut it once published.
+- [SAMPLE] Don't cite PIMCO's flagship 2026 outlook as its current house view;
+  it predates the Fed's Sep 16/26 hike.
+
+Feed stamp: 2026-11-04-1007
