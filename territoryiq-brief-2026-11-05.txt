@@ -1,0 +1,45 @@
+TerritoryIQ Morning Brief — Thursday, November 5
+Feed stamp: 2026-11-05-1007
+
+WHAT CHANGED
+Nothing material. Today's feed is identical to yesterday's apart from the
+refresh notes — no new signals, no moved numbers, no new competitor info.
+All four mandates were re-searched and came up empty: no verified Nov 2-4
+index close, no new BoC/Fed decision or FX level, no VIX or private-credit
+gating news dated Nov 1-5, and no November iA Clarington release yet
+(next notice typically ~3rd week).
+
+TODAY'S SIGNAL ANGLES
+
+[CCM5604 · LIVE] BoC hikes to 2.50%, first hike since 2023 — 2.25% -> 2.50%
+Angle: Canadian rates are rising again, so a locked 5-yr GIC gives up the
+chance to benefit. Fund's 3.9-yr duration plus global flexibility is the
+contrast. Next BoC decision Dec 9 — use now, before renewals land.
+
+[CCM5604 · LIVE] 5-yr GIC ceiling — best GIC ~4.50% vs fund YTM 5.7% (carried forward)
+Angle: Still the cleanest income anchor for GIC-renewal conversations.
+Caveat before you quote it: the YTM is carried forward and unverified, and
+the stats line now shows Oaken 4.25% / Haventree 4.15% / Achieva 4.10%,
+with the 4.40-4.50% figures not reconfirmed.
+
+[CCM8752 · LIVE] Big-name private credit funds capped at 5% in Q3 — 39% / 11.6% / ~16% requested vs 5% cap
+Angle: Gating is industry-wide (Blue Owl Tech Income 39%, Ares Strategic
+Income 11.6%, Cliffwater ~16%; Fitch private-credit default rate 6.0%).
+Daily liquidity is the differentiator for advisors with clients stuck in
+semi-liquid product.
+
+[CCM9973 · LIVE] Oct 28: Alphabet punished, Microsoft rewarded — GOOGL ~-10% AH / MSFT ~+4% AH
+Angle: Capex is confirmed higher into 2027, but the market now wants cash
+conversion — the case for a diversified, actively managed thematic fund
+over a single hyperscaler bet.
+
+[ELITE · LIVE] Oct 30 sell-off is the allocation-conversation hook — Dow +1.5% vs Nasdaq -5.2% (Oct)
+Angle: October's dispersion makes the multi-manager case for you. Confirm
+actual pool returns before quoting.
+
+WORTH KNOWING
+- Manulife Strategic Income Series F AUM now logged at $5.58B vs CCM5604's
+  ~$1.1B; their MER 0.90% vs our 0.84% (carried forward). Dan Janis, who
+  built their flagship, now sub-advises ours.
+- GTRI Active ETF distribution ~C$0.0614/unit, record Oct 30, payable
+  Nov 10 — a routine touchpoint next week for ETF-using advisors.
