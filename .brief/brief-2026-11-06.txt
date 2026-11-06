@@ -1,0 +1,28 @@
+TerritoryIQ Morning Brief — Friday, November 6
+
+WHAT CHANGED
+Nothing material. Against yesterday's revision, only the four per-mandate "as of" notes were reworded — no signal, stat or competitor figure moved. Freshest datapoints are still Oct 28-30.
+
+TODAY'S SIGNAL ANGLES
+
+[CCM5604 · LIVE] BoC hikes to 2.50%, first hike since 2023 — 2.25% -> 2.50%
+Angle: rates are rising again (CPI ~3% since April, seen ~3.5% by year-end). A locked 5-yr GIC at best ~4.1-4.25% gives that up; fund YTM 5.7% (carried forward, unverified) at 3.9-yr duration is the contrast. Best for GIC-renewal calls.
+
+[CCM8752 · LIVE] Gating broadens; Oaktree the exception — 11.4% requested vs ~5% (North Haven)
+Angle: BCRED ~10% of Q3 requests capped at 5%; Apollo ADS 14.7% requested vs 5% paid. Daily liquidity at the fund level is the differentiator. For advisors with clients stuck in semi-liquid private credit.
+
+[CCM9973 · LIVE] Oct 28: Alphabet punished, Microsoft rewarded after hours — GOOGL ~-10% AH / MSFT ~+4% AH
+Angle: Alphabet EPS $2.67 vs $3.02, FCF -$9.07B; Microsoft Azure +48%, EPS $4.89 vs ~$4.72. Capex is higher into 2027 but the market now wants cash conversion — the case for a diversified active thematic over one hyperscaler bet.
+
+[CCM5604 · LIVE] Fed holds, two dissent for a hike — Hold / Dec hike ~85%
+Angle: hike bias in Ottawa and Washington. Active duration and currency management beats a static ladder.
+
+[ELITE · LIVE] Oct 30 sell-off is the allocation hook — Dow +1.5% vs Nasdaq -5.2% (Oct)
+Angle: October dispersion is the multi-manager pool case. Confirm pool returns before quoting.
+
+WORTH KNOWING
+- Manulife Strategic Income Series F MER 0.90% vs our 0.84%; Dan Janis III, who built it, now sub-advises CCM5604 at Agile.
+- Fidelity Global Innovators Series F 1.10% vs CCM9973's 1.18% last-published — the Mar 10/26 cut (0.45% mgmt + 0.13% admin) still has no published trailing MER.
+- Active ETF distributions: record Oct 30/26, payable Nov 10/26 — a touchpoint next week.
+
+Feed stamp: 2026-11-06-1007
