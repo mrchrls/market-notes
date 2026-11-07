@@ -1,0 +1,26 @@
+Subject: TerritoryIQ Morning Brief — Saturday, November 7
+
+WHAT CHANGED
+Nothing material — same signals, stats and competitors as yesterday, only the "as of" notes reworded. CCM9973 looked at a snippet claiming record S&P 500/Nasdaq closes on Nvidia/SanDisk and a strong jobs report, but the date was ambiguous and no levels surfaced: flagged UNVERIFIED, dropped. Your tape is still Oct 30.
+
+TODAY'S SIGNAL ANGLES
+
+[CCM5604 - LIVE] BoC hikes to 2.50%, first hike since 2023 — 2.25% -> 2.50%
+Angle: Statement leaves the door open to more. A locked 5-yr GIC (best ~4.1-4.25%) gives up that upside; fund YTM 5.7% and 3.9-yr duration with global flexibility is the contrast (both carried forward, unverified). Your best GIC-renewal conversation.
+
+[CCM8752 - LIVE] Private credit capped at 5% in Q3 — 39% / 11.6% / ~16% requested vs 5% cap
+Angle: Blue Owl Technology Income 39%, Ares Strategic Income 11.6%, Cliffwater flagship ~16% — all gated. Daily liquidity is the differentiator. Lead with this for advisors whose clients are stuck in semi-liquid private credit.
+
+[CCM9973 - LIVE] Oct 28: Alphabet punished, Microsoft rewarded — GOOGL ~-10% AH / MSFT ~+4% AH
+Angle: Alphabet fell on EPS $2.67 vs $3.02 and FCF -$9.07B while holding capex at $195-205B; Microsoft rose on Azure +48%. Capex into 2027 is confirmed, but the market now pays for cash conversion — the case for a diversified active fund over one hyperscaler.
+
+[CCM8752 - LIVE] VIX back near 20 — VIX ~19.5-20, up from ~16.5 on Oct 15
+Angle: The calm regime is ending; market-neutral and macro sleeves are the ballast conversation while they are still cheap to add.
+
+[ELITE - LIVE] Oct 30 sell-off is the allocation hook — Dow +1.5% vs Nasdaq -5.2% (Oct)
+Angle: October's dispersion makes the multi-manager case for you. Confirm pool returns before quoting — still no new Elite Pools commentary.
+
+WORTH KNOWING
+- Use 4.25% as your GIC ceiling: Oaken 4.25%, Haventree 4.15%, Achieva 4.10%, big banks ~2.7-2.75%. The older 4.40-4.50% figures were not reconfirmed.
+- Evergreen CCM5604 pitch: Manulife Strategic Income's long-time lead PM, Dan Janis, now sub-advises our fund. Their Series F MER 0.90% vs our 0.84% — but AUM $5.58B vs ~$1.1B, so expect the scale objection.
+- [SAMPLE] PIMCO's flagship 2026 outlook pieces predate the Fed's Sep 16/26 hike — don't cite them as PIMCO's current house view.
