@@ -1,0 +1,38 @@
+WHAT CHANGED
+No new stats or signals today — the only diff vs yesterday is the "updated"
+stamp and the four per-mandate research notes. Worth flagging from those notes:
+an unverified single-source Nov 6 sell-off (Nasdaq -5.52% to 24,315; S&P 500
+-4.30% to 7,358.13), deliberately excluded from the stats. Don't quote it yet.
+
+TODAY'S SIGNAL ANGLES
+
+[CCM5604 · LIVE] BoC hikes to 2.50% — 2.25% -> 2.50%
+Angle: First hike since 2023, door left open to more; CPI ~3% since April, seen
+~3.5% by year-end. A locked 5-yr GIC gives up that upside. Best for GIC-renewal
+calls ahead of the Dec 9 decision.
+
+[CCM5604 · LIVE] 5-yr GIC ceiling — fund YTM 5.7% vs best 5-yr GIC 4.25%
+Angle: ~145 bps pickup, 3.9-yr duration, global flexibility; big banks only
+~2.70-2.75%. Both figures are carried forward — confirm before quoting.
+
+[CCM8752 · LIVE] Private credit capped at 5% in Q3 — 39% / 11.6% / ~16% requested
+Angle: Blue Owl Technology Income 39% requested, Ares 11.6%, Cliffwater ~16%
+and only ~one-third filled; Fitch default rate a record 6.0%. Daily liquidity is
+the differentiator. Best for advisors with clients stuck in semi-liquid credit.
+
+[CCM9973 · LIVE] Alphabet punished, Microsoft rewarded — GOOGL ~-10% / MSFT ~+4% AH
+Angle: Alphabet EPS $2.67 vs $3.02 est., FCF -$9.07B; Microsoft Azure +48%, EPS
+$4.89. Capex is higher into 2027 but the market wants cash conversion — favours
+a diversified active thematic fund over one hyperscaler bet.
+
+[ELITE · LIVE] October dispersion — Dow +1.5% vs Nasdaq -5.2%
+Angle: One month, opposite directions — the live argument for multi-manager
+pools over concentrated tech. Confirm pool returns before quoting performance.
+
+WORTH KNOWING
+- Manulife's own long-time lead PM, Dan Janis, now sub-advises CCM5604. Their
+  Series F MER 0.90% vs our 0.84%.
+- Fidelity Global Innovators Series F 1.10% vs CCM9973's last-published 1.18%;
+  the Mar 10/26 fee cut (mgmt 0.45% + admin 0.13%) should undercut once published.
+- GTRI Active ETF distribution ~C$0.0614/unit, record Oct 30, payable Nov 10
+  (Tuesday) — routine touchpoint for ETF-using advisors.
