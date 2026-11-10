@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-09-1006",
+  "updated": "2026-11-10-1006",
   "CCM9973": {
-    "asof": "Nov 9, 2026 (Mon): re-searched index closes; no verified Nov 6 close found. Single-source StockHub wrap (unconfirmed) lists Nov 5 close S&P 500 7,688.62 / Nasdaq 25,736.51 / Dow 53,356.12, and a Nov 6 opening report (~S&P 7,379) conflicts with it - NOT used in stats; confirm before quoting. Fund page/AUM/MER/holdings carried forward.",
+    "asof": "Nov 10, 2026 (Tue): re-searched index closes and AI/tech news; no verified Nov 6 or Nov 9 close found (search returned only older sessions; the May 8/26 record-high wrap is NOT current). Earlier Oct figures, fund page/AUM/MER/holdings carried forward; iaclarington.com not reachable.",
     "oneliner": "AI hardware demand is intact (Micron FQ4 beat, 2027 HBM largely contracted, Alphabet and Microsoft both signalling higher 2027 capex), but the market is now rewarding capex that converts to cloud growth (Microsoft) and punishing capex that burns cash (Alphabet) - a valuation/financing filter inside the theme, not a demand break.",
     "stats": [
       {
@@ -269,7 +269,7 @@
     ]
   },
   "CCM5604": {
-    "asof": "Nov 9, 2026 (Mon): re-searched BoC/Fed; nothing new verified beyond BoC hike to 2.50% (Oct 28, next decision Dec 9, one source only in today's search) and Fed hold at 3.75-4.00% (Oct 28). No Nov previews found. Fund stats and GICs carried forward.",
+    "asof": "Nov 10, 2026 (Tue): re-searched BoC/Fed/GIC; nothing new verified. BoC hike to 2.50% (Oct 28; next decision Dec 9) still only single-source; no Nov Fed expectations or current GIC table found. Fund stats and GICs carried forward.",
     "oneliner": "Central banks diverged on Oct 28: the Bank of Canada hiked to 2.50% and warned more may follow, while the Fed held at 3.75-4.00% with two dissents for a hike and December hike odds ~85% - a rate-hike regime where a flexible global income mandate beats a locked GIC.",
     "stats": [
       {
@@ -507,7 +507,7 @@
     ]
   },
   "CCM8752": {
-    "asof": "Nov 9, 2026 (Mon): re-searched VIX and private-credit gating; no Nov 2026 VIX print found; BCRED capped Q3 redemptions at 5% for a third straight quarter (single secondary source; Blue Owl, Ares, Cliffwater caps also reported, undated). Fund stats carried forward.",
+    "asof": "Nov 10, 2026 (Tue): re-searched VIX and private-credit gating; no Nov 2026 VIX print found; latest gating coverage is Mar-Q3/26 (BCRED 3rd straight 5% cap, Cliffwater, Carlyle, Monroe), nothing new this week. Fund stats carried forward.",
     "oneliner": "A -1.09% S&P / -2.14% Nasdaq day and a ~4.5% Nasdaq weekly drop test the calm-but-fragile tape, while gated private credit (Blue Owl, Ares, Cliffwater, BCRED capped at 5%) keeps the daily-liquid alternative contrast front and centre.",
     "stats": [
       {
@@ -687,7 +687,7 @@
     ]
   },
   "ELITE": {
-    "asof": "Nov 9, 2026 (Mon): re-searched iA Clarington press releases; latest remains the Oct 23 Active ETF distributions notice, no Nov 2026 release yet (Nov notice was Nov 21 last year). No Elite Pools/sub-advisor news. Stats carried forward.",
+    "asof": "Nov 10, 2026 (Tue): re-searched iA Clarington press releases; latest found remains the Oct 2026 Active ETF distributions notice (GTRI payable Nov 10); Nov distribution notice not yet out (last year Nov 21). No Elite Pools/sub-advisor news. Stats carried forward.",
     "oneliner": "Still no fresh Elite Pools rebalancing news; the Montreal 'Behind the Numbers' due-diligence event (Sep 30-Oct 1) is the likely venue for new allocation commentary, and the IIME ETF launch (Sep 18) remains the freshest product story.",
     "stats": [
       {
