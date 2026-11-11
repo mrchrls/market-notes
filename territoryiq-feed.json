@@ -2,7 +2,7 @@
   "updated": "2026-11-11-1008",
   "CCM9973": {
     "asof": "Nov 11, 2026 (Wed): verified Nov 5 Nasdaq -5.2% rout (Fox/CNBC/Axios/Bloomberg), Nov 9 rebound and Nov 10 closes (TheStreet/StockTitan/Yahoo), NVDA CEO scandal (CNN/Variety/Yahoo), Micron drawdown (24/7 Wall St.). Fund page/AUM/MER/holdings carried forward; iaclarington.com not reachable.",
-    "oneliner": "AI hardware demand is intact (Micron FQ4 beat, 2027 HBM largely contracted, Alphabet and Microsoft both signalling higher 2027 capex), but the market is now rewarding capex that converts to cloud growth (Microsoft) and punishing capex that burns cash (Alphabet) - a valuation/financing filter inside the theme, not a demand break.",
+    "oneliner": "AI demand signals are intact (HBM reported sold out through 2027, hyperscaler capex still rising), but November has turned the theme into a volatility story: a record Nov 5 Nasdaq 100 wipeout on midterm AI-policy fears, Nvidia's CEO scandal and a hot CPI - the case for a diversified, actively managed five-layer basket over single-name AI bets.",
     "stats": [
       {
         "k": "Indices (Tue Nov 10/26)",
@@ -301,7 +301,7 @@
   },
   "CCM5604": {
     "asof": "Nov 11, 2026 (Wed): verified Oct US CPI (Nov 10, CBS/Yahoo/Investing), Dec Fed hike odds ~88% (CME via Investing.com), Canada Oct jobs (BNN/CP24), BoC 2.50% (wowa/Canada.ca), USD/CAD ~1.4167 (FXStreet), 10-yr ~4.94% and Brent ~$90.5 (Kitco), 5-yr GIC top 4.55% (WOWA/GIC Calculator). Fund stats carried forward.",
-    "oneliner": "Central banks diverged on Oct 28: the Bank of Canada hiked to 2.50% and warned more may follow, while the Fed held at 3.75-4.00% with two dissents for a hike and December hike odds ~85% - a rate-hike regime where a flexible global income mandate beats a locked GIC.",
+    "oneliner": "Rate paths are splitting: hot US CPI has a December Fed hike ~fully priced while Canada's jobs miss (6.7% unemployment) cools a second BoC hike - cross-market divergence that a flexible global income mandate can use and a locked 4.55% GIC cannot.",
     "stats": [
       {
         "k": "US Oct CPI (released Nov 10/26)",
@@ -559,7 +559,7 @@
   },
   "CCM8752": {
     "asof": "Nov 11, 2026 (Wed): verified VIX spike to ~28.2 on Nov 5 and easing to ~19.5 by Nov 10 (Cboe/GuruFocus/Investing.com), BDC tender proration tracker as of Nov 7 and ASIC private-credit report Nov 10 (crowdfundedwealth/ABC). Fund stats carried forward.",
-    "oneliner": "A -1.09% S&P / -2.14% Nasdaq day and a ~4.5% Nasdaq weekly drop test the calm-but-fragile tape, while gated private credit (Blue Owl, Ares, Cliffwater, BCRED capped at 5%) keeps the daily-liquid alternative contrast front and centre.",
+    "oneliner": "The Nov 5 shock (Nasdaq -5.2%, VIX ~28) tested every 60/40, and 7 of 10 non-traded private-credit BDCs still prorated redemptions - the daily-liquid, multi-strategy alternative contrast is as sharp as it has been all year.",
     "stats": [
       {
         "k": "VIX (regime read)",
