@@ -1,9 +1,21 @@
 {
-  "updated": "2026-11-12-1008",
+  "updated": "2026-11-13-1008",
   "CCM9973": {
-    "asof": "Nov 12, 2026 (Thu): verified Nov 11 closes (Yahoo/KRMG/CNBC/TheStreet), CoreWeave Q3 beat-and-raise (Benzinga/TradingKey), NVDA after-hours -8.6% on WSJ report board weighing Huang's removal plus Oppenheimer downgrade (Fox Business/CBS/Yahoo, via search). Fund page/AUM/MER/holdings carried forward; iaclarington.com and news sites not fetchable from this session.",
-    "oneliner": "AI demand signals are intact - CoreWeave's backlog jumped to ~$132.5B and HBM is reported sold out through 2027 - but November is a volatility story: a record Nov 5 Nasdaq 100 wipeout, Nvidia's CEO-governance crisis and hot CPI. That's the case for a diversified, actively managed five-layer basket over single-name AI bets.",
+    "asof": "Nov 13, 2026 (Fri): verified Nov 12 closes (Yahoo/StockTitan/BBN Times), Jensen Huang's resignation and Colette Kress as interim CEO (Nvidia 8-K, CNBC, Yahoo, Al Jazeera, PBS), NVDA close $166.19 (-4.34%) and analyst cuts (Yahoo/Fool), via search. Fund page/AUM/MER/holdings carried forward; iaclarington.com and most news sites not fetchable from this session.",
+    "oneliner": "AI demand signals are intact - CoreWeave's backlog jumped to ~$132.5B and HBM is reported sold out through 2027 - but November is a volatility story: a record Nov 5 Nasdaq 100 wipeout and now Jensen Huang's Nov 12 resignation as Nvidia CEO. A diversified 5-layer innovation mandate is the answer to single-name and key-person risk.",
     "stats": [
+      {
+        "k": "Indices (Thu Nov 12/26)",
+        "v": "S&P 500 7,592.40 (-0.35%, erased an early ~1% drop), Nasdaq 25,366.09 (-0.39%), Dow 52,297.09 (-0.36%), Russell 2000 -1.66%; drivers: Nvidia CEO exit, 10-yr UST back above 5.1%, Brent +3.3% (Yahoo/StockTitan/BBN Times)"
+      },
+      {
+        "k": "NVDA (Nov 12/26) - CEO resignation",
+        "v": "Jensen Huang resigned as President, CEO and director effective immediately (8-K, pre-market Nov 12); CFO Colette Kress interim CEO (keeps CFO role); Harvey C. Jones board chair; internal/external search under way. Stock fell >13% early, closed $166.19 (-4.34%). Melius to Hold, PT $315->$185; Morningstar FV $310->$250. Earnings Nov 17; Huang summoned to a House briefing Nov 18"
+      },
+      {
+        "k": "NVDA (Nov 11/26)",
+        "v": "+2.9% in regular session, then ~-8.6% after hours on WSJ report the board was preparing to remove CEO Jensen Huang (confirmed by his Nov 12 resignation); Oppenheimer cut to Perform"
+      },
       {
         "k": "Indices (Wed Nov 11/26)",
         "v": "S&P 500 7,619.38 (+1.31%), Nasdaq 25,466.19 (+1.60%), Dow 52,486.49 (+0.49%), Russell 2000 2,846.26 (+0.88%); chip index ~+5.7%, every SOX member higher (Yahoo/KRMG/CNBC; minor source differences)"
@@ -11,10 +23,6 @@
       {
         "k": "CoreWeave Q3/26 (Nov 10 AMC)",
         "v": "Revenue $3.66B (+168% y/y) vs ~$3.55B est.; adj. EPS -$0.95 vs ~-$1.16 est.; backlog ~$132.5B (from ~$104B in June); FY26 rev guide raised to $13.0-13.3B; FY26 capex $37-39B; shares +24.7% to $60.77 on Nov 11"
-      },
-      {
-        "k": "NVDA (Nov 11/26)",
-        "v": "+2.9% in regular session, then ~-8.6% after hours on WSJ report the board is preparing to remove CEO Jensen Huang after new affair allegations; Oppenheimer cut to Perform (no target); Dan Ives frames ~$300/sh with Huang vs ~$225 without (Fox Business/CBS/Yahoo via search)"
       },
       {
         "k": "Indices (Tue Nov 10/26)",
@@ -146,7 +154,7 @@
           "TSM"
         ],
         "choke": "Micron's record FQ4 (Sep 30/26: rev $54.2B, FQ1 guide ~$61.5B) and contracted 2027 HBM supply at higher prices keep memory the tightest link in the chain; Rubin ramp timing (HBM4 largely a 2027 story) remains the swing factor. ",
-        "note": "NVDA, AVGO and TSM remain top holdings (unweighted); chipmakers led Oct 27-28 gains. Alphabet's higher 2027 capex signal is a read-through positive for accelerator and memory demand (Korea memory names flagged in coverage) | Nov 11/26: SOX ~+5.7% on CoreWeave, but NVDA -8.6% after hours on CEO-removal report - layer is now carrying single-name governance risk."
+        "note": "NVDA, AVGO and TSM remain top holdings (unweighted); chipmakers led Oct 27-28 gains. Alphabet's higher 2027 capex signal is a read-through positive for accelerator and memory demand (Korea memory names flagged in coverage) | Nov 11/26: SOX ~+5.7% on CoreWeave, but NVDA -8.6% after hours on CEO-removal report - layer is now carrying single-name governance risk. | Nov 12/26: Huang resigned as Nvidia CEO (Kress interim); NVDA -4.34% to $166.19 after a >13% early drop - the market treated it as company-specific (S&P -0.35%), but key-person risk in the layer's largest name is now real; Nov 17 earnings is the next test."
       },
       {
         "id": "infra",
@@ -188,6 +196,20 @@
       }
     ],
     "signals": [
+      {
+        "name": "Jensen Huang resigns; Colette Kress interim CEO",
+        "reading": "Nvidia's 8-K (Nov 12) confirms Huang's immediate resignation after 33 years; CFO Kress is interim CEO, Harvey C. Jones chair, search open to internal/external candidates. NVDA -13% early, closed -4.34% at $166.19; Melius cut to Hold ($185 PT), Morningstar FV to $250. Earnings Nov 17.",
+        "level": "NVDA $166.19 (-4.34%)",
+        "angle": "Key-person risk just hit the world's most important AI stock. Clients who own NVDA directly felt it; a thematic mandate spread across energy, chips, infra, models and apps owns the theme, not one CEO.",
+        "tag": "LIVE"
+      },
+      {
+        "name": "Market shrugs it off: S&P -0.35%",
+        "reading": "S&P 500 7,592.40 (-0.35%) erased an early ~1% drop; Nasdaq -0.39%; small caps -1.66% as the 10-yr pushed above 5.1% and Brent jumped 3.3%. VIX 18.70 (+6.9%), well below last week's ~28.",
+        "level": "S&P 7,592 / VIX 18.70",
+        "angle": "The AI build-out story survived a CEO exit in one session - use it to show the theme is bigger than any single company.",
+        "tag": "LIVE"
+      },
       {
         "name": "CoreWeave beat-and-raise relights AI infrastructure",
         "reading": "Q3 revenue $3.66B (+168%), backlog ~$132.5B (+~$28.5B in a quarter), FY26 guide raised; CRWV +24.7%, chip index ~+5.7%, Nasdaq +1.6% on Nov 11.",
@@ -285,20 +307,6 @@
         "level": "Nasdaq 26,140.03 (-2.14%); week -4.5%",
         "angle": "Pullback is rate- and financing-driven (CPI, CoreWeave debt, China chips) while hyperscaler capex and HBM contracting hold - frame as volatility to diversify within innovation, not a thesis break; name the concentration and valuation risk honestly.",
         "tag": "LIVE"
-      },
-      {
-        "name": "Oct 15: stocks rebound despite hot PPI",
-        "reading": "Oct 15 (close): S&P 500 +0.33%, Dow +1.08%; Sep PPI +1.3% m/m, +6.3% y/y vs 5.5% est., core PPI +0.7% vs 0.3% est.; retail sales +0.8% vs 0.3% est. Exact index closes not verified. Apple/Meta AI partnership reported same day (Wall Street Republic).",
-        "level": "S&P +0.33% / PPI 6.3% y/y",
-        "angle": "Inflation prints are hot but AI/tech leadership held; innovation exposure is a rates-and-earnings story, not just a multiple story.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Hot Sep CPI hits tech",
-        "reading": "Sep US CPI (Oct 14): headline 3.7% y/y vs 3.6% est., core 2.6% vs 2.5% est.; gasoline +9.1% (CNBC/Investing.com). Reports on the market reaction vary: S&P ~-0.6%, Nasdaq ~-0.8% close (azat.tv citing CNBC); 10-yr UST ~5.25-5.30% on the day then ~5.10% Oct 15 (CNBC); 2-yr 4.89%; Oct FOMC hike odds ~39% CME (Investing.com) to ~46% (Bloomberg via Schwab), up from ~22% pre-print.",
-        "level": "CPI 3.7% vs 3.6%; Nasdaq ~-0.8%",
-        "angle": "Rate-driven pullback, not demand-driven: frame as valuation/discount-rate risk vs intact AI capex; stay invested, avoid timing the AI trade.",
-        "tag": "LIVE"
       }
     ],
     "competitors": [
@@ -312,20 +320,24 @@
     ]
   },
   "CCM5604": {
-    "asof": "Nov 12, 2026 (Thu): verified Dec Fed hike odds ~87-91% for 25bp / ~9-13% for 50bp (CME via FX Leaders/Seoul Economic Daily), post-CPI 2-yr 4.74% / 10-yr ~5.02% (Seoul Economic Daily), Brent ~$92-94 on Nov 11 and ~$91.6 Nov 12 (CNBC/Oilprice/HDFC Sky), Macklem 'further hikes may be needed' (FXStreet). USD/CAD and GIC carried from Nov 10; fund stats carried forward.",
-    "oneliner": "Rate paths are splitting: hot US CPI has a December Fed hike ~fully priced while Canada's jobs miss (6.7% unemployment) cools a second BoC hike - cross-market divergence that a flexible global income mandate can use and a locked 4.55% GIC cannot.",
+    "asof": "Nov 13, 2026 (Fri): verified 10-yr UST +13bp to ~5.125% on Nov 12 and 2-yr ~4.85% Nov 13 (CNBC), CME Dec hike ~100% priced (~87% 25bp / ~13% 50bp, CNBC), Brent settle $95.82 (+3.3%) on Trump 'no Iran deal needed' (CNBC/Bloomberg/Rigzone), USD/CAD ~1.4255 close (Producer/Trading Economics), best 5-yr GIC 4.55% (WOWA/GIC Calculator, Nov 12). Fund stats carried forward.",
+    "oneliner": "Rate paths are splitting: hot US CPI and a 10-yr back above 5.1% have a December Fed hike fully priced, while Canada's jobs miss (6.7% unemployment) cools a second BoC hike and the loonie slides to ~1.4255 - cross-market divergence that a flexible global income mandate is built to exploit.",
     "stats": [
       {
-        "k": "Fed December pricing (Nov 11-12/26)",
-        "v": "CME FedWatch ~87-91% for 25bp and ~9-13% for 50bp at Dec 8-9 FOMC (from 3.75-4.00%); Waller backing a December hike pushed odds sharply higher (FX Leaders/Seoul Economic Daily/KuCoin; timestamps differ)"
+        "k": "US yields (Nov 12-13/26)",
+        "v": "10-yr +13bp to ~5.125% on Nov 12 as oil jumped and hike bets firmed; Nov 13 a.m.: 10-yr ~5.127%, 2-yr ~4.85% (-1bp), 30-yr ~5.46% (CNBC)"
       },
       {
-        "k": "US yields post-CPI",
-        "v": "2-yr +18bp in a day to 4.74%; 10-yr touched ~5.02% (Seoul Economic Daily, Nov 12) - vs ~4.94% intraday reading on Nov 10 (Kitco); sources/timestamps differ"
+        "k": "Fed December pricing (Nov 12-13/26)",
+        "v": "CME FedWatch: hike ~100% priced for Dec 9 - ~87% for 25bp, ~13% for 50bp, from 3.75-4.00% (CNBC)"
       },
       {
-        "k": "Oil (Nov 11-12/26)",
-        "v": "Brent settled $91.49 Nov 10, rose to ~$92.8-93.9 Nov 11 after Iran denied talks with Washington and mine strikes in Hormuz, then ~$91.6 Nov 12 on Iran/Ukraine peace hopes; Brent ~-21% month-to-date (CNBC/Oilprice/FXStreet/HDFC Sky)"
+        "k": "Oil (Nov 12/26)",
+        "v": "Brent settled $95.82 (+3.3%), WTI $88.74 (+2.6%) after Trump said the US doesn't need a deal with Iran; Brent had fallen ~24% in the prior 10 days; US blockade of Iranian ports still in place (CNBC/Bloomberg/Rigzone)"
+      },
+      {
+        "k": "USD/CAD (Nov 12/26)",
+        "v": "~1.4255 close (Producer; Trading Economics 1.4258) - weakest CAD daily close since mid-October; loonie ~US$0.7016"
       },
       {
         "k": "BoC guidance",
@@ -348,16 +360,12 @@
         "v": "Overnight rate 2.50% (hiked 25bp Oct 28/26; Bank Rate 2.75% per Canada.ca); next decision Dec 9/26; weak jobs data has cut Dec hike odds to ~30-35%"
       },
       {
-        "k": "USD/CAD (Nov 10/26)",
-        "v": "~1.4167 intraday (+0.34%), highest since Oct 16 — hot US CPI plus Brent below $90 on US-Iran de-escalation hopes (FXStreet)"
-      },
-      {
         "k": "10-yr UST / oil (Nov 10/26)",
         "v": "10-yr UST ~4.94% after CPI (Kitco, intraday-style) — well below the ~5.3% early-Oct peak; Brent briefly <$90 (lowest since August), ~$90.50, after Trump said further Iran strikes 'highly unlikely'; naval blockade remains (Kitco/Capital Brief)"
       },
       {
         "k": "Best 5-yr GIC (Canada)",
-        "v": "WealthONE Bank 4.55%; Oaken Financial and Saven Financial 4.50% (WOWA/GIC Calculator, Nov 2-10/26); big banks ~2.75% (CIBC); 11 of 28 issuers raised a term in November, none cut"
+        "v": "WealthONE Bank 4.55%; Oaken Financial and Saven Financial 4.50% (WOWA/GIC Calculator, reconfirmed Nov 12/26; Ratehub/Forbes list 4.50% top); big banks ~2.75%"
       },
       {
         "k": "Iran / oil risk",
@@ -411,7 +419,7 @@
         "lon": -106,
         "weight": null,
         "cb": "BoC hiked 25bp to 2.50% on Oct 28/26 (first hike since Jul 2023), signalled further hikes possible; next MPR Jan 27/27",
-        "fx": "USD/CAD ~1.404 after the decision (1.4036-1.4046 across sources; little changed - hike was priced); firmed later as USD slipped after the Fed",
+        "fx": "USD/CAD ~1.4255 close Nov 12/26 (weakest CAD close since mid-Oct) on US yields >5.1% and a hawkish Fed; BoC closed Nov 11 for Remembrance Day",
         "note": "Hike delivered on narrow, energy-led inflation (CPI ~3%, seen ~3.5% by year-end) with core near 2% - dissenting economists argued for a hold; Canada 2-yr yield rose from 3.18% (Oct 9) to 3.37% (Oct 26)"
       },
       {
@@ -420,7 +428,7 @@
         "lon": -98.6,
         "weight": null,
         "cb": "Fed held 3.75%-4.00% on Oct 28/26 (10-2; two dissents for a hike); December hike odds ~85% per Yahoo Finance via search summary",
-        "fx": "US 2-yr yield eased from 4.80% (Oct 9) to 4.68% (Oct 26); Oct 28 10-yr not found",
+        "fx": "10-yr UST ~5.125% (Nov 12/26, +13bp), 2-yr ~4.85% (Nov 13); Dec Fed hike ~100% priced (~87% 25bp / ~13% 50bp)",
         "note": "Hawkish hold: the market now prices December, not October, as the live meeting"
       },
       {
@@ -462,6 +470,34 @@
     ],
     "basket": "Oct 28 divergence: BoC hiked to 2.50% and left the door open, the Fed held at 3.75-4.00% with two hike dissents and December hike odds ~85%, RBA at 4.60% (Sep 29), BoJ 1.25% (Sep 18). USD/CAD ~1.40 post-BoC; JPY, KRW, MXN, AUD prints carried forward without fresh same-day data. A two-sided, event-driven backdrop for this flexible fund heading into Q4.",
     "signals": [
+      {
+        "name": "10-yr back above 5.1%; Dec hike fully priced",
+        "reading": "10-yr UST rose 13bp to ~5.125% on Nov 12 as oil rebounded; CME shows a December hike ~100% priced (~87% 25bp, ~13% 50bp); 2-yr ~4.85%.",
+        "level": "10-yr ~5.13% / Dec hike ~100%",
+        "angle": "Long-duration bond funds are bleeding again; GTRI's ~3.9-yr duration and global flexibility let Janis harvest yield without betting the farm on the Fed path.",
+        "tag": "LIVE"
+      },
+      {
+        "name": "Oil snaps back: Brent +3.3% to $95.82",
+        "reading": "Trump said the US doesn't need a deal with Iran ('we've got their Strait'); Brent +3.3% to $95.82, WTI +2.6% to $88.74 after a ~24% 10-day slide.",
+        "level": "Brent $95.82",
+        "angle": "Headline-driven oil keeps inflation (and hike) risk alive - a reason to own an income fund that can move across currencies and curves, not a static bond ladder.",
+        "tag": "LIVE"
+      },
+      {
+        "name": "Loonie slides to ~1.4255",
+        "reading": "USD/CAD closed ~1.4255 on Nov 12, weakest CAD close since mid-October, as US yields rose and Canada's jobs data cooled BoC hike odds.",
+        "level": "USD/CAD ~1.4255",
+        "angle": "CAD weakness rewards globally diversified income - a direct counter to the 'just buy a GIC' objection.",
+        "tag": "LIVE"
+      },
+      {
+        "name": "5-yr GIC ceiling holds at 4.55%",
+        "reading": "WealthONE 4.55%, Oaken/Saven 4.50% (Nov 12); big banks ~2.75%.",
+        "level": "Best GIC 4.55% vs fund YTM 5.7% (carried forward)",
+        "angle": "GIC rates are rising but still below GTRI's carried-forward YTM, with no liquidity for 5 years.",
+        "tag": "LIVE"
+      },
       {
         "name": "Fed hike now near-certain; 2-yr jumps to 4.74%",
         "reading": "CME shows ~87-91% odds of +25bp on Dec 9 with a ~9-13% tail for 50bp; post-CPI the 2-yr rose 18bp to 4.74% and the 10-yr touched ~5.02%.",
@@ -545,34 +581,6 @@
         "level": "Hike odds ~15% to ~44%; 10-yr 5.09%",
         "angle": "Pricing swings 30 points in days - active duration and currency management beats a static ladder or a GIC lock-in.",
         "tag": "LIVE"
-      },
-      {
-        "name": "10-yr UST falls to ~5.10% on Oct 15",
-        "reading": "Sources differ: 5.07%-5.10% (one cites 5.086%, lowest since Sep 22) despite hot PPI, as buyers added duration amid AI-related corporate-debt worries.",
-        "level": "10-yr ~5.10% (was ~5.25-5.30% Oct 14)",
-        "angle": "Yields at 5%+ with a volatile path: the case for an active, flexible global income mandate vs. locking in a GIC.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Sep PPI shock",
-        "reading": "Sep PPI +1.3% m/m, +6.3% y/y vs 5.5% est.; core +0.7% vs 0.3% est. Adds to hot CPI (3.7%) ahead of FOMC/BoC Oct 27-28.",
-        "level": "PPI 6.3% vs 5.5%",
-        "angle": "Inflation pressure plus falling long yields = whipsaw; active duration/currency management matters.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Hot CPI revives Fed hike odds",
-        "reading": "Sep US CPI (Oct 14): headline 3.7% y/y vs 3.6% est., core 2.6% vs 2.5% est.; gasoline +9.1% (CNBC/Investing.com). Reports on the market reaction vary: S&P ~-0.6%, Nasdaq ~-0.8% close (azat.tv citing CNBC); 10-yr UST ~5.25-5.30% on the day then ~5.10% Oct 15 (CNBC); 2-yr 4.89%; Oct FOMC hike odds ~39% CME (Investing.com) to ~46% (Bloomberg via Schwab), up from ~22% pre-print. 30-yr reportedly closed 5.59% (Mitrade, single source).",
-        "level": "Oct hike odds ~39-46% vs ~22%",
-        "angle": "Odds swung from ~15-20% to ~40%+ in days: argues for active duration/currency management over a static ladder.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Fed Oct hike: Polymarket ~16.5%",
-        "reading": "Action Network (undated, appears recent): no change 82.5c, 25bp hike 16.5c for Oct 27-28; Sep CPI Oct 14; Citi says core CPI at 0.2% m/m or below makes the clearest case for a hold; Fed quiet period starts Oct 17.",
-        "level": "~16.5% hike (Polymarket, not CME)",
-        "angle": "Data-dependent path with CPI today - reinforces active duration management over a static ladder",
-        "tag": "LIVE"
       }
     ],
     "competitors": [
@@ -586,16 +594,20 @@
     ]
   },
   "CCM8752": {
-    "asof": "Nov 12, 2026 (Thu): verified VIX -~10% to ~17.48 on Nov 11 (KuCoin/TechFlow/Bank of Vol recaps via search) and S&P 500 7,619.38 (Yahoo/KRMG). No new private-credit gating headline found today; Nov 7 BDC tender tracker carried. Fund stats carried forward.",
+    "asof": "Nov 13, 2026 (Fri): verified VIX close 18.70 (+6.9%) on Nov 12 after Huang's resignation (ad-hoc-news, via search), S&P 500 7,592.40 (-0.35%), Russell 2000 -1.66%. Private credit: Q3 tender data shows requests easing (Stanger: 11.5% of NAV across 19 NAV BDCs vs 12.7% in Q2; Fidelity 2.5%, Goldman ~2%, both filled, via AltsWire); no new gating headline found. Fund stats carried forward.",
     "oneliner": "The Nov 5 shock (Nasdaq -5.2%, VIX ~28) tested every 60/40, and 7 of 10 non-traded private-credit BDCs still prorated redemptions - the daily-liquid, multi-strategy alternative contrast is as sharp as it has been all year.",
     "stats": [
       {
         "k": "VIX (regime read)",
-        "v": "~17.48 on Nov 11/26 (-~10% on the day, CoreWeave-led rally), from ~28.2 on Nov 5 and ~19.5 on Nov 10 - back to a normal regime, but NVDA's after-hours -8.6% on Nov 11 leaves event risk live"
+        "v": "18.70 close on Nov 12/26 (+6.9%; ~19 intraday) after Nvidia CEO resignation, from ~17.48 Nov 11 and ~28.2 Nov 5 - elevated-normal regime; event risk (NVDA earnings Nov 17, Dec 9 Fed/BoC) still live"
       },
       {
         "k": "Industry private-credit/BDC stress",
         "v": "As of Nov 7/26 tracker: 7 of 10 non-traded private-credit BDCs prorated their latest tender (fills ~12.8-49.9%; BCRED ~49.9%), Goldman PCC and Fidelity paid in full; Q3 requests: North Haven 11.4%, BCRED ~10%, Cliffwater ~16% vs 5% caps. ASIC (Australia) second private-credit surveillance report Nov 10/26 notes CVS Lane limited redemptions. Earlier: Q2/26 $15.6B requests, Metrics Credit Partners suspensions Sep 30/26"
+      },
+      {
+        "k": "Private-credit Q3 tender trend (Nov 2026)",
+        "v": "Robert A. Stanger & Co.: requests 11.5% of estimated tender NAV across 19 NAV BDCs reporting Q3, down from 12.7% in Q2 (same-store) - still more than 2x typical 5% caps; Fidelity Private Credit Fund 2.5% requested, filled for a 4th straight quarter; Goldman Sachs Private Credit Corp ~2%, filled (AltsWire)"
       },
       {
         "k": "AUM (Series F)",
@@ -679,6 +691,20 @@
       }
     ],
     "signals": [
+      {
+        "name": "VIX back to 18.70 on Nvidia CEO exit",
+        "reading": "VIX +6.9% to 18.70 on Nov 12 (~19 intraday) as Huang resigned; S&P only -0.35% but Russell 2000 -1.66%, 10-yr ~5.13%.",
+        "level": "VIX 18.70 vs ~17.5 Nov 11",
+        "angle": "Stocks and bonds fell together again (S&P down, yields up) - exactly the day a market-neutral / macro / long-short mix is meant for.",
+        "tag": "LIVE"
+      },
+      {
+        "name": "Private-credit redemption requests ease, still above caps",
+        "reading": "Stanger: Q3 requests 11.5% of NAV across 19 NAV BDCs (vs 12.7% Q2); Fidelity and Goldman BDCs filled in full at ~2-2.5% requests.",
+        "level": "11.5% requested vs ~5% caps",
+        "angle": "Pressure is cooling but most non-traded funds still can't meet requests in full - daily liquidity remains the Multi-Strategy Pool's clearest differentiator.",
+        "tag": "LIVE"
+      },
       {
         "name": "VIX back to ~17.5 after AI rebound - but event risk not gone",
         "reading": "VIX fell ~10% to ~17.48 on Nov 11 as the S&P rose 1.31% to 7,619; hours later NVDA dropped ~8.6% after hours on a CEO-removal report.",
@@ -776,26 +802,12 @@
         "level": "Redemptions suspended",
         "angle": "Gating is now global — daily liquidity is a differentiator",
         "tag": "LIVE"
-      },
-      {
-        "name": "Q2 BDC redemption backlog",
-        "reading": "$15.6B of requests in Q2/26; 10 of 16 Fitch-tracked BDCs unable to pay in full; unmet requests roll forward",
-        "level": "$15.6B requested",
-        "angle": "Use with advisors holding private-credit products; confirm PG Partners sleeve gate terms",
-        "tag": "LIVE"
-      },
-      {
-        "name": "VIX 15.31",
-        "reading": "VIX closed 15.31 on Oct 2/26, down 1.08 (-6.59%) from 16.39 the prior close (Oct 1 figure in earlier run was 16.5 — minor source variance)",
-        "level": "15.31 vs ~16.4 prior",
-        "angle": "Calm regime — hedging/market-neutral sleeves earn their keep when it turns",
-        "tag": "LIVE"
       }
     ]
   },
   "ELITE": {
-    "asof": "Nov 12, 2026 (Thu): re-searched iA Clarington press releases and sub-advisor news; latest release found remains the Oct 23/26 Active ETF distributions (payable Nov 10). No November release, Elite Pools allocation change or sub-advisor change found. Stats carried forward.",
-    "oneliner": "Still no fresh Elite Pools rebalancing news through Nov 12; a whipsaw week (Nov 5 rout, Nov 11 AI rebound, Nvidia CEO shock after hours) plus a near-certain December Fed hike is the advisor check-in hook for diversified, professionally rebalanced pools.",
+    "asof": "Nov 13, 2026 (Fri): re-searched iA Clarington press releases and sub-advisor news; latest release found remains the Oct 23/26 Active ETF distributions (payable Nov 10). No November release, Elite Pools allocation change or sub-advisor change found. Stats carried forward.",
+    "oneliner": "Still no fresh Elite Pools rebalancing news through Nov 13; a whipsaw fortnight (Nov 5 rout, Nov 11 AI rebound, Nvidia CEO resignation Nov 12) plus a fully priced December Fed hike and a 10-yr above 5.1% is the advisor check-in hook for managed, multi-manager portfolios.",
     "stats": [
       {
         "k": "Loomis Sayles firm AUM",
@@ -835,6 +847,13 @@
       }
     ],
     "signals": [
+      {
+        "name": "Nvidia CEO exit is the concentration-risk conversation",
+        "reading": "Huang resigned Nov 12 (Kress interim); NVDA -4.34%, S&P -0.35%, 10-yr ~5.13%, Brent +3.3% - equity and bond risk hit together.",
+        "level": "S&P 7,592 / 10-yr ~5.13%",
+        "angle": "Clients overweight mega-cap tech just saw key-person risk; Elite Pools' multi-manager, rebalanced mix (PIMCO, Loomis, QV, Capital Group) is the diversification answer.",
+        "tag": "LIVE"
+      },
       {
         "name": "Whipsaw week is the rebalancing hook",
         "reading": "Nov 5 Nasdaq -5.2%, Nov 11 S&P +1.31% on CoreWeave, then NVDA -8.6% after hours on governance news - clients chasing or fleeing AI are being whipsawed.",
@@ -906,6 +925,6 @@
         "tag": "SAMPLE"
       }
     ],
-    "compositionNote": "No Elite Pools or Unified Portfolios allocation, rebalancing or sub-advisor change was announced as of Nov 12/26; the latest iA Clarington release found is the Oct 23/26 Active ETF distributions notice (payable Nov 10). Underlying-manager roster carried forward: PIMCO Monthly Income Fund (Canada), Mackenzie Unconstrained Fixed Income, IA Clarington Strategic Corporate Bond, BMO High Yield US Corporate Bond Index ETF, IA Clarington Loomis U.S. All Cap Growth, IA Clarington QV Global Equity, BMO MSCI EAFE Index ETF, Capital Group Global Equity (Canada). Market context for the pools: the Nov 5 tech rout (Nasdaq -5.2%, VIX ~28) and the hot Oct US CPI (Dec Fed hike ~88% priced) versus a softer Canadian labour market (6.7% unemployment, BoC hike odds ~30-35%) argue for the pools' built-in diversification and rebalancing discipline. Governance items on file remain the Mc Mahon reassignment (33 funds to iAGAM's Tej Rai/Alex Bellefleur) and the QV Canadian Small Cap PM transition (Amit Shah, effective Jul 3/26). iA Clarington AUM $26B+ (Sep 30/26). Nov 12 update: S&P 500 rebounded to 7,619 (+1.31%) on Nov 11 while Dec Fed hike odds held ~87-91% - concentration risk (NVDA ~-8.6% after hours) favours the pools' multi-manager mix."
+    "compositionNote": "No Elite Pools or Unified Portfolios allocation, rebalancing or sub-advisor change was announced as of Nov 13/26; the latest iA Clarington release found is the Oct 23/26 Active ETF distributions notice (payable Nov 10). Underlying-manager roster carried forward: PIMCO Monthly Income Fund (Canada), Mackenzie Unconstrained Fixed Income, IA Clarington Strategic Corporate Bond, BMO High Yield US Corporate Bond Index ETF, IA Clarington Loomis U.S. All Cap Growth, IA Clarington QV Global Equity, BMO MSCI EAFE Index ETF, Capital Group Global Equity (Canada). Market context for the pools: the Nov 5 tech rout (Nasdaq -5.2%, VIX ~28) and the hot Oct US CPI (Dec Fed hike ~88% priced) versus a softer Canadian labour market (6.7% unemployment, BoC hike odds ~30-35%) argue for the pools' built-in diversification and rebalancing discipline. Governance items on file remain the Mc Mahon reassignment (33 funds to iAGAM's Tej Rai/Alex Bellefleur) and the QV Canadian Small Cap PM transition (Amit Shah, effective Jul 3/26). iA Clarington AUM $26B+ (Sep 30/26). Nov 12 update: S&P 500 rebounded to 7,619 (+1.31%) on Nov 11 while Dec Fed hike odds held ~87-91% - concentration risk (NVDA ~-8.6% after hours) favours the pools' multi-manager mix. Nov 13 update: Jensen Huang resigned as Nvidia CEO on Nov 12 (S&P -0.35%, NVDA -4.34%) while the 10-yr UST rose to ~5.13% and a December Fed hike is fully priced - single-stock key-person risk plus rising yields reinforce the pools' multi-manager, rebalanced design."
   }
 }
