@@ -1,0 +1,31 @@
+Subject: TerritoryIQ Morning Brief — Saturday, November 14
+
+WHAT CHANGED
+Seven new LIVE signals since yesterday, all from Friday's closes: NVDA -12.75% on the week (HSBC to Hold) while the S&P still finished +2.5%; the 10-yr at ~5.15% on 6.5% annual PPI; a 19-month intraday CAD low of 1.4331. Anthropic's IPO is now reported for ~Nov 18 at ~$1.4T.
+
+TODAY'S SIGNAL ANGLES
+
+[CCM5604 · LIVE] 5-yr GIC ceiling holds at 4.55% — Best GIC 4.55% vs fund YTM 5.7% (carried forward)
+Angle: ~115bp pickup plus daily liquidity against a 5-year lock-up. Your best GIC-renewal conversation — confirm current YTM on fund facts first.
+
+[ELITE · LIVE] NVDA -12.75% week while the S&P rose 2.5% — S&P 7,561.67 / wk +2.5%
+Angle: Diversification just worked in plain sight. For mega-cap-heavy clients: PIMCO, Loomis, QV and Capital Group under one rebalanced roof.
+
+[CCM5604 · LIVE] 10-yr at ~5.15% as PPI runs 6.5% y/y — 10-yr ~5.15% / PPI +6.5% y/y
+Angle: A soft monthly print still couldn't pull yields down; long-duration bond funds keep bleeding. GTRI's ~3.9-yr duration is the alternative.
+
+[CCM8752 · LIVE] Private-credit requests ease, still above caps — 11.5% requested vs ~5% caps
+Angle: Pressure cooling, but most non-traded funds still can't fill in full. Daily liquidity, for clients stuck in semi-liquid credit.
+
+[CCM9973 · LIVE] Nvidia week: -12.75%, HSBC to Hold — NVDA ~$162.85 / wk -12.75%
+Angle: Owning the theme beat owning the stock. Catalysts: NVDA earnings Nov 17, Anthropic IPO ~Nov 18.
+
+[CCM5604 · LIVE] Loonie hits 19-month low; 2-yr gap 147bp — USD/CAD ~1.4257 / gap 147bp
+Angle: Canada-only fixed income is the losing side of this spread. Flag the USD Series (CCM5612) for US-dollar clients.
+
+WORTH KNOWING
+- Manulife Strategic Income Series F: 0.90% MER, $5.58B vs CCM5604's 0.84% (carried forward) and ~$1.1B — and Dan Janis, who built Manulife's flagship, sub-advises ours.
+- Fidelity Global Innovators Series F is 1.10% vs CCM9973's 1.18% last-published; don't quote a post-cut MER yet.
+- November Active ETF distributions notice expected ~Nov 20-25.
+
+Feed stamp: 2026-11-14-1008
