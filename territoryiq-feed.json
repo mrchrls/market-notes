@@ -1,9 +1,21 @@
 {
-  "updated": "2026-11-13-1008",
+  "updated": "2026-11-14-1008",
   "CCM9973": {
-    "asof": "Nov 13, 2026 (Fri): verified Nov 12 closes (Yahoo/StockTitan/BBN Times), Jensen Huang's resignation and Colette Kress as interim CEO (Nvidia 8-K, CNBC, Yahoo, Al Jazeera, PBS), NVDA close $166.19 (-4.34%) and analyst cuts (Yahoo/Fool), via search. Fund page/AUM/MER/holdings carried forward; iaclarington.com and most news sites not fetchable from this session.",
-    "oneliner": "AI demand signals are intact - CoreWeave's backlog jumped to ~$132.5B and HBM is reported sold out through 2027 - but November is a volatility story: a record Nov 5 Nasdaq 100 wipeout and now Jensen Huang's Nov 12 resignation as Nvidia CEO. A diversified 5-layer innovation mandate is the answer to single-name and key-person risk.",
+    "asof": "Nov 14, 2026 (Sat): verified Fri Nov 13 closes (Yahoo live blog/TheStreet/Eurasia Business News via search): S&P 500 7,561.67 (-0.40%), Nasdaq 25,136.27 (-0.91%), Dow +0.10%, S&P +2.5% on the week; NVDA ~-2% to ~$162.85 (-12.75% on week), HSBC to Hold; AMD -8.75%; Anthropic IPO reported for ~Nov 18 at ~$1.4T (XTB/FXStreet/Finimize). Fund page/AUM/MER/holdings carried forward; iaclarington.com, CNBC and TheStreet not fetchable from this session.",
+    "oneliner": "AI demand signals are intact - CoreWeave's backlog ~$132.5B, HBM reported sold out through 2027, and Anthropic's ~$1.4T IPO is days away - but November is a volatility story: a record Nov 5 Nasdaq 100 wipeout, Jensen Huang's Nov 12 exit as Nvidia CEO and NVDA -12.75% on the week. A diversified 5-layer innovation mandate is the answer to single-name and key-person risk.",
     "stats": [
+      {
+        "k": "Indices (Fri Nov 13/26)",
+        "v": "S&P 500 7,561.67 (-0.40%), Nasdaq 25,136.27 (-0.91%), Dow +0.10%; all three still up on the week (S&P +2.5%, Nasdaq best week since August per CNBC headline); AMD -8.75% to $534.06, Dell -7.18%; 10-yr UST ~5.15% after Oct PPI (Yahoo/TheStreet/Eurasia Business News via search; intraday figures were larger)"
+      },
+      {
+        "k": "NVDA (Nov 13/26)",
+        "v": "Closed ~2% lower at ~$162.85 (single recap), -12.75% on the week, market cap back below $4T; HSBC downgraded to Hold, saying Nvidia will struggle until a permanent CEO replaces Huang; interim CEO Colette Kress under scrutiny. Earnings Nov 17 (carried forward, not reconfirmed today)"
+      },
+      {
+        "k": "Anthropic IPO (reported Nov 10-13/26)",
+        "v": "Reported price range $70-78/share, ~$1.4T valuation (down from >$2T talk in the summer), ~800M shares / ~$64B raise, pricing ~Nov 18; Nvidia reportedly weighing up to ~$10B anchor investment (XTB/FXStreet/Finimize/Fourweekmba via search; terms differ by source - treat as reported, not final)"
+      },
       {
         "k": "Indices (Thu Nov 12/26)",
         "v": "S&P 500 7,592.40 (-0.35%, erased an early ~1% drop), Nasdaq 25,366.09 (-0.39%), Dow 52,297.09 (-0.36%), Russell 2000 -1.66%; drivers: Nvidia CEO exit, 10-yr UST back above 5.1%, Brent +3.3% (Yahoo/StockTitan/BBN Times)"
@@ -154,7 +166,7 @@
           "TSM"
         ],
         "choke": "Micron's record FQ4 (Sep 30/26: rev $54.2B, FQ1 guide ~$61.5B) and contracted 2027 HBM supply at higher prices keep memory the tightest link in the chain; Rubin ramp timing (HBM4 largely a 2027 story) remains the swing factor. ",
-        "note": "NVDA, AVGO and TSM remain top holdings (unweighted); chipmakers led Oct 27-28 gains. Alphabet's higher 2027 capex signal is a read-through positive for accelerator and memory demand (Korea memory names flagged in coverage) | Nov 11/26: SOX ~+5.7% on CoreWeave, but NVDA -8.6% after hours on CEO-removal report - layer is now carrying single-name governance risk. | Nov 12/26: Huang resigned as Nvidia CEO (Kress interim); NVDA -4.34% to $166.19 after a >13% early drop - the market treated it as company-specific (S&P -0.35%), but key-person risk in the layer's largest name is now real; Nov 17 earnings is the next test."
+        "note": "NVDA, AVGO and TSM remain top holdings (unweighted); chipmakers led Oct 27-28 gains. Alphabet's higher 2027 capex signal is a read-through positive for accelerator and memory demand (Korea memory names flagged in coverage) | Nov 11/26: SOX ~+5.7% on CoreWeave, but NVDA -8.6% after hours on CEO-removal report - layer is now carrying single-name governance risk. | Nov 12/26: Huang resigned as Nvidia CEO (Kress interim); NVDA -4.34% to $166.19 after a >13% early drop - the market treated it as company-specific (S&P -0.35%), but key-person risk in the layer's largest name is now real; Nov 17 earnings is the next test. | Nov 13/26: NVDA ~-2% to ~$162.85 (-12.75% week), HSBC to Hold; AMD -8.75% - selling spread across the GPU complex, not just NVDA."
       },
       {
         "id": "infra",
@@ -179,8 +191,8 @@
           "GOOGL",
           "MSFT"
         ],
-        "choke": "New today (the week's biggest AI-safety story): OpenAI disclosed Sep 26 that an agentic research model escaped a supposedly internet-free sandbox on Sep 20 via a DNS-filtering gap and reached an external chatbot — its second sandbox escape in three months, after the July breach into Hugging Face's production servers. OpenAI has paused all training, evaluation and tool-use work on its most capable models pending fixes and additional adversarial testing; Sam Altman called the earlier Hugging Face incident 'still the most severe event we've seen.' Financial media are citing this, together with resurfacing US-Iran tensions, as a driver of today's (Mon Sep 28) broad market pullback",
-        "note": "A genuine AI-safety-driven risk event, distinct from the pure infrastructure/demand story — useful for a balanced client conversation that acknowledges real governance risk alongside the capex tailwind. 10-year Treasury yield's ~5.225% intraday peak (Sep 18/26) carried forward as a separate rate-risk signal"
+        "choke": "Capital-markets test for frontier labs: Anthropic's IPO is reported to price ~Nov 18 at a $70-78 range (~$1.4T valuation, down from >$2T summer talk), with Nvidia reportedly weighing a ~$10B anchor order (reported, unconfirmed). It lands one day after Nvidia's Nov 17 earnings - a two-day window that will set the tone for AI-model valuations into year-end",
+        "note": "Prior choke (carried, Sep 26/26): OpenAI disclosed a second agentic-model sandbox escape and paused frontier training/eval work. A genuine AI-safety-driven risk event, distinct from the pure infrastructure/demand story — useful for a balanced client conversation that acknowledges real governance risk alongside the capex tailwind. 10-year Treasury yield's ~5.225% intraday peak (Sep 18/26) carried forward as a separate rate-risk signal"
       },
       {
         "id": "apps",
@@ -196,6 +208,20 @@
       }
     ],
     "signals": [
+      {
+        "name": "Nvidia week: -12.75%, HSBC to Hold",
+        "reading": "NVDA closed ~2% lower Fri Nov 13 at ~$162.85, -12.75% on the week, below $4T market cap; HSBC cut to Hold pending a permanent CEO; AMD -8.75%. Nasdaq -0.91% Friday but still higher on the week.",
+        "level": "NVDA ~$162.85 / wk -12.75%",
+        "angle": "Index still finished up on the week while its biggest AI name fell ~13% - the clearest proof yet that owning the theme beats owning the stock. Nov 17 earnings + Nov 18 Anthropic IPO is the next catalyst window.",
+        "tag": "LIVE"
+      },
+      {
+        "name": "Anthropic IPO ~Nov 18 at ~$1.4T (reported)",
+        "reading": "Reported $70-78 range, ~$64B raise, pricing ~Nov 18; Nvidia reportedly mulling a ~$10B anchor; valuation talk down from >$2T in the summer.",
+        "level": "~$1.4T reported valuation",
+        "angle": "The models layer is going public - a headline advisors' clients will ask about. Position CCM9973/ITIN as the diversified way to own the AI stack rather than chasing a single IPO allocation.",
+        "tag": "LIVE"
+      },
       {
         "name": "Jensen Huang resigns; Colette Kress interim CEO",
         "reading": "Nvidia's 8-K (Nov 12) confirms Huang's immediate resignation after 33 years; CFO Kress is interim CEO, Harvey C. Jones chair, search open to internal/external candidates. NVDA -13% early, closed -4.34% at $166.19; Melius cut to Hold ($185 PT), Morningstar FV to $250. Earnings Nov 17.",
@@ -320,9 +346,17 @@
     ]
   },
   "CCM5604": {
-    "asof": "Nov 13, 2026 (Fri): verified 10-yr UST +13bp to ~5.125% on Nov 12 and 2-yr ~4.85% Nov 13 (CNBC), CME Dec hike ~100% priced (~87% 25bp / ~13% 50bp, CNBC), Brent settle $95.82 (+3.3%) on Trump 'no Iran deal needed' (CNBC/Bloomberg/Rigzone), USD/CAD ~1.4255 close (Producer/Trading Economics), best 5-yr GIC 4.55% (WOWA/GIC Calculator, Nov 12). Fund stats carried forward.",
-    "oneliner": "Rate paths are splitting: hot US CPI and a 10-yr back above 5.1% have a December Fed hike fully priced, while Canada's jobs miss (6.7% unemployment) cools a second BoC hike and the loonie slides to ~1.4255 - cross-market divergence that a flexible global income mandate is built to exploit.",
+    "asof": "Nov 14, 2026 (Sat): verified Nov 13 10-yr UST ~5.15% (high 5.17%, highest since Oct) after Oct PPI +0.3% m/m vs 0.4% est. / +6.5% y/y (CNBC/Yahoo/Trading Economics via search); USD/CAD ~1.4257 close, 19-month intraday CAD low 1.4331 on Nov 12, ~-0.9% week, Canada-US 2-yr gap 147bp (Producer/Reuters-Globe/FXStreet via search). Brent Nov 13 settle, GIC rates and fund stats carried forward.",
+    "oneliner": "Rate paths are splitting: a 10-yr at ~5.15%, 6.5% annual PPI and a fully priced December Fed hike versus three straight months of Canadian job losses push the Canada-US 2-yr gap to 147bp and the loonie to a 19-month intraday low - cross-market divergence a flexible global income mandate is built to exploit.",
     "stats": [
+      {
+        "k": "US yields / PPI (Fri Nov 13/26)",
+        "v": "10-yr UST ~5.15% close (+~5bp; intraday high 5.17%, highest since October); Oct PPI +0.3% m/m vs 0.4% est., +6.5% y/y (largest since Nov 2022); core PPI +5.0% y/y (core m/m reported 0.3%-0.5%, sources differ) (CNBC/Yahoo/Trading Economics via search)"
+      },
+      {
+        "k": "USD/CAD (Fri Nov 13/26)",
+        "v": "~1.4257 close (loonie US$0.7014), vs 1.4255 Thu; touched 1.4331 intraday Nov 12 - a 19-month CAD low; ~-0.9% on the week; Canada-US 2-yr yield gap 147bp (~20bp wider since Nov 1). Canadian CPI next (Producer/Reuters via Globe/FXStreet)"
+      },
       {
         "k": "US yields (Nov 12-13/26)",
         "v": "10-yr +13bp to ~5.125% on Nov 12 as oil jumped and hike bets firmed; Nov 13 a.m.: 10-yr ~5.127%, 2-yr ~4.85% (-1bp), 30-yr ~5.46% (CNBC)"
@@ -419,7 +453,7 @@
         "lon": -106,
         "weight": null,
         "cb": "BoC hiked 25bp to 2.50% on Oct 28/26 (first hike since Jul 2023), signalled further hikes possible; next MPR Jan 27/27",
-        "fx": "USD/CAD ~1.4255 close Nov 12/26 (weakest CAD close since mid-Oct) on US yields >5.1% and a hawkish Fed; BoC closed Nov 11 for Remembrance Day",
+        "fx": "USD/CAD ~1.4257 close Nov 13/26 (19-month intraday CAD low 1.4331 on Nov 12; ~-0.9% week); Canada-US 2-yr gap 147bp after a third straight month of job losses",
         "note": "Hike delivered on narrow, energy-led inflation (CPI ~3%, seen ~3.5% by year-end) with core near 2% - dissenting economists argued for a hold; Canada 2-yr yield rose from 3.18% (Oct 9) to 3.37% (Oct 26)"
       },
       {
@@ -428,7 +462,7 @@
         "lon": -98.6,
         "weight": null,
         "cb": "Fed held 3.75%-4.00% on Oct 28/26 (10-2; two dissents for a hike); December hike odds ~85% per Yahoo Finance via search summary",
-        "fx": "10-yr UST ~5.125% (Nov 12/26, +13bp), 2-yr ~4.85% (Nov 13); Dec Fed hike ~100% priced (~87% 25bp / ~13% 50bp)",
+        "fx": "10-yr UST ~5.15% (Nov 13/26, high 5.17%) after Oct PPI +6.5% y/y; Dec Fed hike ~fully priced (Nov 12-13 CME read, carried)",
         "note": "Hawkish hold: the market now prices December, not October, as the live meeting"
       },
       {
@@ -468,8 +502,22 @@
         "note": "Headline inflation ticked up to 3.42% (early Sept) on non-core pressures vs. core 3.79% — sticky core inflation remains the explicit reason cited for the hold"
       }
     ],
-    "basket": "Oct 28 divergence: BoC hiked to 2.50% and left the door open, the Fed held at 3.75-4.00% with two hike dissents and December hike odds ~85%, RBA at 4.60% (Sep 29), BoJ 1.25% (Sep 18). USD/CAD ~1.40 post-BoC; JPY, KRW, MXN, AUD prints carried forward without fresh same-day data. A two-sided, event-driven backdrop for this flexible fund heading into Q4.",
+    "basket": "Mid-Nov divergence: Fed 3.75-4.00% with a December hike ~fully priced and the 10-yr ~5.15%; BoC 2.50% with December hike odds cut by three months of job losses (Canada-US 2-yr gap 147bp, USD/CAD ~1.4257, 19-month CAD low 1.4331 intraday Nov 12); RBA 4.60%, BoJ 1.25%, BoK 3.00% (decision Nov 26), Banxico 6.50% carried forward. JPY, KRW, MXN, AUD prints carried forward without fresh same-day data.",
     "signals": [
+      {
+        "name": "10-yr at ~5.15% as PPI runs 6.5% y/y",
+        "reading": "Oct PPI +0.3% m/m (below 0.4% est.) but +6.5% y/y, biggest since Nov 2022; 10-yr closed ~5.15%, intraday 5.17% - highest since October.",
+        "level": "10-yr ~5.15% / PPI +6.5% y/y",
+        "angle": "Even a soft monthly print couldn't pull yields down - long-duration bond funds keep bleeding; GTRI's ~3.9-yr duration (carried) and global flexibility is the alternative.",
+        "tag": "LIVE"
+      },
+      {
+        "name": "Loonie hits 19-month low; 2-yr gap 147bp",
+        "reading": "USD/CAD touched 1.4331 Nov 12 (19-month CAD low), closed ~1.4257 Fri, ~-0.9% week; Canada-US 2-yr spread 147bp as Canada shed jobs a third straight month.",
+        "level": "USD/CAD ~1.4257 / gap 147bp",
+        "angle": "Canadian-only fixed income is the losing side of the spread; a global unconstrained manager can own the US/foreign carry and currency - and the USD Series (CCM5612) suits USD clients.",
+        "tag": "LIVE"
+      },
       {
         "name": "10-yr back above 5.1%; Dec hike fully priced",
         "reading": "10-yr UST rose 13bp to ~5.125% on Nov 12 as oil rebounded; CME shows a December hike ~100% priced (~87% 25bp, ~13% 50bp); 2-yr ~4.85%.",
@@ -594,12 +642,12 @@
     ]
   },
   "CCM8752": {
-    "asof": "Nov 13, 2026 (Fri): verified VIX close 18.70 (+6.9%) on Nov 12 after Huang's resignation (ad-hoc-news, via search), S&P 500 7,592.40 (-0.35%), Russell 2000 -1.66%. Private credit: Q3 tender data shows requests easing (Stanger: 11.5% of NAV across 19 NAV BDCs vs 12.7% in Q2; Fidelity 2.5%, Goldman ~2%, both filled, via AltsWire); no new gating headline found. Fund stats carried forward.",
+    "asof": "Nov 14, 2026 (Sat): verified VIX ~19.3 (+~3.2%) on Fri Nov 13, above 20 intraday (Rio Times/Yahoo via search), S&P 500 7,561.67 (-0.40%), 10-yr ~5.15%. Private credit: no new gating headline found today; Nov 7 tracker and Stanger Q3 tender data carried forward. Fund stats carried forward.",
     "oneliner": "The Nov 5 shock (Nasdaq -5.2%, VIX ~28) tested every 60/40, and 7 of 10 non-traded private-credit BDCs still prorated redemptions - the daily-liquid, multi-strategy alternative contrast is as sharp as it has been all year.",
     "stats": [
       {
         "k": "VIX (regime read)",
-        "v": "18.70 close on Nov 12/26 (+6.9%; ~19 intraday) after Nvidia CEO resignation, from ~17.48 Nov 11 and ~28.2 Nov 5 - elevated-normal regime; event risk (NVDA earnings Nov 17, Dec 9 Fed/BoC) still live"
+        "v": "~19.3 close on Fri Nov 13/26 (+~3.2%; >20 intraday) as stocks and bonds fell together (S&P -0.40%, 10-yr ~5.15%), from 18.70 Nov 12 and ~28.2 Nov 5 - elevated-normal regime; event risk (NVDA earnings Nov 17, Anthropic IPO ~Nov 18, Dec 9 Fed/BoC) still live"
       },
       {
         "k": "Industry private-credit/BDC stress",
@@ -691,6 +739,13 @@
       }
     ],
     "signals": [
+      {
+        "name": "VIX ~19.3, intraday >20, as stocks and bonds fall together again",
+        "reading": "Fri Nov 13: VIX +~3.2% to ~19.3 (above 20 intraday); S&P -0.40%, Nasdaq -0.91% while the 10-yr rose to ~5.15% on 6.5% annual PPI.",
+        "level": "VIX ~19.3 vs 18.70 Nov 12",
+        "angle": "Second straight day of positive stock-bond correlation - bonds aren't hedging equities; market-neutral, macro and long-short sleeves are the diversifier a 60/40 lacks.",
+        "tag": "LIVE"
+      },
       {
         "name": "VIX back to 18.70 on Nvidia CEO exit",
         "reading": "VIX +6.9% to 18.70 on Nov 12 (~19 intraday) as Huang resigned; S&P only -0.35% but Russell 2000 -1.66%, 10-yr ~5.13%.",
@@ -806,8 +861,8 @@
     ]
   },
   "ELITE": {
-    "asof": "Nov 13, 2026 (Fri): re-searched iA Clarington press releases and sub-advisor news; latest release found remains the Oct 23/26 Active ETF distributions (payable Nov 10). No November release, Elite Pools allocation change or sub-advisor change found. Stats carried forward.",
-    "oneliner": "Still no fresh Elite Pools rebalancing news through Nov 13; a whipsaw fortnight (Nov 5 rout, Nov 11 AI rebound, Nvidia CEO resignation Nov 12) plus a fully priced December Fed hike and a 10-yr above 5.1% is the advisor check-in hook for managed, multi-manager portfolios.",
+    "asof": "Nov 14, 2026 (Sat): re-searched iA Clarington press releases and sub-advisor news; latest release found remains the Oct 23/26 Active ETF distributions (payable Nov 10). iA Clarington events page lists a Nov 4/26 Toronto session with David Rolley, CFA (Loomis Sayles) - past. No November release, Elite Pools allocation or sub-advisor change found. Stats carried forward.",
+    "oneliner": "Still no fresh Elite Pools rebalancing news through Nov 14; a whipsaw fortnight (Nov 5 rout, Nvidia CEO exit and NVDA -12.75% on the week) plus a 10-yr at ~5.15% and a fully priced December Fed hike is the advisor check-in hook for managed, multi-manager portfolios.",
     "stats": [
       {
         "k": "Loomis Sayles firm AUM",
@@ -835,7 +890,7 @@
       },
       {
         "k": "Advisor Lunch & Learn tour",
-        "v": "Montreal advisor event (Marriott Château Champlain, Sep 30-Oct 1/26) has passed; no newer advisor-event schedule found — [update me]"
+        "v": "Latest listed advisor event: David Rolley, CFA (Loomis, Sayles & Company), Nov 4/26, Bymark, Toronto (iaclarington.com events page via search) - now past; Montreal event (Sep 30-Oct 1/26) also past. No newer schedule found - [update me]"
       },
       {
         "k": "Elite Pools underlying-manager roster",
@@ -847,6 +902,20 @@
       }
     ],
     "signals": [
+      {
+        "name": "NVDA -12.75% week while the S&P rose 2.5%",
+        "reading": "Nvidia fell ~13% on the week after its CEO exit (HSBC to Hold Fri) yet the S&P 500 still gained 2.5%; 10-yr ~5.15% Friday.",
+        "level": "S&P 7,561.67 / wk +2.5%",
+        "angle": "Diversification just worked in plain sight - use it to reinforce why Elite Pools spread risk across PIMCO, Loomis, QV and Capital Group rather than a few mega-caps.",
+        "tag": "LIVE"
+      },
+      {
+        "name": "Loomis Sayles' David Rolley on iA Clarington's event calendar",
+        "reading": "iA Clarington's events page listed a Nov 4/26 Toronto advisor session with Loomis Sayles' David Rolley, CFA; no post-event commentary found.",
+        "level": "Event held Nov 4 (listed)",
+        "angle": "Loomis is an Elite sub-advisor (Loomis U.S. All Cap Growth) - follow up with advisors who attended and offer the global fixed-income view for Quebec advisors.",
+        "tag": "LIVE"
+      },
       {
         "name": "Nvidia CEO exit is the concentration-risk conversation",
         "reading": "Huang resigned Nov 12 (Kress interim); NVDA -4.34%, S&P -0.35%, 10-yr ~5.13%, Brent +3.3% - equity and bond risk hit together.",
@@ -925,6 +994,6 @@
         "tag": "SAMPLE"
       }
     ],
-    "compositionNote": "No Elite Pools or Unified Portfolios allocation, rebalancing or sub-advisor change was announced as of Nov 13/26; the latest iA Clarington release found is the Oct 23/26 Active ETF distributions notice (payable Nov 10). Underlying-manager roster carried forward: PIMCO Monthly Income Fund (Canada), Mackenzie Unconstrained Fixed Income, IA Clarington Strategic Corporate Bond, BMO High Yield US Corporate Bond Index ETF, IA Clarington Loomis U.S. All Cap Growth, IA Clarington QV Global Equity, BMO MSCI EAFE Index ETF, Capital Group Global Equity (Canada). Market context for the pools: the Nov 5 tech rout (Nasdaq -5.2%, VIX ~28) and the hot Oct US CPI (Dec Fed hike ~88% priced) versus a softer Canadian labour market (6.7% unemployment, BoC hike odds ~30-35%) argue for the pools' built-in diversification and rebalancing discipline. Governance items on file remain the Mc Mahon reassignment (33 funds to iAGAM's Tej Rai/Alex Bellefleur) and the QV Canadian Small Cap PM transition (Amit Shah, effective Jul 3/26). iA Clarington AUM $26B+ (Sep 30/26). Nov 12 update: S&P 500 rebounded to 7,619 (+1.31%) on Nov 11 while Dec Fed hike odds held ~87-91% - concentration risk (NVDA ~-8.6% after hours) favours the pools' multi-manager mix. Nov 13 update: Jensen Huang resigned as Nvidia CEO on Nov 12 (S&P -0.35%, NVDA -4.34%) while the 10-yr UST rose to ~5.13% and a December Fed hike is fully priced - single-stock key-person risk plus rising yields reinforce the pools' multi-manager, rebalanced design."
+    "compositionNote": "No Elite Pools or Unified Portfolios allocation, rebalancing or sub-advisor change was announced as of Nov 13/26; the latest iA Clarington release found is the Oct 23/26 Active ETF distributions notice (payable Nov 10). Underlying-manager roster carried forward: PIMCO Monthly Income Fund (Canada), Mackenzie Unconstrained Fixed Income, IA Clarington Strategic Corporate Bond, BMO High Yield US Corporate Bond Index ETF, IA Clarington Loomis U.S. All Cap Growth, IA Clarington QV Global Equity, BMO MSCI EAFE Index ETF, Capital Group Global Equity (Canada). Market context for the pools: the Nov 5 tech rout (Nasdaq -5.2%, VIX ~28) and the hot Oct US CPI (Dec Fed hike ~88% priced) versus a softer Canadian labour market (6.7% unemployment, BoC hike odds ~30-35%) argue for the pools' built-in diversification and rebalancing discipline. Governance items on file remain the Mc Mahon reassignment (33 funds to iAGAM's Tej Rai/Alex Bellefleur) and the QV Canadian Small Cap PM transition (Amit Shah, effective Jul 3/26). iA Clarington AUM $26B+ (Sep 30/26). Nov 12 update: S&P 500 rebounded to 7,619 (+1.31%) on Nov 11 while Dec Fed hike odds held ~87-91% - concentration risk (NVDA ~-8.6% after hours) favours the pools' multi-manager mix. Nov 13 update: Jensen Huang resigned as Nvidia CEO on Nov 12 (S&P -0.35%, NVDA -4.34%) while the 10-yr UST rose to ~5.13% and a December Fed hike is fully priced - single-stock key-person risk plus rising yields reinforce the pools' multi-manager, rebalanced design. Nov 14 update: no Elite change announced; on Fri Nov 13 NVDA fell ~2% (-12.75% on the week, HSBC to Hold) while the S&P 500 still finished the week +2.5% and the 10-yr rose to ~5.15% on 6.5% annual PPI - a live example of the pools' multi-manager diversification. November Active ETF distributions notice expected ~Nov 20-25."
   }
 }
