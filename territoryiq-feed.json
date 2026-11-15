@@ -1,9 +1,17 @@
 {
-  "updated": "2026-11-14-1008",
+  "updated": "2026-11-15-1008",
   "CCM9973": {
-    "asof": "Nov 14, 2026 (Sat): verified Fri Nov 13 closes (Yahoo live blog/TheStreet/Eurasia Business News via search): S&P 500 7,561.67 (-0.40%), Nasdaq 25,136.27 (-0.91%), Dow +0.10%, S&P +2.5% on the week; NVDA ~-2% to ~$162.85 (-12.75% on week), HSBC to Hold; AMD -8.75%; Anthropic IPO reported for ~Nov 18 at ~$1.4T (XTB/FXStreet/Finimize). Fund page/AUM/MER/holdings carried forward; iaclarington.com, CNBC and TheStreet not fetchable from this session.",
-    "oneliner": "AI demand signals are intact - CoreWeave's backlog ~$132.5B, HBM reported sold out through 2027, and Anthropic's ~$1.4T IPO is days away - but November is a volatility story: a record Nov 5 Nasdaq 100 wipeout, Jensen Huang's Nov 12 exit as Nvidia CEO and NVDA -12.75% on the week. A diversified 5-layer innovation mandate is the answer to single-name and key-person risk.",
+    "asof": "Nov 15, 2026 (Sun, markets closed): verified week-ahead setup via search - NVDA Q3 FY27 earnings Tue Nov 17 after close (~4:20pm ET), first report since Huang's exit, options imply ~10.5% move; Anthropic amended S-1 (Nov 10): 825M Class A shares at $70-78, Nasdaq ticker ANT, $26B Class N private placement (Nvidia, Google, Microsoft among 7 buyers), trading reported Thu Nov 19 (Renaissance/Fast Company/RTTNews/StockTitan). Fri Nov 13 closes, fund page/AUM/MER/holdings carried forward; iaclarington.com and thenextweb.com not fetchable.",
+    "oneliner": "AI demand signals are intact - CoreWeave's backlog ~$132.5B, HBM reported sold out through 2027, and Anthropic's IPO lists this week - but November is a volatility story: a record Nov 5 Nasdaq 100 wipeout, Jensen Huang's Nov 12 exit, six straight down weeks for NVDA and a ~10.5% implied earnings move Tuesday. A diversified 5-layer innovation mandate is the answer to single-name and key-person risk.",
     "stats": [
+      {
+        "k": "Week ahead (Nov 16-20/26)",
+        "v": "NVDA Q3 FY27 results Tue Nov 17 after close (~4:20pm ET) - first since Huang resigned; one preview cites EPS ~$2.47 on revenue ~$108.85B (single source, unverified consensus); options imply ~10.5% move vs ~5.6% 3-yr average; NVDA $162.85 Fri, sixth straight weekly decline. Also: Anthropic Nasdaq debut (reported Thu Nov 19), Fed minutes, US retail sales, Walmart Thu, Trump-Xi meeting (StockTitan/FXStreet/learn2.trade/Yahoo via search)"
+      },
+      {
+        "k": "Anthropic IPO terms (amended S-1, Nov 10/26)",
+        "v": "825,000,000 Class A shares at $70.00-78.00; Nasdaq Global Select, ticker ANT; ~$61B underwritten (Renaissance) / up to ~$64.35B (Fast Company); valuation ~$1.0-1.4T depending on source; $26.0B of non-voting Class N stock to be bought post-close by seven suppliers/partners incl. Nvidia, Google, Microsoft; would be 2nd-largest IPO ever behind SpaceX's $75B (Jun 2026); trading date reported Nov 19, not officially confirmed (Renaissance Capital/Fast Company/RTTNews via search)"
+      },
       {
         "k": "Indices (Fri Nov 13/26)",
         "v": "S&P 500 7,561.67 (-0.40%), Nasdaq 25,136.27 (-0.91%), Dow +0.10%; all three still up on the week (S&P +2.5%, Nasdaq best week since August per CNBC headline); AMD -8.75% to $534.06, Dell -7.18%; 10-yr UST ~5.15% after Oct PPI (Yahoo/TheStreet/Eurasia Business News via search; intraday figures were larger)"
@@ -209,6 +217,20 @@
     ],
     "signals": [
       {
+        "name": "Tuesday is the test: NVDA earnings, ~10.5% implied move",
+        "reading": "Nvidia reports Q3 FY27 after the close Tue Nov 17, its first report under interim CEO Colette Kress; stock at $162.85 after six straight weekly declines and below $4T market cap; options price a ~10.5% move either way, nearly double its 3-yr average.",
+        "level": "Implied ~10.5% vs ~5.6% avg",
+        "angle": "Don't let a client's AI exposure hinge on one stock's earnings night - the fund owns the chip layer alongside energy, infra, models and apps.",
+        "tag": "LIVE"
+      },
+      {
+        "name": "Anthropic IPO: 825M shares, $70-78, ticker ANT",
+        "reading": "Amended S-1 (Nov 10) sets terms; ~$61-64B raise would be the 2nd-largest IPO ever; Nvidia, Google and Microsoft among seven partners buying $26B of Class N stock post-close; Nasdaq debut reported for Thu Nov 19.",
+        "level": "$70-78 / ~$1.0-1.4T",
+        "angle": "The models layer is going public - clients can get diversified exposure to the AI build-out without chasing an IPO allocation on day one.",
+        "tag": "LIVE"
+      },
+      {
         "name": "Nvidia week: -12.75%, HSBC to Hold",
         "reading": "NVDA closed ~2% lower Fri Nov 13 at ~$162.85, -12.75% on the week, below $4T market cap; HSBC cut to Hold pending a permanent CEO; AMD -8.75%. Nasdaq -0.91% Friday but still higher on the week.",
         "level": "NVDA ~$162.85 / wk -12.75%",
@@ -346,9 +368,13 @@
     ]
   },
   "CCM5604": {
-    "asof": "Nov 14, 2026 (Sat): verified Nov 13 10-yr UST ~5.15% (high 5.17%, highest since Oct) after Oct PPI +0.3% m/m vs 0.4% est. / +6.5% y/y (CNBC/Yahoo/Trading Economics via search); USD/CAD ~1.4257 close, 19-month intraday CAD low 1.4331 on Nov 12, ~-0.9% week, Canada-US 2-yr gap 147bp (Producer/Reuters-Globe/FXStreet via search). Brent Nov 13 settle, GIC rates and fund stats carried forward.",
+    "asof": "Nov 15, 2026 (Sun, markets closed): verified calendar via search - Statistics Canada October CPI Mon Nov 16 8:30am ET (Continuum preview: headline ~3.3%, 'slightly firmer'; Sept 3.1% per forexfundamentals); Fed minutes and US retail sales this week. Fri Nov 13 yields/USD/CAD, BoC/Fed pricing, GIC rates (Nov 12) and fund stats carried forward; no fresher GIC data found today.",
     "oneliner": "Rate paths are splitting: a 10-yr at ~5.15%, 6.5% annual PPI and a fully priced December Fed hike versus three straight months of Canadian job losses push the Canada-US 2-yr gap to 147bp and the loonie to a 19-month intraday low - cross-market divergence a flexible global income mandate is built to exploit.",
     "stats": [
+      {
+        "k": "Week ahead (Nov 16-20/26)",
+        "v": "Canada Oct CPI Mon Nov 16 8:30am ET - Continuum Economics preview expects headline to firm to ~3.3% (Sept 3.1%); BoC decision Dec 9 (carried forward; one source says Dec 10 - check BoC calendar). US: Fed minutes, retail sales; UK CPI; Trump-Xi meeting (Statistics Canada calendar via financecalendar/Continuum/FXStreet via search)"
+      },
       {
         "k": "US yields / PPI (Fri Nov 13/26)",
         "v": "10-yr UST ~5.15% close (+~5bp; intraday high 5.17%, highest since October); Oct PPI +0.3% m/m vs 0.4% est., +6.5% y/y (largest since Nov 2022); core PPI +5.0% y/y (core m/m reported 0.3%-0.5%, sources differ) (CNBC/Yahoo/Trading Economics via search)"
@@ -505,6 +531,13 @@
     "basket": "Mid-Nov divergence: Fed 3.75-4.00% with a December hike ~fully priced and the 10-yr ~5.15%; BoC 2.50% with December hike odds cut by three months of job losses (Canada-US 2-yr gap 147bp, USD/CAD ~1.4257, 19-month CAD low 1.4331 intraday Nov 12); RBA 4.60%, BoJ 1.25%, BoK 3.00% (decision Nov 26), Banxico 6.50% carried forward. JPY, KRW, MXN, AUD prints carried forward without fresh same-day data.",
     "signals": [
       {
+        "name": "Canada CPI Monday: the BoC/Fed divergence test",
+        "reading": "October CPI lands Mon Nov 16; a preview sees headline firming to ~3.3% from 3.1% in Sept. A firm print revives Dec BoC hike odds (~30-35% after three months of job losses); a soft one widens the 147bp Canada-US 2-yr gap further.",
+        "level": "Preview ~3.3% vs 3.1% prior",
+        "angle": "Either outcome moves CAD and curves - a mandate that can shift between countries and currencies doesn't need to call it in advance.",
+        "tag": "LIVE"
+      },
+      {
         "name": "10-yr at ~5.15% as PPI runs 6.5% y/y",
         "reading": "Oct PPI +0.3% m/m (below 0.4% est.) but +6.5% y/y, biggest since Nov 2022; 10-yr closed ~5.15%, intraday 5.17% - highest since October.",
         "level": "10-yr ~5.15% / PPI +6.5% y/y",
@@ -642,7 +675,7 @@
     ]
   },
   "CCM8752": {
-    "asof": "Nov 14, 2026 (Sat): verified VIX ~19.3 (+~3.2%) on Fri Nov 13, above 20 intraday (Rio Times/Yahoo via search), S&P 500 7,561.67 (-0.40%), 10-yr ~5.15%. Private credit: no new gating headline found today; Nov 7 tracker and Stanger Q3 tender data carried forward. Fund stats carried forward.",
+    "asof": "Nov 15, 2026 (Sun, markets closed): no new VIX print (last ~19.3 Fri Nov 13). Event cluster confirmed for this week: NVDA earnings Tue Nov 17 (~10.5% implied move), Anthropic Nasdaq debut reported Thu Nov 19, Fed minutes, Canada CPI Mon. Private credit: no new November gating headline found; Nov 7 tracker and Stanger Q3 data carried forward. Fund stats carried forward.",
     "oneliner": "The Nov 5 shock (Nasdaq -5.2%, VIX ~28) tested every 60/40, and 7 of 10 non-traded private-credit BDCs still prorated redemptions - the daily-liquid, multi-strategy alternative contrast is as sharp as it has been all year.",
     "stats": [
       {
@@ -739,6 +772,13 @@
       }
     ],
     "signals": [
+      {
+        "name": "Event-heavy week with VIX ~19.3 going in",
+        "reading": "Nvidia's ~10.5% implied earnings move, the largest-ever tech IPO wave (Anthropic, ~$61-64B) and Fed minutes all land Nov 17-19 with VIX already near 20 and stocks/bonds falling together on Friday.",
+        "level": "VIX ~19.3 (Fri) / NVDA implied ~10.5%",
+        "angle": "Position the pool before the event, not after: market-neutral and macro sleeves don't depend on which way Tuesday breaks.",
+        "tag": "LIVE"
+      },
       {
         "name": "VIX ~19.3, intraday >20, as stocks and bonds fall together again",
         "reading": "Fri Nov 13: VIX +~3.2% to ~19.3 (above 20 intraday); S&P -0.40%, Nasdaq -0.91% while the 10-yr rose to ~5.15% on 6.5% annual PPI.",
@@ -861,8 +901,8 @@
     ]
   },
   "ELITE": {
-    "asof": "Nov 14, 2026 (Sat): re-searched iA Clarington press releases and sub-advisor news; latest release found remains the Oct 23/26 Active ETF distributions (payable Nov 10). iA Clarington events page lists a Nov 4/26 Toronto session with David Rolley, CFA (Loomis Sayles) - past. No November release, Elite Pools allocation or sub-advisor change found. Stats carried forward.",
-    "oneliner": "Still no fresh Elite Pools rebalancing news through Nov 14; a whipsaw fortnight (Nov 5 rout, Nvidia CEO exit and NVDA -12.75% on the week) plus a 10-yr at ~5.15% and a fully priced December Fed hike is the advisor check-in hook for managed, multi-manager portfolios.",
+    "asof": "Nov 15, 2026 (Sun): re-searched iA Clarington press releases and sub-advisor news; latest release still the Oct 23/26 Active ETF distributions (payable Nov 10). No November release, Elite Pools allocation or sub-advisor change found. Third-party site lists an estimated ILGB (Loomis Global Multisector Bond) Nov distribution of ~C$0.05, not yet confirmed by iA Clarington. Stats carried forward.",
+    "oneliner": "Still no fresh Elite Pools rebalancing news through Nov 15; a week stacked with Nvidia earnings, the Anthropic IPO, Canadian CPI and Fed minutes - on top of a 10-yr at ~5.15% - is the advisor check-in hook for managed, multi-manager portfolios.",
     "stats": [
       {
         "k": "Loomis Sayles firm AUM",
@@ -902,6 +942,13 @@
       }
     ],
     "signals": [
+      {
+        "name": "Big-event week is the 'stay diversified' call",
+        "reading": "Nvidia reports Tue (first post-Huang print, ~10.5% implied move), Anthropic lists ~Thu, Canada CPI Mon, Fed minutes midweek; no Elite-specific announcement found.",
+        "level": "No new Elite announcement",
+        "angle": "Call clients before the headlines, not after: a multi-manager pool means no single event night decides the outcome.",
+        "tag": "LIVE"
+      },
       {
         "name": "NVDA -12.75% week while the S&P rose 2.5%",
         "reading": "Nvidia fell ~13% on the week after its CEO exit (HSBC to Hold Fri) yet the S&P 500 still gained 2.5%; 10-yr ~5.15% Friday.",
