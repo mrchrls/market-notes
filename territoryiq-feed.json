@@ -1,9 +1,25 @@
 {
-  "updated": "2026-11-15-1008",
+  "updated": "2026-11-16-1008",
   "CCM9973": {
-    "asof": "Nov 15, 2026 (Sun, markets closed): verified week-ahead setup via search - NVDA Q3 FY27 earnings Tue Nov 17 after close (~4:20pm ET), first report since Huang's exit, options imply ~10.5% move; Anthropic amended S-1 (Nov 10): 825M Class A shares at $70-78, Nasdaq ticker ANT, $26B Class N private placement (Nvidia, Google, Microsoft among 7 buyers), trading reported Thu Nov 19 (Renaissance/Fast Company/RTTNews/StockTitan). Fri Nov 13 closes, fund page/AUM/MER/holdings carried forward; iaclarington.com and thenextweb.com not fetchable.",
-    "oneliner": "AI demand signals are intact - CoreWeave's backlog ~$132.5B, HBM reported sold out through 2027, and Anthropic's IPO lists this week - but November is a volatility story: a record Nov 5 Nasdaq 100 wipeout, Jensen Huang's Nov 12 exit, six straight down weeks for NVDA and a ~10.5% implied earnings move Tuesday. A diversified 5-layer innovation mandate is the answer to single-name and key-person risk.",
+    "asof": "Nov 16, 2026 (Mon, ~5am ET, pre-open): verified via search - Asia tech rout (Taiex ~-4% to -6%, TSMC ~-5.7%, Kospi ~-3.6% to 5,100.50, SK Hynix ~-8%, Samsung ~-4%, Nikkei ~-2.4% below 60,000, Kioxia ~-7.7%); Nasdaq 100 futures -0.5% to -0.9% (Reuters Morning Bid); NVDA ~$1.9T market cap lost since early Oct (LSEG); NVDA Q3 FY27 Tue Nov 17 AMC, consensus ~$109B revenue / ~90% EPS growth (Reuters); Anthropic prices Wed Nov 18, debuts Nasdaq Thu Nov 19, ~6x oversubscribed (Hankyung, single source). Fund page/AUM/MER/holdings carried forward; fxstreet/thestar not fetchable.",
+    "oneliner": "AI demand signals are intact - CoreWeave's backlog ~$132.5B, HBM reported sold out through 2027, Anthropic's ~$1.4T IPO prices Wednesday - but the Nvidia key-person shock has spread to Asia's chip supply chain (Taiex ~-4-6%, SK Hynix ~-8% Monday). A diversified 5-layer innovation mandate is the answer to single-name and single-country chip risk.",
     "stats": [
+      {
+        "k": "Asia chip rout (Mon Nov 16/26)",
+        "v": "Taiwan Taiex ~-4% to -6% (TSMC ~-5.7%); Kospi ~-3.6% to 5,100.50 (SK Hynix ~-8%, Samsung ~-4%); Nikkei ~-2.4% to ~59,662, below 60,000 (Kioxia ~-7.7%); Hang Seng ~+0.9%. Driver: whether Nvidia's leadership crisis disrupts orders/AI infrastructure spend (Reuters/AP/TradingKey/IBTimes via search; intraday vs close figures differ)"
+      },
+      {
+        "k": "US pre-market (Mon Nov 16/26)",
+        "v": "Nasdaq 100 futures -0.5% early, later ~-0.9% to ~27,780 after the cash Nasdaq 100 fell 1.2% Fri; European futures slightly higher (lower AI concentration). NVDA has lost ~$1.9T of market cap since early Oct (LSEG via Reuters Morning Bid)"
+      },
+      {
+        "k": "NVDA Q3 FY27 setup (Tue Nov 17 AMC)",
+        "v": "Consensus ~90% earnings growth on ~$109B revenue (Reuters); interim CEO Colette Kress hosts the call; ~$10B Anthropic private-placement commitment under scrutiny after Huang exit (Bloomberg headline)"
+      },
+      {
+        "k": "Anthropic IPO timing (as of Nov 16/26)",
+        "v": "Prices Wed Nov 18, trades Nasdaq Thu Nov 19 (Reuters/Yahoo); up to ~$64.4B on ~825M shares, up to ~$1.4T valuation; orders ~6x covered per Hankyung (single source); ~316M additional shares eligible for sale on day one flagged as an overhang (search summary)"
+      },
       {
         "k": "Week ahead (Nov 16-20/26)",
         "v": "NVDA Q3 FY27 results Tue Nov 17 after close (~4:20pm ET) - first since Huang resigned; one preview cites EPS ~$2.47 on revenue ~$108.85B (single source, unverified consensus); options imply ~10.5% move vs ~5.6% 3-yr average; NVDA $162.85 Fri, sixth straight weekly decline. Also: Anthropic Nasdaq debut (reported Thu Nov 19), Fed minutes, US retail sales, Walmart Thu, Trump-Xi meeting (StockTitan/FXStreet/learn2.trade/Yahoo via search)"
@@ -217,6 +233,20 @@
     ],
     "signals": [
       {
+        "name": "Nvidia shock goes global: Asia chips sell off",
+        "reading": "Taiex ~-4-6%, TSMC ~-5.7%, SK Hynix ~-8%, Kioxia ~-7.7% Monday as investors ask whether Nvidia's leadership crisis delays AI orders; Nasdaq 100 futures -0.5% to -0.9%",
+        "level": "Taiex ~-4-6% / SKH ~-8%",
+        "angle": "Concentrated chip/Asia-tech exposure is being punished in one session - a 5-layer mandate spreading risk across energy, infra, models and apps is the conversation to have before Tuesday's print, not after.",
+        "tag": "LIVE"
+      },
+      {
+        "name": "Tuesday print: ~$109B revenue expected",
+        "reading": "Reuters: Street expects ~90% earnings growth on ~$109B revenue; Kress hosts the call; Anthropic prices the next day",
+        "level": "~$109B rev consensus",
+        "angle": "Binary-event week: advisors who want AI exposure without betting on one CEO-less company's guidance have a ready answer.",
+        "tag": "LIVE"
+      },
+      {
         "name": "Tuesday is the test: NVDA earnings, ~10.5% implied move",
         "reading": "Nvidia reports Q3 FY27 after the close Tue Nov 17, its first report under interim CEO Colette Kress; stock at $162.85 after six straight weekly declines and below $4T market cap; options price a ~10.5% move either way, nearly double its 3-yr average.",
         "level": "Implied ~10.5% vs ~5.6% avg",
@@ -368,9 +398,29 @@
     ]
   },
   "CCM5604": {
-    "asof": "Nov 15, 2026 (Sun, markets closed): verified calendar via search - Statistics Canada October CPI Mon Nov 16 8:30am ET (Continuum preview: headline ~3.3%, 'slightly firmer'; Sept 3.1% per forexfundamentals); Fed minutes and US retail sales this week. Fri Nov 13 yields/USD/CAD, BoC/Fed pricing, GIC rates (Nov 12) and fund stats carried forward; no fresher GIC data found today.",
-    "oneliner": "Rate paths are splitting: a 10-yr at ~5.15%, 6.5% annual PPI and a fully priced December Fed hike versus three straight months of Canadian job losses push the Canada-US 2-yr gap to 147bp and the loonie to a 19-month intraday low - cross-market divergence a flexible global income mandate is built to exploit.",
+    "asof": "Nov 16, 2026 (Mon, ~5am ET, before 8:30am Canada CPI): verified via search - Oct CPI forecasts (Reuters poll 3.2%, RBC 3.0%, Continuum 3.3%, Sept 3.1%); Dec 9 BoC hike odds ~54% as of Nov 15 (single source); USD/CAD ~1.4280 in Asia, 5th straight gain; Fed Dec 25bp hike ~93.5% priced; Japan Q3 GDP -0.1% annualised vs +0.3% est., USD/JPY ~159.8, BoJ Dec hike ~75.6% (LSEG); Kospi ~-3.6%. Fund stats and GIC table (Nov 12) carried forward; no fresher GIC data found.",
+    "oneliner": "Rate paths are splitting: a fully priced December Fed hike and a ~5.15% 10-yr versus three straight months of Canadian job losses and a coin-flip BoC - with the loonie at ~1.428 and the yen near 160 - is the cross-market divergence a flexible global income mandate is built to exploit.",
     "stats": [
+      {
+        "k": "Canada Oct CPI (due Mon Nov 16, 8:30am ET)",
+        "v": "Forecasts: Reuters poll 3.2% y/y, RBC 3.0%, Continuum 3.3% (Sept 3.1%); RBC sees CPI ex food & energy easing to 1.9% from 2.1%; Continuum CPI-Common 2.4%, CPI-Trim 1.8%. Last CPI before the Dec 9 BoC decision (BNN Bloomberg/RBC/Continuum via search)"
+      },
+      {
+        "k": "BoC Dec 9 pricing (Nov 15/26)",
+        "v": "~54% odds of a hike to 2.75% (single-source market read, up from ~30-35% after Oct jobs); RBC base case a 'low-conviction' 25bp hike; overnight rate 2.50%"
+      },
+      {
+        "k": "USD/CAD (Mon Nov 16/26, Asia)",
+        "v": "~1.4280, fifth straight daily gain; drivers: Fed Dec 25bp hike ~93.5% priced and softer crude (FXStreet/VT Markets via search)"
+      },
+      {
+        "k": "Japan Q3 GDP (Nov 16/26)",
+        "v": "-0.1% annualised vs +0.3% est. (Q2 +1.4%); q/q 0.0%; net exports -0.6pt, consumption -0.3%, capex +1.6%; USD/JPY ~159.8 with Tokyo intervention warnings; BoJ Dec hike odds ~75.6% (LSEG) (CNBC/investinglive/Reuters via search)"
+      },
+      {
+        "k": "Korea (Mon Nov 16/26)",
+        "v": "Kospi ~-3.6% to 5,100.50 on chip selloff (KRW move not verified today)"
+      },
       {
         "k": "Week ahead (Nov 16-20/26)",
         "v": "Canada Oct CPI Mon Nov 16 8:30am ET - Continuum Economics preview expects headline to firm to ~3.3% (Sept 3.1%); BoC decision Dec 9 (carried forward; one source says Dec 10 - check BoC calendar). US: Fed minutes, retail sales; UK CPI; Trump-Xi meeting (Statistics Canada calendar via financecalendar/Continuum/FXStreet via search)"
@@ -531,6 +581,27 @@
     "basket": "Mid-Nov divergence: Fed 3.75-4.00% with a December hike ~fully priced and the 10-yr ~5.15%; BoC 2.50% with December hike odds cut by three months of job losses (Canada-US 2-yr gap 147bp, USD/CAD ~1.4257, 19-month CAD low 1.4331 intraday Nov 12); RBA 4.60%, BoJ 1.25%, BoK 3.00% (decision Nov 26), Banxico 6.50% carried forward. JPY, KRW, MXN, AUD prints carried forward without fresh same-day data.",
     "signals": [
       {
+        "name": "BoC is now a coin flip into today's CPI",
+        "reading": "Dec 9 hike odds ~54% (Nov 15) vs ~30-35% after the Oct jobs report; Oct CPI forecasts span 3.0% (RBC) to 3.3% (Continuum), Reuters poll 3.2%",
+        "level": "~54% hike odds / CPI est. 3.0-3.3%",
+        "angle": "When even the next BoC move is 50/50, a manager who can shift duration and currency across markets beats a fixed-term GIC ladder locked at today's rates.",
+        "tag": "LIVE"
+      },
+      {
+        "name": "Yen near 160 after Japan GDP miss",
+        "reading": "Japan Q3 GDP -0.1% annualised vs +0.3% est.; USD/JPY ~159.8, intervention warnings; BoJ Dec hike still ~75.6% priced",
+        "level": "USD/JPY ~159.8",
+        "angle": "Intervention risk plus a likely BoJ hike is exactly the kind of asymmetric currency setup a global total-return team can position for - talk to advisors about FX as a return source, not just a risk.",
+        "tag": "LIVE"
+      },
+      {
+        "name": "Loonie ~1.428, five straight down days",
+        "reading": "USD/CAD ~1.4280 in Asia Monday as Fed Dec hike ~93.5% priced and crude softens",
+        "level": "USD/CAD ~1.4280",
+        "angle": "US-dollar exposure has been a tailwind for unhedged Canadian investors; the fund's USD series (CCM5612) is the talking point for clients who want it explicitly.",
+        "tag": "LIVE"
+      },
+      {
         "name": "Canada CPI Monday: the BoC/Fed divergence test",
         "reading": "October CPI lands Mon Nov 16; a preview sees headline firming to ~3.3% from 3.1% in Sept. A firm print revives Dec BoC hike odds (~30-35% after three months of job losses); a soft one widens the 147bp Canada-US 2-yr gap further.",
         "level": "Preview ~3.3% vs 3.1% prior",
@@ -675,9 +746,13 @@
     ]
   },
   "CCM8752": {
-    "asof": "Nov 15, 2026 (Sun, markets closed): no new VIX print (last ~19.3 Fri Nov 13). Event cluster confirmed for this week: NVDA earnings Tue Nov 17 (~10.5% implied move), Anthropic Nasdaq debut reported Thu Nov 19, Fed minutes, Canada CPI Mon. Private credit: no new November gating headline found; Nov 7 tracker and Stanger Q3 data carried forward. Fund stats carried forward.",
+    "asof": "Nov 16, 2026 (Mon, ~5am ET, pre-open): VIX last ~19.3 (Fri Nov 13), no Monday print yet; Nasdaq 100 futures -0.5% to -0.9% after an Asia chip rout (Taiex ~-4-6%, Kospi ~-3.6%, Nikkei ~-2.4%). Event cluster: Canada CPI today, NVDA Tue Nov 17, Anthropic pricing Wed/debut Thu, Fed minutes, Warsh remarks. Private credit: no new November gating headline found; Nov 7 tracker and Stanger Q3 data carried forward. Fund stats carried forward.",
     "oneliner": "The Nov 5 shock (Nasdaq -5.2%, VIX ~28) tested every 60/40, and 7 of 10 non-traded private-credit BDCs still prorated redemptions - the daily-liquid, multi-strategy alternative contrast is as sharp as it has been all year.",
     "stats": [
+      {
+        "k": "Cross-asset stress (Mon Nov 16/26, pre-open)",
+        "v": "Asia tech rout: Taiex ~-4% to -6%, Kospi ~-3.6%, Nikkei ~-2.4%; Nasdaq 100 futures -0.5% to -0.9%; VIX last ~19.3 (Fri) - no Monday print verified; NVDA earnings Tue, Anthropic IPO Wed/Thu (Reuters/AP via search)"
+      },
       {
         "k": "VIX (regime read)",
         "v": "~19.3 close on Fri Nov 13/26 (+~3.2%; >20 intraday) as stocks and bonds fell together (S&P -0.40%, 10-yr ~5.15%), from 18.70 Nov 12 and ~28.2 Nov 5 - elevated-normal regime; event risk (NVDA earnings Nov 17, Anthropic IPO ~Nov 18, Dec 9 Fed/BoC) still live"
@@ -772,6 +847,13 @@
       }
     ],
     "signals": [
+      {
+        "name": "Asia chip rout sets up a high-dispersion week",
+        "reading": "Taiex ~-4-6%, Kospi ~-3.6% and Nasdaq 100 futures ~-0.9% Monday, with NVDA (Tue) and Anthropic (Wed/Thu) still ahead; VIX ~19.3 going in",
+        "level": "Nasdaq 100 fut. ~-0.9% / VIX ~19.3 (Fri)",
+        "angle": "Market-neutral and long-short sleeves are designed for weeks where single names move 8% in a day - pitch the pool as the 'don't have to guess Tuesday' allocation.",
+        "tag": "LIVE"
+      },
       {
         "name": "Event-heavy week with VIX ~19.3 going in",
         "reading": "Nvidia's ~10.5% implied earnings move, the largest-ever tech IPO wave (Anthropic, ~$61-64B) and Fed minutes all land Nov 17-19 with VIX already near 20 and stocks/bonds falling together on Friday.",
@@ -901,8 +983,8 @@
     ]
   },
   "ELITE": {
-    "asof": "Nov 15, 2026 (Sun): re-searched iA Clarington press releases and sub-advisor news; latest release still the Oct 23/26 Active ETF distributions (payable Nov 10). No November release, Elite Pools allocation or sub-advisor change found. Third-party site lists an estimated ILGB (Loomis Global Multisector Bond) Nov distribution of ~C$0.05, not yet confirmed by iA Clarington. Stats carried forward.",
-    "oneliner": "Still no fresh Elite Pools rebalancing news through Nov 15; a week stacked with Nvidia earnings, the Anthropic IPO, Canadian CPI and Fed minutes - on top of a 10-yr at ~5.15% - is the advisor check-in hook for managed, multi-manager portfolios.",
+    "asof": "Nov 16, 2026 (Mon, ~5am ET): re-searched iA Clarington press releases and sub-advisor news; latest release still the Oct 23/26 Active ETF distributions (payable Nov 10). No November release, Elite Pools allocation or sub-advisor change found; November Active ETF distribution notice still expected ~Nov 20-25 (ILGB estimate ~C$0.05 third-party only). Market backdrop verified: Asia chip rout and weaker Nasdaq futures ahead of NVDA earnings. Stats carried forward.",
+    "oneliner": "Still no fresh Elite Pools rebalancing news through Nov 16; an Asia-wide chip selloff ahead of Nvidia earnings, the Anthropic IPO and Canadian CPI - on top of a 10-yr near ~5.15% - is the advisor check-in hook for managed, multi-manager portfolios.",
     "stats": [
       {
         "k": "Loomis Sayles firm AUM",
@@ -942,6 +1024,13 @@
       }
     ],
     "signals": [
+      {
+        "name": "AI risk crosses borders: the diversification call",
+        "reading": "Monday: Taiex ~-4-6%, Kospi ~-3.6%, Nikkei ~-2.4%, Nasdaq 100 futures ~-0.9% while European futures edged up (lower AI concentration) - no new Elite announcement",
+        "level": "No new announcement",
+        "angle": "Europe holding up while Asia/US tech slide is a live example of why the pools blend EAFE, global and fixed-income managers - lead with it in this week's check-in calls.",
+        "tag": "LIVE"
+      },
       {
         "name": "Big-event week is the 'stay diversified' call",
         "reading": "Nvidia reports Tue (first post-Huang print, ~10.5% implied move), Anthropic lists ~Thu, Canada CPI Mon, Fed minutes midweek; no Elite-specific announcement found.",
@@ -1041,6 +1130,6 @@
         "tag": "SAMPLE"
       }
     ],
-    "compositionNote": "No Elite Pools or Unified Portfolios allocation, rebalancing or sub-advisor change was announced as of Nov 13/26; the latest iA Clarington release found is the Oct 23/26 Active ETF distributions notice (payable Nov 10). Underlying-manager roster carried forward: PIMCO Monthly Income Fund (Canada), Mackenzie Unconstrained Fixed Income, IA Clarington Strategic Corporate Bond, BMO High Yield US Corporate Bond Index ETF, IA Clarington Loomis U.S. All Cap Growth, IA Clarington QV Global Equity, BMO MSCI EAFE Index ETF, Capital Group Global Equity (Canada). Market context for the pools: the Nov 5 tech rout (Nasdaq -5.2%, VIX ~28) and the hot Oct US CPI (Dec Fed hike ~88% priced) versus a softer Canadian labour market (6.7% unemployment, BoC hike odds ~30-35%) argue for the pools' built-in diversification and rebalancing discipline. Governance items on file remain the Mc Mahon reassignment (33 funds to iAGAM's Tej Rai/Alex Bellefleur) and the QV Canadian Small Cap PM transition (Amit Shah, effective Jul 3/26). iA Clarington AUM $26B+ (Sep 30/26). Nov 12 update: S&P 500 rebounded to 7,619 (+1.31%) on Nov 11 while Dec Fed hike odds held ~87-91% - concentration risk (NVDA ~-8.6% after hours) favours the pools' multi-manager mix. Nov 13 update: Jensen Huang resigned as Nvidia CEO on Nov 12 (S&P -0.35%, NVDA -4.34%) while the 10-yr UST rose to ~5.13% and a December Fed hike is fully priced - single-stock key-person risk plus rising yields reinforce the pools' multi-manager, rebalanced design. Nov 14 update: no Elite change announced; on Fri Nov 13 NVDA fell ~2% (-12.75% on the week, HSBC to Hold) while the S&P 500 still finished the week +2.5% and the 10-yr rose to ~5.15% on 6.5% annual PPI - a live example of the pools' multi-manager diversification. November Active ETF distributions notice expected ~Nov 20-25."
+    "compositionNote": "No Elite Pools or Unified Portfolios allocation, rebalancing or sub-advisor change was announced as of Nov 13/26; the latest iA Clarington release found is the Oct 23/26 Active ETF distributions notice (payable Nov 10). Underlying-manager roster carried forward: PIMCO Monthly Income Fund (Canada), Mackenzie Unconstrained Fixed Income, IA Clarington Strategic Corporate Bond, BMO High Yield US Corporate Bond Index ETF, IA Clarington Loomis U.S. All Cap Growth, IA Clarington QV Global Equity, BMO MSCI EAFE Index ETF, Capital Group Global Equity (Canada). Market context for the pools: the Nov 5 tech rout (Nasdaq -5.2%, VIX ~28) and the hot Oct US CPI (Dec Fed hike ~88% priced) versus a softer Canadian labour market (6.7% unemployment, BoC hike odds ~30-35%) argue for the pools' built-in diversification and rebalancing discipline. Governance items on file remain the Mc Mahon reassignment (33 funds to iAGAM's Tej Rai/Alex Bellefleur) and the QV Canadian Small Cap PM transition (Amit Shah, effective Jul 3/26). iA Clarington AUM $26B+ (Sep 30/26). Nov 12 update: S&P 500 rebounded to 7,619 (+1.31%) on Nov 11 while Dec Fed hike odds held ~87-91% - concentration risk (NVDA ~-8.6% after hours) favours the pools' multi-manager mix. Nov 13 update: Jensen Huang resigned as Nvidia CEO on Nov 12 (S&P -0.35%, NVDA -4.34%) while the 10-yr UST rose to ~5.13% and a December Fed hike is fully priced - single-stock key-person risk plus rising yields reinforce the pools' multi-manager, rebalanced design. Nov 14 update: no Elite change announced; on Fri Nov 13 NVDA fell ~2% (-12.75% on the week, HSBC to Hold) while the S&P 500 still finished the week +2.5% and the 10-yr rose to ~5.15% on 6.5% annual PPI - a live example of the pools' multi-manager diversification. November Active ETF distributions notice expected ~Nov 20-25. Nov 16 update: no Elite change announced; Monday's Asia chip rout (Taiex ~-4-6%, Kospi ~-3.6%) and weaker Nasdaq futures ahead of NVDA earnings illustrate how quickly single-theme risk travels across regions - the pools' multi-manager, multi-region mix and rebalancing discipline are the counterweight."
   }
 }
