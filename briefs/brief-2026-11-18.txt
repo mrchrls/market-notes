@@ -1,0 +1,29 @@
+Subject: TerritoryIQ Morning Brief — Wednesday, November 18
+
+WHAT CHANGED
+Nvidia's print landed overnight and the feed rebuilt around it: four new CCM9973 signals (the $115.8B beat and $130B guide, the software selloff, the margin step-down, Anthropic guided at or above $78). Also new: the 10-yr at ~5.10% and the loonie at a 19-month low (CCM5604), VIX back above 25 (CCM8752), and the S&P's lowest close since July (ELITE).
+
+TODAY'S SIGNAL ANGLES
+
+[CCM5604 · LIVE] Fed hike ~95% priced; 10-yr ~5.1% — 10-yr ~5.10% vs best GIC 4.50-4.55%
+Angle: Yields above 5% against a GIC ceiling of ~4.5%. Lead with yield plus liquidity on GIC-renewal calls.
+
+[CCM9973 · LIVE] Nvidia beats and guides to $130B — $115.8B rev / $130B guide
+Angle: Demand isn't the problem; leadership and policy noise are. For clients holding NVDA directly.
+
+[CCM9973 · LIVE] Software sells off: S&P lowest close since July — S&P 7,340.53 / CRM ~-9.4%
+Angle: AI now makes losers too. Owning chips, power and infrastructure over legacy software is the active-management case. Use with index-only advisors.
+
+[CCM8752 · LIVE] VIX back above 25, fourth straight rise — VIX ~25.5 vs ~19.3 Nov 13
+Angle: Third drawdown in two weeks, 10-yr moved only ~2bp — bonds aren't cushioning. Take the market-neutral and macro sleeves to 60/40 holders.
+
+[CCM5604 · LIVE] Loonie at a 19-month low near 1.435 — USD/CAD ~1.43-1.435
+Angle: BoC hike odds ~38-40% vs a Fed hike ~95% priced. For CAD-only income books — USD Series (CCM5612) is the ask.
+
+[ELITE · LIVE] iA wealth net inflows ~$1.3B — AUM/AUA $375B / inflows ~$1.3B
+Angle: Q3/26 AUM/AUA $375B (+30%), gross sales >$3.2B, dividend +7%. For manufacturer-risk questions.
+
+WORTH KNOWING
+- Manulife Strategic Income: their Series F MER 0.90% vs our 0.84% (carried forward) — and their long-time lead PM, Daniel S. Janis III, now sub-advises CCM5604.
+- Private credit: Q3 requests 11.5% of NAV across 19 NAV BDCs vs typical 5% caps; 7 of 10 prorated. CCM8752's daily liquidity is the contrast.
+- No Elite change or November distributions notice yet; expected ~Nov 20-25.
