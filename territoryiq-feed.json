@@ -33,130 +33,6 @@
         "v": "S&P 500 7,340.53 (-1.03%, lowest close since late July), Nasdaq 24,328.38 (-0.74%), Dow 50,759.42 (-848.75, -1.64%); all 11 S&P sectors lower, decliners >5:1; Salesforce ~-9.4% to ~$194.6, software ETF IGV ~-3.4% midday on AI-disruption fears (CNBC/Benzinga/Substack recaps via search)"
       },
       {
-        "k": "Anthropic IPO (as of Nov 17-18/26)",
-        "v": "Prices Wed Nov 18, trades Nasdaq Thu Nov 19 (ANT); 825M shares at $70-78; Bloomberg (Nov 17): guiding to top of range or above; Gate (secondary) reports possible >$80 for ~$1.5-1.6T; book ~7x covered Nov 15 (Bloomberg via search); $26B Class N private placement from seven tech partners incl. Nvidia/Google/Microsoft"
-      },
-      {
-        "k": "Indices (Mon Nov 16/26)",
-        "v": "Nasdaq -2.5%, Philadelphia Semiconductor index -5.3%, S&P 500 ~-1.9%, Dow ~-1.4% (Reuters via Korea Times/Yahoo; a Blockonomi summary had S&P -1.4% / Nasdaq -2% - sources differ); oil fell >3% on IEA surplus outlook; Fed Dec 25bp hike ~91-95% priced"
-      },
-      {
-        "k": "NVDA (Mon Nov 16/26)",
-        "v": "Closed $156.14, lowest since Jul 1/25 (~-4%); Q3 FY27 results Tue Nov 17 after close - consensus ~90.4% EPS growth on ~$109.10B revenue; interim CEO Colette Kress leads the call. Trump said he 'would not mind' Huang's reinstatement; a source says the board is not considering it"
-      },
-      {
-        "k": "US AI-chip remote-access rule (Nov 16/26)",
-        "v": "Commerce interim rule: data-centre operators in Singapore, Malaysia, Thailand, Indonesia and Brazil need a US licence for advanced AI chips when serving significant compute to firms in arms-embargoed countries (China, Iran, Russia); commercial recommendation systems excluded; follows the Megaspeed probe, ahead of a Trump-Xi meeting (CNN/WaPo/Bloomberg/Al Jazeera)"
-      },
-      {
-        "k": "Asia (Tue Nov 17/26, intraday)",
-        "v": "Kospi ~-2% (later >-2%), Taiwan ~-1.4% to >-2%, Nikkei ~-1.2%; MSCI Asia-Pacific ~-1.2%, its tech sub-index ~-3.6%; Alibaba ~-5%, Baidu ~-7% (Reuters/Investing.com via search; intraday)"
-      },
-      {
-        "k": "Anthropic IPO (as of Nov 16-17/26)",
-        "v": "Prices Wed Nov 18, trades Nasdaq Thu Nov 19 (ANT); Reuters now cites up to ~$80B raise at a near ~$1.5T valuation; earlier amended-S-1 reporting ~$64.4B / ~$1.4T on 825M shares at $70-78 - sizing appears upsized, confirm on pricing"
-      },
-      {
-        "k": "Asia chip rout (Mon Nov 16/26)",
-        "v": "Taiwan Taiex ~-4% to -6% (TSMC ~-5.7%); Kospi ~-3.6% to 5,100.50 (SK Hynix ~-8%, Samsung ~-4%); Nikkei ~-2.4% to ~59,662, below 60,000 (Kioxia ~-7.7%); Hang Seng ~+0.9%. Driver: whether Nvidia's leadership crisis disrupts orders/AI infrastructure spend (Reuters/AP/TradingKey/IBTimes via search; intraday vs close figures differ)"
-      },
-      {
-        "k": "NVDA Q3 FY27 setup (Tue Nov 17 AMC)",
-        "v": "Consensus ~90% earnings growth on ~$109B revenue (Reuters); interim CEO Colette Kress hosts the call; ~$10B Anthropic private-placement commitment under scrutiny after Huang exit (Bloomberg headline)"
-      },
-      {
-        "k": "Anthropic IPO timing (as of Nov 16/26)",
-        "v": "Prices Wed Nov 18, trades Nasdaq Thu Nov 19 (Reuters/Yahoo); up to ~$64.4B on ~825M shares, up to ~$1.4T valuation; orders ~6x covered per Hankyung (single source); ~316M additional shares eligible for sale on day one flagged as an overhang (search summary)"
-      },
-      {
-        "k": "Week ahead (Nov 16-20/26)",
-        "v": "NVDA Q3 FY27 results Tue Nov 17 after close (~4:20pm ET) - first since Huang resigned; one preview cites EPS ~$2.47 on revenue ~$108.85B (single source, unverified consensus); options imply ~10.5% move vs ~5.6% 3-yr average; NVDA $162.85 Fri, sixth straight weekly decline. Also: Anthropic Nasdaq debut (reported Thu Nov 19), Fed minutes, US retail sales, Walmart Thu, Trump-Xi meeting (StockTitan/FXStreet/learn2.trade/Yahoo via search)"
-      },
-      {
-        "k": "Anthropic IPO terms (amended S-1, Nov 10/26)",
-        "v": "825,000,000 Class A shares at $70.00-78.00; Nasdaq Global Select, ticker ANT; ~$61B underwritten (Renaissance) / up to ~$64.35B (Fast Company); valuation ~$1.0-1.4T depending on source; $26.0B of non-voting Class N stock to be bought post-close by seven suppliers/partners incl. Nvidia, Google, Microsoft; would be 2nd-largest IPO ever behind SpaceX's $75B (Jun 2026); trading date reported Nov 19, not officially confirmed (Renaissance Capital/Fast Company/RTTNews via search)"
-      },
-      {
-        "k": "Indices (Fri Nov 13/26)",
-        "v": "S&P 500 7,561.67 (-0.40%), Nasdaq 25,136.27 (-0.91%), Dow +0.10%; all three still up on the week (S&P +2.5%, Nasdaq best week since August per CNBC headline); AMD -8.75% to $534.06, Dell -7.18%; 10-yr UST ~5.15% after Oct PPI (Yahoo/TheStreet/Eurasia Business News via search; intraday figures were larger)"
-      },
-      {
-        "k": "NVDA (Nov 13/26)",
-        "v": "Closed ~2% lower at ~$162.85 (single recap), -12.75% on the week, market cap back below $4T; HSBC downgraded to Hold, saying Nvidia will struggle until a permanent CEO replaces Huang; interim CEO Colette Kress under scrutiny. Earnings Nov 17 (carried forward, not reconfirmed today)"
-      },
-      {
-        "k": "Anthropic IPO (reported Nov 10-13/26)",
-        "v": "Reported price range $70-78/share, ~$1.4T valuation (down from >$2T talk in the summer), ~800M shares / ~$64B raise, pricing ~Nov 18; Nvidia reportedly weighing up to ~$10B anchor investment (XTB/FXStreet/Finimize/Fourweekmba via search; terms differ by source - treat as reported, not final)"
-      },
-      {
-        "k": "Indices (Thu Nov 12/26)",
-        "v": "S&P 500 7,592.40 (-0.35%, erased an early ~1% drop), Nasdaq 25,366.09 (-0.39%), Dow 52,297.09 (-0.36%), Russell 2000 -1.66%; drivers: Nvidia CEO exit, 10-yr UST back above 5.1%, Brent +3.3% (Yahoo/StockTitan/BBN Times)"
-      },
-      {
-        "k": "NVDA (Nov 12/26) - CEO resignation",
-        "v": "Jensen Huang resigned as President, CEO and director effective immediately (8-K, pre-market Nov 12); CFO Colette Kress interim CEO (keeps CFO role); Harvey C. Jones board chair; internal/external search under way. Stock fell >13% early, closed $166.19 (-4.34%). Melius to Hold, PT $315->$185; Morningstar FV $310->$250. Earnings Nov 17; Huang summoned to a House briefing Nov 18"
-      },
-      {
-        "k": "NVDA (Nov 11/26)",
-        "v": "+2.9% in regular session, then ~-8.6% after hours on WSJ report the board was preparing to remove CEO Jensen Huang (confirmed by his Nov 12 resignation); Oppenheimer cut to Perform"
-      },
-      {
-        "k": "Indices (Wed Nov 11/26)",
-        "v": "S&P 500 7,619.38 (+1.31%), Nasdaq 25,466.19 (+1.60%), Dow 52,486.49 (+0.49%), Russell 2000 2,846.26 (+0.88%); chip index ~+5.7%, every SOX member higher (Yahoo/KRMG/CNBC; minor source differences)"
-      },
-      {
-        "k": "CoreWeave Q3/26 (Nov 10 AMC)",
-        "v": "Revenue $3.66B (+168% y/y) vs ~$3.55B est.; adj. EPS -$0.95 vs ~-$1.16 est.; backlog ~$132.5B (from ~$104B in June); FY26 rev guide raised to $13.0-13.3B; FY26 capex $37-39B; shares +24.7% to $60.77 on Nov 11"
-      },
-      {
-        "k": "Indices (Tue Nov 10/26)",
-        "v": "S&P 500 7,520.93 (-0.38%), Nasdaq ~25,065.87 (-0.74%), Dow ~52,231.89 (-0.30%) after hot Oct CPI; NVDA -5.5% (TheStreet/StockTitan/Yahoo via search)"
-      },
-      {
-        "k": "Indices (Mon Nov 9/26)",
-        "v": "Rebound: S&P 500 +2.35% to ~7,550, Nasdaq +2.74% to 25,253.14, Dow +2.15% (search summaries; NVDA fell against the rally)"
-      },
-      {
-        "k": "Nov 5/26 tech rout",
-        "v": "Nasdaq -5.2%, Nasdaq 100 -6.4% (~$2.3T erased, largest one-day value loss on record), Dow -1,833 pts (-3.4%), S&P -3.5%; trigger: midterm results seen as threatening AI data-center buildout (e.g. Texas governor-elect's proposed data-center construction pause), amplified by leveraged/systematic selling; Nasdaq in correction (Fox/CNBC/Axios/Bloomberg)"
-      },
-      {
-        "k": "NVDA (Nov 10/26)",
-        "v": "~$166.70 midday Nov 10, lowest since March; -18.4% in November, all 2026 gains erased (~$192B value lost) after Jensen Huang admitted an affair with an alleged MSS-recruited ex-Megaspeed executive; federal probe, securities class action, GOP subpoena threat. Earnings Nov 17 (CNN/Variety/Yahoo via search)"
-      },
-      {
-        "k": "Micron (MU) Nov 9-10/26",
-        "v": "~$733 (Nov 10); -29.7% past week, -37% past month, >40% off June high but still ~+130% YTD; FY26 capex ~$27-31B, FY27 capex guided >$10B higher; HBM3E/HBM4 reported sold out through 2027 (24/7 Wall St./The Index Today)"
-      },
-      {
-        "k": "Google TPU competition (Nov 9/26)",
-        "v": "Google introduced new AI chip configurations; The Information reported OpenAI considering buying Google TPUs (unconfirmed)"
-      },
-      {
-        "k": "Indices (Fri Oct 30/26)",
-        "v": "Nasdaq 25,437.00 (-2.86%), S&P 500 7,580.07 (-1.82%), Dow 51,770.31 (-1.09%); Intel -28.58% (worst day since 1974) on weak guidance; Amazon -1.4% after Q3 sales/profit miss and 12-mo FCF of -$42.4B; Nasdaq about -5.2% for October (another source -6.6%), worst month since Mar 2025 (Yahoo Finance/CNN/Reuters via search; month figures differ by source)"
-      },
-      {
-        "k": "Indices (Wed Oct 28/26)",
-        "v": "Dow 52,475.10 (+0.19%), S&P 500 7,743.98 (+0.28%), Nasdaq 26,549.85 (+0.27%); tech and energy led, Oracle ~+10.7% on revenue target (Reuters/Xinhua via search; one outlet cited a lower Nasdaq level, likely intraday)"
-      },
-      {
-        "k": "Micron (MU) Oct 22-23/26",
-        "v": "Fell 6.26% to $856.49 on Oct 22 as AI/semis risk appetite cooled (TradingKey); +2.46% to $877.55 on Fri Oct 23 on a BNP Paribas note on memory constraints in AI inference; CXMT DRAM-advance worries weighed on MU/SanDisk earlier that week (heygotrade/search snippets). Oct 30 MU close not found."
-      },
-      {
-        "k": "Alphabet Q3/26 (Oct 28, after hours)",
-        "v": "Adj. EPS $2.67 vs $3.02 est.; free cash flow -$9.07B vs +$2.70B est.; Cloud revenue ~$30.7B with ~$560B backlog; 2026 capex held at $195-205B, 'significant' increase expected in 2027; shares -9% to -11% after hours (CNBC/investinglive/tech-insider; sources differ on exact move)"
-      },
-      {
-        "k": "Microsoft FQ1/27 (Oct 28, after hours)",
-        "v": "Azure +48%, adj. EPS $4.89 vs ~$4.72 est.; some third-party capacity deliveries delayed, capex to accelerate in 2H of fiscal year; shares ~+3% to +6% after hours (search summaries; sources differ)"
-      },
-      {
-        "k": "Meta 2026 capex guide (Oct 21)",
-        "v": "$135-145B (from $130-145B) - single secondary source, not cross-checked"
-      },
-      {
         "k": "AUM (all series)",
         "v": "$74.91M (Apr 30, 2026) — carried forward unchanged; iaclarington.com fetch blocked again today"
       },
@@ -187,30 +63,6 @@
       {
         "k": "NVDA reference",
         "v": "Record intraday high $237.55 on Fri Oct 2/26 (mkt cap ~$5.7T) after Morgan Stanley reinstated NVDA as top semiconductor pick (Overweight, $300 target; ~15x FY28E EPS) following meetings with Huang/Kress; $150B buyback expansion announced Sep 28. Prior exact print on file $224.58 (Sep 28)."
-      },
-      {
-        "k": "Indices (Fri Oct 2/26)",
-        "v": "S&P 500 ~7,723 (+0.73% TradingEconomics; +0.89% per CNBC-type summary — sources differ); Nasdaq +1.2% to +1.35%; Dow +0.64%. Prior close Oct 1: S&P 7,666.45, Nasdaq 26,871.60. VIX Oct 2 not verified (16.5 on Oct 1)."
-      },
-      {
-        "k": "Micron FQ4 (reported Sep 30/26)",
-        "v": "Revenue $54.2B (+31% q/q, +379% y/y) vs. $51.07B est.; adj. EPS $33.42 vs. $31.61 est.; FY26 revenue $133.2B; DRAM $39.8B (73% of sales); FQ1 guide ~$61.5B rev / $38.15 adj. EPS; vast majority of calendar-2027 HBM bit supply under agreement at higher prices. Shares ~flat after hours (CNBC/GlobeNewswire snippets)."
-      },
-      {
-        "k": "Indices (Mon Oct 5/26)",
-        "v": "S&P 500 7,773.95 (+0.66%, <1% from record); Nasdaq Composite +1.05% record high; NVDA +2.12% record, cap nearing $6T (Foxconn strong AI-server demand). 10-yr UST 5.255% close (intraday 5.34%), 30-yr ~5.6-5.7% — highest since 2002."
-      },
-      {
-        "k": "Indices (Tue Oct 6/26)",
-        "v": "S&P 500 7,818.95 (+0.58%), Nasdaq Composite 27,599.79 (+0.45%), Dow 51,521.04 (+0.49%) — all-time closing highs for S&P and Nasdaq as crude steadied and Treasury yields eased (snippet; source summary)"
-      },
-      {
-        "k": "Indices (Wed Oct 7/26)",
-        "v": "S&P 500 7,801.77 (-0.22%), Nasdaq 27,538.69 (-0.22%, first down day in six), Dow ~51,180 (-0.66%), Russell 2000 ~-1.3%; chip stocks -1.2% after >80% YTD gain (Reuters/Star/MTC snippets)"
-      },
-      {
-        "k": "Indices (Thu Oct 8/26)",
-        "v": "S&P 500 7,765.36 (-0.5%), Nasdaq 27,193.34 (-1.3%, -345.35 pts), Dow 51,231.64 (+0.1%); tech drops outweighed gains in most S&P stocks; Brent topped $104"
       },
       {
         "k": "ITIN ETF snapshot (TipRanks, undated page)",
@@ -335,90 +187,6 @@
         "level": "~$109.1B rev / NVDA $156.14",
         "angle": "Set expectations with advisors before the print: the AI demand story and the NVDA share price have decoupled - a good print may not fix governance, and a diversified mandate doesn't need it to.",
         "tag": "LIVE"
-      },
-      {
-        "name": "Anthropic IPO reportedly upsized toward ~$80B",
-        "reading": "Reuters cites up to ~$80B at near ~$1.5T, pricing Wed, trading Thu",
-        "level": "up to ~$80B / ~$1.5T",
-        "angle": "Models-layer value is moving from private to public markets this week - a reason to own the layer through a managed mandate rather than chase a single IPO allocation.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Nvidia shock goes global: Asia chips sell off",
-        "reading": "Taiex ~-4-6%, TSMC ~-5.7%, SK Hynix ~-8%, Kioxia ~-7.7% Monday as investors ask whether Nvidia's leadership crisis delays AI orders; Nasdaq 100 futures -0.5% to -0.9%",
-        "level": "Taiex ~-4-6% / SKH ~-8%",
-        "angle": "Concentrated chip/Asia-tech exposure is being punished in one session - a 5-layer mandate spreading risk across energy, infra, models and apps is the conversation to have before Tuesday's print, not after.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Tuesday print: ~$109B revenue expected",
-        "reading": "Reuters: Street expects ~90% earnings growth on ~$109B revenue; Kress hosts the call; Anthropic prices the next day",
-        "level": "~$109B rev consensus",
-        "angle": "Binary-event week: advisors who want AI exposure without betting on one CEO-less company's guidance have a ready answer.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Tuesday is the test: NVDA earnings, ~10.5% implied move",
-        "reading": "Nvidia reports Q3 FY27 after the close Tue Nov 17, its first report under interim CEO Colette Kress; stock at $162.85 after six straight weekly declines and below $4T market cap; options price a ~10.5% move either way, nearly double its 3-yr average.",
-        "level": "Implied ~10.5% vs ~5.6% avg",
-        "angle": "Don't let a client's AI exposure hinge on one stock's earnings night - the fund owns the chip layer alongside energy, infra, models and apps.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Anthropic IPO: 825M shares, $70-78, ticker ANT",
-        "reading": "Amended S-1 (Nov 10) sets terms; ~$61-64B raise would be the 2nd-largest IPO ever; Nvidia, Google and Microsoft among seven partners buying $26B of Class N stock post-close; Nasdaq debut reported for Thu Nov 19.",
-        "level": "$70-78 / ~$1.0-1.4T",
-        "angle": "The models layer is going public - clients can get diversified exposure to the AI build-out without chasing an IPO allocation on day one.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Nvidia week: -12.75%, HSBC to Hold",
-        "reading": "NVDA closed ~2% lower Fri Nov 13 at ~$162.85, -12.75% on the week, below $4T market cap; HSBC cut to Hold pending a permanent CEO; AMD -8.75%. Nasdaq -0.91% Friday but still higher on the week.",
-        "level": "NVDA ~$162.85 / wk -12.75%",
-        "angle": "Index still finished up on the week while its biggest AI name fell ~13% - the clearest proof yet that owning the theme beats owning the stock. Nov 17 earnings + Nov 18 Anthropic IPO is the next catalyst window.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Anthropic IPO ~Nov 18 at ~$1.4T (reported)",
-        "reading": "Reported $70-78 range, ~$64B raise, pricing ~Nov 18; Nvidia reportedly mulling a ~$10B anchor; valuation talk down from >$2T in the summer.",
-        "level": "~$1.4T reported valuation",
-        "angle": "The models layer is going public - a headline advisors' clients will ask about. Position CCM9973/ITIN as the diversified way to own the AI stack rather than chasing a single IPO allocation.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Jensen Huang resigns; Colette Kress interim CEO",
-        "reading": "Nvidia's 8-K (Nov 12) confirms Huang's immediate resignation after 33 years; CFO Kress is interim CEO, Harvey C. Jones chair, search open to internal/external candidates. NVDA -13% early, closed -4.34% at $166.19; Melius cut to Hold ($185 PT), Morningstar FV to $250. Earnings Nov 17.",
-        "level": "NVDA $166.19 (-4.34%)",
-        "angle": "Key-person risk just hit the world's most important AI stock. Clients who own NVDA directly felt it; a thematic mandate spread across energy, chips, infra, models and apps owns the theme, not one CEO.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Market shrugs it off: S&P -0.35%",
-        "reading": "S&P 500 7,592.40 (-0.35%) erased an early ~1% drop; Nasdaq -0.39%; small caps -1.66% as the 10-yr pushed above 5.1% and Brent jumped 3.3%. VIX 18.70 (+6.9%), well below last week's ~28.",
-        "level": "S&P 7,592 / VIX 18.70",
-        "angle": "The AI build-out story survived a CEO exit in one session - use it to show the theme is bigger than any single company.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "CoreWeave beat-and-raise relights AI infrastructure",
-        "reading": "Q3 revenue $3.66B (+168%), backlog ~$132.5B (+~$28.5B in a quarter), FY26 guide raised; CRWV +24.7%, chip index ~+5.7%, Nasdaq +1.6% on Nov 11.",
-        "level": "Backlog ~$132.5B / Nasdaq 25,466",
-        "angle": "Demand at the infra/compute layer is still accelerating - the 'AI is over' objection is about prices, not orders; use pullbacks to add via Class F or ITIN.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Nvidia governance shock: board reportedly weighing Huang's removal",
-        "reading": "NVDA -8.6% after hours Nov 11 after WSJ report; Oppenheimer downgrade; Asian AI names slipped Thursday.",
-        "level": "NVDA ~-8.6% AH",
-        "angle": "Key-person risk in the market's biggest stock is the clearest argument yet for a managed basket across energy, chips, infra, models and apps rather than an NVDA-heavy index or single stock.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Nov 5: record Nasdaq 100 wipeout on midterm AI-policy fears",
-        "reading": "Nasdaq -5.2%, Nasdaq 100 -6.4% (~$2.3T), Dow -3.4%; chipmakers and data-center suppliers hit hardest on fears of data-center construction pauses/tax-incentive rollbacks; forced and systematic selling amplified it; Nasdaq now in correction.",
-        "level": "Nasdaq -5.2% / NDX -6.4%",
-        "angle": "Advisor objection 'AI is over' -> the fund's five-layer map shows energy/infra/apps exposure beyond chips; correction entry points for DCA into Class F/ITIN.",
-        "tag": "LIVE"
       }
     ],
     "competitors": [
@@ -464,104 +232,16 @@
         "v": "Held above 1.43, first time since Mar 2025, after Oct CPI miss (EBC); FXStreet headline (Nov 18): USD/CAD hits 19-month highs near 1.4350 - figure from headline only"
       },
       {
-        "k": "BoC Dec 9 pricing (Nov 17/26)",
-        "v": "Commerzbank: hike odds trimmed to ~40% but 'still live'; markets still price ~3 hikes by end-Oct 2027 (FXStreet via search); other reads ~38%"
-      },
-      {
-        "k": "Best 5-yr GIC (Nov 18 check)",
-        "v": "Ratehub: Oaken Financial 4.50% (registered) top listed; Achieva 4.35%, EQ Bank 4.30%; WealthONE 4.55% (Nov 12) not reconfirmed today but carried forward as the ceiling"
-      },
-      {
-        "k": "Canada Oct CPI (released Nov 16/26)",
-        "v": "3.1% y/y, unchanged from Sept, below 3.2% consensus; +0.2% m/m (per Inflation Calculator); ex-energy 2.0% (from 2.1%); CPI-common 2.5% (from 2.4%), CPI-median 2.0%, CPI-trim 1.8% (from 1.9%); gasoline +30.9% y/y (StatCan/Global News/FXStreet via search). Next CPI Dec 14 - after the Dec 9 decision"
-      },
-      {
-        "k": "BoC Dec 9 pricing (post-CPI, Nov 16/26)",
-        "v": "Hike odds ~38% from ~54% (single-source market read); CIBC (Grantham) and RSM expect a hold at 2.50%; Oxford Economics still expects a 25bp hike; National Bank Nov monitor questions BoC tightening ('Has the BoC drawn the wrong lessons from 2022?')"
-      },
-      {
-        "k": "USD/CAD (Nov 16-17/26)",
-        "v": "Fresh 2026 high near 1.430, strongest since Apr 2025, after the soft CPI; ~1.4315 in early Asian trade Tue (EBC/FXStreet/Convera headlines via search)"
-      },
-      {
-        "k": "US yields / oil (Mon Nov 16/26)",
-        "v": "10-yr -3.2bp to ~5.121%, 2-yr -5.1bp to ~4.823% as oil fell >3% on IEA Q4 surplus outlook and recovering Hormuz flows; Brent ~$96.7 early Mon (Fortune), ~$92.4 later (CNBC live blog, timing uncertain); Fed Dec 25bp hike ~91-95% priced"
-      },
-      {
-        "k": "BoC Dec 9 pricing (Nov 15/26)",
-        "v": "~54% odds of a hike to 2.75% (single-source market read, up from ~30-35% after Oct jobs); RBC base case a 'low-conviction' 25bp hike; overnight rate 2.50%"
-      },
-      {
-        "k": "USD/CAD (Mon Nov 16/26, Asia)",
-        "v": "~1.4280, fifth straight daily gain; drivers: Fed Dec 25bp hike ~93.5% priced and softer crude (FXStreet/VT Markets via search)"
-      },
-      {
-        "k": "Japan Q3 GDP (Nov 16/26)",
-        "v": "-0.1% annualised vs +0.3% est. (Q2 +1.4%); q/q 0.0%; net exports -0.6pt, consumption -0.3%, capex +1.6%; USD/JPY ~159.8 with Tokyo intervention warnings; BoJ Dec hike odds ~75.6% (LSEG) (CNBC/investinglive/Reuters via search)"
-      },
-      {
-        "k": "Korea (Mon Nov 16/26)",
-        "v": "Kospi ~-3.6% to 5,100.50 on chip selloff (KRW move not verified today)"
-      },
-      {
-        "k": "Week ahead (Nov 16-20/26)",
-        "v": "Canada Oct CPI Mon Nov 16 8:30am ET - Continuum Economics preview expects headline to firm to ~3.3% (Sept 3.1%); BoC decision Dec 9 (carried forward; one source says Dec 10 - check BoC calendar). US: Fed minutes, retail sales; UK CPI; Trump-Xi meeting (Statistics Canada calendar via financecalendar/Continuum/FXStreet via search)"
-      },
-      {
-        "k": "US yields / PPI (Fri Nov 13/26)",
-        "v": "10-yr UST ~5.15% close (+~5bp; intraday high 5.17%, highest since October); Oct PPI +0.3% m/m vs 0.4% est., +6.5% y/y (largest since Nov 2022); core PPI +5.0% y/y (core m/m reported 0.3%-0.5%, sources differ) (CNBC/Yahoo/Trading Economics via search)"
-      },
-      {
-        "k": "USD/CAD (Fri Nov 13/26)",
-        "v": "~1.4257 close (loonie US$0.7014), vs 1.4255 Thu; touched 1.4331 intraday Nov 12 - a 19-month CAD low; ~-0.9% on the week; Canada-US 2-yr yield gap 147bp (~20bp wider since Nov 1). Canadian CPI next (Producer/Reuters via Globe/FXStreet)"
-      },
-      {
-        "k": "US yields (Nov 12-13/26)",
-        "v": "10-yr +13bp to ~5.125% on Nov 12 as oil jumped and hike bets firmed; Nov 13 a.m.: 10-yr ~5.127%, 2-yr ~4.85% (-1bp), 30-yr ~5.46% (CNBC)"
-      },
-      {
-        "k": "Fed December pricing (Nov 12-13/26)",
-        "v": "CME FedWatch: hike ~100% priced for Dec 9 - ~87% for 25bp, ~13% for 50bp, from 3.75-4.00% (CNBC)"
-      },
-      {
-        "k": "Oil (Nov 12/26)",
-        "v": "Brent settled $95.82 (+3.3%), WTI $88.74 (+2.6%) after Trump said the US doesn't need a deal with Iran; Brent had fallen ~24% in the prior 10 days; US blockade of Iranian ports still in place (CNBC/Bloomberg/Rigzone)"
-      },
-      {
-        "k": "USD/CAD (Nov 12/26)",
-        "v": "~1.4255 close (Producer; Trading Economics 1.4258) - weakest CAD daily close since mid-October; loonie ~US$0.7016"
-      },
-      {
         "k": "BoC guidance",
         "v": "Macklem (early Nov, Commons committee): 'further rate hikes may be needed' on elevated energy prices; inflation seen ~3.5% at end-2026, ~3% through most of 2027; next decision Dec 9/26 (FXStreet/BNN Bloomberg)"
-      },
-      {
-        "k": "US Oct CPI (released Nov 10/26)",
-        "v": "Headline +0.4% m/m vs 0.3% est.; core +0.3% m/m vs 0.2% est.; no y/y published by BLS (2025 shutdown data gap) (CBS/Yahoo/LatinTimes via search)"
-      },
-      {
-        "k": "Fed December hike odds (Nov 10/26)",
-        "v": "CME FedWatch ~87-89% for 25bp and ~11-13% for 50bp (i.e. a hike fully priced), up from ~72% a week earlier; Gov. Waller leaning to support a hike and open to 50bp if core runs >=0.3% (Investing.com/Babypips/TradingKey). Fed funds 3.75-4.00%."
-      },
-      {
-        "k": "Canada Oct jobs (Nov 6/26)",
-        "v": "-4,700 jobs vs +13,600 est.; unemployment 6.7% (from 6.5%); private sector -53,000; youth 13.7%. Markets cut Dec 9 BoC hike odds to ~30-35%; Rosenberg and RBC expect a hold at 2.50% (BNN Bloomberg/CP24/Wealth Professional)"
       },
       {
         "k": "Bank of Canada",
         "v": "Overnight rate 2.50% (hiked 25bp Oct 28/26; Bank Rate 2.75% per Canada.ca); next decision Dec 9/26; weak jobs data has cut Dec hike odds to ~30-35%"
       },
       {
-        "k": "10-yr UST / oil (Nov 10/26)",
-        "v": "10-yr UST ~4.94% after CPI (Kitco, intraday-style) — well below the ~5.3% early-Oct peak; Brent briefly <$90 (lowest since August), ~$90.50, after Trump said further Iran strikes 'highly unlikely'; naval blockade remains (Kitco/Capital Brief)"
-      },
-      {
         "k": "Best 5-yr GIC (Canada)",
         "v": "WealthONE Bank 4.55%; Oaken Financial and Saven Financial 4.50% (WOWA/GIC Calculator, reconfirmed Nov 12/26; Ratehub/Forbes list 4.50% top); big banks ~2.75%"
-      },
-      {
-        "k": "Iran / oil risk",
-        "v": "Brent ~$90.50 (Nov 10/26), down from >$107 in late Sep; no comprehensive US-Iran agreement yet (Kitco/Capital Brief)"
       },
       {
         "k": "GTRI Active ETF Series distribution (Oct 2026)",
@@ -594,14 +274,6 @@
       {
         "k": "Fed funds rate (current)",
         "v": "3.75%-4.00% - held Oct 28/26, 10-2 vote with two dissents in favour of a hike; chair is now Kevin Warsh (per search summary); December hike odds ~85% (Yahoo via search summary)"
-      },
-      {
-        "k": "Fed October hike odds (Oct 2/26)",
-        "v": "CME FedWatch ~17% hike / ~82.8% hold after Sept payrolls +29k vs 84k est. and unemployment 4.2% (vs ~36% a week earlier); 10-yr UST 5.27%"
-      },
-      {
-        "k": "Fed hike odds (Oct 6/26)",
-        "v": "19.4% for a second consecutive hike at the Oct 27-28 meeting, vs 50.9% a week earlier (CME FedWatch via news snippet)"
       }
     ],
     "countries": [
@@ -716,90 +388,6 @@
         "reading": "Dec 9 hike odds ~54% (Nov 15) vs ~30-35% after the Oct jobs report; Oct CPI forecasts span 3.0% (RBC) to 3.3% (Continuum), Reuters poll 3.2%",
         "level": "~54% hike odds / CPI est. 3.0-3.3%",
         "angle": "When even the next BoC move is 50/50, a manager who can shift duration and currency across markets beats a fixed-term GIC ladder locked at today's rates.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Yen near 160 after Japan GDP miss",
-        "reading": "Japan Q3 GDP -0.1% annualised vs +0.3% est.; USD/JPY ~159.8, intervention warnings; BoJ Dec hike still ~75.6% priced",
-        "level": "USD/JPY ~159.8",
-        "angle": "Intervention risk plus a likely BoJ hike is exactly the kind of asymmetric currency setup a global total-return team can position for - talk to advisors about FX as a return source, not just a risk.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Loonie ~1.428, five straight down days",
-        "reading": "USD/CAD ~1.4280 in Asia Monday as Fed Dec hike ~93.5% priced and crude softens",
-        "level": "USD/CAD ~1.4280",
-        "angle": "US-dollar exposure has been a tailwind for unhedged Canadian investors; the fund's USD series (CCM5612) is the talking point for clients who want it explicitly.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Canada CPI Monday: the BoC/Fed divergence test",
-        "reading": "October CPI lands Mon Nov 16; a preview sees headline firming to ~3.3% from 3.1% in Sept. A firm print revives Dec BoC hike odds (~30-35% after three months of job losses); a soft one widens the 147bp Canada-US 2-yr gap further.",
-        "level": "Preview ~3.3% vs 3.1% prior",
-        "angle": "Either outcome moves CAD and curves - a mandate that can shift between countries and currencies doesn't need to call it in advance.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "10-yr at ~5.15% as PPI runs 6.5% y/y",
-        "reading": "Oct PPI +0.3% m/m (below 0.4% est.) but +6.5% y/y, biggest since Nov 2022; 10-yr closed ~5.15%, intraday 5.17% - highest since October.",
-        "level": "10-yr ~5.15% / PPI +6.5% y/y",
-        "angle": "Even a soft monthly print couldn't pull yields down - long-duration bond funds keep bleeding; GTRI's ~3.9-yr duration (carried) and global flexibility is the alternative.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Loonie hits 19-month low; 2-yr gap 147bp",
-        "reading": "USD/CAD touched 1.4331 Nov 12 (19-month CAD low), closed ~1.4257 Fri, ~-0.9% week; Canada-US 2-yr spread 147bp as Canada shed jobs a third straight month.",
-        "level": "USD/CAD ~1.4257 / gap 147bp",
-        "angle": "Canadian-only fixed income is the losing side of the spread; a global unconstrained manager can own the US/foreign carry and currency - and the USD Series (CCM5612) suits USD clients.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "10-yr back above 5.1%; Dec hike fully priced",
-        "reading": "10-yr UST rose 13bp to ~5.125% on Nov 12 as oil rebounded; CME shows a December hike ~100% priced (~87% 25bp, ~13% 50bp); 2-yr ~4.85%.",
-        "level": "10-yr ~5.13% / Dec hike ~100%",
-        "angle": "Long-duration bond funds are bleeding again; GTRI's ~3.9-yr duration and global flexibility let Janis harvest yield without betting the farm on the Fed path.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Oil snaps back: Brent +3.3% to $95.82",
-        "reading": "Trump said the US doesn't need a deal with Iran ('we've got their Strait'); Brent +3.3% to $95.82, WTI +2.6% to $88.74 after a ~24% 10-day slide.",
-        "level": "Brent $95.82",
-        "angle": "Headline-driven oil keeps inflation (and hike) risk alive - a reason to own an income fund that can move across currencies and curves, not a static bond ladder.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Loonie slides to ~1.4255",
-        "reading": "USD/CAD closed ~1.4255 on Nov 12, weakest CAD close since mid-October, as US yields rose and Canada's jobs data cooled BoC hike odds.",
-        "level": "USD/CAD ~1.4255",
-        "angle": "CAD weakness rewards globally diversified income - a direct counter to the 'just buy a GIC' objection.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "5-yr GIC ceiling holds at 4.55%",
-        "reading": "WealthONE 4.55%, Oaken/Saven 4.50% (Nov 12); big banks ~2.75%.",
-        "level": "Best GIC 4.55% vs fund YTM 5.7% (carried forward)",
-        "angle": "GIC rates are rising but still below GTRI's carried-forward YTM, with no liquidity for 5 years.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Fed hike now near-certain; 2-yr jumps to 4.74%",
-        "reading": "CME shows ~87-91% odds of +25bp on Dec 9 with a ~9-13% tail for 50bp; post-CPI the 2-yr rose 18bp to 4.74% and the 10-yr touched ~5.02%.",
-        "level": "Dec hike ~87-91% / 2-yr 4.74%",
-        "angle": "Front-end US rates repricing is exactly where short duration (3.9 yrs, carried) and active country/currency selection protect versus a long-duration bond index.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Oil whipsaws on Iran headlines",
-        "reading": "Brent dipped below $90 Nov 10, bounced to ~$93-94 Nov 11 on Iran denying talks and Hormuz mine strikes, back to ~$91.6 Nov 12.",
-        "level": "Brent ~$91.6 (-21% MTD)",
-        "angle": "Energy is driving Canadian inflation and BoC hike talk; a global mandate can diversify away from a single commodity-linked rate story.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Hot Oct CPI makes a December Fed hike near-certain",
-        "reading": "Oct CPI +0.4% m/m (core +0.3%) beat; CME ~88% for 25bp plus ~12% for 50bp; Waller open to 50bp.",
-        "level": "Dec hike ~88% (25bp) / ~12% (50bp)",
-        "angle": "Agile's short-duration, globally diversified book (3.9 yrs, carried forward) is built for a hiking Fed; avoid long-duration Canada bond funds as the default.",
         "tag": "LIVE"
       }
     ],
@@ -978,90 +566,6 @@
         "level": "11.5% requested vs ~5% caps",
         "angle": "Pressure is cooling but most non-traded funds still can't meet requests in full - daily liquidity remains the Multi-Strategy Pool's clearest differentiator.",
         "tag": "LIVE"
-      },
-      {
-        "name": "VIX back to ~17.5 after AI rebound - but event risk not gone",
-        "reading": "VIX fell ~10% to ~17.48 on Nov 11 as the S&P rose 1.31% to 7,619; hours later NVDA dropped ~8.6% after hours on a CEO-removal report.",
-        "level": "VIX ~17.5 vs ~28.2 Nov 5",
-        "angle": "Calm weeks are when to add diversifiers - one week ago the VIX was 28; market-neutral and macro sleeves don't depend on which way the next headline breaks.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "VIX spike to ~28 on Nov 5, eased to ~19.5",
-        "reading": "VIX +70% to ~28.18 on Nov 5 (Nasdaq -5.2%, S&P -3.5%), 25.64 Nov 6, ~19.5 Nov 10; still above the mid-teens levels of early October.",
-        "level": "VIX ~19.5 (Nov 10) vs ~28.2 peak",
-        "angle": "Proof point season: ask advisors how their 60/40 behaved on Nov 5 and position the market-neutral/long-short sleeves as the shock absorber.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Private-credit tenders: 7 of 10 BDCs prorated",
-        "reading": "Tracker (Nov 7): 7 of 10 non-traded private-credit BDCs prorated (fills ~12.8-49.9%); BCRED filled ~49.9%; ASIC flagged redemption limits in Australia (Nov 10).",
-        "level": "7/10 prorated",
-        "angle": "Liquidity is the differentiator: CCM8752 offers daily liquidity vs quarterly 5%-capped private-credit vehicles.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Stocks and bonds both pressured on Nov 10",
-        "reading": "Hot CPI pushed yields up while S&P -0.38% and Nasdaq -0.74%; Fed hike ~fully priced for December.",
-        "level": "S&P 7,520.93 / 10-yr ~4.94%",
-        "angle": "When stock/bond correlation is positive, a macro + market-neutral alt pool adds diversification bonds cannot.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Oct 30 equity sell-off tests the alternatives case",
-        "reading": "S&P 500 -1.82% and Nasdaq -2.86% on Oct 30; Nasdaq about -5.2% for October; VIX close not verified",
-        "level": "S&P 500 7,580.07",
-        "angle": "Real-time example for advisors: a market-neutral/long-short/macro sleeve mix is meant to dampen equity drawdowns. Check the fund's October return before using it; no figure found today.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Oct 28: equities edge up as Fed holds; vol print not verified",
-        "reading": "S&P 500 7,743.98 (+0.28%), Nasdaq 26,549.85 (+0.27%) on a hawkish hold (two dissents for a hike, December hike odds ~85%); Alphabet -9% to -11% after hours on cash burn. Oct 28 VIX close not found.",
-        "level": "S&P +0.28% / VIX n/a",
-        "angle": "Rate-hike risk plus single-name earnings shocks: the diversifier case for market-neutral and macro sleeves; contrast with gated semi-liquid private credit.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "VIX back near 20",
-        "reading": "VIX ~19.5 Oct 23 (sources differ; 20.24 intraday), up from ~16.5 on Oct 15; on track for first weekly close above 20 since early in the year. Dow -1.23% as tech selloff spread to staples, financials, discretionary.",
-        "level": "VIX ~19.5-20",
-        "angle": "Calm regime ending: market-neutral and macro sleeves are the ballast conversation; daily liquidity vs gated private credit.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Oct 16 equity drawdown tests the diversifier case",
-        "reading": "S&P 500 7,659.44 (-1.09%), Nasdaq 26,140.03 (-2.14%), Dow -0.34% (TradingKey); week: S&P -1.95%, Nasdaq -4.5%, Dow +0.7% (Yahoo/CNBC). Oct 16 VIX close not verified (16.46 on Oct 15).",
-        "level": "S&P -1.95% week / VIX n/a",
-        "angle": "First real equity wobble in weeks: market-neutral and macro sleeves are the ballast conversation; contrast with gated semi-liquid private credit.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "VIX ~16.46 on Oct 15",
-        "reading": "VIX fell ~2.4% to roughly 16.5 (16.46 in one source) on Oct 15 despite hot PPI; still mid-teens calm-but-fragile.",
-        "level": "VIX ~16.5",
-        "angle": "Complacent vol with hot inflation and gated private credit: the diversifier case for market-neutral / macro sleeves.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Gating broadens; Oaktree the exception",
-        "reading": "Morgan Stanley North Haven Private Income Fund saw 11.4% of shares requested vs ~5% planned buyback; Oaktree Strategic Credit met requests in full (4.5% requested, below 5% cap, Bloomberg Jun 17/26); BCRED ~10% Q3 requests capped at 5%; Apollo ADS 14.7% requested vs 5% paid.",
-        "level": "11.4% requested vs ~5% (North Haven)",
-        "angle": "Semi-liquid private credit is capped almost everywhere - daily-liquid wrapper is the contrast; PG Partners sleeve terms still to confirm",
-        "tag": "LIVE"
-      },
-      {
-        "name": "VIX 15.67",
-        "reading": "VIX closed 15.67 on Oct 7/26 despite weak breadth (~68% of US issues down, Russell 2000 ~-1.3%) and a 5.364% intraday 10-yr.",
-        "level": "15.67 vs 15.59 (Oct 5)",
-        "angle": "Complacent VIX under weak breadth and record yields — cheap moment to discuss market-neutral/macro sleeves as ballast",
-        "tag": "LIVE"
-      },
-      {
-        "name": "VIX 15.59",
-        "reading": "VIX closed 15.59 on Oct 5/26, +0.28 (+1.83%) vs 15.31 on Oct 2.",
-        "level": "15.59 vs 15.31",
-        "angle": "Calm tape despite 24-year-high long yields; market-neutral and macro sleeves are inexpensive insurance now",
-        "tag": "LIVE"
       }
     ]
   },
@@ -1169,69 +673,6 @@
         "reading": "iA Clarington's events page listed a Nov 4/26 Toronto advisor session with Loomis Sayles' David Rolley, CFA; no post-event commentary found.",
         "level": "Event held Nov 4 (listed)",
         "angle": "Loomis is an Elite sub-advisor (Loomis U.S. All Cap Growth) - follow up with advisors who attended and offer the global fixed-income view for Quebec advisors.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Nvidia CEO exit is the concentration-risk conversation",
-        "reading": "Huang resigned Nov 12 (Kress interim); NVDA -4.34%, S&P -0.35%, 10-yr ~5.13%, Brent +3.3% - equity and bond risk hit together.",
-        "level": "S&P 7,592 / 10-yr ~5.13%",
-        "angle": "Clients overweight mega-cap tech just saw key-person risk; Elite Pools' multi-manager, rebalanced mix (PIMCO, Loomis, QV, Capital Group) is the diversification answer.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Whipsaw week is the rebalancing hook",
-        "reading": "Nov 5 Nasdaq -5.2%, Nov 11 S&P +1.31% on CoreWeave, then NVDA -8.6% after hours on governance news - clients chasing or fleeing AI are being whipsawed.",
-        "level": "S&P 7,619 / VIX ~17.5",
-        "angle": "Elite Pools rebalance for the client: position them as the antidote to headline-driven switching.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "No new iA Clarington release in November yet",
-        "reading": "Latest release found is still Oct 23/26 (Active ETF distributions, paid Nov 10); November distributions release typically lands in the third/fourth week.",
-        "level": "No new announcement",
-        "angle": "Watch for the November distributions notice around Nov 20-25.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Volatile week is the rebalancing conversation hook",
-        "reading": "Nov 5: Nasdaq -5.2%, S&P -3.5%, VIX ~28; partial rebound Nov 6 and Nov 9; hot CPI Nov 10 sets up a December Fed hike (~88%) while weak Canadian jobs (6.7%) cut BoC hike odds to ~30-35%.",
-        "level": "Nasdaq in correction / VIX ~19.5",
-        "angle": "Managed pools rebalance for the client: use the Nov 5 shock to talk about discipline vs DIY tech-heavy portfolios; no Elite-specific change announced.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Oct 30 sell-off is the allocation-conversation hook",
-        "reading": "Nasdaq -2.86%, S&P 500 -1.82% on Oct 30; Nasdaq about -5.2% in October; Dow still +1.5% for the month",
-        "level": "Dow +1.5% vs Nasdaq -5.2% (Oct)",
-        "angle": "Diversified, multi-manager pools vs concentrated tech: October shows the dispersion. No new Elite Pools commentary found today.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Hawkish central-bank day is the advisor check-in hook",
-        "reading": "Oct 28: BoC hiked to 2.50%, Fed held 3.75-4.00% with two hike dissents (December hike odds ~85%). No Elite-specific allocation change announced.",
-        "level": "No new Elite announcement",
-        "angle": "Rising-rate backdrop is a natural prompt to review the fixed-income sleeve (PIMCO Monthly Income, Mackenzie Unconstrained, Strategic Corporate Bond) with advisors; confirm pool positioning before quoting.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "October Active ETF distributions announced",
-        "reading": "Oct 23 release: record date Oct 30/26, payable Nov 10/26; IGEO declared zero; iA Clarington AUM $26B+ at Sep 30/26 (search summary of cantechletter newswire).",
-        "level": "Record Oct 30 / pay Nov 10",
-        "angle": "Routine touchpoint for ETF-using advisors; no allocation change to flag.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "No fresh Elite Pools news; market drawdown is the conversation hook",
-        "reading": "No new allocation/rebalancing/PM announcement found. Backdrop: Nasdaq -4.5% and S&P -1.95% on the week to Oct 16 (Yahoo/CNBC) while Dow +0.7%.",
-        "level": "No new announcement",
-        "angle": "Diversified Elite Pools held up better than tech-heavy exposure in a rotation week - an easy check-in call with advisors; confirm actual pool returns before quoting.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "No fresh Elite Pools rebalancing news — 9-day streak",
-        "reading": "No new allocation or rebalancing announcement found; latest press release is the Sep 23 Active ETF distribution notice",
-        "level": "No new announcement",
-        "angle": "Use the Montreal event follow-up to ask for allocation commentary",
         "tag": "LIVE"
       }
     ],
