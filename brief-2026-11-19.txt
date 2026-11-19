@@ -1,0 +1,28 @@
+TerritoryIQ Morning Brief — Thursday, November 19
+
+WHAT CHANGED
+Anthropic went from "guided at/above $78" to priced: $83/share, ~$81.3B raised, ~$1.5T valuation, ~7x covered — largest IPO on record, trading on Nasdaq (ANT) today. Nvidia beat ($115.8B revenue, $130B Q4 guide) but still closed down ~2-3% at ~$151-152 on a Moody's outlook cut to stable; Fed minutes landed hawkish and USD/CAD pushed to ~1.4325.
+
+TODAY'S SIGNAL ANGLES
+
+[CCM5604 · LIVE] Fed minutes: almost all see more hikes — Fed 3.75-4.00%, Dec hike fully priced
+Angle: Rate risk is two-sided. A GIC locks one rate in one currency; lead with yield above the ~4.50% GIC ceiling plus duration flexibility. Best for GIC-renewal calls.
+
+[CCM5604 · LIVE] Loonie weakest since April 2025; Macklem to leave — USD/CAD ~1.4325, US-Canada 2-yr gap ~148.5bp
+Angle: Two things CAD-only income can't capture — the widening rate gap and the currency move it drives. Use with advisors running all-domestic bond sleeves.
+
+[CCM9973 · LIVE] Anthropic prices largest IPO ever — $83 / ~$81.3B / ~$1.5T
+Angle: Clients chasing a day-one allocation can instead own the models layer alongside chips, power, infrastructure and apps in one mandate. For whoever calls you about ANT today.
+
+[CCM8752 · LIVE] Private-credit redemptions ease, still above caps — 11.5% of NAV requested vs ~5% caps
+Angle: Most non-traded funds still can't fill in full. Daily liquidity stays the Multi-Strategy Pool's clearest edge. Strong with advisors holding non-traded BDCs.
+
+[ELITE · LIVE] iA wealth net inflows ~$1.3B in Q3 — AUM/AUA $375B, +30% y/y
+Angle: Answer manufacturer-risk questions with numbers, where advisors are consolidating onto fewer platforms.
+
+WORTH KNOWING
+- GIC check (Nov 19): Ratehub lists Oaken 4.50% registered as top; WealthONE's 4.55% (Nov 12) unconfirmed but carried as the ceiling — quote 4.50-4.55%.
+- BoC Dec 9 is disputed: Reuters/Globe ~60% hike odds vs earlier single-source ~38-40%. Call it a coin flip, don't quote one number.
+- CCM5604 vs Manulife Strategic Income: 0.84% vs 0.90% Series F MER — and Dan Janis, who built Manulife's flagship, now sub-advises ours.
+
+Feed stamp: 2026-11-19-1009
