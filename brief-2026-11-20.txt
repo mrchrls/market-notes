@@ -1,0 +1,42 @@
+TerritoryIQ Morning Brief — Friday, November 20
+(feed stamp 2026-11-20-1008)
+
+WHAT CHANGED
+Five new signals vs yesterday: Anthropic's debut and NVDA's 52-week low
+(CCM9973), a loonie/10-yr pair (CCM5604), and VIX ~28.4 on CCM8752 and ELITE.
+A same-morning rewrite also lifted BoC Dec hike odds to ~67% (from ~60%).
+No competitor entries changed.
+
+TODAY'S SIGNAL ANGLES
+
+[CCM5604 · LIVE] 10-yr ~5.06% as stocks fall 2% — 10-yr ~5.06% vs best 5-yr GIC 4.50%
+Angle: Yield above the GIC ceiling, plus duration (~3.9 yrs) that cushioned a 2%
+down day. Lead with this on GIC-renewal calls.
+
+[CCM5604 · LIVE] Loonie pinned near 19-month low — USD/CAD ~1.433 / BoC hike ~67%
+Angle: Active currency management (USD, AUD, KRW, JPY, MXN) captures and hedges
+a move a CAD GIC ladder cannot touch. For CAD-only income books.
+
+[CCM8752 · LIVE] VIX highest since March on a 2% down day — VIX ~28.4 vs 24.56 Nov 18
+Angle: A 5% weekly drawdown is the live demo for market-neutral and macro
+sleeves. Call anyone who asked what a liquid alt does.
+
+[ELITE · LIVE] S&P -5% week, VIX ~28 — S&P 7,175.83 / VIX ~28.4
+Angle: Sixth straight S&P loss, Dow below 50,000. Multi-manager, auto-rebalanced
+pools are why clients don't have to make the call. Best for red-headline check-ins.
+
+[CCM9973 · LIVE] Anthropic debuts +17%, but fades from the open — $97.17 close / +17%
+Angle: Opened ~$111.50, closed $97.17 — day-one buyers are ~13% under water.
+The case for owning the models layer inside a managed mandate.
+
+[CCM9973 · LIVE] Nvidia at a 52-week low after a record quarter — NVDA $145.98 / -3.3%
+Angle: ~40% below its early-October high on $115.8B revenue and a $130B guide.
+A rebalancing and entry-point conversation, not a single-name chase.
+
+WORTH KNOWING
+- ELITE: November Active ETF distribution notice still not out; last year's came
+  Nov 21, so one is likely imminent.
+- CCM8752: 7 of 10 non-traded private-credit BDCs prorated their latest tender
+  (fills ~12.8-49.9%) — the daily-liquidity contrast.
+- CCM5604: Manulife Strategic Income Series F MER 0.90% vs our 0.84% — and its
+  former lead PM, Daniel Janis, now sub-advises CCM5604 via Agile.
