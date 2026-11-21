@@ -1,0 +1,24 @@
+WHAT CHANGED
+Friday's close landed in the feed — the biggest one-day shift of the month. The S&P fell 3.70% to 6,910.39 into correction, NVDA dropped 14.01% to $125.53 on a Reuters report that SEC staff are examining its accounting, VIX jumped to 35.89 from 28.44, and the 10-yr fell back below 5% (~4.97% from ~5.06%). Also: today's best 5-yr GIC is 4.50% (Oaken/Saven) — the 4.55% ceiling the feed carried earlier is gone.
+
+TODAY'S SIGNAL ANGLES
+
+[CCM5604 · LIVE] 10-yr back below 5% as stocks fall 3.7% — 10-yr ~4.97% vs best 5-yr GIC 4.50%
+Angle: the ballast case played out live — duration rallied while equities fell. Above-GIC yield plus a cushion. Lead with this in every GIC-renewal conversation this week.
+
+[CCM8752 · LIVE] VIX 35.89, touched ~40 — highest since April 2025 (vs 28.44 Nov 19)
+Angle: full stress regime. Market-neutral, long/short and macro sleeves are built for this, and the pool stays daily-liquid while non-traded private-credit BDCs gate. For advisors asking what the alt sleeve actually does.
+
+[CCM9973 · LIVE] Nvidia -14% on reported SEC accounting probe — NVDA $125.53 / Nasdaq -5.28%
+Angle: key-person plus audit risk in the theme's largest name — what a 5-layer active mandate dilutes. Lead with position sizing, not a market call: an inquiry is not a finding.
+
+[ELITE · LIVE] S&P in correction, bonds rally — S&P 6,910.39 / VIX 35.89
+Angle: stocks down, bonds up — the PIMCO/Loomis sleeves did their job. Call concentrated-tech and all-cash clients today; Elite rebalances into weakness without the client acting.
+
+[CCM5604 · LIVE] Soft Canadian retail flash — Oct flash -1.5% / USD/CAD ~1.4325
+Angle: Canada softening while the Fed leans hawkish (Dec hike ~94-99% priced). The policy gap and currency move are return drivers a CAD-only ladder cannot capture.
+
+WORTH KNOWING
+- Fitch counts 10 of 16 non-traded BDCs gating; BCRED's Q3 tender capped at 5% against $4.3B of requests.
+- Manulife Strategic Income Series F MER 0.90% vs our 0.84% — and Daniel S. Janis III, who built Manulife's flagship, now sub-advises CCM5604.
+- iA Financial Q3: AUM/AUA $375B (+30% y/y), wealth net inflows ~$1.3B, dividend +7% — your answer on manufacturer risk.
