@@ -1,9 +1,17 @@
 {
-  "updated": "2026-11-21-1009",
+  "updated": "2026-11-22-1007",
   "CCM9973": {
-    "asof": "Nov 21, 2026 (Sat): verified via search - Fri Nov 20 close: S&P 500 6,910.39 (-3.70%, correction, 7th straight loss), Dow 48,147.33 (-1.93%), Nasdaq 22,617.73 (-5.28%, negative YTD) (Spectrum/AP, StockTitan). NVDA $125.53 (-14.01%, new 52-week low) after Reuters reported the SEC is examining its accounting (unconfirmed by SEC/Nvidia); AMD -13.25%, Micron -13.89% (StockTitan). ANT closed $88.91 (-8.5% day two), low $83.05 vs $83 IPO (StockAnalysis/FinanceFeeds/CNBC). Fund page/AUM/MER/holdings carried forward (iaclarington.com and cdn01.iaclarington.com not reachable from this session).",
+    "asof": "Nov 22, 2026 (Sun, markets closed): verified via search - Reuters (via Euronext/Business Recorder/Manila Times Nov 22) says the SEC is probing Nvidia's accounting, including revenue-reporting changes and AI financing deals; WSJ adds a look at whether disclosures misled investors; timing/scope not determined, SEC declined comment, no Nvidia or SEC statement found Nov 22. NVDA fell ~23% on the week, its worst week since 2008 (Reuters/Yahoo/Motley Fool). Fri Nov 20 closes carried from yesterday. Fund page/AUM/MER/holdings carried forward (iaclarington.com blocked by this session's network proxy).",
     "oneliner": "The AI trade broke on Friday: Nvidia -14% to $125.53 on a reported SEC accounting probe, chips had their worst week since 2001, the Nasdaq erased its 2026 gain and the S&P entered a correction, while Anthropic slid back to near its $83 IPO price. Single-name and governance risk is now the story; a diversified 5-layer innovation mandate owns the build-out without betting the portfolio on one CEO, one audit or one IPO.",
     "stats": [
+      {
+        "k": "Nvidia SEC probe - weekend read (Nov 21-22/26)",
+        "v": "Reuters: SEC probing revenue-reporting changes and AI financing deals; WSJ: includes whether disclosures misled investors; opening date/scope unknown, SEC declined comment, Nvidia gave no public comment. Friday drop ~13% (Reuters/LSEG) to ~14% (Yahoo/Fool); ~-23% for the week, worst week since 2008. Prior case: 2022 settlement ($5.5M) over crypto-mining disclosures (Euronext/Business Recorder/Manila Times/Yahoo/Motley Fool)"
+      },
+      {
+        "k": "Week ahead (Nov 23-27/26)",
+        "v": "US markets closed Thu Nov 26 (Thanksgiving); early 1:00pm ET close Fri Nov 27; US PCE due Wed; thin holiday liquidity; index futures reopen Sun 6pm ET (QuantVPS/Regards of Wall Street/QUE.com)"
+      },
       {
         "k": "Indices (Fri Nov 20/26)",
         "v": "S&P 500 6,910.39 (-3.70%), Dow 48,147.33 (-949.73, -1.93%), Nasdaq 22,617.73 (-1,261.47, -5.28%, now negative for 2026); S&P and Dow entered correction (>10% below the Oct 6 record); S&P seventh straight loss and worst week since Apr 2025; chips' worst week since 2001 (Spectrum/AP, StockTitan, Fortune, Yahoo headlines via search)"
@@ -149,6 +157,13 @@
     ],
     "signals": [
       {
+        "name": "SEC probe details firm up: revenue reporting and AI financing deals",
+        "reading": "Weekend reports say the SEC is examining Nvidia's revenue-reporting changes and AI financing deals (WSJ: whether disclosures misled investors); NVDA -23% on the week, worst since 2008; no company/SEC comment",
+        "level": "NVDA ~-23% week / $125.53 Fri",
+        "angle": "Circular AI financing (vendor-funded customers) is now a regulatory question, not just a bear thesis. Pitch the 5-layer approach: the fund owns energy, infra and apps exposure that gets paid regardless of which chip vendor books the revenue. Expect Monday-open volatility; a measured add-on-weakness conversation, not a call on NVDA.",
+        "tag": "LIVE"
+      },
+      {
         "name": "Anthropic gives back its pop, tests the $83 IPO price",
         "reading": "ANT closed $88.91 (-8.5%) on day two; intraday low $83.05",
         "level": "$88.91 / low $83.05",
@@ -216,9 +231,17 @@
     ]
   },
   "CCM5604": {
-    "asof": "Nov 21, 2026 (Sat): verified via search - Fri Nov 20: USD/CAD ~1.4325 (CAD +~0.1%), third straight weekly CAD loss (Reuters via Kitco headline/summary); Canada Sept retail sales +0.8% m/m (mostly price) vs 0.7% est., Oct flash -1.5% (Reuters summary, single source), Canadian yields fell. US 10-yr ~4.94-4.97% (CNBC 4.974%, -7bp+; Trading Economics 4.94%) as stocks fell 3.7%; CME Dec hike odds ~94-99% (sources differ). Best 5-yr GIC 4.50% (Oaken/Saven, Ratehub) reconfirmed. Fund stats, AUD/KRW/JPY/MXN carried forward.",
+    "asof": "Nov 22, 2026 (Sun, markets closed): verified via search - Polymarket Dec Fed 25bp hike 89.5% (no change 6.7%) as of 4:37am ET Nov 22, vs CME ~95% earlier in the week; NY Fed's Williams ruled out a 50bp move, Waller still argues 50bp; US PCE due Wed Nov 25 (one preview: core +0.3% m/m, 3.2% y/y), Thanksgiving-shortened week. BoC Dec 9 odds still conflicting across sources (~30-67%), no fresh weekend read. Fri USD/CAD ~1.4325 and 10-yr ~4.94-4.97% carried from yesterday; GIC, fund stats, AUD/KRW/JPY/MXN carried forward.",
     "oneliner": "Bonds did their job on Friday: the US 10-yr fell back below 5% (~4.97%) as stocks dropped 3.7%, while a soft October retail flash (-1.5%) pulled Canadian yields down and the loonie held ~1.43 near its 19-month low. A flexible global income mandate yielding above the ~4.50% GIC ceiling, with duration that cushions risk-off days and active currency management, is the fixed-income answer to this tape.",
     "stats": [
+      {
+        "k": "Fed Dec 9 pricing (Nov 22/26)",
+        "v": "Polymarket: 25bp hike 89.5%, no change 6.7% (4:37am ET Nov 22); CME FedWatch ~95% 25bp at Nov 17 close, 95.7% Nov 19 (Seoul Economic Daily) - sources differ. Williams (NY Fed) ruled out 50bp ('no dramatic action'); Waller still favours a one-time 50bp hike (BigGo/24/7 Wall St/Motley Fool)"
+      },
+      {
+        "k": "Week ahead (Nov 23-27/26)",
+        "v": "US PCE Wed (one preview: core +0.3% m/m, 3.2% y/y - single source); US markets closed Thu (Thanksgiving), early close Fri; no Canadian GDP consensus found in today's search"
+      },
       {
         "k": "USD/CAD (Fri Nov 20/26)",
         "v": "~1.4325 (CAD +~0.1% on the day), third straight weekly decline for the loonie; touched weakest since Apr 2025 Thursday (1.43575) (Reuters via Kitco headline/summary; FXStreet headline 'retail sales give the Loonie a pause at a 19-month low')"
@@ -371,6 +394,13 @@
     "basket": "Late-Nov divergence: Fed 3.75-4.00% with a Dec 9 hike ~94-99% priced (Waller floated 50bp; Bessent pushing back) yet the 10-yr back below 5% (~4.97%) on Friday's flight to safety; BoC 2.50% with Dec hike odds ~66-67% (Nov 19) now challenged by a -1.5% October retail flash; USD/CAD ~1.4325 (3rd weekly CAD loss); BoJ 1.25% with a Dec hike ~75.6% priced and USD/JPY near 160 (carried, Nov 16-17); BoK decides Nov 26.",
     "signals": [
       {
+        "name": "PCE is the last big US print before a near-certain Dec hike",
+        "reading": "Polymarket 89.5% for a 25bp Fed hike Dec 9; Williams rules out 50bp, Waller pushes 50bp; core PCE preview 3.2% y/y due Wed in a holiday-thinned week",
+        "level": "Fed hike ~90-95% priced / 10-yr ~4.97% (Fri)",
+        "angle": "With the hike priced and Friday's bond rally showing duration still cushions equity drawdowns, the call is: lock a ~5%+ portfolio yield with 3.9-yr duration now rather than wait for a GIC ceiling of 4.50%. Flag that a hot PCE could re-steepen yields short-term.",
+        "tag": "LIVE"
+      },
+      {
         "name": "Soft Canadian retail flash; loonie's 3rd weekly loss",
         "reading": "Sept retail +0.8% (mostly price), Oct flash -1.5%; Canadian yields fell; USD/CAD ~1.4325",
         "level": "Oct flash -1.5% / USD/CAD ~1.43",
@@ -438,9 +468,13 @@
     ]
   },
   "CCM8752": {
-    "asof": "Nov 21, 2026 (Sat): verified via search - Fri Nov 20: VIX closed 35.89 (+26.2%), briefly ~40 late session per Bloomberg - highest since Apr 2025 (Cboe/Yahoo quote pages via search; ad-hoc-news). S&P 500 6,910.39 (-3.70%, correction, 7th straight loss), Nasdaq -5.28%, Dow -1.93%; 10-yr ~4.94-4.97% (bonds rallied). Private credit: no new BDC gating headline found today; Fitch count (10 of 16 non-traded BDCs gating) and BCRED Q3 $4.3B requests via secondary source. Fund stats carried forward.",
+    "asof": "Nov 22, 2026 (Sun, markets closed): verified via search - no new BDC gate or tender result found for November; a Federal Reserve working paper dated Nov 18/26 (Boston Fed SRA series, per search summary - PDF not fetchable here) frames non-traded BDCs as choosing between gating (signals stress, can alarm investors) and selling loans (fire-sale pressure). Fri VIX 35.89 / S&P 6,910.39 carried from yesterday; futures reopen Sun 6pm ET; Thanksgiving-shortened week with PCE Wed. Fund stats carried forward.",
     "oneliner": "VIX closed at 35.89 (touched ~40, highest since April 2025) as the S&P entered a correction on a 3.7% drop, while non-traded private-credit BDCs keep gating redemptions - the daily-liquid, multi-strategy alternative contrast is as sharp as it has been all year.",
     "stats": [
+      {
+        "k": "Fed research on BDC liquidity (Nov 18/26)",
+        "v": "Federal Reserve working paper (Boston Fed SRA 26-03 per URL; summarized via search, not read in full): perpetual-life non-traded BDCs offer periodic liquidity on illiquid loan books, so under redemption pressure they must choose between gating (a stress signal that can alarm investors) and selling loans (fire-sale pressure)"
+      },
       {
         "k": "Cross-asset stress (Fri Nov 20/26 close)",
         "v": "S&P 500 6,910.39 (-3.70%), Dow 48,147.33 (-949.73, -1.93%), Nasdaq 22,617.73 (-1,261.47, -5.28%, now negative for 2026); S&P and Dow entered correction (>10% below the Oct 6 record); S&P seventh straight loss and worst week since Apr 2025; chips' worst week since 2001 (Spectrum/AP, StockTitan, Fortune, Yahoo headlines via search); 10-yr fell to ~4.94-4.97% - bonds cushioned this time"
@@ -560,6 +594,13 @@
     ],
     "signals": [
       {
+        "name": "Fed paper: BDCs face gate-or-fire-sale trade-off",
+        "reading": "Nov 18 Fed working paper describes non-traded BDCs choosing between gating and selling loans under redemptions; no new November gate found; VIX closed 35.89 Fri ahead of a holiday-thinned week",
+        "level": "VIX 35.89 (Fri) / no new gates found",
+        "angle": "Use the Fed's own framing: in private credit, liquidity is a choice between being gated and being diluted by fire sales. A daily-liquid alternative pool with market-neutral and long/short sleeves offers diversification without that trade-off.",
+        "tag": "LIVE"
+      },
+      {
         "name": "VIX 35.89, touched ~40: highest since April 2025",
         "reading": "S&P -3.70% to 6,910.39 (correction), Nasdaq -5.28%, NVDA -14%; VIX +26.2%; 10-yr fell to ~4.97%",
         "level": "VIX 35.89 vs 28.44 Nov 19",
@@ -618,7 +659,7 @@
     ]
   },
   "ELITE": {
-    "asof": "Nov 21, 2026 (Sat): re-searched iA Clarington press releases and sub-advisor news; no November 2026 Active ETF distribution release indexed yet (Nov 2025 notice came Nov 21, Nov 2024 on Nov 22) and no Elite Pools allocation or sub-advisor change found (latest still Oct 23/26). Backdrop verified: Fri Nov 20 S&P 500 6,910.39 (-3.70%, correction), Nasdaq -5.28% (negative YTD), VIX 35.89, 10-yr ~4.97%, USD/CAD ~1.4325. iA Financial Q3 and Nobelia Wealth rebrand (Nov 30) carried forward.",
+    "asof": "Nov 22, 2026 (Sun): re-searched iA Clarington press releases - still no November 2026 Active ETF distribution notice indexed (Oct 2026 notice Oct 23; Nov 2025 notice came Nov 21), no Elite Pools allocation or sub-advisor change found. Backdrop: Nvidia SEC probe details (revenue reporting, AI financing) reported over the weekend; NVDA -23% on the week; Fed Dec hike ~90-95% priced; Thanksgiving-shortened week with PCE Wed. iA Financial Q3 and Nobelia Wealth rebrand (Nov 30) carried forward.",
     "oneliner": "No Elite Pools change through Nov 21, but the S&P is now in correction (-3.7% Friday, VIX ~36) while bonds rallied - the clearest week of the year for the 'rebalanced, multi-manager portfolio' conversation, backed by iA's strong Q3 wealth inflows.",
     "stats": [
       {
@@ -667,6 +708,13 @@
       }
     ],
     "signals": [
+      {
+        "name": "Into a holiday week after the worst AI week since 2008",
+        "reading": "Weekend: SEC probe of Nvidia's revenue reporting and AI financing deals reported; Fed hike ~90-95% priced; PCE Wed, markets shut Thu; no new Elite announcement",
+        "level": "S&P 6,910.39 (Fri) / Fed hike ~90%",
+        "angle": "Call advisors before Monday's open: clients seeing the AI headlines want reassurance that someone is rebalancing for them. Elite's multi-manager mix (PIMCO, Loomis, iAGAM) is the 'stay invested, stay balanced' answer.",
+        "tag": "LIVE"
+      },
       {
         "name": "S&P in correction, bonds rally: the balanced-portfolio proof point",
         "reading": "Fri: S&P -3.70% to 6,910.39, Nasdaq -5.28%, VIX 35.89, while the 10-yr fell to ~4.97%; no new Elite announcement",
