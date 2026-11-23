@@ -1,9 +1,21 @@
 {
-  "updated": "2026-11-22-1007",
+  "updated": "2026-11-23-1007",
   "CCM9973": {
-    "asof": "Nov 22, 2026 (Sun, markets closed): verified via search - Reuters (via Euronext/Business Recorder/Manila Times Nov 22) says the SEC is probing Nvidia's accounting, including revenue-reporting changes and AI financing deals; WSJ adds a look at whether disclosures misled investors; timing/scope not determined, SEC declined comment, no Nvidia or SEC statement found Nov 22. NVDA fell ~23% on the week, its worst week since 2008 (Reuters/Yahoo/Motley Fool). Fri Nov 20 closes carried from yesterday. Fund page/AUM/MER/holdings carried forward (iaclarington.com blocked by this session's network proxy).",
-    "oneliner": "The AI trade broke on Friday: Nvidia -14% to $125.53 on a reported SEC accounting probe, chips had their worst week since 2001, the Nasdaq erased its 2026 gain and the S&P entered a correction, while Anthropic slid back to near its $83 IPO price. Single-name and governance risk is now the story; a diversified 5-layer innovation mandate owns the build-out without betting the portfolio on one CEO, one audit or one IPO.",
+    "asof": "Nov 23, 2026 (Mon, pre-US-open ~5am ET): verified via search - AP says Asia sold off after Friday's AI rout (Kospi -5.8%, Samsung -5.5%, SK Hynix -4.9%; Tokyo closed for a holiday). No new Nvidia or SEC statement found; probe still reported as examining accounting (incl. 2025 geographic-revenue reporting change and AI financing deals). US futures direction not reliably confirmed (one unverified report shows a rebound). Fri Nov 20 closes carried. Fund page/AUM/MER/holdings carried forward (iaclarington.com and most finance sites blocked by this session's network proxy).",
+    "oneliner": "The AI trade broke last week: Nvidia -23% on the week on a reported SEC accounting probe, chips had their worst week since 2001, the S&P entered a correction and Monday Korea's memory-heavy Kospi fell ~6%. Single-name, governance and export-control risk is now the story; a diversified 5-layer innovation mandate owns the build-out without betting the portfolio on one CEO, one audit or one country.",
     "stats": [
+      {
+        "k": "Asia chip spillover (Mon Nov 23/26)",
+        "v": "Mon Nov 23/26 Asia (AP via US News/SF Chronicle): Kospi -5.8% to 4,586.80 (Samsung -5.5%, SK Hynix -4.9%; BigGo reports a -4.4% close at 4,658.16 - sources differ), Hang Seng -1.8% to 22,015.86, Shanghai -1.4% to 3,484.53, Taiex -0.6%, ASX 200 -0.1% to 8,589.10; Tokyo closed (holiday). Investing.com: Kospi -17.4% and Taiex -18.4% since Nov 1. AP ties the drop to Friday's AI sell-off and doubts that debt-funded AI data centres will pay off."
+      },
+      {
+        "k": "Nvidia SEC probe - Monday read (Nov 23/26)",
+        "v": "No new Nvidia or SEC statement found; reports say focus includes Nvidia's 2025 change to geographic-revenue reporting and Asia-related disclosures (Reuters/Forbes/Korea Times/TechCrunch). Investigations are not findings of wrongdoing."
+      },
+      {
+        "k": "US remote-access chip rule (BIS)",
+        "v": "Interim final rule requires licences for remote access to advanced AI chips (closing the cloud-rental route for Chinese firms) plus licensing for shipments to Singapore, Malaysia, Indonesia, Thailand and Brazil; rule date differs across sources (mid-Nov); cited as unsettling traders Monday (Nextgov/StockAnalysis/Tom's Hardware/SCMP)"
+      },
       {
         "k": "Nvidia SEC probe - weekend read (Nov 21-22/26)",
         "v": "Reuters: SEC probing revenue-reporting changes and AI financing deals; WSJ: includes whether disclosures misled investors; opening date/scope unknown, SEC declined comment, Nvidia gave no public comment. Friday drop ~13% (Reuters/LSEG) to ~14% (Yahoo/Fool); ~-23% for the week, worst week since 2008. Prior case: 2022 settlement ($5.5M) over crypto-mining disclosures (Euronext/Business Recorder/Manila Times/Yahoo/Motley Fool)"
@@ -113,7 +125,7 @@
           "AVGO",
           "TSM"
         ],
-        "choke": "Governance and memory are now the chokepoints: Nvidia fell 14% to $125.53 on Nov 20 after Reuters reported the SEC is examining its accounting (unconfirmed, no finding of wrongdoing), on top of the CEO exit and a new US offshore-data-centre licence rule. Memory sold off hardest (Micron -13.89%) even though NVDA's Q4 gross-margin guide (71-72% vs 74.8%) says HBM/DRAM supply remains the tightest physical link.",
+        "choke": "Governance, memory and export rules are the chokepoints: NVDA fell 14% to $125.53 Nov 20 (-23% on the week) on a reported SEC accounting probe (no finding of wrongdoing), and Monday Nov 23 Korea's memory makers followed (Samsung -5.5%, SK Hynix -4.9%, Kospi -5.8%) while a BIS remote-access licence rule closes the cloud route for Chinese buyers.",
         "note": "NVDA, AVGO and TSM remain top holdings (unweighted); chipmakers led Oct 27-28 gains. Alphabet's higher 2027 capex signal is a read-through positive for accelerator and memory demand (Korea memory names flagged in coverage) | Nov 11/26: SOX ~+5.7% on CoreWeave, but NVDA -8.6% after hours on CEO-removal report - layer is now carrying single-name governance risk. | Nov 12/26: Huang resigned as Nvidia CEO (Kress interim); NVDA -4.34% to $166.19 after a >13% early drop - the market treated it as company-specific (S&P -0.35%), but key-person risk in the layer's largest name is now real; Nov 17 earnings is the next test. | Nov 13/26: NVDA ~-2% to ~$162.85 (-12.75% week), HSBC to Hold; AMD -8.75% - selling spread across the GPU complex, not just NVDA. | Nov 16/26: SOX -5.3%, NVDA $156.14 (lowest since Jul 2025) as a new US remote-access licence rule hit offshore AI data centres serving China-linked users - policy risk joins key-person risk in this layer; NVDA reports tonight. | Nov 18/26: NVDA gave back a ~4% pre-market post-beat gain to close ~-2% to -3% (~$151-152) as Moody's moved its outlook to stable on governance; the market is discounting leadership/China, not demand. | Nov 20/26: NVDA -14.01% to $125.53 (SEC accounting-probe report), AMD -13.25%, MU -13.89%; chips' worst week since 2001 - demand data unchanged, the discount is now governance plus de-risking."
       },
       {
@@ -156,6 +168,13 @@
       }
     ],
     "signals": [
+      {
+        "name": "AI rout goes global: Kospi -5.8% Monday",
+        "reading": "Samsung -5.5%, SK Hynix -4.9% as Asia follows Friday's 3.7% S&P drop; Tokyo shut; no new Nvidia/SEC comment; US remote-access chip rule adds an export overhang",
+        "level": "Kospi -5.8% / NVDA $125.53 (Fri)",
+        "angle": "Memory and Korea/Taiwan concentration is where AI pain is landing; ask advisors how much of their 'innovation' exposure is a few chip names vs a 5-layer mandate with energy, infra and apps",
+        "tag": "LIVE"
+      },
       {
         "name": "SEC probe details firm up: revenue reporting and AI financing deals",
         "reading": "Weekend reports say the SEC is examining Nvidia's revenue-reporting changes and AI financing deals (WSJ: whether disclosures misled investors); NVDA -23% on the week, worst since 2008; no company/SEC comment",
@@ -211,13 +230,6 @@
         "level": "$115.8B rev / $130B guide",
         "angle": "Demand isn't the problem - leadership and policy noise are. Use the beat to reframe the 16-month-low NVDA price as a key-person/headline discount on intact fundamentals, and position the fund's 5-layer spread as the way to own the build-out without single-CEO risk.",
         "tag": "LIVE"
-      },
-      {
-        "name": "Software sells off: S&P lowest close since July",
-        "reading": "S&P -1.03% to 7,340.53, Dow -848.75, Nasdaq -0.74%; Salesforce ~-9.4%, IGV ~-3.4% on AI-coding/agent disruption fears ahead of Anthropic's listing",
-        "level": "S&P 7,340.53 / CRM ~-9.4%",
-        "angle": "AI is now creating losers as well as winners. A thematic manager that can avoid the disrupted (legacy seat-based software) while owning chips, power and infrastructure is the active-management argument in one chart.",
-        "tag": "LIVE"
       }
     ],
     "competitors": [
@@ -231,9 +243,17 @@
     ]
   },
   "CCM5604": {
-    "asof": "Nov 22, 2026 (Sun, markets closed): verified via search - Polymarket Dec Fed 25bp hike 89.5% (no change 6.7%) as of 4:37am ET Nov 22, vs CME ~95% earlier in the week; NY Fed's Williams ruled out a 50bp move, Waller still argues 50bp; US PCE due Wed Nov 25 (one preview: core +0.3% m/m, 3.2% y/y), Thanksgiving-shortened week. BoC Dec 9 odds still conflicting across sources (~30-67%), no fresh weekend read. Fri USD/CAD ~1.4325 and 10-yr ~4.94-4.97% carried from yesterday; GIC, fund stats, AUD/KRW/JPY/MXN carried forward.",
+    "asof": "Nov 23, 2026 (Mon, pre-US-open): verified via search - AP: USD/JPY 158.88 (from 158.62), Brent -0.5% to $92.10, WTI -0.3% to $83.13, Kospi -5.8% (KRW print not found). No fresh CME FedWatch or BoC odds indexed today; Polymarket 89.5% Dec Fed hike (Nov 22) carried. US PCE Wed, Thanksgiving Thu; BoK decides Thu Nov 26. USD/CAD ~1.4325 and 10-yr ~4.94-4.97% (Fri) carried; GIC, fund stats, AUD/MXN carried forward.",
     "oneliner": "Bonds did their job on Friday: the US 10-yr fell back below 5% (~4.97%) as stocks dropped 3.7%, while a soft October retail flash (-1.5%) pulled Canadian yields down and the loonie held ~1.43 near its 19-month low. A flexible global income mandate yielding above the ~4.50% GIC ceiling, with duration that cushions risk-off days and active currency management, is the fixed-income answer to this tape.",
     "stats": [
+      {
+        "k": "Global FX/commodities (Mon Nov 23/26, Asia session)",
+        "v": "USD/JPY 158.88 (from 158.62); Brent -0.5% to $92.10; WTI -0.3% to $83.13; Kospi -5.8% to 4,586.80, Hang Seng -1.8%, Shanghai -1.4%; Tokyo closed (AP via US News/SF Chronicle)"
+      },
+      {
+        "k": "Week ahead (Nov 23-27/26)",
+        "v": "US PCE Wed; Bank of Korea decision Thu Nov 26 (scheduled); US markets closed Thu, early close Fri; Dec 9 Fed and BoC decisions next"
+      },
       {
         "k": "Fed Dec 9 pricing (Nov 22/26)",
         "v": "Polymarket: 25bp hike 89.5%, no change 6.7% (4:37am ET Nov 22); CME FedWatch ~95% 25bp at Nov 17 close, 95.7% Nov 19 (Seoul Economic Daily) - sources differ. Williams (NY Fed) ruled out 50bp ('no dramatic action'); Waller still favours a one-time 50bp hike (BigGo/24/7 Wall St/Motley Fool)"
@@ -370,7 +390,7 @@
         "weight": null,
         "cb": "BoK at 3.00% (2nd consecutive hike, decided Aug 28/26); next scheduled decision Nov 26/26",
         "fx": "USD/KRW 1,356.18 (Sep 25/26, best-confirmed print) — carried forward, no fresher update found today",
-        "note": "Direct read-through from the chip/AI supercycle in CCM9973 — the BoK has explicitly named that channel as an inflation risk | Nov 16-17/26: Kospi ~-3.6% Mon then ~-2% Tue as chip selling extended on new US AI-chip curbs (KRW not verified); BoK decision Nov 26"
+        "note": "Direct read-through from the chip/AI supercycle in CCM9973 - the BoK has named that channel as an inflation risk | Mon Nov 23/26: Kospi -5.8% to 4,586.80 (Samsung -5.5%, SK Hynix -4.9%; AP), -17.4% since Nov 1 (Investing.com); KRW not verified; BoK decides Thu Nov 26"
       },
       {
         "name": "Japan",
@@ -378,7 +398,7 @@
         "lon": 138.25,
         "weight": null,
         "cb": "BoJ hiked 25bp to 1.25% on Sep 18/26, a 31-year high, on a 7-2 split vote; board member Kazuyuki Masu said the BoJ will continue raising rates as underlying inflation nears 2%",
-        "fx": "USD/JPY near 160 (Tue Nov 17/26) with traders on intervention watch; ~159.8 Mon after Q3 GDP -0.1% annualised; BoJ Dec hike odds ~75.6% (LSEG, Nov 16)",
+        "fx": "USD/JPY 158.88 Mon Nov 23/26 (from 158.62, AP) - still near the 160 intervention zone; Tokyo closed for a holiday; BoJ Dec hike odds ~75.6% (LSEG, Nov 16, carried)",
         "note": "Still the most decisive G10 policy story this month — a hike that reads as dovish because of the vote count, not the rate itself"
       },
       {
@@ -391,8 +411,15 @@
         "note": "Headline inflation ticked up to 3.42% (early Sept) on non-core pressures vs. core 3.79% — sticky core inflation remains the explicit reason cited for the hold"
       }
     ],
-    "basket": "Late-Nov divergence: Fed 3.75-4.00% with a Dec 9 hike ~94-99% priced (Waller floated 50bp; Bessent pushing back) yet the 10-yr back below 5% (~4.97%) on Friday's flight to safety; BoC 2.50% with Dec hike odds ~66-67% (Nov 19) now challenged by a -1.5% October retail flash; USD/CAD ~1.4325 (3rd weekly CAD loss); BoJ 1.25% with a Dec hike ~75.6% priced and USD/JPY near 160 (carried, Nov 16-17); BoK decides Nov 26.",
+    "basket": "Late-Nov divergence: Fed 3.75-4.00% with a Dec 9 hike ~90-95% priced (Polymarket 89.5% Nov 22) yet the 10-yr back below 5% (~4.97%) on Friday's flight to safety; BoC 2.50% with Dec odds unresolved after a -1.5% October retail flash; USD/CAD ~1.4325; USD/JPY 158.88 (Nov 23); Kospi -5.8% Monday ahead of the BoK's Nov 26 decision; PCE Wed.",
     "signals": [
+      {
+        "name": "Korea shock ahead of Thursday's BoK call",
+        "reading": "Kospi -5.8% Monday on chip selling (-17.4% since Nov 1); BoK decides Nov 26; USD/JPY 158.88; PCE Wed before a ~90% priced Dec Fed hike",
+        "level": "Kospi -5.8% / USD/JPY 158.88",
+        "angle": "Equity stress abroad is exactly when an actively managed global bond book can add duration and rotate currencies; contrast with a 4.50% GIC that can't adjust",
+        "tag": "LIVE"
+      },
       {
         "name": "PCE is the last big US print before a near-certain Dec hike",
         "reading": "Polymarket 89.5% for a 25bp Fed hike Dec 9; Williams rules out 50bp, Waller pushes 50bp; core PCE preview 3.2% y/y due Wed in a holiday-thinned week",
@@ -448,13 +475,6 @@
         "level": "USD/CAD ~1.43-1.435",
         "angle": "Canadian clients sitting in CAD-only income are watching currency diversification pay off; the fund's global, actively hedged currency book is the tool for this divergence.",
         "tag": "LIVE"
-      },
-      {
-        "name": "Fed hike ~95% priced; 10-yr ~5.1%",
-        "reading": "Retail sales ex-autos +0.6% vs 0.4% est.; 10-yr eased ~2bp to ~5.10-5.11% as equities fell; 2-yr ~4.8%",
-        "level": "10-yr ~5.10% vs best GIC 4.50-4.55%",
-        "angle": "Treasury yields above 5% vs a GIC ceiling of ~4.5%: the pickup for flexible, diversified fixed income is still meaningful - lead with yield plus liquidity.",
-        "tag": "LIVE"
       }
     ],
     "competitors": [
@@ -468,9 +488,13 @@
     ]
   },
   "CCM8752": {
-    "asof": "Nov 22, 2026 (Sun, markets closed): verified via search - no new BDC gate or tender result found for November; a Federal Reserve working paper dated Nov 18/26 (Boston Fed SRA series, per search summary - PDF not fetchable here) frames non-traded BDCs as choosing between gating (signals stress, can alarm investors) and selling loans (fire-sale pressure). Fri VIX 35.89 / S&P 6,910.39 carried from yesterday; futures reopen Sun 6pm ET; Thanksgiving-shortened week with PCE Wed. Fund stats carried forward.",
+    "asof": "Nov 23, 2026 (Mon, pre-US-open): verified via search - Asia extended the risk-off move (Kospi -5.8%, Hang Seng -1.8%; AP); no Monday VIX print yet; no new BDC gate or tender result found for November (latest search items Sep-Oct KBRA/Morningstar commentary). Fri VIX 35.89 / S&P 6,910.39 carried. Fund stats carried forward.",
     "oneliner": "VIX closed at 35.89 (touched ~40, highest since April 2025) as the S&P entered a correction on a 3.7% drop, while non-traded private-credit BDCs keep gating redemptions - the daily-liquid, multi-strategy alternative contrast is as sharp as it has been all year.",
     "stats": [
+      {
+        "k": "Cross-asset stress (Mon Nov 23/26, Asia)",
+        "v": "Mon Nov 23/26 Asia (AP via US News/SF Chronicle): Kospi -5.8% to 4,586.80 (Samsung -5.5%, SK Hynix -4.9%; BigGo reports a -4.4% close at 4,658.16 - sources differ), Hang Seng -1.8% to 22,015.86, Shanghai -1.4% to 3,484.53, Taiex -0.6%, ASX 200 -0.1% to 8,589.10; Tokyo closed (holiday). Investing.com: Kospi -17.4% and Taiex -18.4% since Nov 1"
+      },
       {
         "k": "Fed research on BDC liquidity (Nov 18/26)",
         "v": "Federal Reserve working paper (Boston Fed SRA 26-03 per URL; summarized via search, not read in full): perpetual-life non-traded BDCs offer periodic liquidity on illiquid loan books, so under redemption pressure they must choose between gating (a stress signal that can alarm investors) and selling loans (fire-sale pressure)"
@@ -594,6 +618,13 @@
     ],
     "signals": [
       {
+        "name": "Stress spreads to Asia; VIX starts the week ~36",
+        "reading": "Kospi -5.8%, Hang Seng -1.8% Monday after Friday's correction; no new private-credit gate found; holiday-thin US week with PCE Wed",
+        "level": "VIX 35.89 (Fri) / Kospi -5.8%",
+        "angle": "High-VIX, thin-liquidity weeks are when daily-liquid market-neutral and macro sleeves earn their keep - versus semi-liquid credit vehicles still prorating redemptions",
+        "tag": "LIVE"
+      },
+      {
         "name": "Fed paper: BDCs face gate-or-fire-sale trade-off",
         "reading": "Nov 18 Fed working paper describes non-traded BDCs choosing between gating and selling loans under redemptions; no new November gate found; VIX closed 35.89 Fri ahead of a holiday-thinned week",
         "level": "VIX 35.89 (Fri) / no new gates found",
@@ -648,18 +679,11 @@
         "level": "VIX ~19.3 (Fri) / NVDA implied ~10.5%",
         "angle": "Position the pool before the event, not after: market-neutral and macro sleeves don't depend on which way Tuesday breaks.",
         "tag": "LIVE"
-      },
-      {
-        "name": "VIX ~19.3, intraday >20, as stocks and bonds fall together again",
-        "reading": "Fri Nov 13: VIX +~3.2% to ~19.3 (above 20 intraday); S&P -0.40%, Nasdaq -0.91% while the 10-yr rose to ~5.15% on 6.5% annual PPI.",
-        "level": "VIX ~19.3 vs 18.70 Nov 12",
-        "angle": "Second straight day of positive stock-bond correlation - bonds aren't hedging equities; market-neutral, macro and long-short sleeves are the diversifier a 60/40 lacks.",
-        "tag": "LIVE"
       }
     ]
   },
   "ELITE": {
-    "asof": "Nov 22, 2026 (Sun): re-searched iA Clarington press releases - still no November 2026 Active ETF distribution notice indexed (Oct 2026 notice Oct 23; Nov 2025 notice came Nov 21), no Elite Pools allocation or sub-advisor change found. Backdrop: Nvidia SEC probe details (revenue reporting, AI financing) reported over the weekend; NVDA -23% on the week; Fed Dec hike ~90-95% priced; Thanksgiving-shortened week with PCE Wed. iA Financial Q3 and Nobelia Wealth rebrand (Nov 30) carried forward.",
+    "asof": "Nov 23, 2026 (Mon): re-searched iA Clarington press releases - still no November 2026 Active ETF distribution notice indexed (Oct notice Oct 23; Nov 2025 notice came Nov 21), no Elite Pools allocation or sub-advisor change found. Backdrop: Asia sold off Monday (Kospi -5.8%), Fed Dec hike ~90% priced, PCE Wed, Thanksgiving Thu. iA Financial Q3 and Nobelia Wealth rebrand (Nov 30) carried forward.",
     "oneliner": "No Elite Pools change through Nov 21, but the S&P is now in correction (-3.7% Friday, VIX ~36) while bonds rallied - the clearest week of the year for the 'rebalanced, multi-manager portfolio' conversation, backed by iA's strong Q3 wealth inflows.",
     "stats": [
       {
@@ -708,6 +732,13 @@
       }
     ],
     "signals": [
+      {
+        "name": "Global follow-through: the rebalancing conversation",
+        "reading": "Kospi -5.8%, Hang Seng -1.8% Monday after the S&P's correction; no new Elite announcement; Nov ETF distribution notice not yet found",
+        "level": "S&P 6,910.39 (Fri) / Kospi -5.8%",
+        "angle": "Clients see red everywhere; a multi-manager pool with PIMCO/Loomis fixed income and disciplined rebalancing is the 'you don't have to time this' answer",
+        "tag": "LIVE"
+      },
       {
         "name": "Into a holiday week after the worst AI week since 2008",
         "reading": "Weekend: SEC probe of Nvidia's revenue reporting and AI financing deals reported; Fed hike ~90-95% priced; PCE Wed, markets shut Thu; no new Elite announcement",
@@ -762,13 +793,6 @@
         "reading": "Monday: Taiex ~-4-6%, Kospi ~-3.6%, Nikkei ~-2.4%, Nasdaq 100 futures ~-0.9% while European futures edged up (lower AI concentration) - no new Elite announcement",
         "level": "No new announcement",
         "angle": "Europe holding up while Asia/US tech slide is a live example of why the pools blend EAFE, global and fixed-income managers - lead with it in this week's check-in calls.",
-        "tag": "LIVE"
-      },
-      {
-        "name": "Big-event week is the 'stay diversified' call",
-        "reading": "Nvidia reports Tue (first post-Huang print, ~10.5% implied move), Anthropic lists ~Thu, Canada CPI Mon, Fed minutes midweek; no Elite-specific announcement found.",
-        "level": "No new Elite announcement",
-        "angle": "Call clients before the headlines, not after: a multi-manager pool means no single event night decides the outcome.",
         "tag": "LIVE"
       }
     ],
