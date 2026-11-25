@@ -1,9 +1,25 @@
 {
-  "updated": "2026-11-24-1008",
+  "updated": "2026-11-25-1008",
   "CCM9973": {
-    "asof": "Nov 24, 2026 (Tue, pre-US-open ~5am ET): verified via search - Mon Nov 23 relief rally: Nvidia board reinstated Jensen Huang as CEO, NVDA +31.48% (~$165.05), Nasdaq +6.51% to 24,089.56, S&P +4.73% to 7,237.17, VIX ~26.62. SEC civil probe still unresolved (no confirmation or comment from SEC/Nvidia). CNBC headline: Nasdaq futures turned lower overnight after the rally. Tuesday Asia closes not found. Fund page/AUM/MER/holdings carried forward (iaclarington.com and news sites blocked for direct fetch).",
-    "oneliner": "Whiplash: after Nvidia's worst week since 2008 on a reported SEC probe and the S&P's correction, Nvidia reinstated Jensen Huang and the Nasdaq had its best day since April 2025 (+6.5%, NVDA +31%). Single-name, governance and regulatory risk is now the story in both directions; a diversified 5-layer innovation mandate owns the AI build-out without betting the portfolio on one CEO, one audit or one country.",
+    "asof": "Nov 25, 2026 (Wed, pre-US-open ~5am ET): verified via search - Tue Nov 24 the Nvidia bounce faded: NVDA -5.9% to $155.38, a semiconductor index -7.9%, Nasdaq -1.48% to 23,733.54, S&P -0.50% to 7,201.09 while the Dow closed above 50,000; Anthropic (ANT) closed $81.90 (-6.5%), below its $83 IPO price; Dell reported FQ3 revenue $54.9B (+103%) after the bell. Fund page/AUM/MER/holdings carried forward (iaclarington.com and news sites blocked for direct fetch).",
+    "oneliner": "One-day rally: Nvidia's +31% on Huang's return gave back ~6% the next day, chips fell ~8% and Anthropic slipped below its IPO price, while Dell's 103% revenue growth shows AI infrastructure demand is still real. Single-name, governance and valuation risk is the story; a diversified 5-layer innovation mandate owns the AI build-out without betting the portfolio on one CEO, one IPO or one stock.",
     "stats": [
+      {
+        "k": "Indices (Tue Nov 24/26)",
+        "v": "Tue Nov 24/26: S&P 500 7,201.09 (-36.08, -0.50%), Nasdaq 23,733.54 (-356.02, -1.48%), Dow +423.39 (+0.85%) to 50,018.70 - first close above 50,000 (sources give 50,018.70-50,021.91); tech -2.8%, healthcare +2.9%, a semiconductor index -7.9% (NBC News / FXStreet / Company Chronicle via search)"
+      },
+      {
+        "k": "NVDA (Tue Nov 24/26)",
+        "v": "Closed $155.38, -$9.67 (-5.9%) from Monday's $165.05 (one source -7.09%); Reuters (McGeever): AI trade 'resuscitated' but fragile - pre-Huang-exit issues remain; SEC probe still unresolved"
+      },
+      {
+        "k": "Anthropic (ANT) (Tue Nov 24/26)",
+        "v": "Closed $81.90 (-6.54%, Google Finance via search), first close below the $83 IPO price; intraday low ~$75.65-75.85 (sources differ)"
+      },
+      {
+        "k": "Dell FQ3 (reported Tue Nov 24/26 AMC)",
+        "v": "Revenue $54.9B, +103% y/y vs ~$49.3B expected (search summaries; record quarter) - AI server demand read-through for the infrastructure layer"
+      },
       {
         "k": "Nvidia CEO reinstated (Nov 23/26)",
         "v": "Board reinstated Jensen Huang as CEO (he resigned Nov 12 after admitting an extramarital affair); NVDA +31.48% to ~$165.05 (sources give +30% to +31.5%), roughly $950B of value added in a day, still ~30-32% below its October record ($243.37 52-wk high cited); Yahoo live-blog headline says Trump said he convinced the board (single headline, unverified). SEC civil probe into disclosures still unconfirmed by SEC/Nvidia; analysts flag export-control and data-center limits as open risks."
@@ -133,8 +149,8 @@
           "AVGO",
           "TSM"
         ],
-        "choke": "Governance, memory and export rules are the chokepoints: NVDA fell 14% to $125.53 Nov 20 (-23% on the week) on a reported SEC accounting probe (no finding of wrongdoing), and Monday Nov 23 Korea's memory makers followed (Samsung -5.5%, SK Hynix -4.9%, Kospi -5.8%) while a BIS remote-access licence rule closes the cloud route for Chinese buyers.",
-        "note": "NVDA, AVGO and TSM remain top holdings (unweighted); chipmakers led Oct 27-28 gains. Alphabet's higher 2027 capex signal is a read-through positive for accelerator and memory demand (Korea memory names flagged in coverage) | Nov 11/26: SOX ~+5.7% on CoreWeave, but NVDA -8.6% after hours on CEO-removal report - layer is now carrying single-name governance risk. | Nov 12/26: Huang resigned as Nvidia CEO (Kress interim); NVDA -4.34% to $166.19 after a >13% early drop - the market treated it as company-specific (S&P -0.35%), but key-person risk in the layer's largest name is now real; Nov 17 earnings is the next test. | Nov 13/26: NVDA ~-2% to ~$162.85 (-12.75% week), HSBC to Hold; AMD -8.75% - selling spread across the GPU complex, not just NVDA. | Nov 16/26: SOX -5.3%, NVDA $156.14 (lowest since Jul 2025) as a new US remote-access licence rule hit offshore AI data centres serving China-linked users - policy risk joins key-person risk in this layer; NVDA reports tonight. | Nov 18/26: NVDA gave back a ~4% pre-market post-beat gain to close ~-2% to -3% (~$151-152) as Moody's moved its outlook to stable on governance; the market is discounting leadership/China, not demand. | Nov 20/26: NVDA -14.01% to $125.53 (SEC accounting-probe report), AMD -13.25%, MU -13.89%; chips' worst week since 2001 - demand data unchanged, the discount is now governance plus de-risking."
+        "choke": "Governance and valuation are the chokepoints: NVDA swung +31% (Nov 23, Huang reinstated) then -5.9% to $155.38 (Nov 24) with a semiconductor index -7.9%; the reported SEC probe is unresolved and a BIS remote-access licence rule closes the cloud route for Chinese buyers.",
+        "note": "NVDA, AVGO and TSM remain top holdings (unweighted); chipmakers led Oct 27-28 gains. Alphabet's higher 2027 capex signal is a read-through positive for accelerator and memory demand (Korea memory names flagged in coverage) | Nov 11/26: SOX ~+5.7% on CoreWeave, but NVDA -8.6% after hours on CEO-removal report - layer is now carrying single-name governance risk. | Nov 12/26: Huang resigned as Nvidia CEO (Kress interim); NVDA -4.34% to $166.19 after a >13% early drop - the market treated it as company-specific (S&P -0.35%), but key-person risk in the layer's largest name is now real; Nov 17 earnings is the next test. | Nov 13/26: NVDA ~-2% to ~$162.85 (-12.75% week), HSBC to Hold; AMD -8.75% - selling spread across the GPU complex, not just NVDA. | Nov 16/26: SOX -5.3%, NVDA $156.14 (lowest since Jul 2025) as a new US remote-access licence rule hit offshore AI data centres serving China-linked users - policy risk joins key-person risk in this layer; NVDA reports tonight. | Nov 18/26: NVDA gave back a ~4% pre-market post-beat gain to close ~-2% to -3% (~$151-152) as Moody's moved its outlook to stable on governance; the market is discounting leadership/China, not demand. | Nov 20/26: NVDA -14.01% to $125.53 (SEC accounting-probe report), AMD -13.25%, MU -13.89%; chips' worst week since 2001 - demand data unchanged, the discount is now governance plus de-risking. | Nov 24/26: NVDA -5.9% to $155.38, chip index -7.9% the day after the +31% rally - the layer is trading on headlines; Dell's +103% revenue (after close) says end-demand is intact."
       },
       {
         "id": "infra",
@@ -148,7 +164,7 @@
           "GOOGL"
         ],
         "choke": "Oct 28 after-hours earnings split the hyperscalers: Alphabet held 2026 capex at $195-205B and flagged a significant 2027 increase, but missed EPS ($2.67 vs $3.02) and posted -$9.07B free cash flow (shares -9% to -11% AH); Microsoft beat (Azure +48%, EPS $4.89) and said capex accelerates in 2H FY27 as delayed third-party capacity lands (shares up ~3-6% AH). Meta's 2026 capex guide $135-145B (Oct 21, single source). Goldman's 2027 top-5 hyperscaler capex forecast of $1.2T (Sep 28) carries forward. The choke point is shifting from 'will they spend' to 'can they fund it' - cash burn is now being punished",
-        "note": "AMZN, MSFT, META and GOOGL remain confirmed top holdings. Alphabet/Microsoft divergence is a clean, honest talking point: capex demand is intact, but investors now discriminate on free cash flow - supports active selection inside the theme | Nov 11/26: CoreWeave Q3 backlog ~$132.5B, FY26 capex $37-39B, ~$9B customer prepayments expected next 3 months - neocloud demand still outrunning supply."
+        "note": "AMZN, MSFT, META and GOOGL remain confirmed top holdings. Alphabet/Microsoft divergence is a clean, honest talking point: capex demand is intact, but investors now discriminate on free cash flow - supports active selection inside the theme | Nov 11/26: CoreWeave Q3 backlog ~$132.5B, FY26 capex $37-39B, ~$9B customer prepayments expected next 3 months - neocloud demand still outrunning supply. | Nov 24/26: Dell FQ3 revenue $54.9B (+103% y/y) vs ~$49.3B expected - AI server build-out still accelerating."
       },
       {
         "id": "models",
@@ -176,6 +192,13 @@
       }
     ],
     "signals": [
+      {
+        "name": "Nvidia bounce fades; Anthropic breaks its IPO price",
+        "reading": "NVDA -5.9% a day after +31%; chip index -7.9%; Nasdaq -1.48% while the Dow topped 50,000; ANT $81.90 vs $83 IPO; Dell revenue +103% after the bell",
+        "level": "NVDA $155.38 / ANT $81.90",
+        "angle": "Rotation, not collapse: money left chips for healthcare and the Dow the same day Dell posted +103% revenue. A 5-layer mandate captures demand across infra and apps without riding one name's 30% swings.",
+        "tag": "LIVE"
+      },
       {
         "name": "Huang reinstated: Nvidia +31%, Nasdaq best day since Apr 2025",
         "reading": "Board brings back Huang 11 days after his exit; Nasdaq +6.51%, S&P +4.73%; Nasdaq 100 still ~15% off its high; SEC probe unresolved; futures eased overnight",
@@ -231,13 +254,6 @@
         "level": "$83 / ~$81.3B / ~$1.5T",
         "angle": "Record demand for a pure AI model company confirms where capital is flowing. Clients chasing a day-one allocation can instead own the models layer alongside chips, power, infrastructure and apps in one managed mandate - with sizing discipline if the debut is volatile.",
         "tag": "LIVE"
-      },
-      {
-        "name": "Nvidia beat, stock still fell: 'good news, lower price'",
-        "reading": "NVDA up ~4% pre-market after the beat, closed ~-2% to -3% (~$151-152); Moody's outlook to stable on governance; S&P -0.23% (5th straight loss, below 200-day), Nasdaq +0.42%",
-        "level": "NVDA ~$151-152 / S&P 7,323.64",
-        "angle": "When the leader beats and still sells off, valuation and governance are driving price, not demand. That is the case for an actively managed thematic basket that can rotate across layers rather than an NVDA-heavy index.",
-        "tag": "LIVE"
       }
     ],
     "competitors": [
@@ -251,9 +267,25 @@
     ]
   },
   "CCM5604": {
-    "asof": "Nov 24, 2026 (Tue, pre-US-open): verified via search - Mon Nov 23 risk-on rebound (S&P +4.73%, Nasdaq +6.51%, VIX ~26.62) after Nvidia reinstated Huang. No Monday 10-yr close, USD/CAD print, fresh CME FedWatch or BoC odds indexed today; BoK Nov 26 preview not found (Oct read: hold with a hike in view). US PCE/GDP Wed, Thanksgiving Thu. Fri 10-yr ~4.94-4.97%, USD/CAD ~1.4325, GIC, fund stats carried forward.",
-    "oneliner": "Bonds cushioned last week's correction (US 10-yr back below 5% as stocks fell) and Monday's 4.7% equity rebound shows how fast sentiment flips; with the loonie near a 19-month low, a ~90% priced December Fed hike and PCE Wednesday, a flexible global income mandate yielding above the ~4.50% GIC ceiling, with active duration and currency management, is the fixed-income answer to this tape.",
+    "asof": "Nov 25, 2026 (Wed, pre-US-open): verified via search - Tue Nov 24 dollar index eased ~0.4% from Monday's 20-month high (104.53, ~103.77); CAD firmed on hawkish Macklem remarks (FXStreet headline; USD/CAD close level not found); USD/JPY ~159.19 (high 159.53); Dec 25bp Fed hike fully priced (CME FedWatch per Reuters); one note had the 10-yr ~4.90%. BoK decides Thu Nov 26 (hike widely expected from 3.00%); US PCE due today. GIC, fund stats carried forward.",
+    "oneliner": "The US dollar touched a 20-month high Monday and eased Tuesday, the loonie firmed on a hawkish Macklem, and a December Fed hike is fully priced with Korea expected to hike Thursday: rates are still moving in different directions by country, which is exactly what a flexible global income mandate with active duration and currency management, yielding above the ~4.50% GIC ceiling, is built to exploit.",
     "stats": [
+      {
+        "k": "FX (Tue Nov 24/26)",
+        "v": "Dollar index ~-0.44% to ~103.77 after a 20-month high of 104.53 Monday; USD/JPY +0.11% to 159.19 (high 159.53); CAD firmed as BoC Gov. Macklem flagged persistent inflation / oil second-round risks (FXStreet headline; USD/CAD close level not found) (Reuters via GV Wire / FXStreet / TipRanks)"
+      },
+      {
+        "k": "Rates (Tue Nov 24/26)",
+        "v": "Dec 9 25bp Fed hike fully priced (CME FedWatch per Reuters); one market note had US 10-yr ~4.902%, 30-yr ~5.298% (single source; Reuters said Treasuries steady); PCE due Wed Nov 25"
+      },
+      {
+        "k": "Bank of Korea (Thu Nov 26/26)",
+        "v": "Final 2026 meeting with new projections; policy rate 3.00% after July/Aug hikes and an Oct hold; markets widely expect a hike (Korea Times/Herald previews via search)"
+      },
+      {
+        "k": "Risk backdrop (Tue Nov 24/26)",
+        "v": "Tue Nov 24/26: S&P 500 7,201.09 (-36.08, -0.50%), Nasdaq 23,733.54 (-356.02, -1.48%), Dow +423.39 (+0.85%) to 50,018.70 - first close above 50,000 (sources give 50,018.70-50,021.91); tech -2.8%, healthcare +2.9%, a semiconductor index -7.9% (NBC News / FXStreet / Company Chronicle via search); TSX -0.35% to ~33,962"
+      },
       {
         "k": "Risk-on rebound (Mon Nov 23/26)",
         "v": "S&P 500 +4.73% to 7,237.17, Nasdaq +6.51%, VIX ~26.62 after Nvidia reinstated Huang; Monday 10-yr close and USD/CAD not found in today's search; PCE and GDP data due Wed Nov 25, US closed Thu (search summaries of Yahoo/Motley Fool/StockInvest wraps)"
@@ -400,7 +432,7 @@
         "lat": 35.9,
         "lon": 127.7,
         "weight": null,
-        "cb": "BoK at 3.00% (2nd consecutive hike, decided Aug 28/26); next scheduled decision Nov 26/26",
+        "cb": "BoK at 3.00% after July/Aug hikes; Nov 26 decision with a hike widely expected (previews, Nov 24-25/26)",
         "fx": "USD/KRW 1,356.18 (Sep 25/26, best-confirmed print) — carried forward, no fresher update found today",
         "note": "Direct read-through from the chip/AI supercycle in CCM9973 - the BoK has named that channel as an inflation risk | Mon Nov 23/26: Kospi -5.8% to 4,586.80 (Samsung -5.5%, SK Hynix -4.9%; AP), -17.4% since Nov 1 (Investing.com); KRW not verified; BoK decides Thu Nov 26"
       },
@@ -425,6 +457,13 @@
     ],
     "basket": "Late-Nov divergence: Fed 3.75-4.00% with a Dec 9 hike ~90-95% priced (Polymarket 89.5% Nov 22) yet the 10-yr back below 5% (~4.97%) on Friday's flight to safety; BoC 2.50% with Dec odds unresolved after a -1.5% October retail flash; USD/CAD ~1.4325; USD/JPY 158.88 (Nov 23); Kospi -5.8% Monday ahead of the BoK's Nov 26 decision; PCE Wed.",
     "signals": [
+      {
+        "name": "Dollar off a 20-month high; loonie firms on hawkish Macklem",
+        "reading": "DXY ~103.77 from 104.53; Macklem warns oil second-round effects could keep inflation up; Dec Fed hike fully priced; BoK expected to hike Thu; PCE today",
+        "level": "DXY ~103.8 / USD/JPY 159.19 / 10-yr ~4.90%",
+        "angle": "Three central banks, three different paths this week (Fed hike priced, BoC hawkish talk, BoK likely hike). Divergence is the raw material for an active global bond and currency manager, not a GIC.",
+        "tag": "LIVE"
+      },
       {
         "name": "Equities +4.7% in a day: the 'income anchor' moment",
         "reading": "Monday's rebound reversed half of last week's drop; yields' Monday move not confirmed; PCE/GDP Wed is the last big print before a ~90% priced Dec 9 Fed hike; BoK Thu",
@@ -480,13 +519,6 @@
         "level": "Fed 3.75-4.00% / Dec hike priced",
         "angle": "Rate risk is still two-sided and global. A GIC locks one rate in one currency; an actively managed, duration-flexible global mandate can wait for better entry points across markets - lead with yield above the ~4.50% GIC ceiling plus flexibility.",
         "tag": "LIVE"
-      },
-      {
-        "name": "Loonie at 1.434, weakest since April 2025; Macklem to leave",
-        "reading": "USD/CAD ~1.4325 (intraday 1.4340) on strong US data; US-Canada 2-yr gap ~148.5bp; BoC Gov. Macklem steps down Jun 2, 2027; Dec BoC odds disputed (~38-60%)",
-        "level": "USD/CAD ~1.4325 / 2-yr gap ~148.5bp",
-        "angle": "Two things CAD-only income can't capture: the widening US-Canada rate gap and the currency move it drives. Add BoC leadership uncertainty and the case for a globally diversified, actively hedged income sleeve gets stronger.",
-        "tag": "LIVE"
       }
     ],
     "competitors": [
@@ -500,9 +532,17 @@
     ]
   },
   "CCM8752": {
-    "asof": "Nov 24, 2026 (Tue, pre-US-open): verified via search - VIX fell to ~26.62 Mon Nov 23 (from 35.89 Fri) as S&P rose 4.73% and Nasdaq 6.51% on Nvidia reinstating Huang - still an elevated regime. No new November BDC gate or tender result found (latest indexed commentary Sep 2026: KBRA, Morningstar, Blue Owl OBDC II, HPS). Fund stats carried forward.",
-    "oneliner": "Two-way volatility: VIX ~36 Friday as the S&P hit a correction, then a +4.7% day Monday with VIX still ~27 - while non-traded private-credit BDCs keep prorating redemptions. Daily-liquid, multi-strategy alternatives that don't need to call the direction are the contrast.",
+    "asof": "Nov 25, 2026 (Wed, pre-US-open): verified via search - Tue Nov 24 S&P -0.50%, Nasdaq -1.48%, Dow +0.85% (above 50,000), chip index -7.9%; VIX cited ~26.36 intraday with CNN Fear & Greed at 18 ('extreme fear') (single source, close not confirmed). No new November BDC gate or tender result found. Fund stats carried forward.",
+    "oneliner": "High dispersion, not just high volatility: chips -7.9% while the Dow hit a record 50,000 Tuesday, VIX ~26 and 'extreme fear' sentiment - and non-traded private-credit BDCs still cap redemptions at 5%. Daily-liquid, multi-strategy alternatives that profit from dispersion without calling direction are the contrast.",
     "stats": [
+      {
+        "k": "Cross-asset dispersion (Tue Nov 24/26 close)",
+        "v": "Tue Nov 24/26: S&P 500 7,201.09 (-36.08, -0.50%), Nasdaq 23,733.54 (-356.02, -1.48%), Dow +423.39 (+0.85%) to 50,018.70 - first close above 50,000 (sources give 50,018.70-50,021.91); tech -2.8%, healthcare +2.9%, a semiconductor index -7.9% (NBC News / FXStreet / Company Chronicle via search)"
+      },
+      {
+        "k": "VIX (Tue Nov 24/26)",
+        "v": "~26.36 with CNN Fear & Greed at 18 ('extreme fear') per one wrap (intraday/single source, close not confirmed against Cboe); 26.62 Mon, 35.89 Fri"
+      },
       {
         "k": "Cross-asset swing (Mon Nov 23/26 close)",
         "v": "Mon Nov 23/26: S&P 500 7,237.17 (+4.73%; 24/7 Wall St. has 7,243.94, +4.83% - sources differ), Nasdaq 24,089.56 (+1,471.83, +6.51%, best day since Apr 9, 2025), Dow ~+3.0% (~+1,450 pts); NVDA +31.48% (~$165.05, best day since 2003) after its board reinstated Jensen Huang as CEO (resigned Nov 12); Nasdaq 100 still ~15% below its record (Yahoo Finance live / Motley Fool / NBC / CNBC headlines via search)"
@@ -638,6 +678,13 @@
     ],
     "signals": [
       {
+        "name": "Dispersion day: chips -7.9%, Dow record above 50,000",
+        "reading": "Same session: Nasdaq -1.48%, Dow +0.85%, healthcare +2.9%, tech -2.8%; VIX ~26 and Fear & Greed 18; no new BDC gates found",
+        "level": "VIX ~26.4 / Fear & Greed 18",
+        "angle": "Market-neutral and long/short sleeves earn their keep on days like this - wide gaps between winners and losers, not a single market direction.",
+        "tag": "LIVE"
+      },
+      {
         "name": "Whipsaw: S&P -3.7% Friday, +4.7% Monday; VIX ~27",
         "reading": "Largest up day since Apr 2025 right after a correction; VIX eased to ~26.6 but remains well above ~19 mid-Nov; no new BDC gates found",
         "level": "VIX ~26.62 vs 35.89 Fri",
@@ -692,20 +739,17 @@
         "level": "S&P ~-1.9% / VIX n/a (19.3 Fri)",
         "angle": "Event-driven, single-theme drawdowns are where market-neutral and long-short sleeves earn their keep - the conversation is low correlation to tonight's outcome, not a market call.",
         "tag": "LIVE"
-      },
-      {
-        "name": "Asia chip rout sets up a high-dispersion week",
-        "reading": "Taiex ~-4-6%, Kospi ~-3.6% and Nasdaq 100 futures ~-0.9% Monday, with NVDA (Tue) and Anthropic (Wed/Thu) still ahead; VIX ~19.3 going in",
-        "level": "Nasdaq 100 fut. ~-0.9% / VIX ~19.3 (Fri)",
-        "angle": "Market-neutral and long-short sleeves are designed for weeks where single names move 8% in a day - pitch the pool as the 'don't have to guess Tuesday' allocation.",
-        "tag": "LIVE"
       }
     ]
   },
   "ELITE": {
-    "asof": "Nov 24, 2026 (Tue): re-searched iA Clarington press releases - still no November 2026 Active ETF distribution notice indexed (latest Oct 23; Nov 2025 notice came Nov 21), no Elite Pools allocation or sub-advisor change found. Backdrop: Mon Nov 23 S&P +4.73%, Nasdaq +6.51%, VIX ~26.62 after Nvidia reinstated Huang. iA Financial Q3 and Nobelia Wealth rebrand (Nov 30) carried forward.",
-    "oneliner": "No Elite Pools change through Nov 23, but markets swung from a correction Friday (S&P -3.7%) to the best day since April 2025 Monday (+4.7%) - the clearest proof of the year that staying invested in a rebalanced, multi-manager portfolio beats timing, backed by iA's strong Q3 wealth inflows.",
+    "asof": "Nov 25, 2026 (Wed): re-searched iA Clarington press releases - still no November 2026 Active ETF distribution notice indexed (latest Oct 23; Nov 2025 notice came Nov 21), no Elite Pools allocation or sub-advisor change found. Backdrop: Tue Nov 24 Dow first close above 50,000 (+0.85%) while Nasdaq -1.48% and NVDA -5.9%. iA Financial Q3 and Nobelia Wealth rebrand (Nov 30) carried forward.",
+    "oneliner": "No Elite Pools change through Nov 24, but leadership flipped again: the Dow closed above 50,000 for the first time while chips fell ~8% the day after Nvidia's +31% - the case for a rebalanced, multi-manager portfolio that doesn't depend on guessing which half of the market leads tomorrow, backed by iA's strong Q3 wealth inflows.",
     "stats": [
+      {
+        "k": "Market backdrop (Tue Nov 24/26)",
+        "v": "Tue Nov 24/26: S&P 500 7,201.09 (-36.08, -0.50%), Nasdaq 23,733.54 (-356.02, -1.48%), Dow +423.39 (+0.85%) to 50,018.70 - first close above 50,000 (sources give 50,018.70-50,021.91); tech -2.8%, healthcare +2.9%, a semiconductor index -7.9% (NBC News / FXStreet / Company Chronicle via search)"
+      },
       {
         "k": "iA Financial Group Q3/26 (reported Nov 11/26)",
         "v": "Net income to common $255M (-30% y/y, market impacts); core EPS $4.03 (+16%); quarterly dividend +7% to $1.18; AUM/AUA $375B (+30% y/y); individual wealth gross sales >$3.2B, combined net inflows ~$1.3B; wealth core earnings $151M (+21%, single source) (Advisor.ca/Investment Executive/MarketBeat)"
@@ -752,6 +796,13 @@
       }
     ],
     "signals": [
+      {
+        "name": "Dow 50,000 and a chip sell-off on the same day",
+        "reading": "Dow +0.85% to 50,018.70 (first close above 50,000), Nasdaq -1.48%, NVDA -5.9%, ANT below IPO; no new Elite announcement; Nov ETF distribution notice not yet found",
+        "level": "Dow 50,018.70 / Nasdaq -1.48%",
+        "angle": "Leadership rotated in 24 hours - diversified, rebalanced pools mean clients own both sides instead of chasing yesterday's winner.",
+        "tag": "LIVE"
+      },
       {
         "name": "Correction Friday, best day since 2025 Monday: the stay-invested call",
         "reading": "S&P -3.7% Fri then +4.73% Mon (Nvidia reinstates Huang); no new Elite announcement; Nov ETF distribution notice not yet found",
@@ -807,15 +858,8 @@
         "level": "AUM/AUA $375B / inflows ~$1.3B",
         "angle": "Counter manufacturer-risk questions with numbers: the parent is growing assets and earnings - useful when advisors consolidate onto fewer multi-manager platforms.",
         "tag": "LIVE"
-      },
-      {
-        "name": "Chip shock + soft CPI = rebalancing week",
-        "reading": "Nasdaq -2.5% / SOX -5.3% Mon; Canada CPI 3.1% cut BoC hike odds to ~38%; no new Elite announcement",
-        "level": "No new Elite announcement",
-        "angle": "Call clients concentrated in US tech or GICs: the pools' built-in rebalancing and multi-manager fixed income (PIMCO, Loomis) is the 'do something sensible' answer in a headline-heavy week.",
-        "tag": "LIVE"
       }
     ],
-    "compositionNote": "No Elite Pools or Unified Portfolios allocation, rebalancing or sub-advisor change was announced as of Nov 13/26; the latest iA Clarington release found is the Oct 23/26 Active ETF distributions notice (payable Nov 10). Underlying-manager roster carried forward: PIMCO Monthly Income Fund (Canada), Mackenzie Unconstrained Fixed Income, IA Clarington Strategic Corporate Bond, BMO High Yield US Corporate Bond Index ETF, IA Clarington Loomis U.S. All Cap Growth, IA Clarington QV Global Equity, BMO MSCI EAFE Index ETF, Capital Group Global Equity (Canada). Market context for the pools: the Nov 5 tech rout (Nasdaq -5.2%, VIX ~28) and the hot Oct US CPI (Dec Fed hike ~88% priced) versus a softer Canadian labour market (6.7% unemployment, BoC hike odds ~30-35%) argue for the pools' built-in diversification and rebalancing discipline. Governance items on file remain the Mc Mahon reassignment (33 funds to iAGAM's Tej Rai/Alex Bellefleur) and the QV Canadian Small Cap PM transition (Amit Shah, effective Jul 3/26). iA Clarington AUM $26B+ (Sep 30/26). Nov 12-16 updates (condensed): Nvidia CEO exit and chip sell-offs versus a still-positive S&P week illustrated multi-manager diversification. Nov 17 update: still no Elite change announced; Monday Nasdaq -2.5% / SOX -5.3% on the Nvidia leadership vacuum plus a new US AI-chip remote-access rule, while a soft 3.1% Canadian CPI cut Dec 9 BoC hike odds to ~38% (single source) and the 10-yr eased to ~5.12% - a widening Canada-US policy gap the pools' global fixed-income managers (PIMCO, Loomis) can use. Parent iA Financial Group Q3/26: AUM/AUA $375B (+30%), individual wealth net inflows ~$1.3B. Nov 18 update: still no Elite change or November distributions notice announced; Tue Nov 17 S&P 500 fell 1.03% to 7,340.53 (lowest close since July), Dow -848.75, VIX ~25.5 and software sold off (Salesforce ~-9.4%) on AI-disruption fears, while Nvidia beat after the close ($115.8B revenue, $130B Q4 guide) and USD/CAD reached ~1.43-1.435 (19-month CAD low) - an AI-winners-vs-disrupted split plus currency moves that the pools' multi-manager, multi-currency design is built to absorb. Nov 19 update: still no Elite change or November distributions notice announced; Wed Nov 18 the S&P 500 fell 0.23% to 7,323.64 (fifth straight loss, below its 200-day) while the Nasdaq rose 0.42%, Fed minutes showed almost all officials expect further hikes, USD/CAD hit ~1.434 (weakest CAD since Apr 2025), BoC Gov. Macklem announced he will step down in June 2027, and Anthropic priced a record ~$81.3B IPO at $83 - rates, currency and AI-concentration crosscurrents the pools' multi-manager, multi-currency design (PIMCO, Loomis, iAGAM) is built to absorb. Nov 20 update: still no Elite change or November distributions notice announced (the Nov 2025 notice came Nov 21, so one is likely within days); Thu Nov 19 the S&P 500 fell ~2.0% to 7,175.83 (sixth straight loss, -5.1% week-to-date), the Dow closed below 50,000 for the first time since June, VIX rose to ~28.4, Anthropic's debut closed +17% at $97.17 after opening ~$111.50, NVDA hit a 52-week low ($145.98) and USD/CAD held ~1.433 - a broad risk-off week the pools' rebalancing and multi-manager fixed income are designed to cushion. Nov 21 update: still no Elite change or November distributions notice indexed; Fri Nov 20 the S&P 500 fell 3.70% to 6,910.39 and entered a correction (with the Dow), the Nasdaq lost 5.28% and turned negative for 2026, NVDA fell 14% on a reported SEC accounting probe, VIX closed 35.89 (~40 intraday), and the US 10-yr fell back to ~4.97% - stocks down, bonds up, which is exactly the offset the pools' multi-manager fixed income (PIMCO, Loomis) and rebalancing discipline are built to deliver. Nov 23 update: still no Elite change or November distributions notice indexed; Mon Nov 23 Asia followed Friday's correction (Kospi -5.8%, Hang Seng -1.8%, Tokyo closed), with PCE Wed and Thanksgiving Thu - global, multi-manager diversification remains the core conversation. Nov 24 update: still no Elite change or November distributions notice indexed; Mon Nov 23 the S&P 500 rose 4.73% to 7,237.17 and the Nasdaq 6.51% (best day since Apr 2025) after Nvidia reinstated Jensen Huang, with VIX easing to ~26.6 - a Friday-correction / Monday-rebound pair that illustrates the cost of exiting and the value of the pools' disciplined, multi-manager rebalancing."
+    "compositionNote": "No Elite Pools or Unified Portfolios allocation, rebalancing or sub-advisor change was announced as of Nov 13/26; the latest iA Clarington release found is the Oct 23/26 Active ETF distributions notice (payable Nov 10). Underlying-manager roster carried forward: PIMCO Monthly Income Fund (Canada), Mackenzie Unconstrained Fixed Income, IA Clarington Strategic Corporate Bond, BMO High Yield US Corporate Bond Index ETF, IA Clarington Loomis U.S. All Cap Growth, IA Clarington QV Global Equity, BMO MSCI EAFE Index ETF, Capital Group Global Equity (Canada). Market context for the pools: the Nov 5 tech rout (Nasdaq -5.2%, VIX ~28) and the hot Oct US CPI (Dec Fed hike ~88% priced) versus a softer Canadian labour market (6.7% unemployment, BoC hike odds ~30-35%) argue for the pools' built-in diversification and rebalancing discipline. Governance items on file remain the Mc Mahon reassignment (33 funds to iAGAM's Tej Rai/Alex Bellefleur) and the QV Canadian Small Cap PM transition (Amit Shah, effective Jul 3/26). iA Clarington AUM $26B+ (Sep 30/26). Nov 12-16 updates (condensed): Nvidia CEO exit and chip sell-offs versus a still-positive S&P week illustrated multi-manager diversification. Nov 17 update: still no Elite change announced; Monday Nasdaq -2.5% / SOX -5.3% on the Nvidia leadership vacuum plus a new US AI-chip remote-access rule, while a soft 3.1% Canadian CPI cut Dec 9 BoC hike odds to ~38% (single source) and the 10-yr eased to ~5.12% - a widening Canada-US policy gap the pools' global fixed-income managers (PIMCO, Loomis) can use. Parent iA Financial Group Q3/26: AUM/AUA $375B (+30%), individual wealth net inflows ~$1.3B. Nov 18 update: still no Elite change or November distributions notice announced; Tue Nov 17 S&P 500 fell 1.03% to 7,340.53 (lowest close since July), Dow -848.75, VIX ~25.5 and software sold off (Salesforce ~-9.4%) on AI-disruption fears, while Nvidia beat after the close ($115.8B revenue, $130B Q4 guide) and USD/CAD reached ~1.43-1.435 (19-month CAD low) - an AI-winners-vs-disrupted split plus currency moves that the pools' multi-manager, multi-currency design is built to absorb. Nov 19 update: still no Elite change or November distributions notice announced; Wed Nov 18 the S&P 500 fell 0.23% to 7,323.64 (fifth straight loss, below its 200-day) while the Nasdaq rose 0.42%, Fed minutes showed almost all officials expect further hikes, USD/CAD hit ~1.434 (weakest CAD since Apr 2025), BoC Gov. Macklem announced he will step down in June 2027, and Anthropic priced a record ~$81.3B IPO at $83 - rates, currency and AI-concentration crosscurrents the pools' multi-manager, multi-currency design (PIMCO, Loomis, iAGAM) is built to absorb. Nov 20 update: still no Elite change or November distributions notice announced (the Nov 2025 notice came Nov 21, so one is likely within days); Thu Nov 19 the S&P 500 fell ~2.0% to 7,175.83 (sixth straight loss, -5.1% week-to-date), the Dow closed below 50,000 for the first time since June, VIX rose to ~28.4, Anthropic's debut closed +17% at $97.17 after opening ~$111.50, NVDA hit a 52-week low ($145.98) and USD/CAD held ~1.433 - a broad risk-off week the pools' rebalancing and multi-manager fixed income are designed to cushion. Nov 21 update: still no Elite change or November distributions notice indexed; Fri Nov 20 the S&P 500 fell 3.70% to 6,910.39 and entered a correction (with the Dow), the Nasdaq lost 5.28% and turned negative for 2026, NVDA fell 14% on a reported SEC accounting probe, VIX closed 35.89 (~40 intraday), and the US 10-yr fell back to ~4.97% - stocks down, bonds up, which is exactly the offset the pools' multi-manager fixed income (PIMCO, Loomis) and rebalancing discipline are built to deliver. Nov 23 update: still no Elite change or November distributions notice indexed; Mon Nov 23 Asia followed Friday's correction (Kospi -5.8%, Hang Seng -1.8%, Tokyo closed), with PCE Wed and Thanksgiving Thu - global, multi-manager diversification remains the core conversation. Nov 24 update: still no Elite change or November distributions notice indexed; Mon Nov 23 the S&P 500 rose 4.73% to 7,237.17 and the Nasdaq 6.51% (best day since Apr 2025) after Nvidia reinstated Jensen Huang, with VIX easing to ~26.6 - a Friday-correction / Monday-rebound pair that illustrates the cost of exiting and the value of the pools' disciplined, multi-manager rebalancing. Nov 25 update: still no Elite change or November distributions notice indexed; Tue Nov 24 the Dow closed above 50,000 for the first time while the Nasdaq fell 1.48% and NVDA 5.9% - another rotation day that favours diversified, rebalanced multi-manager portfolios."
   }
 }
