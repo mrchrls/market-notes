@@ -287,7 +287,7 @@
   },
   "CCM5604": {
     "asof": "Nov 26, 2026 (Thu): verified via search - Bank of Korea hiked 25bp to 3.25% (5-2 vote), lifted 2027 GDP forecast to 4.1%; Wed Nov 25 US October PCE hot (headline 3.8% y/y, core 3.3% vs 3.2% est.) yet 10-yr fell ~7bp to ~4.86% (2-yr ~4.61%) with a Dec 9 Fed hike ~98% priced (CME); USD/CAD ~1.420-1.422 (CAD firmer, two-day USD losing streak); Canada excluded from new US tariff proposal. GIC and fund stats carried forward.",
-    "oneliner": "The US dollar touched a 20-month high Monday and eased Tuesday, the loonie firmed on a hawkish Macklem, and a December Fed hike is fully priced with Korea expected to hike Thursday: rates are still moving in different directions by country, which is exactly what a flexible global income mandate with active duration and currency management, yielding above the ~4.50% GIC ceiling, is built to exploit.",
+    "oneliner": "Korea hiked to 3.25% and a December Fed hike is ~98% priced after a hot core PCE, yet the US 10-yr fell to ~4.86% and the loonie firmed to ~1.42: rates are moving in different directions by country and by maturity, which is exactly what a flexible global income mandate with active duration and currency management, yielding above the ~4.50% GIC ceiling, is built to exploit.",
     "stats": [
       {
         "k": "Bank of Korea (Thu Nov 26/26)",
@@ -316,10 +316,6 @@
       {
         "k": "Rates (Tue Nov 24/26)",
         "v": "Dec 9 25bp Fed hike fully priced (CME FedWatch per Reuters); one market note had US 10-yr ~4.902%, 30-yr ~5.298% (single source; Reuters said Treasuries steady); PCE due Wed Nov 25"
-      },
-      {
-        "k": "Bank of Korea (Thu Nov 26/26)",
-        "v": "Final 2026 meeting with new projections; policy rate 3.00% after July/Aug hikes and an Oct hold; markets widely expect a hike (Korea Times/Herald previews via search)"
       },
       {
         "k": "Risk backdrop (Tue Nov 24/26)",
@@ -445,7 +441,7 @@
         "lon": -106,
         "weight": null,
         "cb": "BoC 2.50% (hiked 25bp Oct 28/26); next decision Dec 9/26 - hike odds ~66-67% as of Nov 19 (Reuters/Globe); Oct retail flash -1.5% (Nov 20) may trim that; Gov. Macklem steps down Jun 2, 2027",
-        "fx": "USD/CAD ~1.4325 Nov 20 (CAD +~0.1%), third straight weekly loss; intraday 1.43575 Nov 19 - weakest since Apr 2025 (Reuters)",
+        "fx": "USD/CAD ~1.4204 Wed Nov 25 (-0.46%), ~1.422 Thu Nov 26 - loonie recovering from its 1.43575 low of Nov 19; Canada excluded from the Nov 25 US tariff proposal",
         "note": "Hike delivered on narrow, energy-led inflation (CPI ~3%, seen ~3.5% by year-end) with core near 2% - dissenting economists argued for a hold; Canada 2-yr yield rose from 3.18% (Oct 9) to 3.37% (Oct 26)"
       },
       {
@@ -453,8 +449,8 @@
         "lat": 39.8,
         "lon": -98.6,
         "weight": null,
-        "cb": "Fed 3.75%-4.00%; Oct minutes (Nov 18): almost all officials see further hikes as likely appropriate, a couple open to >25bp in December; Dec 8-9 25bp hike seen fully priced",
-        "fx": "10-yr ~4.94-4.97% Nov 20 (from ~5.05%), back below 5% as S&P fell 3.7%; Dec hike ~94-99% priced; dollar near a 19-month high vs CAD",
+        "cb": "Fed 3.75%-4.00%; Oct core PCE 3.3% vs 3.2% est. (released Nov 25); Dec 8-9 25bp hike ~97.8% priced (CME), January odds ~63-69%",
+        "fx": "10-yr ~4.86% Nov 25 (lowest close since Nov 9) despite core PCE 3.3%; 2-yr ~4.61%; Dec hike ~97.8% priced (CME)",
         "note": "Hawkish hold: the market now prices December, not October, as the live meeting"
       },
       {
@@ -473,7 +469,7 @@
         "weight": null,
         "cb": "Bank of Korea hiked 25bp to 3.25% on Nov 26/26 (5-2 vote); 2027 GDP forecast 4.1%; median view 3.50% in six months [LIVE]",
         "fx": "USD/KRW 1,356.18 (Sep 25/26, best-confirmed print) — carried forward, no fresher update found today",
-        "note": "Direct read-through from the chip/AI supercycle in CCM9973 - the BoK has named that channel as an inflation risk | Mon Nov 23/26: Kospi -5.8% to 4,586.80 (Samsung -5.5%, SK Hynix -4.9%; AP), -17.4% since Nov 1 (Investing.com); KRW not verified; BoK decides Thu Nov 26"
+        "note": "Direct read-through from the chip/AI supercycle in CCM9973 - the BoK has named that channel as an inflation risk | Mon Nov 23/26: Kospi -5.8% to 4,586.80 (Samsung -5.5%, SK Hynix -4.9%; AP), -17.4% since Nov 1 (Investing.com); KRW not verified | Thu Nov 26/26: BoK hiked to 3.25% (5-2), raised 2027 GDP forecast to 4.1%"
       },
       {
         "name": "Japan",
@@ -494,7 +490,7 @@
         "note": "Headline inflation ticked up to 3.42% (early Sept) on non-core pressures vs. core 3.79% — sticky core inflation remains the explicit reason cited for the hold"
       }
     ],
-    "basket": "Late-Nov divergence: Fed 3.75-4.00% with a Dec 9 hike ~90-95% priced (Polymarket 89.5% Nov 22) yet the 10-yr back below 5% (~4.97%) on Friday's flight to safety; BoC 2.50% with Dec odds unresolved after a -1.5% October retail flash; USD/CAD ~1.4325; USD/JPY 158.88 (Nov 23); Kospi -5.8% Monday ahead of the BoK's Nov 26 decision; PCE Wed.",
+    "basket": "Late-Nov divergence: Fed 3.75-4.00% with a Dec 9 hike ~98% priced (CME, Nov 25) after core PCE 3.3%, yet the 10-yr fell to ~4.86%; BoK hiked to 3.25% Nov 26; BoC 2.50% with Dec 9 odds last ~67% (Nov 19); USD/CAD ~1.42; USD/JPY ~159 (Nov 24); new US Section 301 tariff proposal spares Canada and Mexico.",
     "signals": [
       {
         "name": "BoK hikes to 3.25%; hot PCE but 10-yr falls to ~4.86%",
