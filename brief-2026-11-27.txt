@@ -1,0 +1,52 @@
+TerritoryIQ Morning Brief — Friday, November 27
+Feed stamp: 2026-11-27-1009
+
+DELIVERY NOTE: the email connector is not usable in this session — the Gmail
+MCP server is configured with an empty URL, so it exposed no send tool. This
+brief came through the routine notification channel instead. Reconnecting
+Gmail for this routine will restore normal email delivery.
+
+1) WHAT CHANGED
+The immediately previous git revision is from the same 10:09 run, so the only
+diff there is ELITE's composition note gaining its Nov 27 paragraph. Against
+yesterday's feed, each of the four mandates added one new Nov 27 signal: GTRI's
+November distribution confirmed at 0.04191/unit, ITIN's year-end at
+0.00097/share, the Asian chip bounce (Kospi +4.34% to 4,915.68), and the TSX's
+eight-day high at 34,426.88. Competitor entries are unchanged.
+
+2) TODAY'S SIGNAL ANGLES
+
+[CCM5604 · LIVE] GTRI Nov payout set; loonie holds ~1.42 — USD/CAD ~1.424 / GIC 4.50%
+Angle: 0.04191/unit monthly distribution (record Nov 30, pay Dec 9) plus active
+FX and rate positioning across Canada, US, Japan and EM versus a static 4.50%
+GIC. With BoC and Fed both deciding Dec 9, flexibility is the pitch. Lead with
+this on GIC-renewal calls.
+
+[CCM8752 · LIVE] Private-credit Q4 tenders loom — TSX 34,426.88 / BCRED Q3 fill ~49.9%
+Angle: roughly half of BCRED's Q3 redemption requests went unmet, and the Q4
+tender (5% cap) won't settle until the new year. CCM8752 offers daily liquidity
+on liquid-alt sleeves. For advisors holding semi-liquid private credit.
+
+[ELITE · LIVE] November distributions confirmed — ISCB 0.03990 / record Nov 30
+Angle: payable Dec 9. Use the year-end distribution calendar as the reason to
+call — Elite/Unified rebalancing and tax-loss harvesting before Dec 31, after a
+volatile November.
+
+[CCM9973 · LIVE] Chips bounce; ITIN year-end payout near zero — Kospi 4,915.68 / ITIN 0.00097
+Angle: a 0.00097/share year-end distribution is a clean tax-efficiency line for
+non-registered accounts. Frame staged DCA across all five layers rather than a
+chip bet.
+
+[CCM5604 · LIVE] BoK hikes to 3.25%; 10-yr falls to ~4.86% — 10-yr ~4.86% / BoK 3.25%
+Angle: Korea and the US hiking while long yields fall is exactly the dispersion
+a go-anywhere income mandate is built to harvest. A single-market GIC at 4.50%
+cannot.
+
+3) WORTH KNOWING
+- CCM5604 vs Manulife Strategic Income: 0.84% Series F MER vs their 0.90% — and
+  Dan Janis, Manulife's own long-time lead PM, now sub-advises ours. Scale is
+  the gap: $5.58B Series F vs ~$1.1B.
+- Canada Q3 GDP Monday Nov 30 (advance +0.3% q/q), then BoC and Fed on Dec 9.
+- CCM9973's 1.18% published Series F MER still reads above Fidelity Global
+  Innovators' 1.10%; the post-March fee cut (0.45% mgmt + 0.13% admin) is not
+  in a published MER yet.
