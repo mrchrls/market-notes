@@ -1,9 +1,25 @@
 {
-  "updated": "2026-11-26-1008",
+  "updated": "2026-11-27-1009",
   "CCM9973": {
-    "asof": "Nov 26, 2026 (Thu, US Thanksgiving - markets closed): verified via search - Wed Nov 25 NVDA -3.91% to $149.30, Nasdaq -0.62% to 23,585.80, S&P -0.25% to 7,182.78, Dow +0.33% to 50,182.95 after a ~1,100-pt intraday plunge; Micron and Sandisk also fell; hot October PCE (core 3.3%) and a new US Section 301 tariff proposal (up to 20% on China, EU, Taiwan + 11 others) weighed on chips. ANT close not found today. Fund page/AUM/MER/holdings carried forward (iaclarington.com and most news sites blocked for direct fetch).",
+    "asof": "Nov 27, 2026 (Fri, US early 1pm ET close; US shut Thu): verified via search - iA Clarington Nov 26 release sets the ITIN 2026 year-end distribution at 0.00097/share (record Nov 26, payable Dec 7); Asian memory chips rebounded Thu-Fri after Wednesday's rout (SK hynix -11.1%, Samsung -9.9%, Kospi -6.16% Wed); Fri Kospi +4.34% to 4,915.68, Nikkei +2.11% to 58,711.11 (single closing report). NVDA last close $149.30 (Wed), no US trading Thu. Fund page/AUM/MER/holdings carried forward (iaclarington.com and newswire.ca blocked for direct fetch).",
     "oneliner": "One-day rally: Nvidia's +31% on Huang's return gave back ~6% the next day, chips fell ~8% and Anthropic slipped below its IPO price, while Dell's 103% revenue growth shows AI infrastructure demand is still real. Single-name, governance and valuation risk is the story; a diversified 5-layer innovation mandate owns the AI build-out without betting the portfolio on one CEO, one IPO or one stock.",
     "stats": [
+      {
+        "k": "ITIN 2026 year-end distribution",
+        "v": "0.00097/share (CUSIP 180916108), record Nov 26/26, payable Dec 7/26 - iA Clarington release Nov 26/26 (estimate first given Nov 23) via Stockhouse/6ix search summaries; essentially nil - the class structure is doing its job on tax efficiency"
+      },
+      {
+        "k": "Asia memory chips rebound (Thu-Fri Nov 26-27/26)",
+        "v": "After Wed Nov 25 (SK hynix -11.1%, Samsung Elec. -9.9%, Kospi -6.16% on the SOX -7.9% / Micron slide): Thu SK hynix +5.5-5.7%, Samsung +2.5-3.2% (Seoul Economic Daily; sources differ); Fri Kospi +4.34% to 4,915.68, Kosdaq +8.13%, Nikkei +2.11% to 58,711.11 (single closing report; intraday reports smaller). Kospi still ~-16% for November, Nikkei ~-8.4% (BigGo). Overhangs: some Chinese hyperscalers cut memory orders; Goldman reportedly halved its SK hynix target (single source)"
+      },
+      {
+        "k": "SK hynix fundamentals (HBM read-through)",
+        "v": "Q3 revenue record 104.6T won, operating profit 83.3T won; expects HBM4 shipments/revenue to surpass HBM3E in Q4 (Invezz via search) - memory layer demand intact even as prices swing"
+      },
+      {
+        "k": "US markets (Thu-Fri Nov 26-27/26)",
+        "v": "Closed Thu (Thanksgiving); Fri early 1pm ET close. NVDA last close $149.30 (Wed), down ~31% over the past month (24/7 Wall St.); Dec 9 Fed 25bp hike ~96% priced (one report)"
+      },
       {
         "k": "Indices (Wed Nov 25/26)",
         "v": "Wed Nov 25/26: Dow +0.33% to 50,182.95 after erasing a ~1,100-point intraday drop; S&P 500 -0.25% to 7,182.78; Nasdaq -0.62% to 23,585.80 (Yahoo/ABC/Motley Fool via search). US markets closed Thu Nov 26 (Thanksgiving), early 1pm ET close Fri"
@@ -205,6 +221,13 @@
     ],
     "signals": [
       {
+        "name": "Memory chips bounce in Asia; ITIN year-end payout near zero",
+        "reading": "Thu-Fri: SK hynix and Samsung rebound after Wednesday's ~10% drops; Kospi +4.34% Fri (still ~-16% in Nov); ITIN year-end distribution 0.00097/share, record Nov 26",
+        "level": "Kospi 4,915.68 / ITIN 0.00097",
+        "angle": "Volatility in the chip layer cuts both ways - frame staged DCA into CCM9973/ITIN across all five layers; the near-zero year-end distribution is a tax-efficiency talking point for non-registered accounts",
+        "tag": "LIVE"
+      },
+      {
         "name": "Hot PCE + tariff proposal: NVDA slides again, Dow holds 50,000",
         "reading": "Wed: NVDA -3.91% to $149.30, Nasdaq -0.62%; core PCE 3.3% vs 3.2% est.; US proposes up to 20% Section 301 tariffs incl. Taiwan; markets closed Thu for Thanksgiving",
         "level": "NVDA $149.30 / Nasdaq 23,585.80",
@@ -286,9 +309,33 @@
     ]
   },
   "CCM5604": {
-    "asof": "Nov 26, 2026 (Thu): verified via search - Bank of Korea hiked 25bp to 3.25% (5-2 vote), lifted 2027 GDP forecast to 4.1%; Wed Nov 25 US October PCE hot (headline 3.8% y/y, core 3.3% vs 3.2% est.) yet 10-yr fell ~7bp to ~4.86% (2-yr ~4.61%) with a Dec 9 Fed hike ~98% priced (CME); USD/CAD ~1.420-1.422 (CAD firmer, two-day USD losing streak); Canada excluded from new US tariff proposal. GIC and fund stats carried forward.",
+    "asof": "Nov 27, 2026 (Fri): verified via search - GTRI November distribution 0.04191/unit (record Nov 30, payable Dec 9; iA Clarington release Nov 23); loonie ~1.4242 (70.21 US cents, -0.2%) Thu in thin US-holiday trade after its best day in 3+ months Wed; USD/JPY ~159.2-159.35 Fri with Tokyo core CPI reported soft and intervention risk near 160; Canada Q3 GDP due Mon Nov 30 (advance +0.3% q/q). Best 5-yr GIC still 4.50% (Ratehub). Fund stats carried forward.",
     "oneliner": "Korea hiked to 3.25% and a December Fed hike is ~98% priced after a hot core PCE, yet the US 10-yr fell to ~4.86% and the loonie firmed to ~1.42: rates are moving in different directions by country and by maturity, which is exactly what a flexible global income mandate with active duration and currency management, yielding above the ~4.50% GIC ceiling, is built to exploit.",
     "stats": [
+      {
+        "k": "GTRI November 2026 distribution",
+        "v": "0.04191/unit (CUSIP 44935E107), record Nov 30/26, payable Dec 9/26 (iA Clarington Active ETF release Nov 23/26 via Stockhouse/canadiansme search summaries) - below October's ~C$0.0614 on file; distributions vary month to month"
+      },
+      {
+        "k": "USD/CAD (Thu Nov 26/26)",
+        "v": "~1.4242 (70.21 US cents, -0.2%) in the afternoon (Reuters via Kitco); CP close 70.18 US cents; Knightsbridge overnight 1.4218 - giving back part of Wed's best day in 3+ months on Macklem's hawkish remarks; one FX note says a December BoC hike is now near-certain (single source, not confirmed vs Reuters/OIS)"
+      },
+      {
+        "k": "USD/JPY (Fri Nov 27/26)",
+        "v": "~159.20-159.35; Tokyo core CPI reportedly missed (FinScans) while BoJ's Tamura argues for faster hikes; traders wary near 160 given July 2026 intervention near 164 (FXStreet/OCBC via search)"
+      },
+      {
+        "k": "Canada calendar",
+        "v": "Q3 balance of payments Fri Nov 27; Q3 GDP Mon Nov 30 (advance industry estimate +0.3% q/q vs BoC's ~2.0% annualized October projection) (Statistics Canada release schedule); BoC and Fed decisions Dec 9"
+      },
+      {
+        "k": "Oil/commodities (Thu Nov 26/26)",
+        "v": "WTI ~$84.91, gold ~$3,556.20/oz per Canadian Press close; energy +1.9% and materials +1.7% lifted the TSX"
+      },
+      {
+        "k": "Best 5-yr GIC (Nov 27 check)",
+        "v": "Ratehub: Oaken Financial 4.50% top; Saven 4.50%, Achieva 4.35%, EQ Bank 4.30% (registered/non-registered labelling inconsistent across Ratehub pages)"
+      },
       {
         "k": "Bank of Korea (Thu Nov 26/26)",
         "v": "Hiked 25bp to 3.25% (5-2 vote, two dissents for a hold) - highest in ~2 years; 2027 GDP forecast raised to 4.1%; six-month-ahead median rate view 3.50%; next meetings Jan 14 and Feb 25 (Korea Herald/CNBC/JoongAng via search)"
@@ -493,6 +540,13 @@
     "basket": "Late-Nov divergence: Fed 3.75-4.00% with a Dec 9 hike ~98% priced (CME, Nov 25) after core PCE 3.3%, yet the 10-yr fell to ~4.86%; BoK hiked to 3.25% Nov 26; BoC 2.50% with Dec 9 odds last ~67% (Nov 19); USD/CAD ~1.42; USD/JPY ~159 (Nov 24); new US Section 301 tariff proposal spares Canada and Mexico.",
     "signals": [
       {
+        "name": "GTRI Nov payout set; loonie holds ~1.42 ahead of GDP and Dec 9",
+        "reading": "GTRI 0.04191/unit (record Nov 30, pay Dec 9); USD/CAD ~1.4242 Thu; Canada Q3 GDP Mon; yen pinned near 159-160 intervention zone",
+        "level": "USD/CAD ~1.424 / USD/JPY ~159.3 / GIC 4.50%",
+        "angle": "A monthly cash distribution plus active FX and rate positioning across Canada, US, Japan and EM versus a static 4.50% GIC - with two central-bank decisions on Dec 9, flexibility is the pitch",
+        "tag": "LIVE"
+      },
+      {
         "name": "BoK hikes to 3.25%; hot PCE but 10-yr falls to ~4.86%",
         "reading": "BoK +25bp (5-2), growth forecast up; US core PCE 3.3% vs 3.2%, Dec Fed hike ~98% priced yet long yields fell; loonie firmed to ~1.42; Canada spared in new US tariff round",
         "level": "10-yr ~4.86% / USD/CAD ~1.42 / BoK 3.25%",
@@ -574,9 +628,21 @@
     ]
   },
   "CCM8752": {
-    "asof": "Nov 26, 2026 (Thu, US markets closed for Thanksgiving): verified via search - Wed Nov 25 the Dow erased a ~1,100-pt intraday drop to close +0.33% (50,182.95) while S&P -0.25% and Nasdaq -0.62%; VIX cited ~28.29 (+~7%, single source, not confirmed vs Cboe); 10-yr ~4.86%. No new November BDC gate or tender result found. Fund stats carried forward.",
+    "asof": "Nov 27, 2026 (Fri, US early close; US shut Thu): verified via search - TSX +0.72% to 34,426.88 Thu (eight-day high, energy/materials led) with US closed; Asia rebounded Fri (Kospi +4.34%, Nikkei +2.11%, single closing report). No VIX print Thu (US holiday); last ~28.3 Wed. No new private-credit gate dated this week; BCRED opened a Q4 tender Nov 2 for up to ~5%. Fund stats carried forward.",
     "oneliner": "High dispersion, not just high volatility: chips -7.9% while the Dow hit a record 50,000 Tuesday, VIX ~26 and 'extreme fear' sentiment - and non-traded private-credit BDCs still cap redemptions at 5%. Daily-liquid, multi-strategy alternatives that profit from dispersion without calling direction are the contrast.",
     "stats": [
+      {
+        "k": "Cross-asset (Thu-Fri Nov 26-27/26)",
+        "v": "TSX +246.89 (+0.72%) to 34,426.88 Thu, eight-day high, energy +1.9%, materials +1.7%, US closed (Canadian Press/nGlobe); Fri Asia: Kospi +4.34% to 4,915.68, Nikkei +2.11% to 58,711.11 after Wed's Kospi -6.16% (single closing report; intraday reports differ)"
+      },
+      {
+        "k": "VIX (Thu Nov 26/26)",
+        "v": "No print - US markets closed for Thanksgiving; last ~28.3 Wed (single source); Friday is a thin 1pm ET session"
+      },
+      {
+        "k": "Private credit (late-Nov check)",
+        "v": "No new gating headline dated this week. BCRED Q3: 181.3M shares tendered, 90.4M accepted (~49.9%, ~$2.13B); new Q4 tender opened Nov 2 for up to 87.46M shares (~5%) (SEC filing via AltsWire/Blue Vault). Stanger preliminary: Q3 non-traded BDC redemptions outpaced new capital by $4.1B. BC Partners to acquire Investcorp BDC at ~10% discount to NAV (Nov 12 headline, unverified)"
+      },
       {
         "k": "Cross-asset (Wed Nov 25/26 close)",
         "v": "Wed Nov 25/26: Dow +0.33% to 50,182.95 after erasing a ~1,100-point intraday drop; S&P 500 -0.25% to 7,182.78; Nasdaq -0.62% to 23,585.80 (Yahoo/ABC/Motley Fool via search). US markets closed Thu Nov 26 (Thanksgiving), early 1pm ET close Fri; 10-yr ~4.86% (-~7bp) despite hot core PCE 3.3%"
@@ -728,6 +794,13 @@
     ],
     "signals": [
       {
+        "name": "Thin holiday tape; private-credit Q4 tenders loom",
+        "reading": "TSX +0.72% to an eight-day high while US shut; Asia chip bounce; BCRED Q4 tender (5% cap) open after a ~50% Q3 fill; no VIX print Thursday",
+        "level": "TSX 34,426.88 / BCRED Q3 fill ~49.9%",
+        "angle": "Q4 tender results will land in the new year - CCM8752 offers daily liquidity on liquid-alt sleeves, a clean contrast to semi-liquid private credit where half of Q3 requests went unmet",
+        "tag": "LIVE"
+      },
+      {
         "name": "1,100-pt intraday swing, VIX back near 28",
         "reading": "Wed: Dow recovered a ~1,100-pt drop to close +0.33%; Nasdaq -0.62%; VIX ~28.3; hot PCE + new tariff proposal; no new BDC gates found",
         "level": "VIX ~28.3 vs 26.62 Mon",
@@ -800,9 +873,21 @@
     ]
   },
   "ELITE": {
-    "asof": "Nov 26, 2026 (Thu): re-searched iA Clarington press releases - still no November 2026 Active ETF distribution notice indexed (latest Oct 23; Nov 2025 notice came Nov 21), no Elite Pools allocation or sub-advisor change found. Backdrop: Wed Nov 25 hot core PCE (3.3%), new US tariff proposal sparing Canada, Dow +0.33% after a ~1,100-pt intraday drop; BoK hiked to 3.25% Thu. iA Financial Q3 and Nobelia Wealth rebrand (Nov 30) carried forward.",
+    "asof": "Nov 27, 2026 (Fri): verified via search - iA Clarington November 2026 Active ETF distribution notice (Nov 23) found: record Nov 30, payable Dec 9, amounts from 0.00000 (IGEO) to 0.03990 (ISCB - Strategic Corporate Bond, an Elite underlying); Nov 26 ITIN year-end distribution 0.00097/share. No Elite Pools allocation or sub-advisor change found. Nobelia Wealth rebrand (Nov 30) still pending. Backdrop: TSX +0.72% Thu to an eight-day high while US closed.",
     "oneliner": "No Elite Pools change through Nov 24, but leadership flipped again: the Dow closed above 50,000 for the first time while chips fell ~8% the day after Nvidia's +31% - the case for a rebalanced, multi-manager portfolio that doesn't depend on guessing which half of the market leads tomorrow, backed by iA's strong Q3 wealth inflows.",
     "stats": [
+      {
+        "k": "November 2026 Active ETF distributions (Nov 23/26)",
+        "v": "Record Nov 30/26, payable Dec 9/26; per-unit amounts range from 0.00000 (IGEO, Loomis Global Equity Opportunities) to 0.03990 (ISCB, Strategic Corporate Bond - an Elite Pools underlying); GTRI 0.04191 (newswire/Stockhouse via search)"
+      },
+      {
+        "k": "ITIN 2026 year-end distribution (Nov 26/26)",
+        "v": "0.00097/share, record Nov 26, payable Dec 7/26 (iA Clarington release via Stockhouse/6ix)"
+      },
+      {
+        "k": "Market backdrop (Thu Nov 26/26)",
+        "v": "TSX +0.72% to 34,426.88 (eight-day high; energy, materials led) while US closed; loonie ~70.2 US cents; US early 1pm ET close Fri; Canada Q3 GDP Mon Nov 30"
+      },
       {
         "k": "Market backdrop (Wed Nov 25/26)",
         "v": "Wed Nov 25/26: Dow +0.33% to 50,182.95 after erasing a ~1,100-point intraday drop; S&P 500 -0.25% to 7,182.78; Nasdaq -0.62% to 23,585.80 (Yahoo/ABC/Motley Fool via search). US markets closed Thu Nov 26 (Thanksgiving), early 1pm ET close Fri; 10-yr ~4.86%; core PCE 3.3% vs 3.2% est."
@@ -853,10 +938,17 @@
       },
       {
         "k": "Sept 2026 Active ETF Series distribution",
-        "v": "Reconfirmed as the latest distribution notice: record date Sep 30/26, payable Oct 9/26"
+        "v": "Superseded: Oct notice (Oct 23, record Oct 30, payable Nov 10) and Nov notice (Nov 23, record Nov 30, payable Dec 9) now on file"
       }
     ],
     "signals": [
+      {
+        "name": "November distributions confirmed; year-end season starts",
+        "reading": "Nov 23 notice: record Nov 30, pay Dec 9 (ISCB 0.03990); ITIN year-end 0.00097; no new Elite announcement; TSX at an eight-day high Thu",
+        "level": "ISCB 0.03990 / record Nov 30",
+        "angle": "Use the year-end distribution calendar as a reason to call: review Elite/Unified rebalancing and tax-loss harvesting before Dec 31 after a volatile November",
+        "tag": "LIVE"
+      },
       {
         "name": "Hot inflation, falling yields, tariff headlines: the rebalancing call",
         "reading": "Wed: Dow +0.33% after a ~1,100-pt intraday plunge, Nasdaq -0.62%; 10-yr ~4.86%; US tariff proposal spares Canada; no new Elite announcement",
