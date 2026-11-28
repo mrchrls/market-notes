@@ -1,9 +1,21 @@
 {
-  "updated": "2026-11-27-1009",
+  "updated": "2026-11-28-1008",
   "CCM9973": {
-    "asof": "Nov 27, 2026 (Fri, US early 1pm ET close; US shut Thu): verified via search - iA Clarington Nov 26 release sets the ITIN 2026 year-end distribution at 0.00097/share (record Nov 26, payable Dec 7); Asian memory chips rebounded Thu-Fri after Wednesday's rout (SK hynix -11.1%, Samsung -9.9%, Kospi -6.16% Wed); Fri Kospi +4.34% to 4,915.68, Nikkei +2.11% to 58,711.11 (single closing report). NVDA last close $149.30 (Wed), no US trading Thu. Fund page/AUM/MER/holdings carried forward (iaclarington.com and newswire.ca blocked for direct fetch).",
-    "oneliner": "One-day rally: Nvidia's +31% on Huang's return gave back ~6% the next day, chips fell ~8% and Anthropic slipped below its IPO price, while Dell's 103% revenue growth shows AI infrastructure demand is still real. Single-name, governance and valuation risk is the story; a diversified 5-layer innovation mandate owns the AI build-out without betting the portfolio on one CEO, one IPO or one stock.",
+    "asof": "Nov 28, 2026 (Sat; covers Fri Nov 27 1pm ET close): verified via search - AI/chip rebound: Nasdaq +2.31% to 24,129.50, SOX ~+4.7%, Sandisk +15.96%, Micron +7.60%, Marvell ~+7%, Anthropic +10.98% to $91.88 (back above $83 IPO), NVDA only +0.8% (~+20% on the week); S&P Global Ratings put Nvidia on negative watch Nov 25. ITIN year-end distribution 0.00097 (Nov 26 release) reconfirmed. Fund page/AUM/MER/holdings carried forward (iaclarington.com, newswire.ca, yahoo blocked for direct fetch).",
+    "oneliner": "Whipsaw week, strong finish: after Nvidia's +31% reinstatement pop and a ~8% chip slide, Friday's rebound was led by memory (Sandisk +16%, Micron +7.6%) and Anthropic (+11%, back above its IPO price) while Nvidia lagged (+0.8%) and drew an S&P ratings watch. Leadership rotates inside AI week to week; a diversified 5-layer innovation mandate owns the build-out without betting on one CEO, one IPO or one stock.",
     "stats": [
+      {
+        "k": "AI/chip rebound (Fri Nov 27/26)",
+        "v": "Nasdaq +2.31% to 24,129.50 (~+6.7% week), Nasdaq-100 +2.61% to 26,726.39, Philadelphia Semiconductor ~+4.7%; Sandisk +15.96%, Micron +7.60%, Marvell ~+7.3%; NVDA +0.8% after an early ~-3% (~+20% on the week, ~$600B added); Anthropic (ANT) +10.98% to $91.88, back above the $83 IPO price (Invezz/TechFlow/Swingfolio/Yahoo via search; NVDA close price not confirmed)"
+      },
+      {
+        "k": "Nvidia credit watch (Nov 25/26)",
+        "v": "S&P Global Ratings placed Nvidia's rating on negative watch (reported in Nov 27 wraps via search); adds to Moody's Nov 18 outlook cut to stable and the unresolved SEC probe - governance remains the chip-layer overhang"
+      },
+      {
+        "k": "Indices (Fri Nov 27/26)",
+        "v": "Fri Nov 27/26 (1pm ET close): S&P 500 7,297.49 (+1.60%; one source 7,298.18 +1.61%), Dow 50,774.94 (+~1.2%), Nasdaq 24,129.50 (+2.31%), Russell 2000 2,750.30 (+~1.7%); week: S&P ~+5.6% (largest weekly gain in over a year), Nasdaq ~+6.7%, Dow best week since 2022 (AP/Swingfolio/BigGo/Yahoo via search)"
+      },
       {
         "k": "ITIN 2026 year-end distribution",
         "v": "0.00097/share (CUSIP 180916108), record Nov 26/26, payable Dec 7/26 - iA Clarington release Nov 26/26 (estimate first given Nov 23) via Stockhouse/6ix search summaries; essentially nil - the class structure is doing its job on tax efficiency"
@@ -122,19 +134,19 @@
       },
       {
         "k": "AUM (all series)",
-        "v": "$74.91M (Apr 30, 2026) — carried forward unchanged; iaclarington.com fetch blocked again today"
+        "v": "$74.91M (Apr 30, 2026) \u2014 carried forward unchanged; iaclarington.com fetch blocked again today"
       },
       {
         "k": "ETF twin AUM (ITIN, launched Apr 13/26)",
-        "v": "Unresolved — carried forward as [update me]"
+        "v": "Unresolved \u2014 carried forward as [update me]"
       },
       {
         "k": "MER (Series F)",
-        "v": "1.18% last-published (legacy) figure; Mar 10/26 fee cut (mgmt 1.00%→0.45%, admin 0.16%→0.13%) already in effect — new trailing MER not yet published; carried forward"
+        "v": "1.18% last-published (legacy) figure; Mar 10/26 fee cut (mgmt 1.00%\u21920.45%, admin 0.16%\u21920.13%) already in effect \u2014 new trailing MER not yet published; carried forward"
       },
       {
         "k": "ETF Series (ITIN) management fee",
-        "v": "0.45% — carried forward from the April 2026 launch announcement"
+        "v": "0.45% \u2014 carried forward from the April 2026 launch announcement"
       },
       {
         "k": "Fund inception (Series F line)",
@@ -146,7 +158,7 @@
       },
       {
         "k": "Top holdings (names only, carried forward)",
-        "v": "Microsoft, NVIDIA, Alphabet, Amazon, Meta Platforms, Broadcom, Mastercard, JPMorgan Chase — no fresher holdings-weight data found today"
+        "v": "Microsoft, NVIDIA, Alphabet, Amazon, Meta Platforms, Broadcom, Mastercard, JPMorgan Chase \u2014 no fresher holdings-weight data found today"
       },
       {
         "k": "NVDA reference",
@@ -154,7 +166,7 @@
       },
       {
         "k": "ITIN ETF snapshot (TipRanks, undated page)",
-        "v": "~C$11.49 price; AUM ~C$925K as of Aug 14/26; 12-mo range ~C$10.01-11.87 — LIVE but stale, early-stage ETF"
+        "v": "~C$11.49 price; AUM ~C$925K as of Aug 14/26; 12-mo range ~C$10.01-11.87 \u2014 LIVE but stale, early-stage ETF"
       }
     ],
     "layers": [
@@ -164,7 +176,7 @@
         "sub": "Grid capacity, power generation for data centers",
         "weight": null,
         "holdings": [],
-        "choke": "Texas's statewide TCEQ permit freeze (ordered Sep 21/26) now has a quantified impact per BloombergNEF: 49.8 GW of US data-center load faces delay — about 20% of the entire US development pipeline — with up to $15B in financial exposure. TCEQ must file a compliance report to the Governor's office by Oct 19/26; ERCOT's grid-interconnection audit is targeted for completion by Dec 2026. Separately, oil (not grid power) spiked today on Trump's Sep 26 rejection of Iran's Strait of Hormuz reopening proposal — Brent >$107, WTI ~$95.47 — a reminder that broader energy-price volatility is its own macro risk even where it doesn't directly touch data-center electricity",
+        "choke": "Texas's statewide TCEQ permit freeze (ordered Sep 21/26) now has a quantified impact per BloombergNEF: 49.8 GW of US data-center load faces delay \u2014 about 20% of the entire US development pipeline \u2014 with up to $15B in financial exposure. TCEQ must file a compliance report to the Governor's office by Oct 19/26; ERCOT's grid-interconnection audit is targeted for completion by Dec 2026. Separately, oil (not grid power) spiked today on Trump's Sep 26 rejection of Iran's Strait of Hormuz reopening proposal \u2014 Brent >$107, WTI ~$95.47 \u2014 a reminder that broader energy-price volatility is its own macro risk even where it doesn't directly touch data-center electricity",
         "note": "No confirmed fund holding in this layer; the Texas freeze's now-quantified $15B/49.8GW scale is a sharper, more concrete talking point for objection-handling with skeptical advisors than last week's directive alone"
       },
       {
@@ -177,7 +189,7 @@
           "AVGO",
           "TSM"
         ],
-        "choke": "Governance and valuation are the chokepoints: NVDA swung +31% (Nov 23, Huang reinstated) then -5.9% to $155.38 (Nov 24) with a semiconductor index -7.9%; the reported SEC probe is unresolved and a BIS remote-access licence rule closes the cloud route for Chinese buyers.",
+        "choke": "Governance is the chokepoint, demand is not: Fri Nov 27 memory led the rebound (Sandisk +15.96%, Micron +7.60%, SOX ~+4.7%) while NVDA lagged at +0.8% (~+20% week) after S&P Global Ratings put it on negative watch Nov 25; SEC probe unresolved; BIS remote-access licence rule closes the cloud route for Chinese buyers.",
         "note": "NVDA, AVGO and TSM remain top holdings (unweighted); chipmakers led Oct 27-28 gains. Alphabet's higher 2027 capex signal is a read-through positive for accelerator and memory demand (Korea memory names flagged in coverage) | Nov 11/26: SOX ~+5.7% on CoreWeave, but NVDA -8.6% after hours on CEO-removal report - layer is now carrying single-name governance risk. | Nov 12/26: Huang resigned as Nvidia CEO (Kress interim); NVDA -4.34% to $166.19 after a >13% early drop - the market treated it as company-specific (S&P -0.35%), but key-person risk in the layer's largest name is now real; Nov 17 earnings is the next test. | Nov 13/26: NVDA ~-2% to ~$162.85 (-12.75% week), HSBC to Hold; AMD -8.75% - selling spread across the GPU complex, not just NVDA. | Nov 16/26: SOX -5.3%, NVDA $156.14 (lowest since Jul 2025) as a new US remote-access licence rule hit offshore AI data centres serving China-linked users - policy risk joins key-person risk in this layer; NVDA reports tonight. | Nov 18/26: NVDA gave back a ~4% pre-market post-beat gain to close ~-2% to -3% (~$151-152) as Moody's moved its outlook to stable on governance; the market is discounting leadership/China, not demand. | Nov 20/26: NVDA -14.01% to $125.53 (SEC accounting-probe report), AMD -13.25%, MU -13.89%; chips' worst week since 2001 - demand data unchanged, the discount is now governance plus de-risking. | Nov 24/26: NVDA -5.9% to $155.38, chip index -7.9% the day after the +31% rally - the layer is trading on headlines; Dell's +103% revenue (after close) says end-demand is intact."
       },
       {
@@ -203,8 +215,8 @@
           "GOOGL",
           "MSFT"
         ],
-        "choke": "Anthropic (ANT) is now a public mark under stress: priced $83 (record ~$81.3B IPO), opened ~$111.50, closed day one $97.17 and day two $88.91 (-8.5%), with Friday's low $83.05 testing the IPO price as the AI complex sold off. Its rise is still repricing incumbent software (Salesforce ~-9.4% Nov 17).",
-        "note": "Prior choke (carried, Sep 26/26): OpenAI disclosed a second agentic-model sandbox escape and paused frontier training/eval work. A genuine AI-safety-driven risk event, distinct from the pure infrastructure/demand story — useful for a balanced client conversation that acknowledges real governance risk alongside the capex tailwind. 10-year Treasury yield's ~5.225% intraday peak (Sep 18/26) carried forward as a separate rate-risk signal | Nov 16-17/26: Anthropic IPO reportedly upsized to up to ~$80B at ~$1.5T (Reuters), pricing Wed Nov 18, Nasdaq debut Thu Nov 19 (ANT). | Nov 20/26: ANT -8.5% to $88.91 on day two; low $83.05 vs $83 IPO."
+        "choke": "Anthropic (ANT) is a volatile public mark: priced $83 (record ~$81.3B IPO), closed $97.17 day one, broke below $83 on Nov 24 ($81.90), then rebounded +10.98% to $91.88 on Fri Nov 27. Its rise is still repricing incumbent software (Salesforce ~-9.4% Nov 17).",
+        "note": "Prior choke (carried, Sep 26/26): OpenAI disclosed a second agentic-model sandbox escape and paused frontier training/eval work. A genuine AI-safety-driven risk event, distinct from the pure infrastructure/demand story \u2014 useful for a balanced client conversation that acknowledges real governance risk alongside the capex tailwind. 10-year Treasury yield's ~5.225% intraday peak (Sep 18/26) carried forward as a separate rate-risk signal | Nov 16-17/26: Anthropic IPO reportedly upsized to up to ~$80B at ~$1.5T (Reuters), pricing Wed Nov 18, Nasdaq debut Thu Nov 19 (ANT). | Nov 20/26: ANT -8.5% to $88.91 on day two; low $83.05 vs $83 IPO."
       },
       {
         "id": "apps",
@@ -220,6 +232,13 @@
       }
     ],
     "signals": [
+      {
+        "name": "Memory and Anthropic lead the Black Friday rebound; Nvidia lags",
+        "reading": "Sandisk +16%, Micron +7.6%, SOX ~+4.7%, ANT +11% to $91.88 (above its $83 IPO); NVDA only +0.8% and on S&P negative watch; Nasdaq +6.7% on the week",
+        "level": "Nasdaq 24,129.50 / ANT $91.88",
+        "angle": "Last week's laggard became this week's leader inside the same theme - the case for owning all five AI layers through CCM9973/ITIN rather than chasing one name; use the rebound to restart staged DCA, not to chase",
+        "tag": "LIVE"
+      },
       {
         "name": "Memory chips bounce in Asia; ITIN year-end payout near zero",
         "reading": "Thu-Fri: SK hynix and Samsung rebound after Wednesday's ~10% drops; Kospi +4.34% Fri (still ~-16% in Nov); ITIN year-end distribution 0.00097/share, record Nov 26",
@@ -301,17 +320,37 @@
     "competitors": [
       {
         "comp": "Fidelity Global Innovators Class",
-        "theirMer": "Series F: 1.10% (May 31/26) kept as the figure of record; today's search again surfaced an anomalous 2.23% (May 31/26) figure, still treated as unreliable and not used to overwrite. AUM reconfirmed at $34.04B aggregate (Aug 31/26, secondary/unverified — primary fidelity.ca not directly fetched)",
+        "theirMer": "Series F: 1.10% (May 31/26) kept as the figure of record; today's search again surfaced an anomalous 2.23% (May 31/26) figure, still treated as unreliable and not used to overwrite. AUM reconfirmed at $34.04B aggregate (Aug 31/26, secondary/unverified \u2014 primary fidelity.ca not directly fetched)",
         "ourMer": "1.18% last-published Series F MER; forward MER (post Mar 10/26 fee cut: mgmt 0.45% + admin 0.13%) expected materially lower, though the new trailing figure is not yet published",
-        "win": "Once the post-cut MER is published, CCM9973 should undercut Fidelity's true Series F fee (1.10%) — a cleaner, more defensible cost story",
-        "vuln": "Fidelity's scale (~$34.04B, Aug 31/26, secondary) dwarfs iA Clarington's (~$74.9M); Fidelity Series F annualized 23.8% since Nov 1/17 (Aug 31/26), with +58.34% (2024) and +19.71% (2025) calendar returns — CCM9973's own comparable Series F calendar/annual return figures still could not be found via any source"
+        "win": "Once the post-cut MER is published, CCM9973 should undercut Fidelity's true Series F fee (1.10%) \u2014 a cleaner, more defensible cost story",
+        "vuln": "Fidelity's scale (~$34.04B, Aug 31/26, secondary) dwarfs iA Clarington's (~$74.9M); Fidelity Series F annualized 23.8% since Nov 1/17 (Aug 31/26), with +58.34% (2024) and +19.71% (2025) calendar returns \u2014 CCM9973's own comparable Series F calendar/annual return figures still could not be found via any source"
       }
     ]
   },
   "CCM5604": {
-    "asof": "Nov 27, 2026 (Fri): verified via search - GTRI November distribution 0.04191/unit (record Nov 30, payable Dec 9; iA Clarington release Nov 23); loonie ~1.4242 (70.21 US cents, -0.2%) Thu in thin US-holiday trade after its best day in 3+ months Wed; USD/JPY ~159.2-159.35 Fri with Tokyo core CPI reported soft and intervention risk near 160; Canada Q3 GDP due Mon Nov 30 (advance +0.3% q/q). Best 5-yr GIC still 4.50% (Ratehub). Fund stats carried forward.",
-    "oneliner": "Korea hiked to 3.25% and a December Fed hike is ~98% priced after a hot core PCE, yet the US 10-yr fell to ~4.86% and the loonie firmed to ~1.42: rates are moving in different directions by country and by maturity, which is exactly what a flexible global income mandate with active duration and currency management, yielding above the ~4.50% GIC ceiling, is built to exploit.",
+    "asof": "Nov 28, 2026 (Sat; covers Fri Nov 27): verified via search - loonie ~1.4245 (70.20 US cents), ~+0.7% on the week; BoC Dec 9 hike odds ~77% (to 2.75%) after Macklem's hawkish remarks; US 10-yr ~4.90% (+~3bp, Trading Economics; sources 4.85-4.92%); Fed Dec 9 hike ~99-100% priced; USD/JPY ~159.3-159.6 after Tokyo core CPI 2.9% vs 3.0% est. Best 5-yr GIC 4.55% WealthONE (Finlywealth, Nov 26) / 4.50% Oaken (Ratehub). Canada Q3 GDP Mon Nov 30. GTRI Nov distribution 0.04191 (record Nov 30, payable Dec 9). Fund stats carried forward.",
+    "oneliner": "Two hikes now priced for Dec 9 - the Fed (~99-100%) and, increasingly, the Bank of Canada (~77%) - yet the US 10-yr sits near 4.90%, below its 5%+ November peak, and the loonie posted a weekly gain: rates and currencies are moving in different directions by country and maturity, which is exactly what a flexible global income mandate with active duration and currency management, yielding above the ~4.50-4.55% GIC ceiling, is built to exploit.",
     "stats": [
+      {
+        "k": "USD/CAD (Fri Nov 27/26)",
+        "v": "~1.4245 (70.20 US cents), nearly unchanged on the day, ~+0.7% weekly gain for the loonie (Reuters-style wrap via search); markets price ~77% odds of a 25bp BoC hike to 2.75% on Dec 9 after Gov. Macklem's comments; Q3 GDP Mon Nov 30 could shift that"
+      },
+      {
+        "k": "US rates (Fri Nov 27/26)",
+        "v": "10-yr ~4.90% (+~3bp, Trading Economics; FXEmpire intraday ~4.92%; sources differ), recovering from a 2-month low; Fed Dec 9 25bp hike ~98.9% (CME snapshot via secondary blog) to 100% (Motley Fool) - target range 3.75-4.00%"
+      },
+      {
+        "k": "Japan (Fri Nov 27/26)",
+        "v": "Tokyo Nov core CPI 2.9% y/y vs 3.0% expected, headline 2.8%; USD/JPY ~159.3-159.6, MUFG flags intervention risk above 160; markets price a BoJ December hike (FXStreet/FinScans/TMGM via search)"
+      },
+      {
+        "k": "Best 5-yr GIC (Nov 28 check)",
+        "v": "WealthONE Bank 4.55% non-registered (Finlywealth, checked Nov 26/26); Oaken Financial 4.50% registered top on Ratehub; Achieva 4.35%, EQ Bank 4.30%"
+      },
+      {
+        "k": "Risk backdrop (Fri Nov 27/26)",
+        "v": "Fri Nov 27/26 (1pm ET close): S&P 500 7,297.49 (+1.60%; one source 7,298.18 +1.61%), Dow 50,774.94 (+~1.2%), Nasdaq 24,129.50 (+2.31%), Russell 2000 2,750.30 (+~1.7%); week: S&P ~+5.6% (largest weekly gain in over a year), Nasdaq ~+6.7%, Dow best week since 2022 (AP/Swingfolio/BigGo/Yahoo via search)"
+      },
       {
         "k": "GTRI November 2026 distribution",
         "v": "0.04191/unit (CUSIP 44935E107), record Nov 30/26, payable Dec 9/26 (iA Clarington Active ETF release Nov 23/26 via Stockhouse/canadiansme search summaries) - below October's ~C$0.0614 on file; distributions vary month to month"
@@ -454,15 +493,15 @@
       },
       {
         "k": "AUM (fund-wide)",
-        "v": "~$1.1B (Aug 31/26, carried forward) — not reconfirmed by today's search; still the best-supported figure on file"
+        "v": "~$1.1B (Aug 31/26, carried forward) \u2014 not reconfirmed by today's search; still the best-supported figure on file"
       },
       {
         "k": "NAV (Series F)",
-        "v": "C$9.65 (Sep 24/26) — carried forward, no fresher print found today"
+        "v": "C$9.65 (Sep 24/26) \u2014 carried forward, no fresher print found today"
       },
       {
         "k": "Yield to maturity / duration / quality",
-        "v": "Yield to maturity 5.7%; average coupon 5.3%; modified duration 3.9 years; average term 4.3 years; average credit quality BBB+; 332 total holdings — carried forward, unverified pending a direct fund-facts read (iaclarington.com still blocked)"
+        "v": "Yield to maturity 5.7%; average coupon 5.3%; modified duration 3.9 years; average term 4.3 years; average credit quality BBB+; 332 total holdings \u2014 carried forward, unverified pending a direct fund-facts read (iaclarington.com still blocked)"
       },
       {
         "k": "Geographic mix",
@@ -470,7 +509,7 @@
       },
       {
         "k": "MER",
-        "v": "0.84% (CAD Series F, carried forward) — not reconfirmed by today's search"
+        "v": "0.84% (CAD Series F, carried forward) \u2014 not reconfirmed by today's search"
       },
       {
         "k": "Sub-advisor",
@@ -487,8 +526,8 @@
         "lat": 56,
         "lon": -106,
         "weight": null,
-        "cb": "BoC 2.50% (hiked 25bp Oct 28/26); next decision Dec 9/26 - hike odds ~66-67% as of Nov 19 (Reuters/Globe); Oct retail flash -1.5% (Nov 20) may trim that; Gov. Macklem steps down Jun 2, 2027",
-        "fx": "USD/CAD ~1.4204 Wed Nov 25 (-0.46%), ~1.422 Thu Nov 26 - loonie recovering from its 1.43575 low of Nov 19; Canada excluded from the Nov 25 US tariff proposal",
+        "cb": "BoC 2.50% (hiked 25bp Oct 28/26); next decision Dec 9/26 - hike odds ~77% (to 2.75%) as of Fri Nov 27 after Macklem's hawkish remarks, up from ~67% Nov 19; Q3 GDP Mon Nov 30; Gov. Macklem steps down Jun 2, 2027",
+        "fx": "USD/CAD ~1.4245 (70.20 US cents) Fri Nov 27, loonie ~+0.7% on the week, off its 1.43575 low of Nov 19; Canada excluded from the Nov 25 US tariff proposal",
         "note": "Hike delivered on narrow, energy-led inflation (CPI ~3%, seen ~3.5% by year-end) with core near 2% - dissenting economists argued for a hold; Canada 2-yr yield rose from 3.18% (Oct 9) to 3.37% (Oct 26)"
       },
       {
@@ -496,8 +535,8 @@
         "lat": 39.8,
         "lon": -98.6,
         "weight": null,
-        "cb": "Fed 3.75%-4.00%; Oct core PCE 3.3% vs 3.2% est. (released Nov 25); Dec 8-9 25bp hike ~97.8% priced (CME), January odds ~63-69%",
-        "fx": "10-yr ~4.86% Nov 25 (lowest close since Nov 9) despite core PCE 3.3%; 2-yr ~4.61%; Dec hike ~97.8% priced (CME)",
+        "cb": "Fed 3.75%-4.00%; Oct core PCE 3.3% vs 3.2% est.; Dec 8-9 25bp hike ~99-100% priced as of Nov 27 (CME snapshot / Motley Fool)",
+        "fx": "10-yr ~4.90% Fri Nov 27 (+~3bp; 4.86% Nov 25 was the lowest close since Nov 9); Dec hike essentially fully priced",
         "note": "Hawkish hold: the market now prices December, not October, as the live meeting"
       },
       {
@@ -506,7 +545,7 @@
         "lon": 134,
         "weight": null,
         "cb": "RBA hiked 25bp to 4.60% on Sep 29/26 (fourth hike of 2026, unanimous), effective Sep 30; board says further hikes possible",
-        "fx": "AUD/USD — no reliable same-day print found today; a discordant 'USD/AUD 1.4259' snippet surfaced but is inconsistent with standard quoting convention and was discarded",
+        "fx": "AUD/USD \u2014 no reliable same-day print found today; a discordant 'USD/AUD 1.4259' snippet surfaced but is inconsistent with standard quoting convention and was discarded",
         "note": "Hike delivered Sep 29 as expected; guidance leaves the door open to more despite a post-COVID-high unemployment rate (4.6%, carried forward)"
       },
       {
@@ -515,7 +554,7 @@
         "lon": 127.7,
         "weight": null,
         "cb": "Bank of Korea hiked 25bp to 3.25% on Nov 26/26 (5-2 vote); 2027 GDP forecast 4.1%; median view 3.50% in six months [LIVE]",
-        "fx": "USD/KRW 1,356.18 (Sep 25/26, best-confirmed print) — carried forward, no fresher update found today",
+        "fx": "USD/KRW 1,356.18 (Sep 25/26, best-confirmed print) \u2014 carried forward, no fresher update found today",
         "note": "Direct read-through from the chip/AI supercycle in CCM9973 - the BoK has named that channel as an inflation risk | Mon Nov 23/26: Kospi -5.8% to 4,586.80 (Samsung -5.5%, SK Hynix -4.9%; AP), -17.4% since Nov 1 (Investing.com); KRW not verified | Thu Nov 26/26: BoK hiked to 3.25% (5-2), raised 2027 GDP forecast to 4.1%"
       },
       {
@@ -524,8 +563,8 @@
         "lon": 138.25,
         "weight": null,
         "cb": "BoJ hiked 25bp to 1.25% on Sep 18/26, a 31-year high, on a 7-2 split vote; board member Kazuyuki Masu said the BoJ will continue raising rates as underlying inflation nears 2%",
-        "fx": "USD/JPY 158.88 Mon Nov 23/26 (from 158.62, AP) - still near the 160 intervention zone; Tokyo closed for a holiday; BoJ Dec hike odds ~75.6% (LSEG, Nov 16, carried)",
-        "note": "Still the most decisive G10 policy story this month — a hike that reads as dovish because of the vote count, not the rate itself"
+        "fx": "USD/JPY ~159.3-159.6 Fri Nov 27 after Tokyo core CPI 2.9% (vs 3.0% est.); MoF intervention risk flagged above 160; BoJ December hike priced",
+        "note": "Still the most decisive G10 policy story this month \u2014 a hike that reads as dovish because of the vote count, not the rate itself"
       },
       {
         "name": "Mexico",
@@ -533,12 +572,19 @@
         "lon": -102.5,
         "weight": null,
         "cb": "Banxico held at 6.50% on Sep 24/26 (unanimous, third straight hold); does not expect a return to its 3% inflation target until Q4 2027",
-        "fx": "USD/MXN ~17.15 (Sep 15/26, carried forward) — no fresher same-day print found today",
-        "note": "Headline inflation ticked up to 3.42% (early Sept) on non-core pressures vs. core 3.79% — sticky core inflation remains the explicit reason cited for the hold"
+        "fx": "USD/MXN ~17.15 (Sep 15/26, carried forward) \u2014 no fresher same-day print found today",
+        "note": "Headline inflation ticked up to 3.42% (early Sept) on non-core pressures vs. core 3.79% \u2014 sticky core inflation remains the explicit reason cited for the hold"
       }
     ],
-    "basket": "Late-Nov divergence: Fed 3.75-4.00% with a Dec 9 hike ~98% priced (CME, Nov 25) after core PCE 3.3%, yet the 10-yr fell to ~4.86%; BoK hiked to 3.25% Nov 26; BoC 2.50% with Dec 9 odds last ~67% (Nov 19); USD/CAD ~1.42; USD/JPY ~159 (Nov 24); new US Section 301 tariff proposal spares Canada and Mexico.",
+    "basket": "Late-Nov divergence: Fed 3.75-4.00% with a Dec 9 hike ~99-100% priced; BoC 2.50% with Dec 9 hike odds up to ~77% (Nov 27); BoK hiked to 3.25% Nov 26; US 10-yr ~4.90% (Nov 27) vs 5%+ mid-Nov; USD/CAD ~1.4245; USD/JPY ~159.5 near the 160 intervention line; new US Section 301 tariff proposal spares Canada and Mexico.",
     "signals": [
+      {
+        "name": "BoC hike odds jump to ~77% as the loonie posts a weekly gain",
+        "reading": "USD/CAD ~1.4245 (+0.7% week for CAD); BoC Dec 9 hike ~77%; Fed hike ~99-100%; US 10-yr ~4.90%; Canada Q3 GDP Monday",
+        "level": "USD/CAD ~1.4245 / BoC ~77% / GIC 4.55%",
+        "angle": "With both central banks likely hiking Dec 9, GIC buyers are locking in at a possible rate peak with zero flexibility; CCM5604 keeps duration and currency active and yields above the 4.50-4.55% GIC ceiling - book the call before Monday's GDP print",
+        "tag": "LIVE"
+      },
       {
         "name": "GTRI Nov payout set; loonie holds ~1.42 ahead of GDP and Dec 9",
         "reading": "GTRI 0.04191/unit (record Nov 30, pay Dec 9); USD/CAD ~1.4242 Thu; Canada Q3 GDP Mon; yen pinned near 159-160 intervention zone",
@@ -620,17 +666,29 @@
     "competitors": [
       {
         "comp": "Manulife Strategic Income Fund",
-        "theirMer": "0.90% Series F (Dec 31/25, incl. HST) — reconfirmed again today; AUM found today at a cleaner, more precise $5.58B (Series F), superseding the prior ambiguous ~$5.83-5.95B ETF-series range",
-        "ourMer": "0.84% (CAD Series F, carried forward) — not reconfirmed by today's search",
-        "win": "Manulife Strategic Income's own long-time lead PM, Daniel S. Janis III, left Manulife/John Hancock to found Agile Investment Management (with co-founder Kai Sotorp) in 2024 and now sub-advises CCM5604 directly — 'the same manager who built Manulife's flagship income fund now runs ours, with a fresher, more flexible mandate' remains a strong, evergreen pitch",
-        "vuln": "Manulife's scale remains a real gap: Series F AUM $5.58B — roughly 5x CCM5604's own ~$1.1B; a mixed Morningstar record (2-star 3yr/5yr, 3-star 10yr, all as of Jul 31/26, carried forward) — a long track record but a middling recent rating, worth noting if a client raises Manulife's tenure as an objection"
+        "theirMer": "0.90% Series F (Dec 31/25, incl. HST) \u2014 reconfirmed again today; AUM found today at a cleaner, more precise $5.58B (Series F), superseding the prior ambiguous ~$5.83-5.95B ETF-series range",
+        "ourMer": "0.84% (CAD Series F, carried forward) \u2014 not reconfirmed by today's search",
+        "win": "Manulife Strategic Income's own long-time lead PM, Daniel S. Janis III, left Manulife/John Hancock to found Agile Investment Management (with co-founder Kai Sotorp) in 2024 and now sub-advises CCM5604 directly \u2014 'the same manager who built Manulife's flagship income fund now runs ours, with a fresher, more flexible mandate' remains a strong, evergreen pitch",
+        "vuln": "Manulife's scale remains a real gap: Series F AUM $5.58B \u2014 roughly 5x CCM5604's own ~$1.1B; a mixed Morningstar record (2-star 3yr/5yr, 3-star 10yr, all as of Jul 31/26, carried forward) \u2014 a long track record but a middling recent rating, worth noting if a client raises Manulife's tenure as an objection"
       }
     ]
   },
   "CCM8752": {
-    "asof": "Nov 27, 2026 (Fri, US early close; US shut Thu): verified via search - TSX +0.72% to 34,426.88 Thu (eight-day high, energy/materials led) with US closed; Asia rebounded Fri (Kospi +4.34%, Nikkei +2.11%, single closing report). No VIX print Thu (US holiday); last ~28.3 Wed. No new private-credit gate dated this week; BCRED opened a Q4 tender Nov 2 for up to ~5%. Fund stats carried forward.",
-    "oneliner": "High dispersion, not just high volatility: chips -7.9% while the Dow hit a record 50,000 Tuesday, VIX ~26 and 'extreme fear' sentiment - and non-traded private-credit BDCs still cap redemptions at 5%. Daily-liquid, multi-strategy alternatives that profit from dispersion without calling direction are the contrast.",
+    "asof": "Nov 28, 2026 (Sat; covers Fri Nov 27): verified via search - VIX closed 23.81 (-11.16% from 26.80; Investing.com/Swingfolio), -33.66% on the week from 35.89; S&P +1.60% to 7,297.49 (~+5.6% week); TSX +412.99 (+1.20%) to 34,839.87 (CP24/Business Upturn). Note: Wed VIX close now appears to be 26.80, not the ~28.3 single-source print carried earlier. No new private-credit gate dated this week. Fund stats carried forward.",
+    "oneliner": "From VIX ~36 and a correction to VIX ~24 and the S&P's best week in over a year in five sessions - with Nvidia +31% one day and memory stocks leading the next - while non-traded private-credit BDCs still cap redemptions at 5%. Daily-liquid, multi-strategy alternatives that profit from dispersion without calling direction are the contrast.",
     "stats": [
+      {
+        "k": "VIX (Fri Nov 27/26)",
+        "v": "Closed 23.81 (-11.16% from 26.80; Investing.com historical row and Swingfolio via search; one Substack 24.57; another source 21.47 - sources differ), -33.66% on the week from 35.89 Fri Nov 20; implies Wed Nov 25 close 26.80 rather than the ~28.3 single-source figure carried earlier"
+      },
+      {
+        "k": "Cross-asset (Fri Nov 27/26)",
+        "v": "Fri Nov 27/26 (1pm ET close): S&P 500 7,297.49 (+1.60%; one source 7,298.18 +1.61%), Dow 50,774.94 (+~1.2%), Nasdaq 24,129.50 (+2.31%), Russell 2000 2,750.30 (+~1.7%); week: S&P ~+5.6% (largest weekly gain in over a year), Nasdaq ~+6.7%, Dow best week since 2022 (AP/Swingfolio/BigGo/Yahoo via search); TSX +412.99 (+1.20%) to 34,839.87 (CP24/Business Upturn), US 10-yr ~4.90%"
+      },
+      {
+        "k": "Private credit (Nov 28 check)",
+        "v": "No new gating headline dated this week; industry trackers still show most non-traded BDCs capping quarterly tenders at 5% with requests above caps (Yardeni Private Credit Monitor Nov edition, research summaries via search); BCRED Q4 tender (opened Nov 2, up to ~5%) carried forward"
+      },
       {
         "k": "Cross-asset (Thu-Fri Nov 26-27/26)",
         "v": "TSX +246.89 (+0.72%) to 34,426.88 Thu, eight-day high, energy +1.9%, materials +1.7%, US closed (Canadian Press/nGlobe); Fri Asia: Kospi +4.34% to 4,915.68, Nikkei +2.11% to 58,711.11 after Wed's Kospi -6.16% (single closing report; intraday reports differ)"
@@ -713,19 +771,19 @@
       },
       {
         "k": "AUM (Series F)",
-        "v": "$176.81M (Apr 30, 2026) — carried forward, not reconfirmed today"
+        "v": "$176.81M (Apr 30, 2026) \u2014 carried forward, not reconfirmed today"
       },
       {
         "k": "MER",
-        "v": "1.89% — carried forward, not reconfirmed today"
+        "v": "1.89% \u2014 carried forward, not reconfirmed today"
       },
       {
         "k": "Series F inception",
-        "v": "Nov 21, 2024 — carried forward"
+        "v": "Nov 21, 2024 \u2014 carried forward"
       },
       {
         "k": "Number of sleeves / leverage cap",
-        "v": "5 confirmed Reference Funds: PICTON Market Neutral, PICTON Long Short Income, iA Clarington Global Macro Advantage (iAGAM), RP Alternative Global Bond (RPIA), PG Partners Fund Access — the original launch release's 'six strategies' wording naming only five remains unresolved. Aggregate leverage across Reference Funds capped at 300% of NAV"
+        "v": "5 confirmed Reference Funds: PICTON Market Neutral, PICTON Long Short Income, iA Clarington Global Macro Advantage (iAGAM), RP Alternative Global Bond (RPIA), PG Partners Fund Access \u2014 the original launch release's 'six strategies' wording naming only five remains unresolved. Aggregate leverage across Reference Funds capped at 300% of NAV"
       },
       {
         "k": "Distribution policy",
@@ -733,23 +791,23 @@
       },
       {
         "k": "PICTON Market Neutral sub-advisor change",
-        "v": "SMA Capital LLC appointed sub-advisor effective Jul 10/26 — carried forward, no new development; that sleeve (ETF ticker PFMN.TO) sized at $3.16B (Jul 31/26), mgmt fee 1.95% + 20% performance fee"
+        "v": "SMA Capital LLC appointed sub-advisor effective Jul 10/26 \u2014 carried forward, no new development; that sleeve (ETF ticker PFMN.TO) sized at $3.16B (Jul 31/26), mgmt fee 1.95% + 20% performance fee"
       }
     ],
     "sleeves": [
       {
-        "name": "PICTON — Market Neutral Equity Alternative Fund (formerly Picton Mahoney Fortified Market Neutral)",
+        "name": "PICTON \u2014 Market Neutral Equity Alternative Fund (formerly Picton Mahoney Fortified Market Neutral)",
         "role": "Long/short equity market-neutral; sub-advisor SMA Capital LLC since Jul 10/26, carried forward with no new development; ETF units (PFMN.TO) sized $3.16B (Jul 31/26), mgmt fee 1.95% + 20% performance fee",
         "weight": null
       },
       {
-        "name": "PICTON — Long Short Income Alternative Fund (formerly Picton Mahoney Fortified Income)",
+        "name": "PICTON \u2014 Long Short Income Alternative Fund (formerly Picton Mahoney Fortified Income)",
         "role": "Long/short credit income; no material news today",
         "weight": null
       },
       {
         "name": "iA Clarington Global Macro Advantage (iAGAM)",
-        "role": "Global macro; the largest single sleeve — a semi-annual MRFP snippet puts it at 21.16% of the pool as of Apr 30/26 (carried forward, no newer filing found today)",
+        "role": "Global macro; the largest single sleeve \u2014 a semi-annual MRFP snippet puts it at 21.16% of the pool as of Apr 30/26 (carried forward, no newer filing found today)",
         "weight": 21.16
       },
       {
@@ -767,10 +825,10 @@
       {
         "name": "Daily liquidity (fund wrapper)",
         "items": [
-          "CCM8752 units — retail mutual fund structure"
+          "CCM8752 units \u2014 retail mutual fund structure"
         ],
         "tone": "good",
-        "note": "Investors get daily liquidity at the fund level regardless of underlying sleeve terms — a core selling point vs. direct private-credit/BDC allocations, sharpened today by Blackstone BCRED's precise $4.3B Q3 repurchase-request disclosure"
+        "note": "Investors get daily liquidity at the fund level regardless of underlying sleeve terms \u2014 a core selling point vs. direct private-credit/BDC allocations, sharpened today by Blackstone BCRED's precise $4.3B Q3 repurchase-request disclosure"
       },
       {
         "name": "Liquid alt sleeves",
@@ -793,6 +851,13 @@
       }
     ],
     "signals": [
+      {
+        "name": "VIX back to ~24 as the S&P posts its best week in over a year",
+        "reading": "VIX 23.81 Fri (-11%; -34% week from 35.89); S&P +5.6% week; leadership flipped from Nvidia to memory chips within days; no new private-credit gates",
+        "level": "VIX 23.81 vs 35.89 a week ago",
+        "angle": "Fear spiked and faded in five sessions - clients who sold the low missed the rebound; CCM8752's market-neutral and macro sleeves are built to harvest exactly that dispersion with daily liquidity, unlike 5%-gated private-credit BDCs",
+        "tag": "LIVE"
+      },
       {
         "name": "Thin holiday tape; private-credit Q4 tenders loom",
         "reading": "TSX +0.72% to an eight-day high while US shut; Asia chip bounce; BCRED Q4 tender (5% cap) open after a ~50% Q3 fill; no VIX print Thursday",
@@ -873,9 +938,17 @@
     ]
   },
   "ELITE": {
-    "asof": "Nov 27, 2026 (Fri): verified via search - iA Clarington November 2026 Active ETF distribution notice (Nov 23) found: record Nov 30, payable Dec 9, amounts from 0.00000 (IGEO) to 0.03990 (ISCB - Strategic Corporate Bond, an Elite underlying); Nov 26 ITIN year-end distribution 0.00097/share. No Elite Pools allocation or sub-advisor change found. Nobelia Wealth rebrand (Nov 30) still pending. Backdrop: TSX +0.72% Thu to an eight-day high while US closed.",
-    "oneliner": "No Elite Pools change through Nov 24, but leadership flipped again: the Dow closed above 50,000 for the first time while chips fell ~8% the day after Nvidia's +31% - the case for a rebalanced, multi-manager portfolio that doesn't depend on guessing which half of the market leads tomorrow, backed by iA's strong Q3 wealth inflows.",
+    "asof": "Nov 28, 2026 (Sat; covers Fri Nov 27): verified via search - no new iA Clarington release beyond the Nov 23 November Active ETF distributions (record Nov 30, payable Dec 9; ISCB 0.03990) and the Nov 26 ITIN year-end distribution (0.00097); iA Clarington AUM >$26B as of Oct 31/26 (per release boilerplate). No Elite Pools allocation or sub-advisor change found. Nobelia Wealth rebrand due Nov 30. Backdrop: S&P +5.6% week, TSX +1.20% Fri to 34,839.87, BoC hike odds ~77%.",
+    "oneliner": "No Elite Pools change, but a textbook week for rebalancing: a correction Friday, Nvidia +31% Monday, Dow 50,000 Tuesday, and the S&P's best week in over a year by Friday as memory chips and Anthropic took the lead - the case for a rebalanced, multi-manager portfolio that doesn't depend on guessing which part of the market leads next, backed by iA's strong Q3 wealth inflows.",
     "stats": [
+      {
+        "k": "iA Clarington AUM (Oct 31/26)",
+        "v": "Over $26B (Nov 26/27 release boilerplate via CanadianSME search summary) - updates the $26B+ Sep 30 figure"
+      },
+      {
+        "k": "Market backdrop (Fri Nov 27/26)",
+        "v": "Fri Nov 27/26 (1pm ET close): S&P 500 7,297.49 (+1.60%; one source 7,298.18 +1.61%), Dow 50,774.94 (+~1.2%), Nasdaq 24,129.50 (+2.31%), Russell 2000 2,750.30 (+~1.7%); week: S&P ~+5.6% (largest weekly gain in over a year), Nasdaq ~+6.7%, Dow best week since 2022 (AP/Swingfolio/BigGo/Yahoo via search); TSX +412.99 (+1.20%) to 34,839.87; loonie ~70.20 US cents (+0.7% week); BoC Dec 9 hike odds ~77%"
+      },
       {
         "k": "November 2026 Active ETF distributions (Nov 23/26)",
         "v": "Record Nov 30/26, payable Dec 9/26; per-unit amounts range from 0.00000 (IGEO, Loomis Global Equity Opportunities) to 0.03990 (ISCB, Strategic Corporate Bond - an Elite Pools underlying); GTRI 0.04191 (newswire/Stockhouse via search)"
@@ -914,11 +987,11 @@
       },
       {
         "k": "iAGAM firm-wide AUM",
-        "v": "$156B (as of Jun 30, 2026) — carried forward, not reconfirmed today; still flagged as a lower-confidence figure that may conflate iA Financial Group's broader balance-sheet assets with iAGAM's own asset-management AUM"
+        "v": "$156B (as of Jun 30, 2026) \u2014 carried forward, not reconfirmed today; still flagged as a lower-confidence figure that may conflate iA Financial Group's broader balance-sheet assets with iAGAM's own asset-management AUM"
       },
       {
         "k": "Portfolio-manager reassignment (Asset Allocation)",
-        "v": "Sébastien Mc Mahon stepped back as PM on 33 funds after his appointment as Chief Economist, iA Financial Group; iAGAM's Asset Allocation team (Tej Rai, Alex Bellefleur) now runs these funds — carried forward; the Wealth Professional headline picking up this story remains unverified in full text for a fourth day"
+        "v": "S\u00e9bastien Mc Mahon stepped back as PM on 33 funds after his appointment as Chief Economist, iA Financial Group; iAGAM's Asset Allocation team (Tej Rai, Alex Bellefleur) now runs these funds \u2014 carried forward; the Wealth Professional headline picking up this story remains unverified in full text for a fourth day"
       },
       {
         "k": "QV Canadian Small Cap PM transition",
@@ -926,7 +999,7 @@
       },
       {
         "k": "New Active ETF launch",
-        "v": "IA Clarington International Multifactor Equity Fund (TSX: IIME) — new today: confirmed TSX market-open ceremony held Sep 18/26, with Robert Martin (iA Clarington) and Keith Wu (TSX) presiding"
+        "v": "IA Clarington International Multifactor Equity Fund (TSX: IIME) \u2014 new today: confirmed TSX market-open ceremony held Sep 18/26, with Robert Martin (iA Clarington) and Keith Wu (TSX) presiding"
       },
       {
         "k": "Advisor Lunch & Learn tour",
@@ -942,6 +1015,13 @@
       }
     ],
     "signals": [
+      {
+        "name": "Best week in over a year after a correction: the rebalancing check-in",
+        "reading": "S&P +5.6% week to 7,297.49, Dow best week since 2022, TSX 34,839.87; leadership rotated from Nvidia to memory chips and Anthropic; year-end distributions (record Nov 30) and Dec 9 Fed/BoC decisions ahead",
+        "level": "S&P 7,297.49 / TSX 34,839.87",
+        "angle": "Use the rebound and year-end distribution season to review drift and tax-loss positions; the Elite Pools/Unified Portfolios rebalance for the client so they don't have to time a market that flipped twice in one week",
+        "tag": "LIVE"
+      },
       {
         "name": "November distributions confirmed; year-end season starts",
         "reading": "Nov 23 notice: record Nov 30, pay Dec 9 (ISCB 0.03990); ITIN year-end 0.00097; no new Elite announcement; TSX at an eight-day high Thu",
@@ -1020,6 +1100,6 @@
         "tag": "LIVE"
       }
     ],
-    "compositionNote": "No Elite Pools or Unified Portfolios allocation, rebalancing or sub-advisor change was announced as of Nov 13/26; the latest iA Clarington release found is the Oct 23/26 Active ETF distributions notice (payable Nov 10). Underlying-manager roster carried forward: PIMCO Monthly Income Fund (Canada), Mackenzie Unconstrained Fixed Income, IA Clarington Strategic Corporate Bond, BMO High Yield US Corporate Bond Index ETF, IA Clarington Loomis U.S. All Cap Growth, IA Clarington QV Global Equity, BMO MSCI EAFE Index ETF, Capital Group Global Equity (Canada). Market context for the pools: the Nov 5 tech rout (Nasdaq -5.2%, VIX ~28) and the hot Oct US CPI (Dec Fed hike ~88% priced) versus a softer Canadian labour market (6.7% unemployment, BoC hike odds ~30-35%) argue for the pools' built-in diversification and rebalancing discipline. Governance items on file remain the Mc Mahon reassignment (33 funds to iAGAM's Tej Rai/Alex Bellefleur) and the QV Canadian Small Cap PM transition (Amit Shah, effective Jul 3/26). iA Clarington AUM $26B+ (Sep 30/26). Nov 12-16 updates (condensed): Nvidia CEO exit and chip sell-offs versus a still-positive S&P week illustrated multi-manager diversification. Nov 17 update: still no Elite change announced; Monday Nasdaq -2.5% / SOX -5.3% on the Nvidia leadership vacuum plus a new US AI-chip remote-access rule, while a soft 3.1% Canadian CPI cut Dec 9 BoC hike odds to ~38% (single source) and the 10-yr eased to ~5.12% - a widening Canada-US policy gap the pools' global fixed-income managers (PIMCO, Loomis) can use. Parent iA Financial Group Q3/26: AUM/AUA $375B (+30%), individual wealth net inflows ~$1.3B. Nov 18 update: still no Elite change or November distributions notice announced; Tue Nov 17 S&P 500 fell 1.03% to 7,340.53 (lowest close since July), Dow -848.75, VIX ~25.5 and software sold off (Salesforce ~-9.4%) on AI-disruption fears, while Nvidia beat after the close ($115.8B revenue, $130B Q4 guide) and USD/CAD reached ~1.43-1.435 (19-month CAD low) - an AI-winners-vs-disrupted split plus currency moves that the pools' multi-manager, multi-currency design is built to absorb. Nov 19 update: still no Elite change or November distributions notice announced; Wed Nov 18 the S&P 500 fell 0.23% to 7,323.64 (fifth straight loss, below its 200-day) while the Nasdaq rose 0.42%, Fed minutes showed almost all officials expect further hikes, USD/CAD hit ~1.434 (weakest CAD since Apr 2025), BoC Gov. Macklem announced he will step down in June 2027, and Anthropic priced a record ~$81.3B IPO at $83 - rates, currency and AI-concentration crosscurrents the pools' multi-manager, multi-currency design (PIMCO, Loomis, iAGAM) is built to absorb. Nov 20 update: still no Elite change or November distributions notice announced (the Nov 2025 notice came Nov 21, so one is likely within days); Thu Nov 19 the S&P 500 fell ~2.0% to 7,175.83 (sixth straight loss, -5.1% week-to-date), the Dow closed below 50,000 for the first time since June, VIX rose to ~28.4, Anthropic's debut closed +17% at $97.17 after opening ~$111.50, NVDA hit a 52-week low ($145.98) and USD/CAD held ~1.433 - a broad risk-off week the pools' rebalancing and multi-manager fixed income are designed to cushion. Nov 21 update: still no Elite change or November distributions notice indexed; Fri Nov 20 the S&P 500 fell 3.70% to 6,910.39 and entered a correction (with the Dow), the Nasdaq lost 5.28% and turned negative for 2026, NVDA fell 14% on a reported SEC accounting probe, VIX closed 35.89 (~40 intraday), and the US 10-yr fell back to ~4.97% - stocks down, bonds up, which is exactly the offset the pools' multi-manager fixed income (PIMCO, Loomis) and rebalancing discipline are built to deliver. Nov 23 update: still no Elite change or November distributions notice indexed; Mon Nov 23 Asia followed Friday's correction (Kospi -5.8%, Hang Seng -1.8%, Tokyo closed), with PCE Wed and Thanksgiving Thu - global, multi-manager diversification remains the core conversation. Nov 24 update: still no Elite change or November distributions notice indexed; Mon Nov 23 the S&P 500 rose 4.73% to 7,237.17 and the Nasdaq 6.51% (best day since Apr 2025) after Nvidia reinstated Jensen Huang, with VIX easing to ~26.6 - a Friday-correction / Monday-rebound pair that illustrates the cost of exiting and the value of the pools' disciplined, multi-manager rebalancing. Nov 25 update: still no Elite change or November distributions notice indexed; Tue Nov 24 the Dow closed above 50,000 for the first time while the Nasdaq fell 1.48% and NVDA 5.9% - another rotation day that favours diversified, rebalanced multi-manager portfolios. Nov 26 update: still no Elite change or November distributions notice indexed; Wed Nov 25 hot core PCE (3.3%) and a new US Section 301 tariff proposal (Canada excluded) - the Dow erased a ~1,100-pt intraday drop to close +0.33% while the 10-yr fell to ~4.86%, and the Bank of Korea hiked to 3.25% Thu - diversified, rebalanced multi-manager portfolios remain the core conversation. Nov 27 update: the November Active ETF distribution notice (Nov 23) is now confirmed - record Nov 30, payable Dec 9, ISCB (Strategic Corporate Bond, an Elite underlying) 0.03990/unit - and ITIN set a 0.00097 year-end distribution; no Elite allocation or sub-advisor change found; TSX rose 0.72% Thu to an eight-day high while US markets were closed - year-end distribution season is a natural prompt for rebalancing and tax-loss reviews."
+    "compositionNote": "No Elite Pools or Unified Portfolios allocation, rebalancing or sub-advisor change was announced as of Nov 13/26; the latest iA Clarington release found is the Oct 23/26 Active ETF distributions notice (payable Nov 10). Underlying-manager roster carried forward: PIMCO Monthly Income Fund (Canada), Mackenzie Unconstrained Fixed Income, IA Clarington Strategic Corporate Bond, BMO High Yield US Corporate Bond Index ETF, IA Clarington Loomis U.S. All Cap Growth, IA Clarington QV Global Equity, BMO MSCI EAFE Index ETF, Capital Group Global Equity (Canada). Market context for the pools: the Nov 5 tech rout (Nasdaq -5.2%, VIX ~28) and the hot Oct US CPI (Dec Fed hike ~88% priced) versus a softer Canadian labour market (6.7% unemployment, BoC hike odds ~30-35%) argue for the pools' built-in diversification and rebalancing discipline. Governance items on file remain the Mc Mahon reassignment (33 funds to iAGAM's Tej Rai/Alex Bellefleur) and the QV Canadian Small Cap PM transition (Amit Shah, effective Jul 3/26). iA Clarington AUM $26B+ (Sep 30/26). Nov 12-16 updates (condensed): Nvidia CEO exit and chip sell-offs versus a still-positive S&P week illustrated multi-manager diversification. Nov 17 update: still no Elite change announced; Monday Nasdaq -2.5% / SOX -5.3% on the Nvidia leadership vacuum plus a new US AI-chip remote-access rule, while a soft 3.1% Canadian CPI cut Dec 9 BoC hike odds to ~38% (single source) and the 10-yr eased to ~5.12% - a widening Canada-US policy gap the pools' global fixed-income managers (PIMCO, Loomis) can use. Parent iA Financial Group Q3/26: AUM/AUA $375B (+30%), individual wealth net inflows ~$1.3B. Nov 18 update: still no Elite change or November distributions notice announced; Tue Nov 17 S&P 500 fell 1.03% to 7,340.53 (lowest close since July), Dow -848.75, VIX ~25.5 and software sold off (Salesforce ~-9.4%) on AI-disruption fears, while Nvidia beat after the close ($115.8B revenue, $130B Q4 guide) and USD/CAD reached ~1.43-1.435 (19-month CAD low) - an AI-winners-vs-disrupted split plus currency moves that the pools' multi-manager, multi-currency design is built to absorb. Nov 19 update: still no Elite change or November distributions notice announced; Wed Nov 18 the S&P 500 fell 0.23% to 7,323.64 (fifth straight loss, below its 200-day) while the Nasdaq rose 0.42%, Fed minutes showed almost all officials expect further hikes, USD/CAD hit ~1.434 (weakest CAD since Apr 2025), BoC Gov. Macklem announced he will step down in June 2027, and Anthropic priced a record ~$81.3B IPO at $83 - rates, currency and AI-concentration crosscurrents the pools' multi-manager, multi-currency design (PIMCO, Loomis, iAGAM) is built to absorb. Nov 20 update: still no Elite change or November distributions notice announced (the Nov 2025 notice came Nov 21, so one is likely within days); Thu Nov 19 the S&P 500 fell ~2.0% to 7,175.83 (sixth straight loss, -5.1% week-to-date), the Dow closed below 50,000 for the first time since June, VIX rose to ~28.4, Anthropic's debut closed +17% at $97.17 after opening ~$111.50, NVDA hit a 52-week low ($145.98) and USD/CAD held ~1.433 - a broad risk-off week the pools' rebalancing and multi-manager fixed income are designed to cushion. Nov 21 update: still no Elite change or November distributions notice indexed; Fri Nov 20 the S&P 500 fell 3.70% to 6,910.39 and entered a correction (with the Dow), the Nasdaq lost 5.28% and turned negative for 2026, NVDA fell 14% on a reported SEC accounting probe, VIX closed 35.89 (~40 intraday), and the US 10-yr fell back to ~4.97% - stocks down, bonds up, which is exactly the offset the pools' multi-manager fixed income (PIMCO, Loomis) and rebalancing discipline are built to deliver. Nov 23 update: still no Elite change or November distributions notice indexed; Mon Nov 23 Asia followed Friday's correction (Kospi -5.8%, Hang Seng -1.8%, Tokyo closed), with PCE Wed and Thanksgiving Thu - global, multi-manager diversification remains the core conversation. Nov 24 update: still no Elite change or November distributions notice indexed; Mon Nov 23 the S&P 500 rose 4.73% to 7,237.17 and the Nasdaq 6.51% (best day since Apr 2025) after Nvidia reinstated Jensen Huang, with VIX easing to ~26.6 - a Friday-correction / Monday-rebound pair that illustrates the cost of exiting and the value of the pools' disciplined, multi-manager rebalancing. Nov 25 update: still no Elite change or November distributions notice indexed; Tue Nov 24 the Dow closed above 50,000 for the first time while the Nasdaq fell 1.48% and NVDA 5.9% - another rotation day that favours diversified, rebalanced multi-manager portfolios. Nov 26 update: still no Elite change or November distributions notice indexed; Wed Nov 25 hot core PCE (3.3%) and a new US Section 301 tariff proposal (Canada excluded) - the Dow erased a ~1,100-pt intraday drop to close +0.33% while the 10-yr fell to ~4.86%, and the Bank of Korea hiked to 3.25% Thu - diversified, rebalanced multi-manager portfolios remain the core conversation. Nov 27 update: the November Active ETF distribution notice (Nov 23) is now confirmed - record Nov 30, payable Dec 9, ISCB (Strategic Corporate Bond, an Elite underlying) 0.03990/unit - and ITIN set a 0.00097 year-end distribution; no Elite allocation or sub-advisor change found; TSX rose 0.72% Thu to an eight-day high while US markets were closed - year-end distribution season is a natural prompt for rebalancing and tax-loss reviews. Nov 28 update: still no Elite allocation or sub-advisor change announced; the Thanksgiving week ended with the S&P 500 +5.6% (best week in over a year), VIX back to 23.81, TSX 34,839.87 and BoC Dec 9 hike odds ~77% - with the Nov 30 distribution record date and Dec 9 Fed/BoC decisions ahead, rebalancing and year-end tax reviews remain the core conversation. iA Clarington AUM >$26B (Oct 31/26)."
   }
 }
